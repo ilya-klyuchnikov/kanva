@@ -3,6 +3,7 @@ package kanva.validation
 import java.util.HashSet
 
 import java.io.File
+import java.util.Date
 import java.util.HashMap
 
 import org.objectweb.asm.Type
@@ -21,8 +22,7 @@ import kanva.context.*
 import kanva.declarations.*
 import kanva.graphs.*
 import kanva.index.*
-import kanva.util.createMethodNodeStub
-import java.util.Date
+import kanva.util.*
 
 fun main(args: Array<String>) {
     println(Date())
@@ -47,7 +47,6 @@ fun validate(jarFile: File, annotationsDir: File): Collection<AnnotationPosition
 
     class MethodNodesCollector(val className: ClassName): ClassVisitor(Opcodes.ASM4) {
         val methods = HashMap<Method, MethodNode>()
-
         public override fun visitMethod(access: Int, name: String, desc: String, signature: String?, exceptions: Array<out String>?): MethodVisitor? {
             val method = Method(className, access, name, desc, signature)
             val methodNode = method.createMethodNodeStub()
@@ -61,8 +60,9 @@ fun validate(jarFile: File, annotationsDir: File): Collection<AnnotationPosition
         classReader.accept(collector, 0)
 
         for ((method, methodNode) in collector.methods) {
+            // TODO - WHY?
             if (!methodNode.name.startsWith("access$")) {
-                validate(context, method, methodNode, errors)
+                validateMethod(context, method, methodNode, errors)
             }
         }
     }
@@ -71,13 +71,13 @@ fun validate(jarFile: File, annotationsDir: File): Collection<AnnotationPosition
     return errors
 }
 
-fun validate(
+fun validateMethod(
         context: Context,
         method: Method,
         methodNode: MethodNode,
         errorPositions: MutableCollection<AnnotationPosition>
 ) {
-    if ((methodNode.access and (Opcodes.ACC_ABSTRACT or Opcodes.ACC_NATIVE)) != 0) {
+    if (method.access.isNative() || method.access.isAbstract()) {
         return
     }
 
@@ -85,6 +85,7 @@ fun validate(
     if (positions.empty) {
         return
     }
+
     val cfg = buildCFG(method, methodNode)
     val nonNullParams = collectNotNullParams(context, cfg, methodNode)
 
@@ -92,13 +93,13 @@ fun validate(
         if (!nonNullParams.contains(pos.index)) {
             val returnReachable = reachable(context, cfg, methodNode, pos.index)
             if (returnReachable) {
-                errorPositions.add(PositionsForMethod(method).get(pos).position)
+                errorPositions.add(PositionsForMethod(method).get(pos))
             }
         }
     }
 }
 
-// Control-flow
+
 fun buildCFG(method: Method, methodNode: MethodNode): Graph<Int, *> =
         ControlFlowBuilder().buildCFG(method, methodNode)
 
@@ -259,12 +260,12 @@ private class ReachabilityAnalyzer(val context: Context, val cfg: Graph<Int, *>,
             return opcode != Opcodes.ATHROW
         }
 
-        if (opcode == Opcodes.IFNULL && Frame(frame).pop() == TracedValue(Arg(paramIndex))) {
-            return check(nextFrame, nextNodes.toList()[1])
-        }
-
         if (opcode == Opcodes.IFNONNULL && Frame(frame).pop() == TracedValue(Arg(paramIndex))) {
             return check(nextFrame, nextNodes.toList()[0])
+        }
+
+        if (opcode == Opcodes.IFNULL && Frame(frame).pop() == TracedValue(Arg(paramIndex))) {
+            return check(nextFrame, nextNodes.toList()[1])
         }
 
         for (nextNode in nextNodes) {

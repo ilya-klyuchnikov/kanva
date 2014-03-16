@@ -1,69 +1,30 @@
 package kanva.declarations
 
-// TODO - this maybe simplified
+import java.util.ArrayList
 
 import org.objectweb.asm.Type
-import java.util.ArrayList
 import org.objectweb.asm.tree.MethodNode
 import org.objectweb.asm.Opcodes
 
-import kotlinlib.buildString
-import kotlinlib.suffixAfterLast
-import kotlinlib.prefixUpToLast
+import kotlinlib.*
 
-enum class Variance {
-    COVARIANT
-    CONTRAVARIANT
-    INVARIANT
-}
+trait PositionWithinDeclaration
 
-trait PositionWithinDeclaration {
-    val variance: Variance
-}
-
-object FIELD_TYPE : PositionWithinDeclaration {
-    override val variance: Variance
-        get() = Variance.INVARIANT
-
-    override fun toString() = "FIELD_TYPE"
-}
-
-object RETURN_TYPE : PositionWithinDeclaration {
-    override val variance: Variance
-        get() = Variance.COVARIANT
-
-    override fun toString() = "RETURN_TYPE"
-}
-
-data class ParameterPosition(val index: Int) : PositionWithinDeclaration {
-    override val variance: Variance
-        get() = Variance.CONTRAVARIANT
-}
+object FIELD_POSITION: PositionWithinDeclaration
+object RETURN_POSITION : PositionWithinDeclaration
+data class ParameterPosition(val index: Int): PositionWithinDeclaration
 
 trait AnnotationPosition {
     val member: ClassMember
     val relativePosition: PositionWithinDeclaration
 }
 
-trait MethodTypePosition : AnnotationPosition {
+trait MethodPosition : AnnotationPosition {
     val method: Method
-    override val relativePosition: PositionWithinDeclaration
 }
 
-trait FieldTypePosition : AnnotationPosition {
+trait FieldPosition : AnnotationPosition {
     val field: Field
-}
-
-// is this for generic types??
-trait AnnotatedType {
-    val position: AnnotationPosition
-    val arguments: List<AnnotatedType>
-}
-
-///////////////////////
-
-data class Package(val name: String) {
-    override fun toString() = name
 }
 
 trait ClassMember {
@@ -72,10 +33,7 @@ trait ClassMember {
     val name: String
 }
 
-data class MethodId(
-        val methodName: String,
-        val methodDesc: String
-) {
+data class MethodId(val methodName: String,val methodDesc: String) {
     override fun toString() = methodName + methodDesc
 }
 
@@ -114,26 +72,6 @@ data class Method(
         val id: MethodId,
         val genericSignature: String? = null) : ClassMember {
 
-    private var _parameterNames : List<String>? = null
-    public fun setParameterNames(names: List<String>) {
-        if (_parameterNames != null) {
-            throw IllegalStateException("Parameter names already initialized: $parameterNames")
-        }
-        val arity = getArgumentTypes().size
-        if (names.size != arity) {
-            throw IllegalArgumentException("Incorrect number of parameter names: $names, must be $arity")
-        }
-        _parameterNames = ArrayList(names)
-    }
-
-    public val parameterNames: List<String>
-        get() {
-            if (_parameterNames == null) {
-                _parameterNames = defaultMethodParameterNames(this)
-            }
-            return _parameterNames!!
-        }
-
     override val name: String
         get() = id.methodName
 
@@ -145,9 +83,6 @@ data class Method(
 fun Method(className: ClassName, methodNode: MethodNode): Method = Method(
         className, methodNode.access, methodNode.name, methodNode.desc, methodNode.signature)
 
-private fun defaultMethodParameterNames(method: Method): List<String>
-        = (0..method.getArgumentTypes().size - 1).toList().map { i -> "p$i" }
-
 fun Method.getReturnType(): Type = id.getReturnType()
 fun Method.getArgumentTypes(): Array<out Type> = id.getArgumentTypes()
 
@@ -156,6 +91,8 @@ fun Access.isFinal(): Boolean = has(Opcodes.ACC_FINAL)
 fun Access.isPrivate(): Boolean = has(Opcodes.ACC_PRIVATE)
 fun Access.isProtected(): Boolean = has(Opcodes.ACC_PROTECTED)
 fun Access.isPublic(): Boolean = has(Opcodes.ACC_PUBLIC)
+fun Access.isNative(): Boolean = has(Opcodes.ACC_NATIVE)
+fun Access.isAbstract(): Boolean = has(Opcodes.ACC_ABSTRACT)
 fun Access.isPublicOrProtected(): Boolean = isPublic() || isProtected()
 
 fun ClassMember.isStatic(): Boolean = access.isStatic()
@@ -167,22 +104,6 @@ fun ClassDeclaration.isPublic(): Boolean = access.isPublic()
 
 fun Method.isConstructor(): Boolean = id.methodName == "<init>"
 fun Method.isClassInitializer(): Boolean = id.methodName == "<clinit>"
-
-fun Method.isInnerClassConstructor(): Boolean {
-    if (!isConstructor()) return false
-
-    val parameterTypes = getArgumentTypes()
-    if (parameterTypes.size == 0) return false
-
-    val firstParameter = parameterTypes[0]
-    if (firstParameter.getSort() != Type.OBJECT) return false
-
-    val dollarIndex = declaringClass.internal.lastIndexOf('$')
-    if (dollarIndex < 0) return false
-    val outerClass = declaringClass.internal.substring(0, dollarIndex)
-
-    return firstParameter.getInternalName() == outerClass
-}
 
 val ClassMember.visibility: Visibility get() = when {
     access.has(Opcodes.ACC_PUBLIC) -> Visibility.PUBLIC
@@ -247,16 +168,6 @@ fun ClassName.toType(): Type {
     return Type.getType(typeDescriptor)
 }
 
-fun ClassName.isAnonymous(): Boolean {
-    // simple name consist of digits only
-    for (c in simple) {
-        if (!c.isDigit()) {
-            return false
-        }
-    }
-    return true
-}
-
 val ClassName.packageName: String
     get() = internal.prefixUpToLast('/') ?: ""
 
@@ -267,12 +178,14 @@ data class FieldId(val fieldName: String) {
     override fun toString() = fieldName
 }
 
-fun Field(declaringClass: ClassName,
-          access: Int,
-          name: String,
-          desc: String,
-          signature: String? = null,
-          value: Any? = null): Field = Field(declaringClass, Access(access), FieldId(name), desc, signature, value)
+fun Field(
+        declaringClass: ClassName,
+        access: Int,
+        name: String,
+        desc: String,
+        signature: String? = null,
+        value: Any? = null
+): Field = Field(declaringClass, Access(access), FieldId(name), desc, signature, value)
 
 data class Field(
         override val declaringClass: ClassName,
@@ -280,7 +193,8 @@ data class Field(
         val id: FieldId,
         desc: String,
         val genericSignature: String? = null,
-        value: Any? = null) : ClassMember {
+        value: Any? = null
+) : ClassMember {
 
     override val name = id.fieldName
 
@@ -294,44 +208,26 @@ data class Field(
 
 fun Field.getType(): Type = Type.getReturnType(desc)
 
-fun ClassMember.getInternalPackageName(): String {
-    val className = declaringClass.internal
-    val delimiter = className.lastIndexOf('/')
-    return if (delimiter >= 0) className.substring(0, delimiter) else ""
-}
-
-/////
-
 class PositionsForMethod(val method: Method) {
-    public fun get(positionWithinMethod: PositionWithinDeclaration): AnnotatedType {
-        return AnnotatedTypeImpl(
-                MethodTypePositionImpl(method, positionWithinMethod),
-                positionWithinMethod.toString(),
-                listOf()
-        )
-    }
+    public fun get(positionWithinMethod: PositionWithinDeclaration): AnnotationPosition =
+            MethodTypePositionImpl(method, positionWithinMethod)
 
-    // If present, 'this' has index 0
-    public fun forParameter(parameterIndex: Int): AnnotatedType{
-        assert(parameterIndex >= 0) {"For return type use forReturnType() method"}
-        return get(ParameterPosition(parameterIndex))
-    }
+    public fun forParameter(parameterIndex: Int): AnnotationPosition =
+            get(ParameterPosition(parameterIndex))
 
-    public fun forReturnType(): AnnotatedType = get(RETURN_TYPE)
+    public fun forReturnType(): AnnotationPosition =
+            get(RETURN_POSITION)
 }
 
-public fun getFieldTypePosition(field: Field) : FieldTypePosition = FieldTypePositionImpl(field)
-
-public fun getFieldAnnotatedType(field: Field) : AnnotatedType {
-    return AnnotatedTypeImpl(FieldTypePositionImpl(field), "Field annotation type", listOf())
-}
+public fun getFieldPosition(field: Field) : AnnotationPosition =
+        FieldTypePositionImpl(field)
 
 fun PositionsForMethod.forEachValidPosition(body: (AnnotationPosition) -> Unit) {
     val skip = if (method.isStatic()) 0 else 1
     for (i in skip..method.getArgumentTypes().size) {
-        body(forParameter(i).position)
+        body(forParameter(i))
     }
-    body(forReturnType().position)
+    body(forReturnType())
 }
 
 fun PositionsForMethod.getValidPositions(): Collection<AnnotationPosition> {
@@ -343,26 +239,11 @@ fun PositionsForMethod.getValidPositions(): Collection<AnnotationPosition> {
 private data class MethodTypePositionImpl(
         override val method: Method,
         override val relativePosition: PositionWithinDeclaration
-) : MethodTypePosition {
+) : MethodPosition {
     override val member: ClassMember get() { return method }
 }
 
-private data class FieldTypePositionImpl(override val field: Field): FieldTypePosition {
+private data class FieldTypePositionImpl(override val field: Field): FieldPosition {
     override val member: ClassMember get() { return field }
-    override val relativePosition: PositionWithinDeclaration = FIELD_TYPE
+    override val relativePosition: PositionWithinDeclaration = FIELD_POSITION
 }
-
-private data class AnnotatedTypeImpl(
-        override val position: AnnotationPosition,
-        val debugName: String,
-        override val arguments: List<AnnotatedType>
-) : AnnotatedType {
-    override fun toString(): String {
-        val argStr =
-                if (!arguments.isEmpty())
-                    "<${arguments.makeString(", ")}>"
-                else ""
-        return debugName + argStr
-    }
-}
-

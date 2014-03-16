@@ -48,7 +48,7 @@ fun Context.findNotNullParamPositions(method: Method?): Collection<ParameterPosi
     if (method != null) {
         PositionsForMethod(method).forEachValidPosition { pos ->
             if (annotations[pos] == Nullability.NOT_NULL) {
-                if (pos is MethodTypePosition) {
+                if (pos is MethodPosition) {
                     val relPosition = pos.relativePosition
                     if (relPosition is ParameterPosition) {
                         notNullPositions.add(relPosition)
@@ -74,7 +74,7 @@ private fun loadExternalAnnotations(
                 key, annotations ->
                 val position = index.findPositionByAnnotationKeyString(key)
                 if (position != null) {
-                    val classNames = annotations.map{it.annotationClassFqn}.toSet()
+                    val classNames = annotations.toSet()
                     val nullability = classNamesToNullabilityAnnotation(classNames)
                     if (nullability != null) {
                         result.set(position, nullability)

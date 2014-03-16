@@ -132,7 +132,7 @@ public class DeclarationIndexImpl: DeclarationIndex {
         for (classData in classes) {
             val field = classData.fieldsById[fieldId]
             if (field == null) continue
-            return getFieldTypePosition(field)
+            return getFieldPosition(field)
         }
         return null
     }

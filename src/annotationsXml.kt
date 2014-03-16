@@ -58,8 +58,8 @@ fun parseFieldAnnotationKey(annotationKey: String): FieldAnnotationKeyData {
 // serialization
 fun AnnotationPosition.toAnnotationKey(): String {
     return when(this) {
-        is MethodTypePosition -> method.toAnnotationKeyPrefix() + relativePosition.toAnnotationKeySuffix(method)
-        is FieldTypePosition -> field.toFieldAnnotationKey()
+        is MethodPosition -> method.toAnnotationKeyPrefix() + relativePosition.toAnnotationKeySuffix(method)
+        is FieldPosition -> field.toFieldAnnotationKey()
         else -> throw UnsupportedOperationException()
     }
 }
@@ -93,7 +93,7 @@ fun Method.getMethodNameAccountingForConstructor(): String {
 
 private fun PositionWithinDeclaration.toAnnotationKeySuffix(method: Method): String {
     return when (this) {
-        RETURN_TYPE -> ""
+        RETURN_POSITION -> ""
         is ParameterPosition -> " " + correctIfNotStatic(method, this.index)
         else -> throw IllegalArgumentException("Unknown position: $this")
     }
