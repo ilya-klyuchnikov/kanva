@@ -16,22 +16,23 @@ import kanva.validation.collectNotNullParams
 import kanva.context.Context
 
 import org.spek.*
+import data.ShouldBeCollected
 
 class NotNullCollectorSpek : Spek() {
-    val testClass = javaClass<data.Instructions>()
 
-    fun collect(methodName: String): Set<Int> {
+    fun collect(testClass: Class<*>, methodName: String): Set<Int> {
         val internalName = Type.getInternalName(testClass)
         var methodNode: MethodNode? = null
         var method: Method? = null
 
-        object DummyClassSource: ClassSource {
-            override fun forEach(body: (ClassReader) -> Unit) {}
-        }
-
-        val context = Context(DummyClassSource, listOf())
         ClassReader(testClass.getCanonicalName()).accept(object : ClassVisitor(Opcodes.ASM4) {
-            public override fun visitMethod(access: Int, name: String, desc: String, signature: String?, exceptions: Array<out String>?): MethodVisitor? {
+            public override fun visitMethod(
+                    access: Int,
+                    name: String,
+                    desc: String,
+                    signature: String?,
+                    exceptions: Array<out String>?
+            ): MethodVisitor? {
                 if (name == methodName) {
                     method = Method(ClassName.fromInternalName(internalName), access, name, desc, signature)
                     methodNode = method!!.createMethodNodeStub()
@@ -40,12 +41,16 @@ class NotNullCollectorSpek : Spek() {
                 return null
             }
         }, 0)
-        val cfg = buildCFG(method!!, methodNode!!)
-        val notNullParams = collectNotNullParams(context, cfg, method!!, methodNode!!)
-        return notNullParams
+
+        return collectNotNullParams(
+                Context(object: ClassSource {override fun forEach(body: (ClassReader) -> Unit) {}}, listOf()),
+                buildCFG(method!!, methodNode!!),
+                method!!,
+                methodNode!!
+        )
     }
 
-    fun allMethodParamIndices(methodName: String): Set<Int> {
+    fun allMethodParamIndices(testClass: Class<*>, methodName: String): Set<Int> {
         for (m in testClass.getMethods()) {
             if (m.getName() == methodName) {
                 val arity = m.getParameterTypes()!!.size
@@ -55,56 +60,102 @@ class NotNullCollectorSpek : Spek() {
         throw IllegalArgumentException("method $methodName not found")
     }
 
-    {
-        given("NotNullCollector") {
+    fun expectedMethodParamIndices(testClass: Class<*>, methodName: String): Set<Int> {
+        for (m in testClass.getMethods()) {
+            if (m.getName() == methodName) {
+                val annotations = m.getParameterAnnotations()
+                val shift = if (m.isStatic()) 0 else 1
+                val result = hashSetOf<Int>()
+                for ((i, anns) in annotations.withIndices()) {
+                    if (anns.map { it.annotationType() }.toList().contains(javaClass<ShouldBeCollected>())) {
+                        result.add(i + shift)
+                    }
+                }
+                return result
+            }
+        }
+        throw IllegalArgumentException("method $methodName not found")
+    }
 
+    {
+        given("Instructions.java") {
+            val testClass = javaClass<data.Instructions>()
             on("invokeMethod") {
                 val methodName = "invokeMethod"
-                val result = collect(methodName)
+                val result = collect(testClass, methodName)
                 it("should collect all parameters") {
-                    shouldEqual(allMethodParamIndices(methodName), result)
+                    shouldEqual(allMethodParamIndices(testClass, methodName), result)
                 }
             }
 
             on("arrayLength") {
                 val methodName = "arrayLength"
-                val result = collect(methodName)
+                val result = collect(testClass, methodName)
                 it("should collect all parameters") {
-                    shouldEqual(allMethodParamIndices(methodName), result)
+                    shouldEqual(allMethodParamIndices(testClass, methodName), result)
                 }
             }
 
             on("arrayLoad") {
                 val methodName = "arrayLoad"
-                val result = collect(methodName)
+                val result = collect(testClass, methodName)
                 it("should collect all parameters") {
-                    shouldEqual(allMethodParamIndices(methodName), result)
+                    shouldEqual(allMethodParamIndices(testClass, methodName), result)
                 }
             }
 
             on("arrayStore") {
                 val methodName = "arrayStore"
-                val result = collect(methodName)
+                val result = collect(testClass, methodName)
                 it("should collect all parameters") {
-                    shouldEqual(allMethodParamIndices(methodName), result)
+                    shouldEqual(allMethodParamIndices(testClass, methodName), result)
                 }
             }
 
             on("monitor") {
                 val methodName = "monitor"
-                val result = collect(methodName)
+                val result = collect(testClass, methodName)
                 it("should collect all parameters") {
-                    shouldEqual(allMethodParamIndices(methodName), result)
+                    shouldEqual(allMethodParamIndices(testClass, methodName), result)
                 }
             }
 
             on("fields") {
                 val methodName = "fields"
-                val result = collect(methodName)
+                val result = collect(testClass, methodName)
                 it("should collect all parameters") {
-                    shouldEqual(allMethodParamIndices(methodName), result)
+                    shouldEqual(allMethodParamIndices(testClass, methodName), result)
                 }
             }
         }
+
+        given("Methods.java") {
+            val testClass = javaClass<data.Methods>()
+
+            on("test01") {
+                val methodName = "test01"
+                val result = collect(testClass, methodName)
+                it("should collect expected params") {
+                    shouldEqual(expectedMethodParamIndices(testClass, methodName), result)
+                }
+            }
+
+            on("test02") {
+                val methodName = "test02"
+                val result = collect(testClass, methodName)
+                it("should collect expected params") {
+                    shouldEqual(expectedMethodParamIndices(testClass, methodName), result)
+                }
+            }
+
+            on("test03") {
+                val methodName = "test03"
+                val result = collect(testClass, methodName)
+                it("should collect expected params") {
+                    shouldEqual(expectedMethodParamIndices(testClass, methodName), result)
+                }
+            }
+        }
+
     }
 }
