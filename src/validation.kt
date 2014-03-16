@@ -28,7 +28,7 @@ fun main(args: Array<String>) {
     println(Date())
     val jarFile = File("/Users/lambdamix/code/kannotator/lib/jdk/jre-7u12-windows-rt.jar")
     val annotationsDir = File("/Users/lambdamix/code/kannotator/jdk-annotations-inferred")
-    val errors = validate(jarFile, annotationsDir)
+    val errors = validateLib(jarFile, annotationsDir)
 
     println("ERRORS:")
     for (error in errors) {
@@ -40,7 +40,7 @@ fun main(args: Array<String>) {
 }
 
 // validates external annotations against a jar-file
-fun validate(jarFile: File, annotationsDir: File): Collection<AnnotationPosition> {
+fun validateLib(jarFile: File, annotationsDir: File): Collection<AnnotationPosition> {
     val jarSource = FileBasedClassSource(listOf(jarFile))
     val context = Context(jarSource, listOf(annotationsDir))
     val errors = arrayListOf<AnnotationPosition>()
@@ -66,8 +66,6 @@ fun validate(jarFile: File, annotationsDir: File): Collection<AnnotationPosition
             }
         }
     }
-
-
     return errors
 }
 
@@ -87,7 +85,7 @@ fun validateMethod(
     }
 
     val cfg = buildCFG(method, methodNode)
-    val nonNullParams = collectNotNullParams(context, cfg, methodNode)
+    val nonNullParams = collectNotNullParams(context, cfg, method, methodNode)
 
     for (pos in positions) {
         if (!nonNullParams.contains(pos.index)) {
@@ -99,12 +97,11 @@ fun validateMethod(
     }
 }
 
-
 fun buildCFG(method: Method, methodNode: MethodNode): Graph<Int, *> =
         ControlFlowBuilder().buildCFG(method, methodNode)
 
-fun collectNotNullParams(context: Context, cfg: Graph<Int, *>, methodNode: MethodNode): Set<Int> {
-    val called = NotNullParametersCollector(context, cfg, methodNode).collectNotNulls()
+fun collectNotNullParams(context: Context, cfg: Graph<Int, *>, method: Method, methodNode: MethodNode): Set<Int> {
+    val called = NotNullParametersCollector(context, cfg, method, methodNode).collectNotNulls()
     return called.paramIndices()
 }
 
@@ -155,7 +152,7 @@ val Node<Int, *>.insnIndex: Int
 
 data class PendingState(val frame: Frame<BasicValue>, val node: Node<Int, *>, val called: Set<TracedValue>)
 
-class NotNullParametersCollector(val context: Context, val cfg: Graph<Int, *>, val method: MethodNode) {
+class NotNullParametersCollector(val context: Context, val cfg: Graph<Int, *>, val m: Method, val method: MethodNode) {
 
     fun collectNotNulls(): Set<TracedValue> {
         if (cfg.nodes.empty) {
@@ -181,6 +178,7 @@ class NotNullParametersCollector(val context: Context, val cfg: Graph<Int, *>, v
 
             if (iterations mod 1000000 == 0) {
                 println(iterations)
+                println("${m}")
                 println("result: $result")
                 println("calledSoFar: $called")
             }
@@ -312,34 +310,65 @@ private fun createStartFrame(method: MethodNode): Frame<BasicValue> {
 private class NotNullCollectingInterpreter(val context: Context, val called: HashSet<TracedValue>): BasicInterpreter() {
 
     public override fun unaryOperation(insn: AbstractInsnNode, value: BasicValue): BasicValue? {
-        val opcode = insn.getOpcode()
+        val opCode = insn.getOpcode()
 
         if (value is TracedValue) {
-            when (opcode) {
-                Opcodes.GETFIELD, Opcodes.ARRAYLENGTH, Opcodes.CHECKCAST ->
+            when (opCode) {
+                Opcodes.GETFIELD,
+                Opcodes.ARRAYLENGTH,
+                Opcodes.CHECKCAST,
+                Opcodes.MONITORENTER ->
                     called.add(value)
             }
         }
 
-        if (opcode == Opcodes.CHECKCAST) {
+        if (opCode == Opcodes.CHECKCAST) {
             return value
         }
 
         return super.unaryOperation(insn, value);
     }
 
-    public override fun binaryOperation(insn: AbstractInsnNode, value1: BasicValue, value2: BasicValue): BasicValue? {
-        val opcode = insn.getOpcode()
+    public override fun binaryOperation(insn: AbstractInsnNode, v1: BasicValue, v2: BasicValue): BasicValue? {
+        val opCode = insn.getOpcode()
 
-        if (value1 is TracedValue) {
-            when (opcode) {
-                Opcodes.AALOAD, Opcodes.PUTFIELD ->
-                    called.add(value1)
+        if (v1 is TracedValue) {
+            when (opCode) {
+                Opcodes.IALOAD,
+                Opcodes.LALOAD,
+                Opcodes.FALOAD,
+                Opcodes.DALOAD,
+                Opcodes.AALOAD,
+                Opcodes.BALOAD,
+                Opcodes.CALOAD,
+                Opcodes.SALOAD,
+                Opcodes.PUTFIELD ->
+                    called.add(v1)
             }
         }
-        return super.binaryOperation(insn, value1, value2)
+        return super.binaryOperation(insn, v1, v2)
     }
 
+    public override fun ternaryOperation(insn: AbstractInsnNode, v1: BasicValue, v2: BasicValue, v3: BasicValue): BasicValue? {
+        val opCode = insn.getOpcode()
+
+        if (v1 is TracedValue) {
+            when (opCode) {
+                Opcodes.IASTORE,
+                Opcodes.LASTORE,
+                Opcodes.FASTORE,
+                Opcodes.DASTORE,
+                Opcodes.AASTORE,
+                Opcodes.BASTORE,
+                Opcodes.CASTORE,
+                Opcodes.SASTORE ->
+                    called.add(v1)
+            }
+        }
+        return super.ternaryOperation(insn, v1, v2, v3)
+    }
+
+    // TODO: generate extra constraints for inference - dependencies of called methods
     public override fun naryOperation(insn: AbstractInsnNode, values: List<BasicValue>): BasicValue? {
         val opcode = insn.getOpcode()
 
