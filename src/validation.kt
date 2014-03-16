@@ -79,13 +79,13 @@ fun validateMethod(
         return
     }
 
+    val cfg = buildCFG(method, methodNode)
+    val nonNullParams = collectNotNullParams(context, cfg, method, methodNode)
+
     val positions = context.findNotNullParamPositions(method)
     if (positions.empty) {
         return
     }
-
-    val cfg = buildCFG(method, methodNode)
-    val nonNullParams = collectNotNullParams(context, cfg, method, methodNode)
 
     for (pos in positions) {
         if (!nonNullParams.contains(pos.index)) {
@@ -150,7 +150,11 @@ data class TracedValue(val source: Source) : BasicValue(null) {
 val Node<Int, *>.insnIndex: Int
     get() = data
 
-data class PendingState(val frame: Frame<BasicValue>, val node: Node<Int, *>, val called: Set<TracedValue>)
+data class PendingState(val frame: Frame<BasicValue>, val node: Node<Int, *>, val called: Set<TracedValue>): Comparable<PendingState> {
+    override fun compareTo(other: PendingState): Int {
+        return other.node.insnIndex - this.node.insnIndex
+    }
+}
 
 class NotNullParametersCollector(val context: Context, val cfg: Graph<Int, *>, val m: Method, val method: MethodNode) {
 
@@ -170,17 +174,23 @@ class NotNullParametersCollector(val context: Context, val cfg: Graph<Int, *>, v
                 PendingState(startFrame, startNode, setOf())
 
         var iterations = 0
+        var completedPaths = 0
 
         while (state != null) {
             iterations ++
 
             val (frame, node, called) = state!!
 
-            if (iterations mod 1000000 == 0) {
+            if (iterations > 500000) {
                 println(iterations)
                 println("${m}")
                 println("result: $result")
+                println("${node.insnIndex}")
                 println("calledSoFar: $called")
+                println("completedPaths: $completedPaths")
+                println("queue size: ${queue.size}")
+                println("graph: ${cfg.nodes.size}")
+                return setOf()
             }
 
             val insnNode = method.instructions[node.insnIndex]
@@ -198,6 +208,7 @@ class NotNullParametersCollector(val context: Context, val cfg: Graph<Int, *>, v
             val nextNodes = node.successors
 
             if (nextNodes.empty && opcode != Opcodes.ATHROW) {
+                completedPaths ++
                 if (result == null) {
                     result = hashSetOf()
                     result!!.addAll(calledSoFar)
