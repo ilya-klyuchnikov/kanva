@@ -40,8 +40,16 @@ fun Context(classSource: ClassSource, annotationFiles: Collection<File>): Contex
     return Context(classSource, declarationIndex, annotations)
 }
 
-fun Context.findMethodByMethodInsnNode(methodInsnNode: MethodInsnNode): Method? =
-        index.findMethod(ClassName.fromInternalName(methodInsnNode.owner!!), methodInsnNode.name!!, methodInsnNode.desc)
+fun Context.findMethodByMethodInsnNode(methodInsnNode: MethodInsnNode): Method? {
+    val owner = methodInsnNode.owner!!
+    val name = methodInsnNode.name!!
+    val result = index.findMethod(ClassName.fromInternalName(owner), name, methodInsnNode.desc)
+
+    if (result == null) {
+        println("cannot find $owner/$name/${methodInsnNode.desc}")
+    }
+    return result
+}
 
 fun Context.findNotNullParamPositions(method: Method?): Collection<ParameterPosition> {
     val notNullPositions = arrayListOf<ParameterPosition>()

@@ -15,6 +15,7 @@ import kanva.util.*
 import kanva.declarations.*
 import kanva.annotations.xml.*
 import java.util.ArrayList
+import kotlinlib.orEmptyArray
 
 trait ClassSource {
     fun forEach(body: (ClassReader) -> Unit)
@@ -55,7 +56,8 @@ public class DeclarationIndexImpl: DeclarationIndex {
             val classDecl: ClassDeclaration,
             val methodsById: Map<MethodId, Method>,
             val methodsByName: Map<String, Collection<Method>>,
-            val fieldsById: Map<FieldId, Field>
+            val fieldsById: Map<FieldId, Field>,
+            val superClasses: List<ClassName>
     )
 
     private val classes = HashMap<ClassName, ClassData>()
@@ -71,8 +73,18 @@ public class DeclarationIndexImpl: DeclarationIndex {
         val methodsById = HashMap<MethodId, Method>()
         val fieldsById = HashMap<FieldId, Field>()
         val methodsByNameForAnnotationKey = HashMap<String, MutableList<Method>>()
+        val superClasses = linkedListOf<ClassName>()
 
         reader.accept(object: ClassVisitor(Opcodes.ASM4) {
+            public override fun visit(version: Int, access: Int, name: String, signature: String?, superName: String?, interfaces: Array<out String>?) {
+                for (interface in interfaces.orEmptyArray()) {
+                    superClasses.add(ClassName.fromInternalName(interface))
+                }
+                if (superName != null) {
+                    superClasses.add(ClassName.fromInternalName(superName))
+                }
+            }
+
             public override fun visitMethod(access: Int, name: String, desc: String, signature: String?, exceptions: Array<out String>?): MethodVisitor? {
                 val method = Method(className, access, name, desc, signature)
                 methodsById[method.id] = method
@@ -91,7 +103,13 @@ public class DeclarationIndexImpl: DeclarationIndex {
             }
         }, 0);
 
-        val classData = ClassData(ClassDeclaration(className, Access(reader.getAccess())), methodsById, methodsByNameForAnnotationKey, fieldsById)
+        val classData = ClassData(
+                ClassDeclaration(className, Access(reader.getAccess())),
+                methodsById,
+                methodsByNameForAnnotationKey,
+                fieldsById,
+                superClasses
+        )
         classes[className] = classData
         classesByCanonicalName.getOrPut(className.canonicalName, { HashSet() }).add(classData)
     }
@@ -100,8 +118,23 @@ public class DeclarationIndexImpl: DeclarationIndex {
         return classes[className]?.classDecl
     }
 
+    // looks up the hierarchy
     override fun findMethod(owner: ClassName, name: String, desc: String): Method? {
-        return classes[owner]?.methodsById?.get(MethodId(name, desc))
+        val clazz = classes[owner] ?: classes[ClassName.fromInternalName("java/lang/Object")]
+        if (clazz == null) {
+            return null;
+        }
+        val thisMethod = clazz.methodsById.get(MethodId(name, desc))
+        if (thisMethod != null) {
+            return thisMethod
+        }
+        for (superOwner in clazz.superClasses) {
+            val superMethod = findMethod(superOwner, name, desc)
+            if (superMethod != null) {
+                return superMethod
+            }
+        }
+        return null
     }
 
     override fun findField(owner: ClassName, name: String): Field? {
