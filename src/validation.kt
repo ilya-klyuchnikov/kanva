@@ -89,7 +89,7 @@ fun validateMethod(
 
     for (pos in positions) {
         if (!nonNullParams.contains(pos.index)) {
-            val returnReachable = reachable(context, cfg, methodNode, pos.index)
+            val returnReachable = normalReturnOnNullReachable(context, cfg, methodNode, pos.index)
             if (returnReachable) {
                 errorPositions.add(PositionsForMethod(method).get(pos))
             }
@@ -110,8 +110,14 @@ fun collectNotNullParams(context: Context, cfg: Graph<Int>, method: Method, meth
     return called.paramIndices()
 }
 
-fun reachable(context: Context, cfg: Graph<Int>, methodNode: MethodNode, nullParam: Int): Boolean =
-        ReachabilityAnalyzer(context, cfg, methodNode, nullParam).reachable()
+fun normalReturnOnNullReachable(context: Context, cfg: Graph<Int>, methodNode: MethodNode, nullParam: Int): Boolean {
+    try {
+        return ReachabilityAnalyzer(context, cfg, methodNode, nullParam).reachable()
+    } catch (e : Throwable) {
+        println("TODO")
+        return true
+    }
+}
 
 private fun Set<TracedValue>.paramIndices(): Set<Int> =
         this.map{if (it.source is Arg) it.source.pos else null}.filterNotNull().toSet()
