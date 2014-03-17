@@ -5,6 +5,8 @@ import java.util.HashMap
 
 trait Annotations<out A> {
     fun get(typePosition: AnnotationPosition): A?
+    fun forEachPosition(block: (AnnotationPosition, A) -> Unit)
+    fun size(): Int
 }
 
 trait MutableAnnotations<A> : Annotations<A> {
@@ -12,6 +14,7 @@ trait MutableAnnotations<A> : Annotations<A> {
 }
 
 class AnnotationsImpl<A: Any> : MutableAnnotations<A> {
+
     private val data = HashMap<AnnotationPosition, A>()
 
     override fun get(typePosition: AnnotationPosition): A? {
@@ -22,7 +25,14 @@ class AnnotationsImpl<A: Any> : MutableAnnotations<A> {
         data[typePosition] = annotation
     }
 
-    fun size() = data.size
+    override fun size() =
+            data.size
+
+    override fun forEachPosition(block: (AnnotationPosition, A) -> Unit) {
+        for ((pos, ann) in data) {
+            block(pos, ann)
+        }
+    }
 }
 
 enum class Nullability {
