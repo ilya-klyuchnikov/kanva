@@ -101,6 +101,11 @@ fun buildCFG(method: Method, methodNode: MethodNode): Graph<Int> =
         ControlFlowBuilder().buildCFG(method, methodNode)
 
 fun collectNotNullParams(context: Context, cfg: Graph<Int>, method: Method, methodNode: MethodNode): Set<Int> {
+    // TODO - we need to pass types to basic value
+    // hack for now
+    if (method.name.startsWith("access$")) {
+        return setOf()
+    }
     val called = NotNullParametersCollector(context, cfg, method, methodNode).collectNotNulls()
     return called.paramIndices()
 }
