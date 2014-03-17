@@ -35,12 +35,25 @@ fun processComponent(context: Context, component: Set<Node<Method>>) {
     if (component.size == 1) {
         val method: Method = component.first().data
         val methodNode = context.index.methods[method]!!
-        
+        val methodPositions = PositionsForMethod(method)
+
         val cfg = buildCFG(method, methodNode)
         val notNulls = collectNotNullParams(context, cfg, method, methodNode)
+
+        val skip = if (method.isStatic()) 0 else 1
         for (i in notNulls) {
-            val methodPositions = PositionsForMethod(method)
             context.annotations[methodPositions.get(ParameterPosition(i))] = Nullability.NOT_NULL
+        }
+        // exceptions
+        val indices = (skip .. (method.getArgumentTypes().size + skip - 1)).toList()
+        for (i in indices) {
+            if (i !in notNulls) {
+                val normalReturn = normalReturnOnNullReachable(context, cfg, methodNode, i)
+                if (!normalReturn) {
+                    println("by exception")
+                    context.annotations[methodPositions.get(ParameterPosition(i))] = Nullability.NOT_NULL
+                }
+            }
         }
     } else {
         // brute force for now
@@ -51,12 +64,26 @@ fun processComponent(context: Context, component: Set<Node<Method>>) {
                 val method = node.data
                 val methodNode = context.index.methods[method]!!
                 val cfg = buildCFG(method, methodNode)
+                val methodPositions = PositionsForMethod(method)
                 val notNulls = collectNotNullParams(context, cfg, method, methodNode)
+
+                val skip = if (method.isStatic()) 0 else 1
                 for (i in notNulls) {
-                    val methodPositions = PositionsForMethod(method)
                     if (context.annotations[methodPositions.get(ParameterPosition(i))] != Nullability.NOT_NULL) {
                         context.annotations[methodPositions.get(ParameterPosition(i))] = Nullability.NOT_NULL
                         changed = true
+                    }
+                }
+                // exceptions
+                val indices = (skip .. (method.getArgumentTypes().size + skip - 1)).toList()
+                for (i in indices) {
+                    if (i !in notNulls && context.annotations[methodPositions.get(ParameterPosition(i))] != Nullability.NOT_NULL) {
+                        val normalReturn = normalReturnOnNullReachable(context, cfg, methodNode, i)
+                        if (!normalReturn) {
+                            println("by exception")
+                            context.annotations[methodPositions.get(ParameterPosition(i))] = Nullability.NOT_NULL
+                            changed = true
+                        }
                     }
                 }
             }
