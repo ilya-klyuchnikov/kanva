@@ -15,8 +15,8 @@ import kanva.declarations.*
 
 class Context(
         val classSource: ClassSource,
-        val index: DeclarationIndex,
-        val annotations: Annotations<Nullability>
+        val index: DeclarationIndexImpl,
+        val annotations: MutableAnnotations<Nullability>
 )
 
 fun Context(classSource: ClassSource, annotationFiles: Collection<File>): Context {
@@ -34,8 +34,6 @@ fun Context(classSource: ClassSource, annotationFiles: Collection<File>): Contex
             xmlAnnotations map {{FileReader(it)}},
             declarationIndex
     )
-
-    //println("LOADED ${annotations.size()}")
 
     return Context(classSource, declarationIndex, annotations)
 }
