@@ -97,29 +97,29 @@ fun validateMethod(
     }
 }
 
-fun buildCFG(method: Method, methodNode: MethodNode): Graph<Int, *> =
+fun buildCFG(method: Method, methodNode: MethodNode): Graph<Int> =
         ControlFlowBuilder().buildCFG(method, methodNode)
 
-fun collectNotNullParams(context: Context, cfg: Graph<Int, *>, method: Method, methodNode: MethodNode): Set<Int> {
+fun collectNotNullParams(context: Context, cfg: Graph<Int>, method: Method, methodNode: MethodNode): Set<Int> {
     val called = NotNullParametersCollector(context, cfg, method, methodNode).collectNotNulls()
     return called.paramIndices()
 }
 
-fun reachable(context: Context, cfg: Graph<Int, *>, methodNode: MethodNode, nullParam: Int): Boolean =
+fun reachable(context: Context, cfg: Graph<Int>, methodNode: MethodNode, nullParam: Int): Boolean =
         ReachabilityAnalyzer(context, cfg, methodNode, nullParam).reachable()
 
 private fun Set<TracedValue>.paramIndices(): Set<Int> =
         this.map{if (it.source is Arg) it.source.pos else null}.filterNotNull().toSet()
 
 private class ControlFlowBuilder : Analyzer<BasicValue>(BasicInterpreter()) {
-    private class CfgBuilder: GraphBuilder<Int, Int, Nothing?, GraphImpl<Int, Nothing?>>(true, true) {
-        override fun newNode(data: Int) = DefaultNodeImpl<Int, Nothing?>(data)
-        override fun newGraph() = GraphImpl<Int, Nothing?>(true)
+    private class CfgBuilder: GraphBuilder<Int, Int, GraphImpl<Int>>(true, true) {
+        override fun newNode(data: Int) = DefaultNodeImpl<Int>(data)
+        override fun newGraph() = GraphImpl<Int>(true)
     }
 
     private var builder = CfgBuilder()
 
-    fun buildCFG(method: Method, methodNode: MethodNode): Graph<Int, Nothing?> {
+    fun buildCFG(method: Method, methodNode: MethodNode): Graph<Int> {
         builder = CfgBuilder()
         analyze(method.declaringClass.internal, methodNode)
         return builder.graph
@@ -128,7 +128,7 @@ private class ControlFlowBuilder : Analyzer<BasicValue>(BasicInterpreter()) {
     override protected fun newControlFlowEdge(insn: Int, successor: Int) {
         val fromNode = builder.getOrCreateNode(insn)
         val toNode = builder.getOrCreateNode(successor)
-        builder.getOrCreateEdge(null, fromNode, toNode)
+        builder.getOrCreateEdge(fromNode, toNode)
     }
 }
 
@@ -147,16 +147,16 @@ data class TracedValue(val source: Source) : BasicValue(null) {
     override fun toString() = "TV($source)"
 }
 
-val Node<Int, *>.insnIndex: Int
+val Node<Int>.insnIndex: Int
     get() = data
 
-data class PendingState(val frame: Frame<BasicValue>, val node: Node<Int, *>, val called: Set<TracedValue>): Comparable<PendingState> {
+data class PendingState(val frame: Frame<BasicValue>, val node: Node<Int>, val called: Set<TracedValue>): Comparable<PendingState> {
     override fun compareTo(other: PendingState): Int {
         return other.node.insnIndex - this.node.insnIndex
     }
 }
 
-class NotNullParametersCollector(val context: Context, val cfg: Graph<Int, *>, val m: Method, val method: MethodNode) {
+class NotNullParametersCollector(val context: Context, val cfg: Graph<Int>, val m: Method, val method: MethodNode) {
 
     fun collectNotNulls(): Set<TracedValue> {
         if (cfg.nodes.empty) {
@@ -166,7 +166,7 @@ class NotNullParametersCollector(val context: Context, val cfg: Graph<Int, *>, v
         return collectNotNulls(startFrame, cfg.findNode(0)!!)
     }
 
-    private fun collectNotNulls(startFrame: Frame<BasicValue>, startNode: Node<Int, *>): Set<TracedValue> {
+    private fun collectNotNulls(startFrame: Frame<BasicValue>, startNode: Node<Int>): Set<TracedValue> {
         var result: HashSet<TracedValue>? = null
 
         val queue = linkedListOf<PendingState>()
@@ -237,7 +237,7 @@ class NotNullParametersCollector(val context: Context, val cfg: Graph<Int, *>, v
     }
 }
 
-private class ReachabilityAnalyzer(val context: Context, val cfg: Graph<Int, *>, val method: MethodNode, val paramIndex: Int) {
+private class ReachabilityAnalyzer(val context: Context, val cfg: Graph<Int>, val method: MethodNode, val paramIndex: Int) {
 
     fun reachable(): Boolean {
         if (cfg.nodes.empty) {
@@ -247,8 +247,7 @@ private class ReachabilityAnalyzer(val context: Context, val cfg: Graph<Int, *>,
         return check(startFrame, cfg.findNode(0)!!)
     }
 
-    // TODO - in the same style
-    private fun check(frame: Frame<BasicValue>, node: Node<Int, *>): Boolean {
+    private fun check(frame: Frame<BasicValue>, node: Node<Int>): Boolean {
         val insnNode = method.instructions[node.insnIndex]
         val insnType = insnNode.getType()
         val transitInstr =
@@ -389,7 +388,6 @@ private class NotNullCollectingInterpreter(val context: Context, val called: Has
                 called.add(receiver)
             }
         }
-
 
         if (insn is MethodInsnNode) {
             val method = context.findMethodByMethodInsnNode(insn)

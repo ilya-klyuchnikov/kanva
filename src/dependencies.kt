@@ -9,14 +9,14 @@ import org.objectweb.asm.Opcodes
 import org.objectweb.asm.MethodVisitor
 import kotlinlib.flags
 
-public fun buildFunctionDependencyGraph(declarationIndex: DeclarationIndex, classSource: ClassSource) : Graph<Method, String> =
+public fun buildFunctionDependencyGraph(declarationIndex: DeclarationIndex, classSource: ClassSource) : Graph<Method> =
         FunDependencyGraphBuilder(declarationIndex, classSource).build()
 
 public class FunDependencyGraphBuilder(
-        private val declarationIndex: DeclarationIndex,
-        private val classSource: ClassSource
-): GraphBuilder<Method, Method, String, GraphImpl<Method, String>>(false, true) {
-    private var currentFromNode : NodeImpl<Method, String>? = null
+        private val index: DeclarationIndex,
+        private val source: ClassSource
+): GraphBuilder<Method, Method, GraphImpl<Method>>(false, true) {
+    private var currentFromNode : NodeImpl<Method>? = null
     private var currentClassName : ClassName? = null
 
     private val classVisitor = object : ClassVisitor(Opcodes.ASM4) {
@@ -34,19 +34,19 @@ public class FunDependencyGraphBuilder(
     private val methodVisitor = object : MethodVisitor(Opcodes.ASM4) {
         public override fun visitMethodInsn(opcode: Int, owner: String, name: String, desc: String) {
             val ownerClassName = ClassName.fromInternalName(owner)
-            val method = declarationIndex.findMethod(ownerClassName, name, desc)
+            val method = index.findMethod(ownerClassName, name, desc)
             if (method != null) {
-                getOrCreateEdge("call", currentFromNode!!, getOrCreateNode(method))
+                getOrCreateEdge(currentFromNode!!, getOrCreateNode(method))
             }
         }
     }
 
 
-    override fun newGraph(): GraphImpl<Method, String> = GraphImpl(false)
-    override fun newNode(data: Method): NodeImpl<Method, String> = DefaultNodeImpl(data)
+    override fun newGraph(): GraphImpl<Method> = GraphImpl(false)
+    override fun newNode(data: Method): NodeImpl<Method> = DefaultNodeImpl(data)
 
-    public fun build(): Graph<Method, String> {
-        classSource.forEach {
+    public fun build(): Graph<Method> {
+        source.forEach {
             reader ->
             reader.accept(classVisitor, flags(SKIP_DEBUG, SKIP_FRAMES))
         }
