@@ -16,6 +16,7 @@ import kanva.declarations.*
 import kanva.annotations.xml.*
 import java.util.ArrayList
 import kotlinlib.orEmptyArray
+import org.objectweb.asm.tree.MethodNode
 
 trait ClassSource {
     fun forEach(body: (ClassReader) -> Unit)
@@ -51,6 +52,8 @@ public fun DeclarationIndexImpl(classSource: ClassSource): DeclarationIndexImpl 
 }
 
 public class DeclarationIndexImpl: DeclarationIndex {
+
+    val methods = HashMap<Method, MethodNode>()
 
     private data class ClassData(
             val classDecl: ClassDeclaration,
@@ -89,14 +92,16 @@ public class DeclarationIndexImpl: DeclarationIndex {
                 val method = Method(className, access, name, desc, signature)
                 methodsById[method.id] = method
                 methodsByNameForAnnotationKey.getOrPut(method.getMethodNameAccountingForConstructor(), { ArrayList() }).add(method)
-                // return processMethodBody(method)
-                return null
+                // TODO: read annotations from bytecode
+                val methodNode = method.createMethodNodeStub()
+                methods[method] = methodNode
+                return methodNode
             }
 
             public override fun visitField(access: Int, name: String, desc: String, signature: String?, value: Any?): FieldVisitor? {
                 val field = Field(className, access, name, desc, signature, value)
                 fieldsById[field.id] = field
-                // TODO: read annotations
+                // TODO: read annotations from bytecode
                 // val fieldNode = field.createFieldNodeStub()
                 // return fieldNode
                 return null
