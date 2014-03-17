@@ -93,3 +93,9 @@ private val EMPTY_OBJECT_ARRAY = Array<Any?>(0, {null})
 public fun <T> Array<out T>?.orEmptyArray(): Array<out T> = if (this == null) EMPTY_OBJECT_ARRAY as Array<out T> else this
 
 public fun flags(f1: Int, f2: Int): Int = f1 or f2
+
+val LINE_SEPARATOR: String = System.getProperty("line.separator")!!
+
+public fun StringBuilder.println(): StringBuilder {
+    return append(LINE_SEPARATOR)
+}

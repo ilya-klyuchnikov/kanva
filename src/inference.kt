@@ -11,8 +11,14 @@ import kanva.validation.*
 import kanva.declarations.*
 import kanva.annotations.Nullability
 import java.util.Date
+import kanva.annotations.Annotations
+import java.util.ArrayList
+import java.util.HashSet
+import java.util.HashMap
+import java.io.FileWriter
+import kanva.annotations.xml.writeAnnotationsToXML
 
-fun inferLib(jarFile: File): Collection<AnnotationPosition> {
+fun inferLib(jarFile: File) {
     val jarSource = FileBasedClassSource(listOf(jarFile))
     val context = Context(jarSource, listOf())
     val dependencyGraph = buildFunctionDependencyGraph(context.index, context.classSource)
@@ -21,14 +27,8 @@ fun inferLib(jarFile: File): Collection<AnnotationPosition> {
     for (component in components) {
         processComponent(context, component)
     }
-
     println("${context.annotations.size()} annotations inferred")
-
-    context.annotations.forEachPosition { pos, ann ->
-        println(pos)
-    }
-
-    return listOf()
+    writeAnnotationsToXmlByPackage(File("inferred"), context.annotations)
 }
 
 fun processComponent(context: Context, component: Set<Node<Method>>) {
@@ -63,6 +63,49 @@ fun processComponent(context: Context, component: Set<Node<Method>>) {
         } while(changed)
     }
 }
+
+fun writeAnnotationsToXmlByPackage(
+    destination: File,
+    annotations: Annotations<Nullability>
+) {
+
+
+    val members = HashSet<ClassMember>()
+    annotations.forEachPosition { pos, ann -> members.add(pos.member) }
+    val sortedMembers = members.sortBy {it.toString()}
+
+    val sortedPositions = ArrayList<AnnotationPosition>(annotations.size())
+    for (m in sortedMembers) {
+        if (m is Method) {
+            PositionsForMethod(m).forEachValidPosition { pos ->
+                if (annotations[pos] != null) {
+                    sortedPositions.add(pos)
+                }
+            }
+        }
+    }
+
+    val positionsByPackage = HashMap<String, MutableList<AnnotationPosition>>()
+    for (pos in sortedPositions) {
+        val packageName = pos.member.getInternalPackageName()
+        positionsByPackage.getOrPut(packageName, {arrayListOf()}).add(pos)
+    }
+
+    for ((path, pathAnnotations) in positionsByPackage) {
+        val outputDir = File(destination, path)
+        outputDir.mkdirs()
+        val outputFile = File(outputDir, "annotations.xml")
+        val writer = FileWriter(outputFile)
+        writeAnnotationsToXML(writer, pathAnnotations)
+    }
+}
+
+fun ClassMember.getInternalPackageName(): String {
+    val className = declaringClass.internal
+    val delimiter = className.lastIndexOf('/')
+    return if (delimiter >= 0) className.substring(0, delimiter) else ""
+}
+
 
 fun main(args: Array<String>) {
     println(Date())

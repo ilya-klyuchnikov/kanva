@@ -92,7 +92,17 @@ private fun loadExternalAnnotations(
         }
     }
 
-    println("loaded ${result.size()}")
+    var paramAnns = 0
+    result.forEachPosition { pos, ann ->
+        if (pos is MethodPosition) {
+            if (pos.relativePosition is ParameterPosition) {
+                paramAnns ++
+            }
+        }
+    }
+
+    println("total loaded ${result.size()}")
+    println("param annotations: $paramAnns")
     return result
 }
 
