@@ -17,6 +17,15 @@
     <item name='org.objectweb.asm.ClassVisitor void visit(int, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String[]) 2'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
+    <item name='org.objectweb.asm.MethodVisitor void visitMethodInsn(int, java.lang.String, java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.objectweb.asm.MethodVisitor void visitMethodInsn(int, java.lang.String, java.lang.String, java.lang.String) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.objectweb.asm.MethodVisitor void visitMethodInsn(int, java.lang.String, java.lang.String, java.lang.String) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
     <item name='org.objectweb.asm.Type java.lang.String getInternalName()'>
         <annotation name='org.jetbrains.annotations.NotNull'/>
     </item>
