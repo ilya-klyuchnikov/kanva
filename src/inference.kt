@@ -50,7 +50,6 @@ fun processComponent(context: Context, component: Set<Node<Method>>) {
             if (i !in notNulls) {
                 val normalReturn = normalReturnOnNullReachable(context, cfg, method, methodNode, i)
                 if (!normalReturn) {
-                    println("by exception")
                     context.annotations[methodPositions.get(ParameterPosition(i))] = Nullability.NOT_NULL
                 }
             }
@@ -80,7 +79,6 @@ fun processComponent(context: Context, component: Set<Node<Method>>) {
                     if (i !in notNulls && context.annotations[methodPositions.get(ParameterPosition(i))] != Nullability.NOT_NULL) {
                         val normalReturn = normalReturnOnNullReachable(context, cfg, method, methodNode, i)
                         if (!normalReturn) {
-                            println("by exception")
                             context.annotations[methodPositions.get(ParameterPosition(i))] = Nullability.NOT_NULL
                             changed = true
                         }

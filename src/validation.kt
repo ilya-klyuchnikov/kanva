@@ -103,13 +103,7 @@ fun collectNotNullParams(context: Context, cfg: Graph<Int>, method: Method, meth
 }
 
 fun normalReturnOnNullReachable(context: Context, cfg: Graph<Int>, method: Method, methodNode: MethodNode, nullParam: Int): Boolean {
-    try {
-        return ReachabilityAnalyzer(context, cfg, method, methodNode, nullParam).reachable()
-    } catch (e : Throwable) {
-        println("failure: $method")
-        e.printStackTrace()
-        return true
-    }
+    return ThrowAnalyzer(context, cfg, method, methodNode, nullParam).reachable()
 }
 
 private fun Set<TracedValue>.paramIndices(): Set<Int> =
@@ -147,8 +141,10 @@ private data object ThisObject: Source("ThisObject")
 data class TracedValue(val source: Source, tp: Type?) : BasicValue(tp) {
     override fun equals(other: Any?): Boolean =
             (other is TracedValue) && (source == other.source)
+    val str = "TV($source)"
+    override fun toString() = str
 
-    override fun toString() = "TV($source)"
+    override fun hashCode(): Int = str.hashCode()
 }
 
 val Node<Int>.insnIndex: Int
@@ -211,6 +207,7 @@ class NotNullParametersCollector(val context: Context, val cfg: Graph<Int>, val 
             val calledSoFar = (called + delta).toSet()
             val nextNodes = node.successors
 
+            // todo - this is debatable
             if (nextNodes.empty && opcode != Opcodes.ATHROW) {
                 completedPaths ++
                 if (result == null) {
@@ -241,22 +238,35 @@ class NotNullParametersCollector(val context: Context, val cfg: Graph<Int>, val 
     }
 }
 
-private class ReachabilityAnalyzer(
+private class ReturnException() : Exception("Return found")
+private val RETURN_EXCEPTION = ReturnException()
+
+// KAnnotator logic: when given param is null all paths result to exception
+// and there is at least one path after null check
+private class ThrowAnalyzer(
         val context: Context,
         val cfg: Graph<Int>,
         val method: Method,
         val methodNode: MethodNode,
-        val paramIndex: Int) {
+        val paramIndex: Int
+) {
 
     fun reachable(): Boolean {
         if (cfg.nodes.empty) {
             return true
         }
         val startFrame = createStartFrame(method.declaringClass.internal, methodNode)
-        return check(startFrame, cfg.findNode(0)!!, false)
+        try {
+            visit(startFrame, cfg.findNode(0)!!)
+        } catch (e: ReturnException) {
+            return true
+        }
+        return !nullTaken
     }
 
-    private fun check(frame: Frame<BasicValue>, node: Node<Int>, nullArg: Boolean): Boolean {
+    var nullTaken = false
+
+    private fun visit(frame: Frame<BasicValue>, node: Node<Int>) {
         val insnNode = methodNode.instructions[node.insnIndex]
         val insnType = insnNode.getType()
         val transitInstr =
@@ -271,33 +281,30 @@ private class ReachabilityAnalyzer(
                     executed
                 }
 
-        val opcode = insnNode.getOpcode()
+        if (delta.contains(TracedValue(Arg(paramIndex), null))) {
+            return
+        }
+
+        val opCode = insnNode.getOpcode()
         val nextNodes = node.successors.filter { it.insnIndex > node.insnIndex }
-        // TODO - cleanup null
-        if (opcode == Opcodes.IFNONNULL && Frame(frame).pop() == TracedValue(Arg(paramIndex), null)) {
-            return check(nextFrame, nextNodes.toList().first(), true)
-        }
 
-        if (opcode == Opcodes.IFNULL && Frame(frame).pop() == TracedValue(Arg(paramIndex), null)) {
-            return check(nextFrame, nextNodes.toList().last(), true)
+        if (opCode == Opcodes.IFNONNULL && Frame(frame).pop() == TracedValue(Arg(paramIndex), null)) {
+            nullTaken = true
+            visit(nextFrame, nextNodes.toList().first())
         }
-
-        if (nextNodes.empty) {
-            if (nullArg) {
-                val result =  opcode != Opcodes.ATHROW
-                println("result : $result")
-                return result
-            }
-            return true
+        else if (opCode == Opcodes.IFNULL && Frame(frame).pop() == TracedValue(Arg(paramIndex), null)) {
+            nullTaken = true
+            visit(nextFrame, nextNodes.toList().last())
         }
-
-        for (nextNode in nextNodes) {
-            if (check(nextFrame, nextNode, nullArg)) {
-                return true
+        else if (nextNodes.notEmpty) {
+            for (nextNode in nextNodes) {
+                visit(nextFrame, nextNode)
             }
         }
-
-        return false
+        else if (opCode != Opcodes.ATHROW) {
+            // pruning
+            throw RETURN_EXCEPTION
+        }
     }
 
 }
@@ -344,9 +351,7 @@ private class NotNullCollectingInterpreter(val context: Context, val called: Has
             when (opCode) {
                 Opcodes.GETFIELD,
                 Opcodes.ARRAYLENGTH,
-                Opcodes.CHECKCAST,
-                Opcodes.MONITORENTER ->
-                    called.add(value)
+                Opcodes.MONITORENTER -> called.add(value)
             }
         }
 
@@ -370,8 +375,7 @@ private class NotNullCollectingInterpreter(val context: Context, val called: Has
                 Opcodes.BALOAD,
                 Opcodes.CALOAD,
                 Opcodes.SALOAD,
-                Opcodes.PUTFIELD ->
-                    called.add(v1)
+                Opcodes.PUTFIELD -> called.add(v1)
             }
         }
         return super.binaryOperation(insn, v1, v2)
@@ -389,14 +393,12 @@ private class NotNullCollectingInterpreter(val context: Context, val called: Has
                 Opcodes.AASTORE,
                 Opcodes.BASTORE,
                 Opcodes.CASTORE,
-                Opcodes.SASTORE ->
-                    called.add(v1)
+                Opcodes.SASTORE -> called.add(v1)
             }
         }
         return super.ternaryOperation(insn, v1, v2, v3)
     }
 
-    // TODO: generate extra constraints for inference - dependencies of called methods
     public override fun naryOperation(insn: AbstractInsnNode, values: List<BasicValue>): BasicValue? {
         val opcode = insn.getOpcode()
 
