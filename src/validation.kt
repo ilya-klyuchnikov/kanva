@@ -60,10 +60,7 @@ fun validateLib(jarFile: File, annotationsDir: File): Collection<AnnotationPosit
         classReader.accept(collector, 0)
 
         for ((method, methodNode) in collector.methods) {
-            // TODO - WHY?
-            if (!methodNode.name.startsWith("access$")) {
-                validateMethod(context, method, methodNode, errors)
-            }
+            validateMethod(context, method, methodNode, errors)
         }
     }
     return errors
@@ -101,18 +98,13 @@ fun buildCFG(method: Method, methodNode: MethodNode): Graph<Int> =
         ControlFlowBuilder().buildCFG(method, methodNode)
 
 fun collectNotNullParams(context: Context, cfg: Graph<Int>, method: Method, methodNode: MethodNode): Set<Int> {
-    // TODO - we need to pass types to basic value
-    // hack for now
-    if (method.name.startsWith("access$")) {
-        return setOf()
-    }
     val called = NotNullParametersCollector(context, cfg, method, methodNode).collectNotNulls()
     return called.paramIndices()
 }
 
 fun normalReturnOnNullReachable(context: Context, cfg: Graph<Int>, method: Method, methodNode: MethodNode, nullParam: Int): Boolean {
     try {
-        return ReachabilityAnalyzer(context, cfg, methodNode, nullParam).reachable()
+        return ReachabilityAnalyzer(context, cfg, method, methodNode, nullParam).reachable()
     } catch (e : Throwable) {
         println("failure: $method")
         e.printStackTrace()
@@ -152,7 +144,7 @@ private data class Arg(val pos: Int): Source("Arg($pos)")
 private data object Unknown: Source("Unknown")
 private data object ThisObject: Source("ThisObject")
 
-data class TracedValue(val source: Source) : BasicValue(null) {
+data class TracedValue(val source: Source, tp: Type?) : BasicValue(tp) {
     override fun equals(other: Any?): Boolean =
             (other is TracedValue) && (source == other.source)
 
@@ -174,7 +166,7 @@ class NotNullParametersCollector(val context: Context, val cfg: Graph<Int>, val 
         if (cfg.nodes.empty) {
             return setOf()
         }
-        val startFrame = createStartFrame(method)
+        val startFrame = createStartFrame(m.declaringClass.internal, method)
         return collectNotNulls(startFrame, cfg.findNode(0)!!)
     }
 
@@ -249,18 +241,23 @@ class NotNullParametersCollector(val context: Context, val cfg: Graph<Int>, val 
     }
 }
 
-private class ReachabilityAnalyzer(val context: Context, val cfg: Graph<Int>, val method: MethodNode, val paramIndex: Int) {
+private class ReachabilityAnalyzer(
+        val context: Context,
+        val cfg: Graph<Int>,
+        val method: Method,
+        val methodNode: MethodNode,
+        val paramIndex: Int) {
 
     fun reachable(): Boolean {
         if (cfg.nodes.empty) {
             return true
         }
-        val startFrame = createStartFrame(method)
+        val startFrame = createStartFrame(method.declaringClass.internal, methodNode)
         return check(startFrame, cfg.findNode(0)!!, false)
     }
 
     private fun check(frame: Frame<BasicValue>, node: Node<Int>, nullArg: Boolean): Boolean {
-        val insnNode = method.instructions[node.insnIndex]
+        val insnNode = methodNode.instructions[node.insnIndex]
         val insnType = insnNode.getType()
         val transitInstr =
                 (insnType == AbstractInsnNode.LABEL || insnType == AbstractInsnNode.LINE || insnType == AbstractInsnNode.FRAME)
@@ -276,11 +273,12 @@ private class ReachabilityAnalyzer(val context: Context, val cfg: Graph<Int>, va
 
         val opcode = insnNode.getOpcode()
         val nextNodes = node.successors.filter { it.insnIndex > node.insnIndex }
-        if (opcode == Opcodes.IFNONNULL && Frame(frame).pop() == TracedValue(Arg(paramIndex))) {
+        // TODO - cleanup null
+        if (opcode == Opcodes.IFNONNULL && Frame(frame).pop() == TracedValue(Arg(paramIndex), null)) {
             return check(nextFrame, nextNodes.toList().first(), true)
         }
 
-        if (opcode == Opcodes.IFNULL && Frame(frame).pop() == TracedValue(Arg(paramIndex))) {
+        if (opcode == Opcodes.IFNULL && Frame(frame).pop() == TracedValue(Arg(paramIndex), null)) {
             return check(nextFrame, nextNodes.toList().last(), true)
         }
 
@@ -304,29 +302,32 @@ private class ReachabilityAnalyzer(val context: Context, val cfg: Graph<Int>, va
 
 }
 
-private fun createStartFrame(method: MethodNode): Frame<BasicValue> {
+private fun createStartFrame(owner: String, method: MethodNode): Frame<BasicValue> {
     val startFrame = Frame<BasicValue>(method.maxLocals, method.maxStack)
     val returnType = Type.getReturnType(method.desc)
-    startFrame.setReturn(if (returnType != Type.VOID_TYPE) TracedValue(Unknown) else null)
+
+    val returnValue =
+            if (returnType == Type.VOID_TYPE) null else TracedValue(Unknown, Type.getReturnType(method.desc))
+    startFrame.setReturn(returnValue)
 
     val args = Type.getArgumentTypes(method.desc)
     var local = 0
     var shift = 0
     if ((method.access and Opcodes.ACC_STATIC) == 0) {
-        startFrame.setLocal(local, TracedValue(ThisObject))
+        startFrame.setLocal(local, TracedValue(ThisObject, Type.getObjectType(owner)))
         local++
         shift = 1
     }
     for (i in 0..args.size - 1) {
-        startFrame.setLocal(local, TracedValue(Arg(i + shift)))
+        startFrame.setLocal(local, TracedValue(Arg(i + shift), args[i]))
         local++
         if (args[i].getSize() == 2) {
-            startFrame.setLocal(local, TracedValue(Unknown))
+            startFrame.setLocal(local, TracedValue(Unknown, null))
             local++
         }
     }
     while (local < method.maxLocals) {
-        startFrame.setLocal(local++, TracedValue(Unknown))
+        startFrame.setLocal(local++, TracedValue(Unknown, null))
     }
     return startFrame
 }
