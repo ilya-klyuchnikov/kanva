@@ -28,7 +28,7 @@ fun inferLib(jarFile: File) {
         processComponent(context, component)
     }
     println("${context.annotations.size()} annotations inferred")
-    writeAnnotationsToXmlByPackage(File("kanva"), context.annotations)
+    writeAnnotationsToXmlByPackage(File("kanva-annotations"), context.annotations)
 }
 
 fun processComponent(context: Context, component: Set<Node<Method>>) {
