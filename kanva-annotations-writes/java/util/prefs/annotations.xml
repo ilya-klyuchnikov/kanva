@@ -1,0 +1,200 @@
+<root>
+    <item name='java.util.prefs.AbstractPreferences.NodeAddedEvent NodeAddedEvent(java.util.prefs.AbstractPreferences, java.util.prefs.Preferences, java.util.prefs.Preferences) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences.NodeRemovedEvent NodeRemovedEvent(java.util.prefs.AbstractPreferences, java.util.prefs.Preferences, java.util.prefs.Preferences) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences AbstractPreferences(java.util.prefs.AbstractPreferences, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences java.util.prefs.AbstractPreferences access$000(java.util.prefs.AbstractPreferences) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences void addNodeChangeListener(java.util.prefs.NodeChangeListener) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences void addPreferenceChangeListener(java.util.prefs.PreferenceChangeListener) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences void exportNode(java.io.OutputStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences void exportSubtree(java.io.OutputStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences java.lang.String get(java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences boolean getBoolean(java.lang.String, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences byte[] getByteArray(java.lang.String, byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences double getDouble(java.lang.String, double) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences float getFloat(java.lang.String, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences int getInt(java.lang.String, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences long getLong(java.lang.String, long) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences java.util.prefs.Preferences node(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences java.util.prefs.Preferences node(java.util.StringTokenizer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences boolean nodeExists(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences boolean nodeExists(java.util.StringTokenizer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences void put(java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences void put(java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences void putBoolean(java.lang.String, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences void putByteArray(java.lang.String, byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences void putByteArray(java.lang.String, byte[]) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences void putDouble(java.lang.String, double) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences void putFloat(java.lang.String, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences void putInt(java.lang.String, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences void putLong(java.lang.String, long) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.Base64 byte[] altBase64ToByteArray(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.Base64 byte[] base64ToByteArray(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.Base64 byte[] base64ToByteArray(java.lang.String, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.Base64 int base64toInt(char, byte[]) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.Base64 java.lang.String byteArrayToAltBase64(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.Base64 java.lang.String byteArrayToBase64(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.Base64 java.lang.String byteArrayToBase64(byte[], boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.Base64 void main(java.lang.String[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.NodeChangeEvent NodeChangeEvent(java.util.prefs.Preferences, java.util.prefs.Preferences) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.PreferenceChangeEvent PreferenceChangeEvent(java.util.prefs.Preferences, java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.Preferences java.lang.String nodeName(java.lang.Class) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.Preferences java.util.prefs.Preferences systemNodeForPackage(java.lang.Class&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.Preferences java.util.prefs.Preferences userNodeForPackage(java.lang.Class&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences WindowsPreferences(java.util.prefs.WindowsPreferences, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences WindowsPreferences(java.util.prefs.WindowsPreferences, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences java.lang.String byteArrayToString(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences java.util.prefs.AbstractPreferences childSpi(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences int openKey(int, byte[], int, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences int openKey(byte[], int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences byte[] stringToByteArray(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences java.lang.String toJavaAlt64Name(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences java.lang.String toJavaName(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences java.lang.String toJavaValueString(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences byte[] toWindowsAlt64Name(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences byte[] toWindowsName(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences byte[] toWindowsValueString(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.XmlSupport.Resolver org.xml.sax.InputSource resolveEntity(java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.XmlSupport void ImportPrefs(java.util.prefs.Preferences, org.w3c.dom.Element) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.XmlSupport void ImportSubtree(java.util.prefs.Preferences, org.w3c.dom.Element) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.XmlSupport void ImportSubtree(java.util.prefs.Preferences, org.w3c.dom.Element) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.XmlSupport void export(java.io.OutputStream, java.util.prefs.Preferences, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.XmlSupport void export(java.io.OutputStream, java.util.prefs.Preferences, boolean) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.XmlSupport void exportMap(java.io.OutputStream, java.util.Map) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.XmlSupport void exportMap(java.io.OutputStream, java.util.Map) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.XmlSupport void putPreferencesInXml(org.w3c.dom.Element, org.w3c.dom.Document, java.util.prefs.Preferences, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.XmlSupport void putPreferencesInXml(org.w3c.dom.Element, org.w3c.dom.Document, java.util.prefs.Preferences, boolean) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.XmlSupport void writeDoc(org.w3c.dom.Document, java.io.OutputStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.XmlSupport void writeDoc(org.w3c.dom.Document, java.io.OutputStream) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

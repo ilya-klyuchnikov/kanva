@@ -1,0 +1,5 @@
+<root>
+    <item name='javax.rmi.CORBA.GetORBPropertiesFileAction void getPropertiesFromFile(java.util.Properties, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

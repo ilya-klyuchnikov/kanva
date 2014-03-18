@@ -1,0 +1,80 @@
+<root>
+    <item name='java.util.concurrent.atomic.AtomicIntegerArray AtomicIntegerArray(int[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.atomic.AtomicIntegerFieldUpdater.AtomicIntegerFieldUpdaterImpl AtomicIntegerFieldUpdaterImpl(java.lang.Class&lt;T&gt;, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.atomic.AtomicIntegerFieldUpdater.AtomicIntegerFieldUpdaterImpl AtomicIntegerFieldUpdaterImpl(java.lang.Class&lt;T&gt;, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.atomic.AtomicIntegerFieldUpdater java.util.concurrent.atomic.AtomicIntegerFieldUpdater&lt;U&gt; newUpdater(java.lang.Class&lt;U&gt;, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.atomic.AtomicIntegerFieldUpdater java.util.concurrent.atomic.AtomicIntegerFieldUpdater&lt;U&gt; newUpdater(java.lang.Class&lt;U&gt;, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.atomic.AtomicLongArray AtomicLongArray(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.atomic.AtomicLongFieldUpdater.CASUpdater CASUpdater(java.lang.Class&lt;T&gt;, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.atomic.AtomicLongFieldUpdater.CASUpdater CASUpdater(java.lang.Class&lt;T&gt;, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.atomic.AtomicLongFieldUpdater.LockedUpdater LockedUpdater(java.lang.Class&lt;T&gt;, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.atomic.AtomicLongFieldUpdater.LockedUpdater LockedUpdater(java.lang.Class&lt;T&gt;, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.atomic.AtomicLongFieldUpdater java.util.concurrent.atomic.AtomicLongFieldUpdater&lt;U&gt; newUpdater(java.lang.Class&lt;U&gt;, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.atomic.AtomicLongFieldUpdater java.util.concurrent.atomic.AtomicLongFieldUpdater&lt;U&gt; newUpdater(java.lang.Class&lt;U&gt;, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.atomic.AtomicMarkableReference V get(boolean[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.atomic.AtomicMarkableReference long objectFieldOffset(sun.misc.Unsafe, java.lang.String, java.lang.Class&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.atomic.AtomicMarkableReference long objectFieldOffset(sun.misc.Unsafe, java.lang.String, java.lang.Class&lt;?&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.atomic.AtomicMarkableReference long objectFieldOffset(sun.misc.Unsafe, java.lang.String, java.lang.Class&lt;?&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.atomic.AtomicReferenceArray AtomicReferenceArray(E[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.atomic.AtomicReferenceArray void readObject(java.io.ObjectInputStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.atomic.AtomicReferenceFieldUpdater.AtomicReferenceFieldUpdaterImpl AtomicReferenceFieldUpdaterImpl(java.lang.Class&lt;T&gt;, java.lang.Class&lt;V&gt;, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.atomic.AtomicReferenceFieldUpdater.AtomicReferenceFieldUpdaterImpl AtomicReferenceFieldUpdaterImpl(java.lang.Class&lt;T&gt;, java.lang.Class&lt;V&gt;, java.lang.String) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.atomic.AtomicReferenceFieldUpdater java.util.concurrent.atomic.AtomicReferenceFieldUpdater&lt;U,W&gt; newUpdater(java.lang.Class&lt;U&gt;, java.lang.Class&lt;W&gt;, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.atomic.AtomicReferenceFieldUpdater java.util.concurrent.atomic.AtomicReferenceFieldUpdater&lt;U,W&gt; newUpdater(java.lang.Class&lt;U&gt;, java.lang.Class&lt;W&gt;, java.lang.String) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.atomic.AtomicStampedReference V get(int[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.atomic.AtomicStampedReference long objectFieldOffset(sun.misc.Unsafe, java.lang.String, java.lang.Class&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.atomic.AtomicStampedReference long objectFieldOffset(sun.misc.Unsafe, java.lang.String, java.lang.Class&lt;?&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.atomic.AtomicStampedReference long objectFieldOffset(sun.misc.Unsafe, java.lang.String, java.lang.Class&lt;?&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

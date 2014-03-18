@@ -1,0 +1,17 @@
+<root>
+    <item name='javax.naming.spi.DirectoryManager javax.naming.directory.DirContext getContinuationDirContext(javax.naming.CannotProceedException) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.spi.NamingManager javax.naming.Context getContinuationContext(javax.naming.CannotProceedException) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.spi.NamingManager java.lang.String getURLScheme(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.spi.NamingManager java.lang.Object processURLAddrs(javax.naming.Reference, javax.naming.Name, javax.naming.Context, java.util.Hashtable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.spi.ResolveResult ResolveResult(java.lang.Object, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

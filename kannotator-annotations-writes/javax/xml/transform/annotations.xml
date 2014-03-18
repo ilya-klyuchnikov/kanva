@@ -1,0 +1,14 @@
+<root>
+    <item name='javax.xml.transform.TransformerConfigurationException TransformerConfigurationException(java.lang.Throwable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.transform.TransformerException TransformerException(java.lang.Throwable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.transform.TransformerException void printStackTrace(java.io.PrintStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.transform.TransformerFactoryConfigurationError TransformerFactoryConfigurationError(java.lang.Exception) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

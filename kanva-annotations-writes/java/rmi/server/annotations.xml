@@ -1,0 +1,65 @@
+<root>
+    <item name='java.rmi.server.LogStream java.rmi.server.LogStream log(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.ObjID java.rmi.server.ObjID read(java.io.ObjectInput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.ObjID void write(java.io.ObjectOutput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.RMIClassLoader.2 java.lang.String getClassAnnotation(java.lang.Class&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.RMIClassLoader.2 java.lang.Class&lt;?&gt; loadProxyClass(java.lang.String, java.lang.String[], java.lang.ClassLoader) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.RemoteObject void readObject(java.io.ObjectInputStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.RemoteObject void writeObject(java.io.ObjectOutputStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.RemoteObjectInvocationHandler RemoteObjectInvocationHandler(java.rmi.server.RemoteRef) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.RemoteObjectInvocationHandler long getMethodHash(java.lang.reflect.Method) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.RemoteObjectInvocationHandler java.lang.Object invoke(java.lang.Object, java.lang.reflect.Method, java.lang.Object[]) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.RemoteObjectInvocationHandler java.lang.Object invokeObjectMethod(java.lang.Object, java.lang.reflect.Method, java.lang.Object[]) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.RemoteObjectInvocationHandler java.lang.Object invokeRemoteMethod(java.lang.Object, java.lang.reflect.Method, java.lang.Object[]) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.RemoteObjectInvocationHandler java.lang.String proxyToString(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.UID java.rmi.server.UID read(java.io.DataInput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.UID void write(java.io.DataOutput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.UnicastRemoteObject java.rmi.server.RemoteStub exportObject(java.rmi.Remote) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.UnicastRemoteObject java.rmi.Remote exportObject(java.rmi.Remote, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.UnicastRemoteObject java.rmi.Remote exportObject(java.rmi.Remote, int, java.rmi.server.RMIClientSocketFactory, java.rmi.server.RMIServerSocketFactory) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.UnicastRemoteObject java.rmi.Remote exportObject(java.rmi.Remote, sun.rmi.server.UnicastServerRef) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.UnicastRemoteObject java.rmi.Remote exportObject(java.rmi.Remote, sun.rmi.server.UnicastServerRef) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.UnicastRemoteObject void readObject(java.io.ObjectInputStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

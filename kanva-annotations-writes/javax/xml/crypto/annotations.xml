@@ -1,0 +1,20 @@
+<root>
+    <item name='javax.xml.crypto.KeySelector.SingletonKeySelector SingletonKeySelector(java.security.Key) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.KeySelector.SingletonKeySelector java.security.Key access$000(javax.xml.crypto.KeySelector.SingletonKeySelector) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.KeySelector javax.xml.crypto.KeySelector singletonKeySelector(java.security.Key) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.OctetStreamData OctetStreamData(java.io.InputStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.OctetStreamData OctetStreamData(java.io.InputStream, java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.URIReferenceException URIReferenceException(java.lang.String, java.lang.Throwable, javax.xml.crypto.URIReference) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

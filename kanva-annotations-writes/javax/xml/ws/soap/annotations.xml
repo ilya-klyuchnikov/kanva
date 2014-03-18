@@ -1,0 +1,5 @@
+<root>
+    <item name='javax.xml.ws.soap.SOAPFaultException SOAPFaultException(javax.xml.soap.SOAPFault) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

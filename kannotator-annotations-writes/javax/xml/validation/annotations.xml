@@ -1,0 +1,29 @@
+<root>
+    <item name='javax.xml.validation.SchemaFactory javax.xml.validation.SchemaFactory newInstance(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.validation.SchemaFactory javax.xml.validation.Schema newSchema(java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.validation.SchemaFactory javax.xml.validation.Schema newSchema(java.net.URL) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.validation.SchemaFactoryFinder javax.xml.validation.SchemaFactory loadFromProperty(java.lang.String, java.lang.String, java.io.InputStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.validation.SchemaFactoryFinder javax.xml.validation.SchemaFactory loadFromProperty(java.lang.String, java.lang.String, java.io.InputStream) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.validation.SchemaFactoryFinder javax.xml.validation.SchemaFactory loadFromService(java.lang.String, java.lang.String, java.io.InputStream) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.validation.SchemaFactoryFinder javax.xml.validation.SchemaFactory newFactory(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.validation.SchemaFactoryFinder java.lang.String which(java.lang.Class) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.validation.SchemaFactoryFinder java.lang.String which(java.lang.String, java.lang.ClassLoader) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

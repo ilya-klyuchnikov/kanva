@@ -1,0 +1,80 @@
+<root>
+    <item name='java.lang.reflect.AccessibleObject void setAccessible(java.lang.reflect.AccessibleObject[], boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.reflect.AccessibleObject void setAccessible0(java.lang.reflect.AccessibleObject, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.reflect.AccessibleObject void slowCheckMemberAccess(java.lang.Class&lt;?&gt;, java.lang.Class&lt;?&gt;, java.lang.Object, int, java.lang.Class&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.reflect.AccessibleObject void slowCheckMemberAccess(java.lang.Class&lt;?&gt;, java.lang.Class&lt;?&gt;, java.lang.Object, int, java.lang.Class&lt;?&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.reflect.Constructor T getAnnotation(java.lang.Class&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.reflect.Field T getAnnotation(java.lang.Class&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.reflect.Field java.lang.String getTypeName(java.lang.Class&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.reflect.Method T getAnnotation(java.lang.Class&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.reflect.Proxy java.lang.reflect.InvocationHandler getInvocationHandler(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.reflect.Proxy java.lang.Class&lt;?&gt; getProxyClass(java.lang.ClassLoader, java.lang.Class&lt;?&gt;...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.reflect.Proxy boolean isProxyClass(java.lang.Class&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.reflect.Proxy java.lang.Object newProxyInstance(java.lang.ClassLoader, java.lang.Class&lt;?&gt;[], java.lang.reflect.InvocationHandler) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.reflect.Proxy java.lang.Object newProxyInstance(java.lang.ClassLoader, java.lang.Class&lt;?&gt;[], java.lang.reflect.InvocationHandler) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.reflect.ReflectAccess java.lang.reflect.Constructor&lt;T&gt; copyConstructor(java.lang.reflect.Constructor&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.reflect.ReflectAccess java.lang.reflect.Field copyField(java.lang.reflect.Field) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.reflect.ReflectAccess java.lang.reflect.Method copyMethod(java.lang.reflect.Method) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.reflect.ReflectAccess sun.reflect.ConstructorAccessor getConstructorAccessor(java.lang.reflect.Constructor&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.reflect.ReflectAccess byte[] getConstructorAnnotations(java.lang.reflect.Constructor&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.reflect.ReflectAccess byte[] getConstructorParameterAnnotations(java.lang.reflect.Constructor&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.reflect.ReflectAccess java.lang.String getConstructorSignature(java.lang.reflect.Constructor&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.reflect.ReflectAccess int getConstructorSlot(java.lang.reflect.Constructor&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.reflect.ReflectAccess sun.reflect.MethodAccessor getMethodAccessor(java.lang.reflect.Method) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.reflect.ReflectAccess void setConstructorAccessor(java.lang.reflect.Constructor&lt;?&gt;, sun.reflect.ConstructorAccessor) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.reflect.ReflectAccess void setMethodAccessor(java.lang.reflect.Method, sun.reflect.MethodAccessor) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.reflect.ReflectPermission ReflectPermission(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.reflect.ReflectPermission ReflectPermission(java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

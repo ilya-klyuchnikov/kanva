@@ -1,0 +1,50 @@
+<root>
+    <item name='javax.smartcardio.ATR ATR(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.ATR void readObject(java.io.ObjectInputStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.CardPermission CardPermission(java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.CardPermission CardPermission(java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.CardPermission int getMask(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.CardPermission void readObject(java.io.ObjectInputStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.CardPermission void writeObject(java.io.ObjectOutputStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.CardTerminals javax.smartcardio.CardTerminal getTerminal(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.CommandAPDU CommandAPDU(java.nio.ByteBuffer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.CommandAPDU CommandAPDU(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.CommandAPDU void readObject(java.io.ObjectInputStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.ResponseAPDU void check(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.ResponseAPDU void readObject(java.io.ObjectInputStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.TerminalFactory.NoneCardTerminals java.util.List&lt;javax.smartcardio.CardTerminal&gt; list(javax.smartcardio.CardTerminals.State) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.TerminalFactory javax.smartcardio.TerminalFactory getInstance(java.lang.String, java.lang.Object, java.lang.String) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.TerminalFactory javax.smartcardio.TerminalFactory getInstance(java.lang.String, java.lang.Object, java.security.Provider) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>
