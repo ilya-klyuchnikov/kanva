@@ -2,10 +2,6 @@ package kanva.analysis
 
 import java.util.HashSet
 
-import java.io.File
-import java.util.Date
-import java.util.HashMap
-
 import org.objectweb.asm.Type
 import org.objectweb.asm.Opcodes
 import org.objectweb.asm.tree.analysis.Analyzer
@@ -15,14 +11,10 @@ import org.objectweb.asm.tree.analysis.Frame
 import org.objectweb.asm.tree.MethodNode
 import org.objectweb.asm.tree.AbstractInsnNode
 import org.objectweb.asm.tree.MethodInsnNode
-import org.objectweb.asm.ClassVisitor
-import org.objectweb.asm.MethodVisitor
 
 import kanva.context.*
 import kanva.declarations.*
 import kanva.graphs.*
-import kanva.index.*
-import kanva.util.*
 
 fun buildCFG(method: Method, methodNode: MethodNode): Graph<Int> =
         ControlFlowBuilder().buildCFG(method, methodNode)
@@ -198,8 +190,14 @@ private class ThrowAnalyzer(
     }
 
     var nullTaken = false
-
+    var iterations = 0
     private fun visit(frame: Frame<BasicValue>, node: Node<Int>) {
+        iterations ++
+        if (iterations > 100000) {
+            println("exception analyzer: $iterations iterations")
+            throw RETURN_EXCEPTION
+        }
+
         val insnNode = methodNode.instructions[node.insnIndex]
         val insnType = insnNode.getType()
         val transitInstr =
@@ -234,12 +232,20 @@ private class ThrowAnalyzer(
                 visit(nextFrame, nextNode)
             }
         }
-        else if (opCode != Opcodes.ATHROW) {
+        else if (opCode.isReturn()) {
             // pruning
             throw RETURN_EXCEPTION
         }
     }
 }
+
+fun Int.isReturn() =
+    this == Opcodes.IRETURN ||
+    this == Opcodes.LRETURN ||
+    this == Opcodes.FRETURN ||
+    this == Opcodes.DRETURN ||
+    this == Opcodes.ARETURN ||
+    this == Opcodes.RETURN
 
 private fun createStartFrame(owner: String, method: MethodNode): Frame<BasicValue> {
     val startFrame = Frame<BasicValue>(method.maxLocals, method.maxStack)
