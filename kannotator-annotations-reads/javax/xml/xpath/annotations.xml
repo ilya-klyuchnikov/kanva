@@ -1,0 +1,53 @@
+<root>
+    <item name='javax.xml.xpath.SecuritySupport.3 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.xpath.SecuritySupport.6 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.xpath.SecuritySupport.8 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.xpath.XPathConstants BOOLEAN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.xpath.XPathConstants DOM_OBJECT_MODEL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.xpath.XPathConstants NODE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.xpath.XPathConstants NODESET'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.xpath.XPathConstants NUMBER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.xpath.XPathConstants STRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.xpath.XPathFactory DEFAULT_OBJECT_MODEL_URI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.xpath.XPathFactory DEFAULT_PROPERTY_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.xpath.XPathFactory javax.xml.xpath.XPathFactory newInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.xpath.XPathFactory javax.xml.xpath.XPathFactory newInstance(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.xpath.XPathFactory javax.xml.xpath.XPathFactory newInstance(java.lang.String, java.lang.String, java.lang.ClassLoader)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.xpath.XPathFactoryFinder SERVICE_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.xpath.XPathFactoryFinder SERVICE_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.xpath.XPathFactoryFinder java.util.Iterator createServiceFileIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,29 @@
+<root>
+    <item name='com.sun.corba.se.spi.servicecontext.CodeSetServiceContext java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.servicecontext.MaxStreamFormatVersionServiceContext singleton'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.servicecontext.MaxStreamFormatVersionServiceContext java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.servicecontext.ORBVersionServiceContext java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.servicecontext.SendingContextServiceContext java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.servicecontext.ServiceContext java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.servicecontext.ServiceContextData java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.servicecontext.ServiceContexts com.sun.corba.se.spi.servicecontext.ServiceContext unmarshal(java.lang.Integer, byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.servicecontext.UEInfoServiceContext java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

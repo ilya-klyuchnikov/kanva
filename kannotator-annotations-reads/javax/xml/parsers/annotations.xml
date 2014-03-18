@@ -1,0 +1,14 @@
+<root>
+    <item name='javax.xml.parsers.DocumentBuilderFactory DEFAULT_PROPERTY_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.parsers.SAXParserFactory DEFAULT_PROPERTY_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.parsers.SecuritySupport.3 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.parsers.SecuritySupport.5 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

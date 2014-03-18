@@ -1,0 +1,383 @@
+<root>
+    <item name='sun.security.provider.DSA.RawDSA digestBuffer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.DSA.RawDSA byte[] getDigest()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.DSA.RawDSA java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.DSA.SHA1withDSA dataSHA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.DSA.SHA1withDSA java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.DSA int[] SHA_7(int[], int[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.DSA int[] byteArray2IntArray(byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.DSA java.math.BigInteger generateK(java.math.BigInteger)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.DSA java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.DSAKeyFactory SERIAL_PROP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.DSAKeyFactory java.security.PrivateKey engineGeneratePrivate(java.security.spec.KeySpec)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.DSAKeyFactory java.security.PublicKey engineGeneratePublic(java.security.spec.KeySpec)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.DSAKeyFactory T engineGetKeySpec(java.security.Key, java.lang.Class&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.DSAKeyFactory java.security.Key engineTranslateKey(java.security.Key)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.DSAKeyPairGenerator java.security.KeyPair generateKeyPair()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.DSAKeyPairGenerator java.security.KeyPair generateKeyPair(java.math.BigInteger, java.math.BigInteger, java.math.BigInteger, java.security.SecureRandom)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.DSAKeyPairGenerator java.math.BigInteger generateX(java.security.SecureRandom, java.math.BigInteger)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.DSAParameterGenerator java.security.AlgorithmParameters engineGenerateParameters()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.DSAParameterGenerator java.math.BigInteger generateG(java.math.BigInteger, java.math.BigInteger)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.DSAParameterGenerator java.math.BigInteger[] generatePandQ(java.security.SecureRandom, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.DSAParameterGenerator byte[] toByteArray(java.math.BigInteger)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.DSAParameters T engineGetParameterSpec(java.lang.Class&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.DSAParameters java.lang.String engineToString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.DSAPrivateKey java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.DSAPublicKey java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.DSAPublicKeyImpl java.lang.Object writeReplace()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.DigestBase byte[] engineDigest()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.DigestBase padding'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.JavaKeyStore.JKS java.lang.String convertAlias(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.JavaKeyStore entries'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.JavaKeyStore java.security.MessageDigest getPreKeyedHash(char[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.KeyProtector DIGEST_ALG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.KeyProtector KEY_PROTECTOR_OID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.MD2 PADDING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.MD2 S'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.MD2 cBytes'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.MD2 java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.MD4 java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.MD4 java.security.MessageDigest getInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.MD4 md4Provider'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.MD4 x'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.MD5 java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.MD5 x'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.ParameterCache dhCache'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.ParameterCache dsaCache'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile.5 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile.5 java.security.CodeSource run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile.6 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile.6 java.security.CodeSource run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile.7 java.lang.Boolean run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile.7 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile.PolicyEntry permissions'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile.PolicyEntry java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile.PolicyInfo aliasMapping'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile.PolicyInfo identityPolicyEntries'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile.PolicyInfo pdMapping'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile.PolicyInfo policyEntries'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile.SelfPermission java.lang.String getActions()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile.SelfPermission java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile AUTH_POLICY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile AUTH_POLICY_URL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile NONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile P11KEYSTORE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile PARAMS0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile PARAMS1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile PARAMS2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile POLICY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile POLICY_URL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile SECURITY_MANAGER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile SELF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile X500PRINCIPAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile java.security.CodeSource access$700(sun.security.provider.PolicyFile, java.security.CodeSource, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile java.security.CodeSource canonicalizeCodebase(java.security.CodeSource, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile java.security.PermissionCollection getPermissions(java.security.ProtectionDomain)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile java.lang.String[][] getPrincipalInfo(sun.security.provider.PolicyParser.PrincipalEntry, java.security.Principal[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyFile java.lang.String printPD(java.security.ProtectionDomain)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyParser.GrantEntry java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyParser.GrantEntry java.util.Enumeration&lt;sun.security.provider.PolicyParser.PermissionEntry&gt; permissionElements()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyParser.PrincipalEntry WILDCARD_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyParser.PrincipalEntry WILDCARD_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyParser EXTDIRS_EXPANSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyParser EXTDIRS_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyParser OLD_EXTDIRS_EXPANSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyParser REPLACE_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyParser java.util.Enumeration&lt;sun.security.provider.PolicyParser.GrantEntry&gt; grantElements()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicyParser sun.security.provider.PolicyParser.PermissionEntry parsePermissionEntry()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.PolicySpiFile java.security.PermissionCollection engineGetPermissions(java.security.ProtectionDomain)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.SHA2 ROUND_CONSTS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.SHA2 W'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.SHA2 java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.SHA5.SHA384 INITIAL_HASHES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.SHA5.SHA384 java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.SHA5.SHA512 INITIAL_HASHES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.SHA5.SHA512 java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.SHA5 ROUND_CONSTS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.SHA5 W'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.SHA W'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.SHA java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.SecureRandom.SeederHolder seeder'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.SecureRandom byte[] engineGenerateSeed(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.SeedGenerator.ThreadedSeedGenerator.1 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.SeedGenerator.ThreadedSeedGenerator.1 java.lang.Thread run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.SeedGenerator.URLSeedGenerator java.io.File access$200(sun.security.provider.SeedGenerator.URLSeedGenerator, java.net.URL)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.SeedGenerator.URLSeedGenerator java.io.File getDeviceFile(java.net.URL)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.SeedGenerator URL_DEV_RANDOM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.SeedGenerator URL_DEV_URANDOM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.SeedGenerator byte[] access$000(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.SeedGenerator byte[] longToByteArray(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.SunEntries.1 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.SunEntries.1 java.lang.String run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.SunEntries PROP_EGD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.SunEntries PROP_RNDSOURCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.SunEntries URL_DEV_RANDOM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.SunEntries URL_DEV_URANDOM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.X509Factory BEGIN_CERT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.X509Factory END_CERT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.X509Factory certCache'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.X509Factory crlCache'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.X509Factory java.security.cert.CRL engineGenerateCRL(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.X509Factory java.util.Collection&lt;? extends java.security.cert.CRL&gt; engineGenerateCRLs(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.X509Factory java.security.cert.CertPath engineGenerateCertPath(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.X509Factory java.security.cert.CertPath engineGenerateCertPath(java.io.InputStream, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.X509Factory java.security.cert.CertPath engineGenerateCertPath(java.util.List&lt;? extends java.security.cert.Certificate&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.X509Factory java.security.cert.Certificate engineGenerateCertificate(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.X509Factory java.util.Collection&lt;? extends java.security.cert.Certificate&gt; engineGenerateCertificates(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.X509Factory java.util.Collection&lt;? extends java.security.cert.CRL&gt; parseX509orPKCS7CRL(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.X509Factory java.util.Collection&lt;? extends java.security.cert.Certificate&gt; parseX509orPKCS7Cert(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

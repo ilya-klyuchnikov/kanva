@@ -1,0 +1,41 @@
+<root>
+    <item name='sun.usagetracker.UsageTrackerClient DEFAULT_SEP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.usagetracker.UsageTrackerClient ORCL_UT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.usagetracker.UsageTrackerClient ORCL_UT_ADDITIONALPROPERTIES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.usagetracker.UsageTrackerClient ORCL_UT_CONFIG_FILE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.usagetracker.UsageTrackerClient ORCL_UT_DEBUG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.usagetracker.UsageTrackerClient ORCL_UT_LOGFILEMAXSIZE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.usagetracker.UsageTrackerClient ORCL_UT_LOGTOFILE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.usagetracker.UsageTrackerClient ORCL_UT_LOGTOUDP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.usagetracker.UsageTrackerClient ORCL_UT_SEPARATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.usagetracker.UsageTrackerClient ORCL_UT_VERBOSE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.usagetracker.UsageTrackerClient java.lang.String access$200(sun.usagetracker.UsageTrackerClient, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.usagetracker.UsageTrackerClient java.lang.String buildMessage(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.usagetracker.UsageTrackerClient userHomeKeyword'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,11 @@
+<root>
+    <item name='com.sun.xml.internal.fastinfoset.vocab.ParserVocabulary IDENTIFYING_STRING_TABLE_MAXIMUM_ITEMS_PEOPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.fastinfoset.vocab.ParserVocabulary NON_IDENTIFYING_STRING_TABLE_MAXIMUM_CHARACTERS_PEOPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.fastinfoset.vocab.ParserVocabulary NON_IDENTIFYING_STRING_TABLE_MAXIMUM_ITEMS_PEOPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

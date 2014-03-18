@@ -1,0 +1,170 @@
+<root>
+    <item name='javax.naming.ldap.InitialLdapContext BIND_CONTROLS_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.InitialLdapContext javax.naming.ldap.LdapContext getDefaultLdapInitCtx()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.LdapContext CONTROL_FACTORIES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.LdapName.1 java.lang.Object nextElement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.LdapName.1 java.lang.String nextElement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.LdapName javax.naming.Name add(int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.LdapName javax.naming.Name add(int, javax.naming.ldap.Rdn)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.LdapName javax.naming.Name add(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.LdapName javax.naming.Name add(javax.naming.ldap.Rdn)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.LdapName javax.naming.Name addAll(int, java.util.List&lt;javax.naming.ldap.Rdn&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.LdapName javax.naming.Name addAll(int, javax.naming.Name)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.LdapName javax.naming.Name addAll(java.util.List&lt;javax.naming.ldap.Rdn&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.LdapName javax.naming.Name addAll(javax.naming.Name)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.LdapName java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.LdapName java.lang.String get(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.LdapName java.util.Enumeration&lt;java.lang.String&gt; getAll()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.LdapName javax.naming.Name getPrefix(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.LdapName java.util.List&lt;javax.naming.ldap.Rdn&gt; getRdns()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.LdapName javax.naming.Name getSuffix(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.LdapName java.lang.Object remove(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.ManageReferralControl OID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.PagedResultsControl EMPTY_COOKIE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.PagedResultsControl OID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.PagedResultsControl byte[] setEncodedValue(int, byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.PagedResultsResponseControl OID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.Rdn.RdnEntry java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.Rdn java.lang.String access$300(byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.Rdn byte[] decodeHexPairs(char[], int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.Rdn java.lang.String escapeBinaryValue(byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.Rdn java.lang.String escapeStringValue(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.Rdn java.lang.String escapeValue(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.Rdn escapees'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.Rdn byte[] getUtf8Octets(char[], int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.Rdn javax.naming.ldap.Rdn put(java.lang.String, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.Rdn javax.naming.directory.Attributes toAttributes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.Rdn java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.Rdn java.lang.Object unescapeValue(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.Rfc2253Parser chars'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.Rfc2253Parser javax.naming.ldap.Rdn doParse(javax.naming.ldap.Rdn)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.Rfc2253Parser name'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.Rfc2253Parser java.lang.String parseAttrType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.Rfc2253Parser java.lang.String parseAttrValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.Rfc2253Parser java.lang.String parseBinaryAttrValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.Rfc2253Parser java.util.List parseDn()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.Rfc2253Parser java.lang.String parseQuotedAttrValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.Rfc2253Parser javax.naming.ldap.Rdn parseRdn()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.Rfc2253Parser javax.naming.ldap.Rdn parseRdn(javax.naming.ldap.Rdn)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.Rfc2253Parser java.lang.String parseStringAttrValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.SortControl OID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.SortControl byte[] setEncodedValue(javax.naming.ldap.SortKey[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.SortResponseControl OID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.StartTlsRequest OID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.StartTlsRequest java.lang.String getID()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.StartTlsRequest javax.naming.ConfigurationException wrapException(java.lang.Exception)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.StartTlsResponse OID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.StartTlsResponse java.lang.String getID()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

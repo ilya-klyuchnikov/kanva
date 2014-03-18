@@ -1,0 +1,41 @@
+<root>
+    <item name='sun.awt.geom.AreaOp java.util.Vector calculate(java.util.Vector, java.util.Vector)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.geom.AreaOp java.util.Vector pruneEdges(java.util.Vector)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.geom.Curve java.lang.String controlPointString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.geom.Curve java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.geom.CurveLink sun.awt.geom.Curve getMoveto()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.geom.Edge java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.geom.Order0 sun.awt.geom.Curve getReversedCurve()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.geom.Order0 sun.awt.geom.Curve getSubCurve(double, double, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.geom.Order1 sun.awt.geom.Curve getReversedCurve()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.geom.Order2 java.lang.String controlPointString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.geom.Order2 sun.awt.geom.Curve getReversedCurve()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.geom.Order3 java.lang.String controlPointString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.geom.Order3 sun.awt.geom.Curve getReversedCurve()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

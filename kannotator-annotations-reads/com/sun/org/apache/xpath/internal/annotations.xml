@@ -1,0 +1,32 @@
+<root>
+    <item name='com.sun.org.apache.xpath.internal.Expression com.sun.org.apache.xml.internal.dtm.DTMIterator asIteratorRaw(com.sun.org.apache.xpath.internal.XPathContext, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xpath.internal.NodeSet org.w3c.dom.traversal.NodeIterator cloneWithReset()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xpath.internal.NodeSetDTM com.sun.org.apache.xml.internal.dtm.DTMIterator cloneWithReset()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xpath.internal.VariableStack java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xpath.internal.VariableStack com.sun.org.apache.xpath.internal.objects.XObject getGlobalVariable(com.sun.org.apache.xpath.internal.XPathContext, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xpath.internal.VariableStack com.sun.org.apache.xpath.internal.objects.XObject getGlobalVariable(com.sun.org.apache.xpath.internal.XPathContext, int, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xpath.internal.VariableStack com.sun.org.apache.xpath.internal.objects.XObject getLocalVariable(com.sun.org.apache.xpath.internal.XPathContext, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xpath.internal.VariableStack com.sun.org.apache.xpath.internal.objects.XObject getLocalVariable(com.sun.org.apache.xpath.internal.XPathContext, int, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xpath.internal.XPathContext.XPathExpressionContext org.w3c.dom.traversal.NodeIterator getContextNodes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xpath.internal.XPathContext com.sun.org.apache.xml.internal.dtm.DTMIterator createDTMIterator(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

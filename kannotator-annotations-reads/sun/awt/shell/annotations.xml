@@ -1,0 +1,101 @@
+<root>
+    <item name='sun.awt.shell.DefaultShellFolder java.lang.String getFolderType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.DefaultShellFolder java.lang.Object writeReplace()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.ShellFolder COLUMN_DATE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.ShellFolder COLUMN_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.ShellFolder COLUMN_SIZE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.ShellFolder DEFAULT_COMPARATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.ShellFolder FILE_COMPARATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.ShellFolder java.io.File getAbsoluteFile()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.ShellFolder sun.awt.shell.ShellFolderColumnInfo[] getFolderColumns(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.ShellFolder java.io.File getNormalizedFile(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.ShellFolder sun.awt.shell.ShellFolder getShellFolder(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.ShellFolderManager sun.awt.shell.ShellFolder.Invoker createInvoker()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.ShellFolderManager sun.awt.shell.ShellFolder createShellFolder(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.Win32ShellFolder2.3 java.io.File call()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.Win32ShellFolder2.3 java.lang.Object call()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.Win32ShellFolder2.SystemIcon $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.Win32ShellFolder2.SystemIcon IDI_APPLICATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.Win32ShellFolder2.SystemIcon IDI_ASTERISK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.Win32ShellFolder2.SystemIcon IDI_ERROR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.Win32ShellFolder2.SystemIcon IDI_EXCLAMATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.Win32ShellFolder2.SystemIcon IDI_HAND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.Win32ShellFolder2.SystemIcon IDI_INFORMATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.Win32ShellFolder2.SystemIcon IDI_QUESTION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.Win32ShellFolder2.SystemIcon IDI_WARNING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.Win32ShellFolder2.SystemIcon IDI_WINLOGO'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.Win32ShellFolder2.SystemIcon sun.awt.shell.Win32ShellFolder2.SystemIcon valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.Win32ShellFolder2 java.lang.String composePathForCsidl(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.Win32ShellFolder2 java.io.File getCanonicalFile()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.Win32ShellFolderManager2.ComInvoker.4 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.Win32ShellFolderManager2.ComInvoker.4 java.lang.Thread run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.Win32ShellFolderManager2 STANDARD_VIEW_BUTTONS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.Win32ShellFolderManager2 sun.awt.shell.ShellFolder.Invoker createInvoker()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.awt.shell.Win32ShellFolderManager2 java.awt.Image getStandardViewButton(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,23 @@
+<root>
+    <item name='com.sun.xml.internal.ws.client.BindingProviderProperties HOSTNAME_VERIFICATION_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.client.BindingProviderProperties HTTP_COOKIE_JAR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.client.BindingProviderProperties JAXWS_CLIENT_HANDLE_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.client.BindingProviderProperties JAXWS_HANDLER_CONFIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.client.BindingProviderProperties ONE_WAY_OPERATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.client.BindingProviderProperties REDIRECT_REQUEST_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.client.ContentNegotiation PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

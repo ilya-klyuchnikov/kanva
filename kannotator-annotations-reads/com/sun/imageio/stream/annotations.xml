@@ -1,0 +1,5 @@
+<root>
+    <item name='com.sun.imageio.stream.StreamCloser com.sun.imageio.stream.StreamCloser.CloseAction createCloseAction(javax.imageio.stream.ImageInputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

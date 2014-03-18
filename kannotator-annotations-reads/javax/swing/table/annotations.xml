@@ -1,0 +1,95 @@
+<root>
+    <item name='javax.swing.table.AbstractTableModel java.lang.Class&lt;?&gt; getColumnClass(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.AbstractTableModel java.lang.String getColumnName(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.DefaultTableCellRenderer DEFAULT_NO_FOCUS_BORDER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.DefaultTableCellRenderer SAFE_NO_FOCUS_BORDER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.DefaultTableCellRenderer java.awt.Component getTableCellRendererComponent(javax.swing.JTable, java.lang.Object, boolean, boolean, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.DefaultTableColumnModel javax.swing.ListSelectionModel createSelectionModel()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.DefaultTableColumnModel java.util.Enumeration&lt;javax.swing.table.TableColumn&gt; getColumns()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.DefaultTableColumnModel int[] getSelectedColumns()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.DefaultTableModel java.lang.String getColumnName(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.DefaultTableModel java.util.Vector newVector(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.DefaultTableModel java.util.Vector nonNullVector(java.util.Vector)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.JTableHeader.AccessibleJTableHeader.AccessibleJTableHeaderEntry javax.accessibility.AccessibleComponent getAccessibleComponent()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.JTableHeader.AccessibleJTableHeader.AccessibleJTableHeaderEntry javax.accessibility.AccessibleContext getAccessibleContext()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.JTableHeader.AccessibleJTableHeader.AccessibleJTableHeaderEntry java.awt.Rectangle getBounds()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.JTableHeader.AccessibleJTableHeader.AccessibleJTableHeaderEntry java.awt.Point getLocation()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.JTableHeader.AccessibleJTableHeader.AccessibleJTableHeaderEntry java.awt.Dimension getSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.JTableHeader.AccessibleJTableHeader javax.accessibility.AccessibleRole getAccessibleRole()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.JTableHeader javax.swing.table.TableColumnModel createDefaultColumnModel()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.JTableHeader javax.swing.table.TableCellRenderer createDefaultRenderer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.JTableHeader java.awt.Rectangle getHeaderRect(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.JTableHeader java.lang.String getUIClassID()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.JTableHeader java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.JTableHeader uiClassID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.TableColumn.1 java.awt.Component getTableCellRendererComponent(javax.swing.JTable, java.lang.Object, boolean, boolean, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.TableColumn CELL_RENDERER_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.TableColumn COLUMN_WIDTH_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.TableColumn HEADER_RENDERER_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.TableColumn HEADER_VALUE_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.TableColumn javax.swing.table.TableCellRenderer createDefaultHeaderRenderer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.TableRowSorter.TableRowSorterModelWrapper java.lang.String getStringValueAt(int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.TableRowSorter COMPARABLE_COMPARATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

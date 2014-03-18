@@ -1,0 +1,77 @@
+<root>
+    <item name='sun.security.krb5.internal.AuthorizationData java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.AuthorizationData sun.security.krb5.internal.AuthorizationDataEntry item(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.AuthorizationData java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.AuthorizationDataEntry java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.AuthorizationDataEntry java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.ETypeInfo2 java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.ETypeInfo java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.EncTicketPart java.lang.String getHexBytes(byte[], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.HostAddress java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.HostAddresses java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.HostAddresses sun.security.krb5.internal.HostAddresses getLocalAddresses()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.KerberosTime java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.KerberosTime java.util.Date toDate()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.KerberosTime java.lang.String toGeneralizedTimeString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.KerberosTime java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.KerberosTime java.lang.String zeroPad(java.lang.String, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.Krb5 hexDumper'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.KrbCredInfo java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.LastReqEntry java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.NetClient sun.security.krb5.internal.NetClient getInstance(java.lang.String, java.lang.String, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.PAData java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.PAData java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.Ticket java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.TicketFlags java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.UDPClient byte[] receive()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

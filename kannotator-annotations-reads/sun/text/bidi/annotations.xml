@@ -1,0 +1,95 @@
+<root>
+    <item name='sun.text.bidi.BidiBase DirPropFlagE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiBase DirPropFlagLR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiBase DirPropFlagO'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiBase int[] getVisualMap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiBase groupProp'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiBase impAct0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiBase impAct1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiBase impAct2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiBase impTabL_DEFAULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiBase impTabL_GROUP_NUMBERS_WITH_R'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiBase impTabL_INVERSE_FOR_NUMBERS_SPECIAL_WITH_MARKS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiBase impTabL_INVERSE_LIKE_DIRECT_WITH_MARKS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiBase impTabL_INVERSE_NUMBERS_AS_L'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiBase impTabL_NUMBERS_SPECIAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiBase impTabProps'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiBase impTabR_DEFAULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiBase impTabR_GROUP_NUMBERS_WITH_R'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiBase impTabR_INVERSE_LIKE_DIRECT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiBase impTabR_INVERSE_LIKE_DIRECT_WITH_MARKS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiBase impTabR_INVERSE_NUMBERS_AS_L'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiBase impTab_DEFAULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiBase impTab_GROUP_NUMBERS_WITH_R'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiBase impTab_INVERSE_FOR_NUMBERS_SPECIAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiBase impTab_INVERSE_FOR_NUMBERS_SPECIAL_WITH_MARKS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiBase impTab_INVERSE_LIKE_DIRECT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiBase impTab_INVERSE_LIKE_DIRECT_WITH_MARKS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiBase impTab_INVERSE_NUMBERS_AS_L'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiBase impTab_NUMBERS_SPECIAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiBase java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiLine sun.text.bidi.BidiRun getLogicalRun(sun.text.bidi.BidiBase, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.text.bidi.BidiLine int[] getVisualMap(sun.text.bidi.BidiBase)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

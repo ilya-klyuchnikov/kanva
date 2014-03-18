@@ -1,0 +1,14 @@
+<root>
+    <item name='javax.xml.transform.sax.SAXResult FEATURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.transform.sax.SAXSource FEATURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.transform.sax.SAXTransformerFactory FEATURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.transform.sax.SAXTransformerFactory FEATURE_XMLFILTER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

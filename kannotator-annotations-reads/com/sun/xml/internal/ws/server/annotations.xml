@@ -1,0 +1,23 @@
+<root>
+    <item name='com.sun.xml.internal.ws.server.MonitorBase monitorProperty'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.server.RewritingMOM gmbalQuotingCharsRegex'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.server.RewritingMOM jmxQuotingCharsRegex'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.server.RewritingMOM replacementChar'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.server.SDDocumentImpl NS_XSD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.server.ServerPropertyConstants GET_ATTACHMENT_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.server.ServerPropertyConstants SET_ATTACHMENT_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

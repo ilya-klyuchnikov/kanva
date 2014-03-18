@@ -1,0 +1,11 @@
+<root>
+    <item name='com.sun.org.apache.xml.internal.resolver.readers.ExtendedXMLCatalogReader extendedNamespaceName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.resolver.readers.OASISXMLCatalogReader namespaceName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.resolver.readers.OASISXMLCatalogReader tr9401NamespaceName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,26 @@
+<root>
+    <item name='com.sun.security.jgss.AuthorizationDataEntry java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.security.jgss.GSSUtil javax.security.auth.Subject createSubject(org.ietf.jgss.GSSName, org.ietf.jgss.GSSCredential)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.security.jgss.InquireType $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.security.jgss.InquireType KRB5_GET_AUTHTIME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.security.jgss.InquireType KRB5_GET_AUTHZ_DATA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.security.jgss.InquireType KRB5_GET_SESSION_KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.security.jgss.InquireType KRB5_GET_TKT_FLAGS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.security.jgss.InquireType com.sun.security.jgss.InquireType valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

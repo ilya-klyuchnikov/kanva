@@ -1,0 +1,314 @@
+<root>
+    <item name='java.beans.ArrayPersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.BeansAppletContext java.util.Enumeration getApplets()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.DefaultPersistenceDelegate java.lang.reflect.Method findMethod(java.lang.Class, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.DefaultPersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.DesignMode PROPERTYNAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.Encoder java.beans.Statement cloneStatement(java.beans.Statement)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.Encoder finder'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.EnumPersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.EventSetDescriptor java.lang.String getListenerClassName(java.lang.Class)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.Expression java.lang.String instanceName(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.Expression java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.FeatureDescriptor TRANSIENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.FeatureDescriptor java.lang.Class[] getParameterTypes(java.lang.Class, java.lang.reflect.Method)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.FeatureDescriptor java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.Introspector ADD_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.Introspector EMPTY_EVENTSETDESCRIPTORS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.Introspector GET_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.Introspector IS_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.Introspector REMOVE_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.Introspector SET_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.Introspector declaredMethodCache'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.Introspector java.beans.BeanInfo getBeanInfo()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.Introspector java.beans.BeanInfo getBeanInfo(java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.Introspector java.beans.BeanInfo getBeanInfo(java.lang.Class&lt;?&gt;, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.Introspector java.beans.BeanInfo getBeanInfo(java.lang.Class&lt;?&gt;, java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.Introspector java.beans.BeanInfo getBeanInfo(java.lang.Class&lt;?&gt;, java.lang.Class&lt;?&gt;, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.Introspector java.lang.reflect.Method[] getPublicDeclaredMethods(java.lang.Class)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.Introspector java.beans.BeanDescriptor getTargetBeanDescriptor()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.Introspector java.lang.reflect.Method internalFindMethod(java.lang.Class, java.lang.String, int, java.lang.Class[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.Introspector java.lang.String makeQualifiedMethodName(java.lang.String, java.lang.String[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.Introspector java.beans.PropertyDescriptor mergePropertyDescriptor(java.beans.IndexedPropertyDescriptor, java.beans.IndexedPropertyDescriptor)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.Introspector java.beans.PropertyDescriptor mergePropertyDescriptor(java.beans.IndexedPropertyDescriptor, java.beans.PropertyDescriptor)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.Introspector java.beans.PropertyDescriptor mergePropertyDescriptor(java.beans.PropertyDescriptor, java.beans.PropertyDescriptor)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.MetaData.1 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.MetaData.1 java.lang.reflect.Field run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.MetaData fields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.NameGenerator java.lang.String instanceName(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.NameGenerator java.lang.String unqualifiedClassName(java.lang.Class)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.PrimitivePersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.PropertyChangeEvent java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.PropertyChangeSupport.PropertyChangeListenerMap EMPTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.PropertyChangeSupport.PropertyChangeListenerMap java.beans.PropertyChangeListener newProxy(java.lang.String, java.beans.PropertyChangeListener)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.PropertyChangeSupport.PropertyChangeListenerMap java.util.EventListener newProxy(java.lang.String, java.util.EventListener)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.PropertyChangeSupport serialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.PropertyEditorSupport java.lang.String getJavaInitializationString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.ProxyPersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.Statement java.lang.String instanceName(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.Statement java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.ThreadGroupContext contexts'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.ThreadGroupContext java.beans.ThreadGroupContext getContext()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.VetoableChangeSupport.VetoableChangeListenerMap EMPTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.VetoableChangeSupport.VetoableChangeListenerMap java.beans.VetoableChangeListener newProxy(java.lang.String, java.beans.VetoableChangeListener)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.VetoableChangeSupport.VetoableChangeListenerMap java.util.EventListener newProxy(java.lang.String, java.util.EventListener)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.VetoableChangeSupport serialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.XMLDecoder org.xml.sax.helpers.DefaultHandler createHandler(java.lang.Object, java.beans.ExceptionListener, java.lang.ClassLoader)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.XMLDecoder handler'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.XMLEncoder charset'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.XMLEncoder java.lang.String createString(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.XMLEncoder java.lang.String createString(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.XMLEncoder java.beans.XMLEncoder.ValueData getValueData(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.XMLEncoder java.lang.String quote(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.XMLEncoder java.util.List&lt;java.beans.Statement&gt; statementList(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_awt_AWTKeyStroke_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_awt_BorderLayout_PersistenceDelegate CONSTRAINTS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_awt_Font_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_awt_Insets_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_awt_MenuShortcut_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_lang_Class_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_lang_reflect_Field_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_lang_reflect_Method_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_Collections.CheckedCollection_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_Collections.CheckedList_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_Collections.CheckedMap_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_Collections.CheckedRandomAccessList_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_Collections.CheckedSet_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_Collections.CheckedSortedMap_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_Collections.CheckedSortedSet_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_Collections.EmptyList_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_Collections.EmptyMap_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_Collections.EmptySet_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_Collections.SingletonList_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_Collections.SingletonMap_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_Collections.SingletonSet_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_Collections.SynchronizedCollection_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_Collections.SynchronizedList_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_Collections.SynchronizedMap_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_Collections.SynchronizedRandomAccessList_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_Collections.SynchronizedSet_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_Collections.SynchronizedSortedMap_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_Collections.SynchronizedSortedSet_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_Collections.UnmodifiableCollection_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_Collections.UnmodifiableList_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_Collections.UnmodifiableMap_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_Collections.UnmodifiableRandomAccessList_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_Collections.UnmodifiableSet_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_Collections.UnmodifiableSortedMap_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_Collections.UnmodifiableSortedSet_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_Date_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_EnumMap_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.java_util_EnumSet_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.javax_swing_Box_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.javax_swing_ToolTipManager_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.javax_swing_border_MatteBorder_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.sun_swing_PrintColorUIResource_PersistenceDelegate java.beans.Expression instantiate(java.lang.Object, java.beans.Encoder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

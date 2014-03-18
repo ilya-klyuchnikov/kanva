@@ -1,0 +1,77 @@
+<root>
+    <item name='com.sun.corba.se.spi.logging.CORBALogDomains NAMING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.logging.CORBALogDomains NAMING_LIFECYCLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.logging.CORBALogDomains NAMING_READ'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.logging.CORBALogDomains NAMING_UPDATE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.logging.CORBALogDomains OA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.logging.CORBALogDomains OA_INVOCATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.logging.CORBALogDomains OA_IOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.logging.CORBALogDomains OA_LIFECYCLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.logging.CORBALogDomains ORB'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.logging.CORBALogDomains ORBD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.logging.CORBALogDomains ORBD_ACTIVATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.logging.CORBALogDomains ORBD_LOCATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.logging.CORBALogDomains ORBD_REPOSITORY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.logging.CORBALogDomains ORBD_SERVERTOOL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.logging.CORBALogDomains ORB_LIFECYCLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.logging.CORBALogDomains ORB_RESOLVER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.logging.CORBALogDomains RMIIIOP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.logging.CORBALogDomains RMIIIOP_DELEGATE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.logging.CORBALogDomains RPC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.logging.CORBALogDomains RPC_ENCODING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.logging.CORBALogDomains RPC_PRESENTATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.logging.CORBALogDomains RPC_PROTOCOL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.logging.CORBALogDomains RPC_TRANSPORT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.logging.CORBALogDomains TOP_LEVEL_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.logging.CORBALogDomains UTIL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

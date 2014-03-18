@@ -1,0 +1,11 @@
+<root>
+    <item name='com.sun.corba.se.impl.activation.ServerTool commandArg'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.activation.ServerTool helpCommand'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.activation.ServerTool toolName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,110 @@
+<root>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.AbstractTranslet EMPTYSTRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.AbstractTranslet ID_INDEX_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary AXIS_SUPPORT_ERR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary CANT_RESOLVE_RELATIVE_URI_ERR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary DATA_CONVERSION_ERR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary DOM_ADAPTER_INIT_ERR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary EMPTYSTRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary EQUALITY_EXPR_ERR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary ERROR_MESSAGES_KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary EXTERNAL_FUNC_ERR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary FORMAT_NUMBER_ERR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary INVALID_ARGUMENT_ERR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary INVALID_NCNAME_ERR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary INVALID_QNAME_ERR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary ITERATOR_CLONE_ERR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary NAMESPACES_SUPPORT_ERR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary NAMESPACE_PREFIX_ERR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary PARSER_DTD_SUPPORT_ERR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary RUN_TIME_COPY_ERR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary RUN_TIME_INTERNAL_ERR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary STRAY_ATTRIBUTE_ERR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary STRAY_NAMESPACE_ERR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary TYPED_AXIS_SUPPORT_ERR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary UNALLOWED_EXTENSION_ELEMENT_ERR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary UNALLOWED_EXTENSION_FUNCTION_ERR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary UNKNOWN_TRANSLET_VERSION_ERR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary UNSUPPORTED_EXT_ERR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary UNSUPPORTED_XSL_ERR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.Constants EMPTYSTRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.Constants NAMESPACE_FEATURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.Constants XMLNS_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.Constants XMLNS_STRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.Constants XMLNS_URI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.Constants XML_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.Constants XSLT_URI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.runtime.StringValueHandler EMPTY_STR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

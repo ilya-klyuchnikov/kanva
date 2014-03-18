@@ -1,0 +1,71 @@
+<root>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.trax.DOM2SAX EMPTYSTRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.trax.DOM2SAX XMLNS_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO EMPTYSTRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO XMLNS_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.trax.SmartTransformerFactoryImpl CLASS_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl AUTO_TRANSLET'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl DEBUG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl DEFAULT_TRANSLET_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl DESTINATION_DIRECTORY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl ENABLE_INLINING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl GENERATE_TRANSLET'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl INDENT_NUMBER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl JAR_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl PACKAGE_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl TRANSLET_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl USE_CLASSPATH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl EMPTY_STRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl LEXICAL_HANDLER_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl NAMESPACE_FEATURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl NAMESPACE_PREFIXES_FEATURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl NO_STRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl XML_STRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl YES_STRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

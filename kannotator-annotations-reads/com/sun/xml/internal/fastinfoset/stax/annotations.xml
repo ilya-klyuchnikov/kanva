@@ -1,0 +1,8 @@
+<root>
+    <item name='com.sun.xml.internal.fastinfoset.stax.StAXManager STAX_ENTITIES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.fastinfoset.stax.StAXManager STAX_NOTATIONS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

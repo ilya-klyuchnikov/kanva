@@ -1,0 +1,26 @@
+<root>
+    <item name='sun.rmi.registry.RegistryImpl.3 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.rmi.registry.RegistryImpl.3 sun.rmi.registry.RegistryImpl run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.rmi.registry.RegistryImpl java.security.AccessControlContext getAccessControlContext()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.rmi.registry.RegistryImpl java.lang.String getTextResource(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.rmi.registry.RegistryImpl java.lang.String[] list()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.rmi.registry.RegistryImpl java.rmi.Remote lookup(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.rmi.registry.RegistryImpl_Skel operations'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.rmi.registry.RegistryImpl_Stub operations'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

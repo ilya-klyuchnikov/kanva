@@ -1,0 +1,158 @@
+<root>
+    <item name='sun.net.www.protocol.http.AuthCacheValue.Type $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.AuthCacheValue.Type Proxy'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.AuthCacheValue.Type Server'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.AuthCacheValue.Type sun.net.www.protocol.http.AuthCacheValue.Type valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.AuthScheme $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.AuthScheme BASIC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.AuthScheme DIGEST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.AuthScheme KERBEROS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.AuthScheme NEGOTIATE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.AuthScheme NTLM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.AuthScheme UNKNOWN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.AuthScheme sun.net.www.protocol.http.AuthScheme valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.AuthenticationHeader java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.AuthenticationInfo java.lang.String cacheKey(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.AuthenticationInfo sun.net.www.protocol.http.AuthCacheValue.Type getAuthType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.AuthenticationInfo java.lang.String getHeaderName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.AuthenticationInfo java.lang.String getProxyAuthKey(java.lang.String, int, java.lang.String, sun.net.www.protocol.http.AuthScheme)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.AuthenticationInfo java.lang.String getServerAuthKey(java.net.URL, java.lang.String, sun.net.www.protocol.http.AuthScheme)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.AuthenticationInfo java.lang.String reducePath(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.DigestAuthentication charArray'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.DigestAuthentication java.lang.String computeDigest(boolean, java.lang.String, char[], java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.DigestAuthentication java.lang.String encode(java.lang.String, char[], java.security.MessageDigest)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.DigestAuthentication zeroPad'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.Handler java.net.URLConnection openConnection(java.net.URL)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.Handler java.net.URLConnection openConnection(java.net.URL, java.net.Proxy)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.HttpURLConnection.8 $SwitchMap$sun$net$www$protocol$http$AuthScheme'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.HttpURLConnection.TunnelState $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.HttpURLConnection.TunnelState NONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.HttpURLConnection.TunnelState SETUP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.HttpURLConnection.TunnelState TUNNELING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.HttpURLConnection.TunnelState sun.net.www.protocol.http.HttpURLConnection.TunnelState valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.HttpURLConnection EXCLUDE_HEADERS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.HttpURLConnection EXCLUDE_HEADERS2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.HttpURLConnection RETRY_MSG1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.HttpURLConnection RETRY_MSG2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.HttpURLConnection RETRY_MSG3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.HttpURLConnection SET_COOKIE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.HttpURLConnection SET_COOKIE2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.HttpURLConnection acceptString'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.HttpURLConnection java.lang.String connectRequestURI(java.net.URL)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.HttpURLConnection sun.net.www.http.HttpClient getNewHttpClient(java.net.URL, java.net.Proxy, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.HttpURLConnection sun.net.www.http.HttpClient getNewHttpClient(java.net.URL, java.net.Proxy, int, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.HttpURLConnection java.util.Map&lt;java.lang.String,java.util.List&lt;java.lang.String&gt;&gt; getRequestProperties()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.HttpURLConnection httpVersion'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.HttpURLConnection logger'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.HttpURLConnection sun.net.www.MessageHeader mapToMessageHeader(java.util.Map&lt;java.lang.String,java.util.List&lt;java.lang.String&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.HttpURLConnection restrictedHeaders'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.HttpURLConnection userAgent'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.NTLMAuthenticationProxy clazzStr'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.NTLMAuthenticationProxy isTrustedSiteStr'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.NTLMAuthenticationProxy supportsTAStr'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.www.protocol.http.NegotiateAuthentication hci'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

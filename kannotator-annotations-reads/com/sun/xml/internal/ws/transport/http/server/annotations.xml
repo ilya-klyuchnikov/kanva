@@ -1,0 +1,32 @@
+<root>
+    <item name='com.sun.xml.internal.ws.transport.http.server.PortableHttpHandler DELETE_METHOD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.transport.http.server.PortableHttpHandler GET_METHOD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.transport.http.server.PortableHttpHandler HEAD_METHOD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.transport.http.server.PortableHttpHandler POST_METHOD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.transport.http.server.PortableHttpHandler PUT_METHOD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.transport.http.server.WSHttpHandler DELETE_METHOD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.transport.http.server.WSHttpHandler GET_METHOD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.transport.http.server.WSHttpHandler HEAD_METHOD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.transport.http.server.WSHttpHandler POST_METHOD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.transport.http.server.WSHttpHandler PUT_METHOD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

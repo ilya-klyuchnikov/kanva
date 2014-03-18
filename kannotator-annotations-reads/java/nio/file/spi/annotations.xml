@@ -1,0 +1,23 @@
+<root>
+    <item name='java.nio.file.spi.FileSystemProvider.1 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.spi.FileSystemProvider.1 java.util.List&lt;java.nio.file.spi.FileSystemProvider&gt; run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.spi.FileSystemProvider java.util.List access$000()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.spi.FileSystemProvider java.util.List&lt;java.nio.file.spi.FileSystemProvider&gt; loadInstalledProviders()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.spi.FileSystemProvider lock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.spi.FileSystemProvider java.io.InputStream newInputStream(java.nio.file.Path, java.nio.file.OpenOption...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.spi.FileSystemProvider java.io.OutputStream newOutputStream(java.nio.file.Path, java.nio.file.OpenOption...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

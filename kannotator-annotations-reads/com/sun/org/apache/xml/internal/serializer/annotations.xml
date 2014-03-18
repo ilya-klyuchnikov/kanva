@@ -1,0 +1,149 @@
+<root>
+    <item name='com.sun.org.apache.xml.internal.serializer.CharInfo HTML_ENTITIES_RESOURCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.CharInfo XML_ENTITIES_RESOURCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.EmptySerializer ERR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.Encodings DEFAULT_MIME_ENCODING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.Encodings ENCODINGS_FILE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.Encodings ENCODINGS_PROP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.Method HTML'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.Method TEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.Method UNKNOWN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.Method XHTML'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.Method XML'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.NamespaceMappings EMPTYSTRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.NamespaceMappings XML_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory ORACLE_IS_STANDALONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory PROP_DIR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory PROP_FILE_HTML'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory PROP_FILE_TEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory PROP_FILE_UNKNOWN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory PROP_FILE_XML'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory S_BUILTIN_EXTENSIONS_UNIVERSAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory S_BUILTIN_EXTENSIONS_URL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory S_BUILTIN_OLD_EXTENSIONS_UNIVERSAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory S_BUILTIN_OLD_EXTENSIONS_URL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory S_KEY_CONTENT_HANDLER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory S_KEY_ENTITIES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory S_KEY_INDENT_AMOUNT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory S_KEY_LINE_SEPARATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory S_OMIT_META_TAG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory S_USE_URL_ESCAPING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory S_XALAN_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.OutputPropertiesFactory S_XSLT_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.SerializerConstants CDATA_CONTINUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.SerializerConstants CDATA_DELIMITER_CLOSE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.SerializerConstants CDATA_DELIMITER_OPEN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.SerializerConstants DEFAULT_SAX_SERIALIZER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.SerializerConstants EMPTYSTRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.SerializerConstants ENTITY_AMP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.SerializerConstants ENTITY_CRLF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.SerializerConstants ENTITY_GT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.SerializerConstants ENTITY_LT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.SerializerConstants ENTITY_QUOT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.SerializerConstants XMLNS_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.SerializerConstants XMLNS_URI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.SerializerConstants XMLVERSION10'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.SerializerConstants XMLVERSION11'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.SerializerConstants XML_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.ToStream COMMENT_BEGIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.ToStream COMMENT_END'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serializer.ToUnknownStream EMPTYSTRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

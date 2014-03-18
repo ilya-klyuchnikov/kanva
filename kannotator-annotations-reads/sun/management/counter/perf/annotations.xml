@@ -1,0 +1,74 @@
+<root>
+    <item name='sun.management.counter.perf.LongCounterSnapshot java.lang.Object getValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.management.counter.perf.PerfByteArrayCounter byte[] byteArrayValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.management.counter.perf.PerfByteArrayCounter java.lang.Object getValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.management.counter.perf.PerfByteArrayCounter java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.management.counter.perf.PerfByteArrayCounter java.lang.Object writeReplace()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.management.counter.perf.PerfDataType BOOLEAN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.management.counter.perf.PerfDataType BYTE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.management.counter.perf.PerfDataType CHAR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.management.counter.perf.PerfDataType DOUBLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.management.counter.perf.PerfDataType FLOAT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.management.counter.perf.PerfDataType ILLEGAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.management.counter.perf.PerfDataType INT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.management.counter.perf.PerfDataType LONG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.management.counter.perf.PerfDataType SHORT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.management.counter.perf.PerfInstrumentation java.util.List&lt;sun.management.counter.Counter&gt; findByPattern(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.management.counter.perf.PerfInstrumentation java.util.List&lt;sun.management.counter.Counter&gt; getAllCounters()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.management.counter.perf.PerfLongArrayCounter java.lang.Object getValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.management.counter.perf.PerfLongArrayCounter long[] longArrayValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.management.counter.perf.PerfLongArrayCounter java.lang.Object writeReplace()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.management.counter.perf.PerfLongCounter java.lang.Object getValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.management.counter.perf.PerfLongCounter java.lang.Object writeReplace()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.management.counter.perf.PerfStringCounter java.lang.Object getValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.management.counter.perf.PerfStringCounter java.lang.String stringValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.management.counter.perf.PerfStringCounter java.lang.Object writeReplace()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,44 @@
+<root>
+    <item name='com.sun.xml.internal.messaging.saaj.util.JaxmURI MARK_CHARACTERS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.messaging.saaj.util.JaxmURI RESERVED_CHARACTERS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.messaging.saaj.util.JaxmURI SCHEME_CHARACTERS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.messaging.saaj.util.JaxmURI USERINFO_CHARACTERS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.messaging.saaj.util.LogDomainConstants CLIENT_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.messaging.saaj.util.LogDomainConstants HTTP_CONN_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.messaging.saaj.util.LogDomainConstants MODULE_TOPLEVEL_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.messaging.saaj.util.LogDomainConstants NAMING_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.messaging.saaj.util.LogDomainConstants SOAP_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.messaging.saaj.util.LogDomainConstants SOAP_IMPL_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.messaging.saaj.util.LogDomainConstants SOAP_VER1_1_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.messaging.saaj.util.LogDomainConstants SOAP_VER1_2_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.messaging.saaj.util.LogDomainConstants UTIL_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.messaging.saaj.util.RejectDoctypeSaxFilter LEXICAL_HANDLER_PROP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

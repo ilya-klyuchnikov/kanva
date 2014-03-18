@@ -1,0 +1,38 @@
+<root>
+    <item name='com.sun.org.apache.xml.internal.resolver.helpers.BootstrapResolver java.lang.String makeAbsolute(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.resolver.helpers.BootstrapResolver xmlCatalogPubId'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.resolver.helpers.BootstrapResolver xmlCatalogRNG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.resolver.helpers.BootstrapResolver xmlCatalogSysId'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.resolver.helpers.BootstrapResolver xmlCatalogXSD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.resolver.helpers.FileURL java.net.URL makeURL(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.resolver.helpers.Namespaces java.lang.String getLocalName(org.w3c.dom.Element)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.resolver.helpers.Namespaces java.lang.String getPrefix(org.w3c.dom.Element)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.resolver.helpers.PublicId java.lang.String decodeURN(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.resolver.helpers.PublicId java.lang.String encodeURN(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.resolver.helpers.PublicId java.lang.String normalize(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.resolver.helpers.PublicId java.lang.String stringReplace(java.lang.String, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

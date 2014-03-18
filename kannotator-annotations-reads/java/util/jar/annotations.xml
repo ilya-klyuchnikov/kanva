@@ -1,0 +1,224 @@
+<root>
+    <item name='java.util.jar.Attributes.Name CLASS_PATH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Attributes.Name CONTENT_TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Attributes.Name EXTENSION_INSTALLATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Attributes.Name EXTENSION_LIST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Attributes.Name EXTENSION_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Attributes.Name IMPLEMENTATION_TITLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Attributes.Name IMPLEMENTATION_URL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Attributes.Name IMPLEMENTATION_VENDOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Attributes.Name IMPLEMENTATION_VENDOR_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Attributes.Name IMPLEMENTATION_VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Attributes.Name MAIN_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Attributes.Name MANIFEST_VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Attributes.Name SEALED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Attributes.Name SIGNATURE_VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Attributes.Name SPECIFICATION_TITLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Attributes.Name SPECIFICATION_VENDOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Attributes.Name SPECIFICATION_VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Attributes java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JarFile.1 java.lang.Object nextElement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JarFile.1 java.util.jar.JarFile.JarFileEntry nextElement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JarFile.3 java.lang.Object nextElement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JarFile.3 java.util.jar.JarFile.JarFileEntry nextElement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JarFile MANIFEST_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JarFile java.util.Enumeration&lt;java.util.jar.JarEntry&gt; entries()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JarFile java.util.Enumeration&lt;java.util.jar.JarEntry&gt; entries2()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JarFile java.util.Enumeration&lt;java.lang.String&gt; entryNames(java.security.CodeSource[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JarFile byte[] getBytes(java.util.zip.ZipEntry)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JarFile java.security.CodeSource getCodeSource(java.net.URL, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JarFile java.util.List getManifestDigests()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JarFile java.util.jar.JarEntry newEntry(java.util.zip.ZipEntry)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JarFile java.util.Enumeration&lt;java.lang.String&gt; unsignedEntryNames()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JarInputStream java.util.zip.ZipEntry createZipEntry(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JarInputStream byte[] getBytes(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JarVerifier.2 java.lang.Object nextElement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JarVerifier.2 java.util.jar.JarEntry nextElement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JarVerifier java.util.Enumeration&lt;java.util.jar.JarEntry&gt; entries2(java.util.jar.JarFile, java.util.Enumeration)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JarVerifier java.util.Enumeration&lt;java.lang.String&gt; entryNames(java.util.jar.JarFile, java.security.CodeSource[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JarVerifier java.security.CodeSource getCodeSource(java.net.URL, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JarVerifier java.security.CodeSource getCodeSource(java.net.URL, java.util.jar.JarFile, java.util.jar.JarEntry)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JarVerifier java.util.List getManifestDigests()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JarVerifier java.security.CodeSource getUnsignedCS(java.net.URL)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JarVerifier java.security.CodeSource mapSignersToCodeSource(java.net.URL, java.security.CodeSigner[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JarVerifier java.util.Enumeration&lt;java.lang.String&gt; unsignedEntryNames(java.util.jar.JarFile)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JavaUtilJarAccessImpl java.util.Enumeration&lt;java.util.jar.JarEntry&gt; entries2(java.util.jar.JarFile)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JavaUtilJarAccessImpl java.util.Enumeration&lt;java.lang.String&gt; entryNames(java.util.jar.JarFile, java.security.CodeSource[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JavaUtilJarAccessImpl java.security.CodeSource getCodeSource(java.util.jar.JarFile, java.net.URL, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.JavaUtilJarAccessImpl java.util.List getManifestDigests(java.util.jar.JarFile)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Manifest java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Pack200.Packer CLASS_ATTRIBUTE_PFX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Pack200.Packer CODE_ATTRIBUTE_PFX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Pack200.Packer DEFLATE_HINT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Pack200.Packer EFFORT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Pack200.Packer ERROR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Pack200.Packer FALSE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Pack200.Packer FIELD_ATTRIBUTE_PFX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Pack200.Packer KEEP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Pack200.Packer KEEP_FILE_ORDER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Pack200.Packer LATEST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Pack200.Packer METHOD_ATTRIBUTE_PFX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Pack200.Packer MODIFICATION_TIME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Pack200.Packer PASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Pack200.Packer PASS_FILE_PFX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Pack200.Packer PROGRESS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Pack200.Packer SEGMENT_LIMIT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Pack200.Packer STRIP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Pack200.Packer TRUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Pack200.Packer UNKNOWN_ATTRIBUTE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Pack200.Unpacker DEFLATE_HINT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Pack200.Unpacker FALSE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Pack200.Unpacker KEEP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Pack200.Unpacker PROGRESS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Pack200.Unpacker TRUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Pack200 PACK_PROVIDER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.jar.Pack200 UNPACK_PROVIDER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

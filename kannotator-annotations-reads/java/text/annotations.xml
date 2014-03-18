@@ -1,0 +1,605 @@
+<root>
+    <item name='java.text.Annotation java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.AttributeEntry java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.AttributedCharacterIterator.Attribute INPUT_METHOD_SEGMENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.AttributedCharacterIterator.Attribute LANGUAGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.AttributedCharacterIterator.Attribute READING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.AttributedCharacterIterator.Attribute instanceMap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.AttributedCharacterIterator.Attribute java.lang.Object readResolve()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.AttributedCharacterIterator.Attribute java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.AttributedString.AttributeMap java.util.Set entrySet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.AttributedString.AttributedStringIterator java.util.Set&lt;java.text.AttributedCharacterIterator.Attribute&gt; getAllAttributeKeys()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.AttributedString.AttributedStringIterator java.util.Map&lt;java.text.AttributedCharacterIterator.Attribute,java.lang.Object&gt; getAttributes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.AttributedString.AttributedStringIterator java.text.AttributedString getString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.AttributedString.AttributedStringIterator this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.AttributedString java.text.AttributedCharacterIterator getIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.AttributedString java.text.AttributedCharacterIterator getIterator(java.text.AttributedCharacterIterator.Attribute[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.AttributedString java.text.AttributedCharacterIterator getIterator(java.text.AttributedCharacterIterator.Attribute[], int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.Bidi java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.BreakDictionary.1 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.BreakIterator.BreakIteratorGetter INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.BreakIterator java.text.BreakIterator createBreakInstance(java.util.Locale, int, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.BreakIterator java.util.Locale[] getAvailableLocales()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.BreakIterator iterCache'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.CalendarBuilder java.text.CalendarBuilder addYear(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.CalendarBuilder java.util.Calendar establish(java.util.Calendar)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.CalendarBuilder field'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.CalendarBuilder java.text.CalendarBuilder set(int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.CalendarBuilder java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.CharacterIteratorFieldDelegate java.text.AttributedCharacterIterator getIterator(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.ChoiceFormat java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.ChoiceFormat double[] doubleArraySize(double[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.ChoiceFormat java.lang.String[] doubleArraySize(java.lang.String[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.ChoiceFormat java.lang.StringBuffer format(double, java.lang.StringBuffer, java.text.FieldPosition)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.ChoiceFormat java.lang.StringBuffer format(long, java.lang.StringBuffer, java.text.FieldPosition)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.ChoiceFormat java.lang.Number parse(java.lang.String, java.text.ParsePosition)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.ChoiceFormat java.lang.String toPattern()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.CollationElementIterator int[] makeReorderedBuffer(int, int, int[], boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.CollationKey java.lang.String getSourceString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.CollationKey source'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.CollationRules DEFAULTRULES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.Collator.CollatorGetter INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.Collator java.util.Locale[] getAvailableLocales()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat.DateFormatGetter INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat.Field AM_PM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat.Field DAY_OF_MONTH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat.Field DAY_OF_WEEK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat.Field DAY_OF_WEEK_IN_MONTH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat.Field DAY_OF_YEAR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat.Field ERA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat.Field HOUR0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat.Field HOUR1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat.Field HOUR_OF_DAY0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat.Field HOUR_OF_DAY1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat.Field MILLISECOND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat.Field MINUTE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat.Field MONTH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat.Field SECOND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat.Field TIME_ZONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat.Field WEEK_OF_MONTH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat.Field WEEK_OF_YEAR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat.Field YEAR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat.Field calendarToFieldMapping'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat.Field instanceMap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat.Field java.lang.Object readResolve()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat java.lang.String format(java.util.Date)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat java.text.DateFormat get(int, int, int, java.util.Locale)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat java.util.Locale[] getAvailableLocales()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat java.text.DateFormat getDateInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat java.text.DateFormat getDateInstance(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat java.text.DateFormat getDateInstance(int, java.util.Locale)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat java.text.DateFormat getDateTimeInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat java.text.DateFormat getDateTimeInstance(int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat java.text.DateFormat getDateTimeInstance(int, int, java.util.Locale)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat java.text.DateFormat getInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat java.text.DateFormat getTimeInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat java.text.DateFormat getTimeInstance(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormat java.text.DateFormat getTimeInstance(int, java.util.Locale)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormatSymbols.DateFormatSymbolsGetter INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormatSymbols cachedInstances'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormatSymbols java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormatSymbols java.util.Locale[] getAvailableLocales()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormatSymbols java.text.DateFormatSymbols getCachedInstance(java.util.Locale)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormatSymbols java.text.DateFormatSymbols getInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormatSymbols java.text.DateFormatSymbols getInstance(java.util.Locale)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormatSymbols java.text.DateFormatSymbols getInstanceRef(java.util.Locale)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormatSymbols patternChars'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DateFormatSymbols java.lang.String[] toOneBasedArray(java.lang.String[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DecimalFormat PATTERN_EXPONENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DecimalFormat cachedLocaleData'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DecimalFormat java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DecimalFormat java.lang.String expandAffix(java.lang.String, java.lang.StringBuffer)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DecimalFormat java.lang.StringBuffer format(double, java.lang.StringBuffer, java.text.FieldPosition)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DecimalFormat java.lang.StringBuffer format(double, java.lang.StringBuffer, java.text.Format.FieldDelegate)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DecimalFormat java.lang.StringBuffer format(long, java.lang.StringBuffer, java.text.FieldPosition)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DecimalFormat java.lang.StringBuffer format(long, java.lang.StringBuffer, java.text.Format.FieldDelegate)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DecimalFormat java.lang.StringBuffer format(java.lang.Object, java.lang.StringBuffer, java.text.FieldPosition)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DecimalFormat java.lang.StringBuffer format(java.math.BigDecimal, java.lang.StringBuffer, java.text.FieldPosition)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DecimalFormat java.lang.StringBuffer format(java.math.BigDecimal, java.lang.StringBuffer, java.text.Format.FieldDelegate)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DecimalFormat java.lang.StringBuffer format(java.math.BigInteger, java.lang.StringBuffer, java.text.FieldPosition)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DecimalFormat java.lang.StringBuffer format(java.math.BigInteger, java.lang.StringBuffer, java.text.Format.FieldDelegate, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DecimalFormat java.text.AttributedCharacterIterator formatToCharacterIterator(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DecimalFormat java.lang.StringBuffer subformat(java.lang.StringBuffer, java.text.Format.FieldDelegate, boolean, boolean, int, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DecimalFormat java.lang.String toLocalizedPattern()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DecimalFormat java.lang.String toPattern()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DecimalFormat java.lang.String toPattern(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DecimalFormatSymbols.DecimalFormatSymbolsGetter INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DecimalFormatSymbols cachedLocaleData'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DecimalFormatSymbols java.util.Locale[] getAvailableLocales()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DecimalFormatSymbols java.text.DecimalFormatSymbols getInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DecimalFormatSymbols java.text.DecimalFormatSymbols getInstance(java.util.Locale)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DigitList.1 $SwitchMap$java$math$RoundingMode'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DigitList LONG_MIN_REP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DigitList java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DigitList java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DontCareFieldPosition INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DontCareFieldPosition java.text.Format.FieldDelegate getFieldDelegate()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.DontCareFieldPosition noDelegate'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.FieldPosition java.text.Format.FieldDelegate getFieldDelegate()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.FieldPosition java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.Format java.text.AttributedCharacterIterator createAttributedCharacterIterator(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.Format java.text.AttributedCharacterIterator createAttributedCharacterIterator(java.lang.String, java.text.AttributedCharacterIterator.Attribute, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.Format java.text.AttributedCharacterIterator createAttributedCharacterIterator(java.text.AttributedCharacterIterator, java.text.AttributedCharacterIterator.Attribute, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.Format java.text.AttributedCharacterIterator createAttributedCharacterIterator(java.text.AttributedCharacterIterator[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.Format java.lang.String format(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.Format java.text.AttributedCharacterIterator formatToCharacterIterator(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.MergeCollation java.lang.String emitPattern()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.MergeCollation java.lang.String emitPattern(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.MergeCollation java.lang.String getPattern()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.MergeCollation java.lang.String getPattern(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.MessageFormat.Field ARGUMENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.MessageFormat DATE_TIME_MODIFIERS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.MessageFormat DATE_TIME_MODIFIER_KEYWORDS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.MessageFormat NUMBER_MODIFIER_KEYWORDS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.MessageFormat TYPE_KEYWORDS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.MessageFormat java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.MessageFormat java.lang.StringBuffer format(java.lang.Object, java.lang.StringBuffer, java.text.FieldPosition)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.MessageFormat java.lang.StringBuffer format(java.lang.Object[], java.lang.StringBuffer, java.text.FieldPosition)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.MessageFormat java.text.Format[] getFormats()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.MessageFormat java.text.Format[] getFormatsByArgumentIndex()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.MessageFormat java.lang.StringBuffer subformat(java.lang.Object[], java.lang.StringBuffer, java.text.FieldPosition, java.util.List)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.MessageFormat java.lang.String toPattern()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.Normalizer.Form $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.Normalizer.Form NFC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.Normalizer.Form NFD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.Normalizer.Form NFKC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.Normalizer.Form NFKD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.Normalizer.Form java.text.Normalizer.Form valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat.Field CURRENCY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat.Field DECIMAL_SEPARATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat.Field EXPONENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat.Field EXPONENT_SIGN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat.Field EXPONENT_SYMBOL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat.Field FRACTION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat.Field GROUPING_SEPARATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat.Field INTEGER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat.Field PERCENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat.Field PERMILLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat.Field SIGN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat.Field instanceMap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat.Field java.lang.Object readResolve()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat.NumberFormatGetter INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat cachedLocaleData'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat java.lang.String format(double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat java.lang.String format(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat java.util.Locale[] getAvailableLocales()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat java.text.NumberFormat getCurrencyInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat java.text.NumberFormat getCurrencyInstance(java.util.Locale)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat java.text.NumberFormat getInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat java.text.NumberFormat getInstance(java.util.Locale)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat java.text.NumberFormat getInstance(java.util.Locale, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat java.text.NumberFormat getIntegerInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat java.text.NumberFormat getIntegerInstance(java.util.Locale)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat java.text.NumberFormat getNumberInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat java.text.NumberFormat getNumberInstance(java.util.Locale)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat java.text.NumberFormat getPercentInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat java.text.NumberFormat getPercentInstance(java.util.Locale)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat java.text.NumberFormat getScientificInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.NumberFormat java.text.NumberFormat getScientificInstance(java.util.Locale)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.ParsePosition java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.PatternEntry java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.RuleBasedBreakIterator.1 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.RuleBasedBreakIterator.SafeCharIterator java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.RuleBasedBreakIterator LABEL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.RuleBasedBreakIterator byte[] readFile(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.RuleBasedBreakIterator java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.RuleBasedCollationKey byte[] toByteArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.RuleBasedCollator java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.RuleBasedCollator java.text.CollationElementIterator getCollationElementIterator(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.RuleBasedCollator java.text.CollationElementIterator getCollationElementIterator(java.text.CharacterIterator)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.SimpleDateFormat GMT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.SimpleDateFormat PATTERN_INDEX_TO_CALENDAR_FIELD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.SimpleDateFormat PATTERN_INDEX_TO_DATE_FORMAT_FIELD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.SimpleDateFormat PATTERN_INDEX_TO_DATE_FORMAT_FIELD_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.SimpleDateFormat cachedLocaleData'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.SimpleDateFormat cachedNumberFormatData'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.SimpleDateFormat java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.SimpleDateFormat char[] compile(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.SimpleDateFormat java.text.AttributedCharacterIterator formatToCharacterIterator(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.SimpleDateFormat java.text.DateFormatSymbols getDateFormatSymbols()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.SimpleDateFormat java.lang.String toLocalizedPattern()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.text.SimpleDateFormat java.lang.String translatePattern(java.lang.String, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

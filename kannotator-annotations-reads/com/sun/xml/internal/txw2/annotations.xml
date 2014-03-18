@@ -1,0 +1,8 @@
+<root>
+    <item name='com.sun.xml.internal.txw2.NamespaceSupport NSDECL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.txw2.NamespaceSupport XMLNS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

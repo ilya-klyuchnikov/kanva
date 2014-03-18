@@ -1,0 +1,35 @@
+<root>
+    <item name='com.sun.xml.internal.bind.unmarshaller.Messages ILLEGAL_READER_STATE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.bind.unmarshaller.Messages NULL_READER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.bind.unmarshaller.Messages UNDEFINED_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.bind.unmarshaller.Messages UNEXPECTED_ENTER_ATTRIBUTE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.bind.unmarshaller.Messages UNEXPECTED_ENTER_ELEMENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.bind.unmarshaller.Messages UNEXPECTED_LEAVE_ATTRIBUTE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.bind.unmarshaller.Messages UNEXPECTED_LEAVE_CHILD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.bind.unmarshaller.Messages UNEXPECTED_LEAVE_ELEMENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.bind.unmarshaller.Messages UNEXPECTED_ROOT_ELEMENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.bind.unmarshaller.Messages UNEXPECTED_ROOT_ELEMENT2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.bind.unmarshaller.Messages UNEXPECTED_TEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

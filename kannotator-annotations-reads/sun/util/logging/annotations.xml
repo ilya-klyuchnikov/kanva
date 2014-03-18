@@ -1,0 +1,32 @@
+<root>
+    <item name='sun.util.logging.LoggingSupport DEFAULT_FORMAT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.logging.LoggingSupport FORMAT_PROP_KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.logging.LoggingSupport java.lang.String getSimpleFormat()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.logging.LoggingSupport java.lang.String getSimpleFormat(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.logging.PlatformLogger.JavaLogger levelObjects'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.logging.PlatformLogger.LoggerProxy java.lang.String format(int, java.lang.String, java.lang.Throwable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.logging.PlatformLogger.LoggerProxy formatString'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.logging.PlatformLogger java.lang.String access$000(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.logging.PlatformLogger java.lang.String getLevelName(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.logging.PlatformLogger sun.util.logging.PlatformLogger getLogger(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

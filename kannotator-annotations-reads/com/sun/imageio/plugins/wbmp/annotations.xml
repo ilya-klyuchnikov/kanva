@@ -1,0 +1,47 @@
+<root>
+    <item name='com.sun.imageio.plugins.wbmp.WBMPImageReader javax.imageio.ImageReadParam getDefaultReadParam()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.wbmp.WBMPImageReader java.util.Iterator getImageTypes(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.wbmp.WBMPImageReader java.awt.image.BufferedImage read(int, javax.imageio.ImageReadParam)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.wbmp.WBMPImageReader java.awt.image.Raster readRaster(int, javax.imageio.ImageReadParam)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.wbmp.WBMPImageReaderSpi javax.imageio.ImageReader createReaderInstance(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.wbmp.WBMPImageReaderSpi java.lang.String getDescription(java.util.Locale)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.wbmp.WBMPImageWriter javax.imageio.metadata.IIOMetadata getDefaultImageMetadata(javax.imageio.ImageTypeSpecifier, javax.imageio.ImageWriteParam)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.wbmp.WBMPImageWriter byte[] intToMultiByte(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.wbmp.WBMPImageWriterSpi javax.imageio.ImageWriter createWriterInstance(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.wbmp.WBMPImageWriterSpi java.lang.String getDescription(java.util.Locale)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.wbmp.WBMPMetadata javax.imageio.metadata.IIOMetadataNode addChildNode(javax.imageio.metadata.IIOMetadataNode, java.lang.String, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.wbmp.WBMPMetadata org.w3c.dom.Node getNativeTree()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.wbmp.WBMPMetadata javax.imageio.metadata.IIOMetadataNode getStandardChromaNode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.wbmp.WBMPMetadata javax.imageio.metadata.IIOMetadataNode getStandardDimensionNode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.wbmp.WBMPMetadata nativeMetadataFormatName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

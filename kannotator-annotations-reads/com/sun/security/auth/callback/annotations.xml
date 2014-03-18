@@ -1,0 +1,5 @@
+<root>
+    <item name='com.sun.security.auth.callback.TextCallbackHandler java.lang.String readLine()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

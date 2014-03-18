@@ -1,0 +1,14 @@
+<root>
+    <item name='com.sun.org.omg.SendingContext.CodeBasePackage.URLSeqHelper java.lang.String[] extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.SendingContext.CodeBasePackage.URLSeqHelper java.lang.String[] read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.SendingContext.CodeBasePackage.ValueDescSeqHelper com.sun.org.omg.CORBA.ValueDefPackage.FullValueDescription[] extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.SendingContext.CodeBasePackage.ValueDescSeqHelper com.sun.org.omg.CORBA.ValueDefPackage.FullValueDescription[] read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

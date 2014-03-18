@@ -1,0 +1,23 @@
+<root>
+    <item name='sun.security.provider.certpath.ldap.LDAPCertStore ARL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.certpath.ldap.LDAPCertStore CA_CERT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.certpath.ldap.LDAPCertStore CRL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.certpath.ldap.LDAPCertStore CROSS_CERT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.certpath.ldap.LDAPCertStore DELTA_CRL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.certpath.ldap.LDAPCertStore PROP_LIFETIME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.provider.certpath.ldap.LDAPCertStore USER_CERT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

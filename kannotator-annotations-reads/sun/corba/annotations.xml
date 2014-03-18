@@ -1,0 +1,14 @@
+<root>
+    <item name='sun.corba.Bridge.1 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.corba.Bridge.2 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.corba.Bridge NO_ARGS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.corba.Bridge getBridgePermission'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

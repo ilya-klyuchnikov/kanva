@@ -1,0 +1,56 @@
+<root>
+    <item name='com.sun.xml.internal.ws.wsdl.writer.WSDLGenerator DOCUMENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.wsdl.writer.WSDLGenerator DOT_WSDL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.wsdl.writer.WSDLGenerator LITERAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.wsdl.writer.WSDLGenerator PARAMETERS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.wsdl.writer.WSDLGenerator REPLACE_WITH_ACTUAL_URL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.wsdl.writer.WSDLGenerator RESPONSE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.wsdl.writer.WSDLGenerator RESULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.wsdl.writer.WSDLGenerator RPC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.wsdl.writer.WSDLGenerator SOAP11_NAMESPACE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.wsdl.writer.WSDLGenerator SOAP12_NAMESPACE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.wsdl.writer.WSDLGenerator SOAP12_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.wsdl.writer.WSDLGenerator SOAP_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.wsdl.writer.WSDLGenerator TNS_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.wsdl.writer.WSDLGenerator UNWRAPPABLE_RESULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.wsdl.writer.WSDLGenerator WSDL_NAMESPACE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.wsdl.writer.WSDLGenerator XSD_NAMESPACE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.wsdl.writer.WSDLGenerator XSD_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.wsdl.writer.WSDLPatcher NS_XSD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

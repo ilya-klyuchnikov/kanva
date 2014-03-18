@@ -1,0 +1,68 @@
+<root>
+    <item name='com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter XMLNS_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter XML_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter_de XMLNS_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter_de XML_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter_es XMLNS_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter_es XML_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter_fr XMLNS_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter_fr XML_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter_it XMLNS_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter_it XML_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter_ja XMLNS_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter_ja XML_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter_ko XMLNS_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter_ko XML_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter_pt_BR XMLNS_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter_pt_BR XML_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter_sv XMLNS_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter_sv XML_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter_zh_CN XMLNS_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter_zh_CN XML_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter_zh_TW XMLNS_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.msg.XMLMessageFormatter_zh_TW XML_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,74 @@
+<root>
+    <item name='com.sun.management.GarbageCollectionNotificationInfo GARBAGE_COLLECTION_NOTIFICATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.management.GarbageCollectionNotificationInfo cdata'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.management.GarbageCollectionNotificationInfo gcAction'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.management.GarbageCollectionNotificationInfo gcCause'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.management.GarbageCollectionNotificationInfo gcName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.management.GarbageCollectionNotificationInfo java.lang.String getGcAction()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.management.GarbageCollectionNotificationInfo java.lang.String getGcCause()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.management.GarbageCollectionNotificationInfo java.lang.String getGcName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.management.GarbageCollectionNotificationInfo javax.management.openmbean.CompositeData toCompositeData(javax.management.openmbean.CompositeType)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.management.GcInfo cdata'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.management.GcInfo java.util.Map&lt;java.lang.String,java.lang.management.MemoryUsage&gt; getMemoryUsageAfterGc()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.management.GcInfo java.util.Map&lt;java.lang.String,java.lang.management.MemoryUsage&gt; getMemoryUsageBeforeGc()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.management.GcInfo javax.management.openmbean.CompositeData toCompositeData(javax.management.openmbean.CompositeType)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.management.MissionControl MBEAN_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.management.VMOption.Origin $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.management.VMOption.Origin CONFIG_FILE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.management.VMOption.Origin DEFAULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.management.VMOption.Origin ENVIRON_VAR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.management.VMOption.Origin ERGONOMIC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.management.VMOption.Origin MANAGEMENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.management.VMOption.Origin OTHER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.management.VMOption.Origin VM_CREATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.management.VMOption.Origin com.sun.management.VMOption.Origin valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.management.VMOption java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,29 @@
+<root>
+    <item name='com.sun.jndi.ldap.pool.ConnectionDesc java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.pool.Connections conns'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.pool.Connections com.sun.jndi.ldap.pool.PooledConnection get(long, com.sun.jndi.ldap.pool.PooledConnectionFactory)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.pool.Connections java.lang.String getStats()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.pool.Pool com.sun.jndi.ldap.pool.PooledConnection getPooledConnection(java.lang.Object, long, com.sun.jndi.ldap.pool.PooledConnectionFactory)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.pool.Pool map'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.pool.Pool queue'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.pool.Pool java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.pool.Pool weakRefs'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

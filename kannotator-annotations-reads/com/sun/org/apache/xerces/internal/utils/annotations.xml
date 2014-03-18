@@ -1,0 +1,14 @@
+<root>
+    <item name='com.sun.org.apache.xerces.internal.utils.ObjectFactory DEFAULT_PROPERTIES_FILENAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.utils.SecuritySupport.5 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.utils.SecuritySupport.8 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.utils.SecuritySupport securitySupport'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

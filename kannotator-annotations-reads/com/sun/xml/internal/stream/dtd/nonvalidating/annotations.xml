@@ -1,0 +1,29 @@
+<root>
+    <item name='com.sun.xml.internal.stream.dtd.nonvalidating.DTDGrammar int[][] resize(int[][], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.dtd.nonvalidating.DTDGrammar com.sun.org.apache.xerces.internal.xni.QName[][] resize(com.sun.org.apache.xerces.internal.xni.QName[][], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.dtd.nonvalidating.DTDGrammar java.lang.String[][] resize(java.lang.String[][], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.dtd.nonvalidating.DTDGrammar short[][] resize(short[][], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.dtd.nonvalidating.DTDGrammar java.lang.String[][][] resize(java.lang.String[][][], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.dtd.nonvalidating.XMLAttributeDecl name'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.dtd.nonvalidating.XMLAttributeDecl simpleType'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.dtd.nonvalidating.XMLElementDecl name'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.dtd.nonvalidating.XMLElementDecl simpleType'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

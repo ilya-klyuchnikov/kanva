@@ -1,0 +1,38 @@
+<root>
+    <item name='javax.xml.bind.util.JAXBSource java.lang.Object access$000(javax.xml.bind.util.JAXBSource)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.util.JAXBSource javax.xml.bind.Marshaller access$100(javax.xml.bind.util.JAXBSource)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.util.JAXBSource contentObject'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.util.JAXBSource marshaller'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.util.JAXBSource pseudoParser'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.util.Messages RESULT_NULL_CONTEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.util.Messages RESULT_NULL_UNMARSHALLER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.util.Messages SOURCE_NULL_CONTENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.util.Messages SOURCE_NULL_CONTEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.util.Messages SOURCE_NULL_MARSHALLER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.util.Messages UNRECOGNIZED_SEVERITY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.util.ValidationEventCollector events'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

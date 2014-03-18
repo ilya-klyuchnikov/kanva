@@ -1,0 +1,470 @@
+<root>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Base64 base64Alphabet'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Base64 byte[] decode(java.io.BufferedReader)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Base64 byte[] decode(byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Base64 java.math.BigInteger decodeBigIntegerFromElement(org.w3c.dom.Element)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Base64 java.math.BigInteger decodeBigIntegerFromText(org.w3c.dom.Text)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Base64 byte[] decodeInternal(byte[], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Base64 byte[] encode(java.math.BigInteger, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Base64 org.w3c.dom.Element encodeToElement(org.w3c.dom.Document, java.lang.String, byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Base64 byte[] getBytes(java.math.BigInteger, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Base64 lookUpBase64Alphabet'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.CachedXPathAPIHolder com.sun.org.apache.xpath.internal.CachedXPathAPI getCachedXPathAPI()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.CachedXPathFuncHereAPI com.sun.org.apache.xpath.internal.XPath createXPath(java.lang.String, com.sun.org.apache.xml.internal.utils.PrefixResolver)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants ALGO_ID_DIGEST_SHA1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants ALGO_ID_SIGNATURE_ECDSA_CERTICOM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants MoreAlgorithmsSpecNS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants NamespaceSpecNS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants SIGNATURESPECIFICATION_URL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants SignatureSpecNS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants XML_LANG_SPACE_SpecNS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _ATT_ALGORITHM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _ATT_ENCODING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _ATT_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _ATT_MIMETYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _ATT_TARGET'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _ATT_TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _ATT_URI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_CANONICALIZATIONMETHOD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_DIGESTMETHOD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_DIGESTVALUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_DSAKEYVALUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_EXPONENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_G'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_HMACOUTPUTLENGTH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_J'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_KEYINFO'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_KEYNAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_KEYVALUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_MANIFEST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_METHODS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_MGMTDATA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_MODULUS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_OBJECT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_P'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_PGENCOUNTER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_PGPDATA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_PGPKEYID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_PGPKEYPACKET'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_Q'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_RAWX509CERTIFICATE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_REFERENCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_RETRIEVALMETHOD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_RSAKEYVALUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_SEED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_SIGNATURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_SIGNATUREMETHOD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_SIGNATUREPROPERTIES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_SIGNATUREPROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_SIGNATUREVALUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_SIGNEDINFO'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_SPKIDATA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_SPKISEXP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_TRANSFORM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_TRANSFORMS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_X509CERTIFICATE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_X509CRL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_X509DATA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_X509ISSUERNAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_X509ISSUERSERIAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_X509SERIALNUMBER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_X509SKI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_X509SUBJECTNAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_XPATH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants _TAG_Y'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants configurationFile'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants configurationFileNew'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants exceptionMessagesResourceBundleBase'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.Constants exceptionMessagesResourceBundleDir'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.ElementProxy java.math.BigInteger getBigIntegerFromChildElement(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.ElementProxy org.w3c.dom.NodeList getElementPlusReturns()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.ElementProxy java.lang.String getTextFromTextChild()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants ALGO_ID_AUTHENTICATION_XMLSIGNATURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants ALGO_ID_BLOCKCIPHER_AES128'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants ALGO_ID_BLOCKCIPHER_AES192'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants ALGO_ID_BLOCKCIPHER_AES256'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants ALGO_ID_BLOCKCIPHER_TRIPLEDES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants ALGO_ID_C14N_OMITCOMMENTS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants ALGO_ID_C14N_WITHCOMMENTS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants ALGO_ID_ENCODING_BASE64'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants ALGO_ID_KEYAGREEMENT_DH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants ALGO_ID_KEYTRANSPORT_RSA15'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants ALGO_ID_KEYTRANSPORT_RSAOAEP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants ALGO_ID_KEYWRAP_AES128'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants ALGO_ID_KEYWRAP_AES192'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants ALGO_ID_KEYWRAP_AES256'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants ALGO_ID_KEYWRAP_TRIPLEDES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants ENCRYPTIONSPECIFICATION_URL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants EncryptionSpecNS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants TYPE_CONTENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants TYPE_ELEMENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants TYPE_MEDIATYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants _ATT_ALGORITHM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants _ATT_ENCODING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants _ATT_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants _ATT_MIMETYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants _ATT_RECIPIENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants _ATT_TARGET'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants _ATT_TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants _ATT_URI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants _TAG_AGREEMENTMETHOD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants _TAG_CARRIEDKEYNAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants _TAG_CIPHERDATA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants _TAG_CIPHERREFERENCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants _TAG_CIPHERVALUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants _TAG_DATAREFERENCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants _TAG_ENCRYPTEDDATA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants _TAG_ENCRYPTEDKEY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants _TAG_ENCRYPTIONMETHOD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants _TAG_ENCRYPTIONPROPERTIES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants _TAG_ENCRYPTIONPROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants _TAG_KA_NONCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants _TAG_KEYREFERENCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants _TAG_KEYSIZE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants _TAG_OAEPPARAMS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants _TAG_ORIGINATORKEYINFO'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants _TAG_RECIPIENTKEYINFO'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants _TAG_REFERENCELIST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionConstants _TAG_TRANSFORMS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.EncryptionElementProxy java.lang.String getBaseNamespace()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.I18n NOT_INITIALIZED_MSG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.I18n java.lang.String getExceptionMessage(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.I18n java.lang.String translate(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.JavaUtils byte[] getBytesFromFile(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.JavaUtils byte[] getBytesFromStream(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.RFC2253Parser java.lang.String changeLess32toRFC(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.RFC2253Parser java.lang.String changeLess32toXML(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.RFC2253Parser java.lang.String changeWStoRFC(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.RFC2253Parser java.lang.String changeWStoXML(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.RFC2253Parser java.lang.String normalize(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.RFC2253Parser java.lang.String normalizeAT(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.RFC2253Parser java.lang.String normalizeV(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.RFC2253Parser java.lang.String parseATAV(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.RFC2253Parser java.lang.String parseRDN(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.RFC2253Parser java.lang.String removeWSandReplace(java.lang.String, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.RFC2253Parser java.lang.String removeWhiteSpace(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.RFC2253Parser java.lang.String semicolonToComma(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.RFC2253Parser java.lang.String trim(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.SignatureElementProxy java.lang.String getBaseNamespace()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.UnsyncBufferedOutputStream.1 java.lang.Object initialValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.UnsyncByteArrayOutputStream.1 java.lang.Object initialValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.UnsyncByteArrayOutputStream byte[] toByteArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.XMLUtils java.util.Set convertNodelistToSet(org.w3c.dom.NodeList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.XMLUtils org.w3c.dom.Element createDSctx(org.w3c.dom.Document, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.XMLUtils java.util.Set excludeNodeFromSet(org.w3c.dom.Node, java.util.Set)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.XMLUtils java.lang.String getFullTextChildrenFromElement(org.w3c.dom.Element)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.XMLUtils org.w3c.dom.Element[] selectDsNodes(org.w3c.dom.Node, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.utils.XMLUtils org.w3c.dom.Element[] selectNodes(org.w3c.dom.Node, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

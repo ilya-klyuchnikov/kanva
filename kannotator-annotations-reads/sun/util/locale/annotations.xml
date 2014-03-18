@@ -1,0 +1,176 @@
+<root>
+    <item name='sun.util.locale.BaseLocale.Cache java.lang.Object createObject(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.BaseLocale.Cache sun.util.locale.BaseLocale createObject(sun.util.locale.BaseLocale.Key)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.BaseLocale.Cache java.lang.Object normalizeKey(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.BaseLocale.Cache sun.util.locale.BaseLocale.Key normalizeKey(sun.util.locale.BaseLocale.Key)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.BaseLocale.Key lang'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.BaseLocale.Key sun.util.locale.BaseLocale.Key normalize(sun.util.locale.BaseLocale.Key)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.BaseLocale.Key scrt'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.BaseLocale.Key vart'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.BaseLocale CACHE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.BaseLocale SEP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.BaseLocale sun.util.locale.BaseLocale createInstance(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.BaseLocale java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.InternalLocaleBuilder.CaseInsensitiveString lowerStr'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.InternalLocaleBuilder.CaseInsensitiveString str'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.InternalLocaleBuilder.CaseInsensitiveString java.lang.String value()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.InternalLocaleBuilder PRIVATEUSE_KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.InternalLocaleBuilder sun.util.locale.InternalLocaleBuilder addUnicodeLocaleAttribute(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.InternalLocaleBuilder sun.util.locale.InternalLocaleBuilder clear()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.InternalLocaleBuilder sun.util.locale.InternalLocaleBuilder clearExtensions()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.InternalLocaleBuilder sun.util.locale.InternalLocaleBuilder removeUnicodeLocaleAttribute(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.InternalLocaleBuilder sun.util.locale.InternalLocaleBuilder setExtension(char, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.InternalLocaleBuilder sun.util.locale.InternalLocaleBuilder setExtensions(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.InternalLocaleBuilder sun.util.locale.InternalLocaleBuilder setExtensions(java.util.List&lt;java.lang.String&gt;, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.InternalLocaleBuilder sun.util.locale.InternalLocaleBuilder setLanguage(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.InternalLocaleBuilder sun.util.locale.InternalLocaleBuilder setLanguageTag(sun.util.locale.LanguageTag)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.InternalLocaleBuilder sun.util.locale.InternalLocaleBuilder setLocale(sun.util.locale.BaseLocale, sun.util.locale.LocaleExtensions)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.InternalLocaleBuilder sun.util.locale.InternalLocaleBuilder setRegion(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.InternalLocaleBuilder sun.util.locale.InternalLocaleBuilder setScript(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.InternalLocaleBuilder sun.util.locale.InternalLocaleBuilder setUnicodeLocaleKeyword(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.InternalLocaleBuilder sun.util.locale.InternalLocaleBuilder setVariant(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.LanguageTag GRANDFATHERED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.LanguageTag PRIVATEUSE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.LanguageTag PRIVUSE_VARIANT_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.LanguageTag SEP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.LanguageTag UNDETERMINED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.LanguageTag java.lang.String canonicalizeExtension(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.LanguageTag java.lang.String canonicalizeExtensionSingleton(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.LanguageTag java.lang.String canonicalizeExtensionSubtag(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.LanguageTag java.lang.String canonicalizeExtlang(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.LanguageTag java.lang.String canonicalizeLanguage(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.LanguageTag java.lang.String canonicalizePrivateuse(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.LanguageTag java.lang.String canonicalizePrivateuseSubtag(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.LanguageTag java.lang.String canonicalizeRegion(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.LanguageTag java.lang.String canonicalizeScript(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.LanguageTag java.lang.String canonicalizeVariant(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.LanguageTag sun.util.locale.LanguageTag parse(java.lang.String, sun.util.locale.ParseStatus)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.LanguageTag sun.util.locale.LanguageTag parseLocale(sun.util.locale.BaseLocale, sun.util.locale.LocaleExtensions)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.LanguageTag java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.LocaleExtensions CALENDAR_JAPANESE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.LocaleExtensions NUMBER_THAI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.LocaleExtensions java.lang.String toID(java.util.SortedMap&lt;java.lang.Character,sun.util.locale.Extension&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.LocaleUtils java.lang.String toLowerString(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.LocaleUtils java.lang.String toTitleString(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.LocaleUtils java.lang.String toUpperString(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.StringTokenIterator sun.util.locale.StringTokenIterator setStart(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.StringTokenIterator sun.util.locale.StringTokenIterator setText(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.UnicodeLocaleExtension CA_JAPANESE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.util.locale.UnicodeLocaleExtension NU_THAI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

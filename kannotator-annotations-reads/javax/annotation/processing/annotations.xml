@@ -1,0 +1,14 @@
+<root>
+    <item name='javax.annotation.processing.AbstractProcessor java.util.Set&lt;java.lang.String&gt; arrayToSet(java.lang.String[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.annotation.processing.Completions.SimpleCompletion java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.annotation.processing.Completions javax.annotation.processing.Completion of(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.annotation.processing.Completions javax.annotation.processing.Completion of(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

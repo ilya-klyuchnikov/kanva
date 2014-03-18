@@ -1,0 +1,38 @@
+<root>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.dom.LoadDocument NAMESPACE_FEATURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.dom.SAXImpl EMPTYSTRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.dom.SAXImpl PRESERVE_STRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.dom.SAXImpl XMLNS_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.dom.SAXImpl XMLSPACE_STRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.dom.SAXImpl XML_LANG_ATTRIBUTE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.dom.SAXImpl XML_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.dom.SAXImpl XML_STRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.dom.SAXImpl XML_URI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.dom.SimpleResultTreeImpl EMPTY_STR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.dom.XSLTCDTMManager DEFAULT_CLASS_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.dom.XSLTCDTMManager DEFAULT_PROP_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

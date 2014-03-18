@@ -1,0 +1,8 @@
+<root>
+    <item name='com.sun.java.swing.plaf.motif.MotifCheckBoxUI propertyPrefix'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.motif.MotifGraphicsUtils MAX_ACC_WIDTH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

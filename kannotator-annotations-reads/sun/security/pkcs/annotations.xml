@@ -1,0 +1,134 @@
+<root>
+    <item name='sun.security.pkcs.ContentInfo OLD_DATA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.ContentInfo OLD_SDATA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.ContentInfo java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.ESSCertId java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS10 java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS10Attribute java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS10Attributes java.util.Collection&lt;sun.security.pkcs.PKCS10Attribute&gt; getAttributes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS10Attributes java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS7 java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS8Key java.lang.String getAlgorithm()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS8Key java.lang.String getFormat()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS8Key sun.security.pkcs.PKCS8Key parse(sun.security.util.DerValue)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS8Key java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS8Key java.lang.Object writeReplace()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS9Attribute CHALLENGE_PASSWORD_STR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS9Attribute CONTENT_TYPE_STR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS9Attribute COUNTERSIGNATURE_STR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS9Attribute EMAIL_ADDRESS_STR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS9Attribute EXTENDED_CERTIFICATE_ATTRIBUTES_STR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS9Attribute EXTENSION_REQUEST_STR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS9Attribute ISSUER_SERIALNUMBER_STR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS9Attribute MESSAGE_DIGEST_STR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS9Attribute NAME_OID_TABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS9Attribute OID_NAME_TABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS9Attribute PKCS9_OIDS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS9Attribute PKCS9_VALUE_TAGS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS9Attribute RSA_PROPRIETARY_STR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS9Attribute SIGNATURE_TIMESTAMP_TOKEN_STR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS9Attribute SIGNING_CERTIFICATE_STR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS9Attribute SIGNING_TIME_STR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS9Attribute SINGLE_VALUED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS9Attribute SMIME_CAPABILITY_STR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS9Attribute SMIME_SIGNING_DESC_STR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS9Attribute UNSTRUCTURED_ADDRESS_STR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS9Attribute UNSTRUCTURED_NAME_STR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS9Attribute VALUE_CLASSES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS9Attribute java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS9Attributes attributes'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS9Attributes sun.security.util.DerEncoder[] castToDerEncoder(java.lang.Object[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS9Attributes sun.security.pkcs.PKCS9Attribute[] getAttributes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.PKCS9Attributes java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.SignerInfo java.lang.String convertToStandardName(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.SignerInfo java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.pkcs.SigningCertificateInfo java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

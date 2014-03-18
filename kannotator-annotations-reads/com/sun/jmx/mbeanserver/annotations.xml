@@ -1,0 +1,467 @@
+<root>
+    <item name='com.sun.jmx.mbeanserver.ClassLoaderRepositorySupport EMPTY_LOADER_ARRAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.ClassLoaderRepositorySupport loadersWithNames'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.ClassLoaderRepositorySupport search'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.ConvertingMethod com.sun.jmx.mbeanserver.ConvertingMethod from(java.lang.reflect.Method)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.ConvertingMethod java.lang.reflect.Method getMethod()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.ConvertingMethod javax.management.openmbean.OpenType&lt;?&gt;[] getOpenParameterTypes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.ConvertingMethod method'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.ConvertingMethod java.lang.String methodName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.ConvertingMethod noStrings'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.ConvertingMethod paramMappings'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.CompositeBuilderCheckGetters java.lang.String applicable(java.lang.reflect.Method[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.CompositeMapping getterMappings'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.CompositeMapping getters'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.EnumMapping enumClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.EnumMapping T fromNonNullOpenValue(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.EnumMapping java.lang.Object fromNonNullOpenValue(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.MXBeanRefMapping java.lang.Object fromNonNullOpenValue(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.MXBeanRefMapping com.sun.jmx.mbeanserver.MXBeanLookup lookupNotNull(java.lang.Class&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.MXBeanRefMapping java.lang.Object toNonNullOpenValue(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.TabularMapping java.lang.Object fromNonNullOpenValue(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory.TabularMapping java.lang.Object toNonNullOpenValue(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory inProgress'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory java.io.InvalidObjectException invalidObjectException(java.lang.String, java.lang.Throwable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory java.io.InvalidObjectException invalidObjectException(java.lang.Throwable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory keyArray'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory keyValueArray'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory com.sun.jmx.mbeanserver.MXBeanMapping makeArrayOrCollectionMapping(java.lang.reflect.Type, java.lang.reflect.Type, com.sun.jmx.mbeanserver.MXBeanMappingFactory)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory com.sun.jmx.mbeanserver.MXBeanMapping makeCompositeMapping(java.lang.Class&lt;?&gt;, com.sun.jmx.mbeanserver.MXBeanMappingFactory)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory com.sun.jmx.mbeanserver.MXBeanMapping makeEnumMapping(java.lang.Class&lt;?&gt;, java.lang.Class&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory com.sun.jmx.mbeanserver.MXBeanMapping makeMXBeanRefMapping(java.lang.reflect.Type)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory com.sun.jmx.mbeanserver.MXBeanMapping makeMapping(java.lang.reflect.Type, com.sun.jmx.mbeanserver.MXBeanMappingFactory)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory com.sun.jmx.mbeanserver.MXBeanMapping makeParameterizedTypeMapping(java.lang.reflect.ParameterizedType, com.sun.jmx.mbeanserver.MXBeanMappingFactory)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory com.sun.jmx.mbeanserver.MXBeanMapping makeTabularMapping(java.lang.reflect.Type, boolean, java.lang.reflect.Type, java.lang.reflect.Type, com.sun.jmx.mbeanserver.MXBeanMappingFactory)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory com.sun.jmx.mbeanserver.MXBeanMapping mappingForType(java.lang.reflect.Type, com.sun.jmx.mbeanserver.MXBeanMappingFactory)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory mappings'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory javax.management.openmbean.OpenDataException openDataException(java.lang.String, java.lang.Throwable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory javax.management.openmbean.OpenDataException openDataException(java.lang.Throwable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory permanentMappings'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DescriptorCache instance'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.DescriptorCache map'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.Introspector.SimpleIntrospector GET_METHOD_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.Introspector.SimpleIntrospector IS_METHOD_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.Introspector.SimpleIntrospector cache'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.Introspector.SimpleIntrospector java.util.List&lt;java.lang.reflect.Method&gt; getReadMethods(java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.Introspector javax.management.MBeanInfo getClassMBeanInfo(com.sun.jmx.mbeanserver.MBeanIntrospector&lt;M&gt;, java.lang.Class&lt;?&gt;, java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.Introspector java.lang.Class&lt;? super T&gt; getStandardMBeanInterface(java.lang.Class&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.Introspector javax.management.DynamicMBean makeDynamicMBean(T)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.Introspector javax.management.MBeanInfo testCompliance(java.lang.Class&lt;?&gt;, java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.JmxMBeanServer java.io.ObjectInputStream deserialize(java.lang.String, javax.management.ObjectName, byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.JmxMBeanServer java.io.ObjectInputStream deserialize(java.lang.String, byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.JmxMBeanServer java.io.ObjectInputStream deserialize(javax.management.ObjectName, byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.JmxMBeanServer javax.management.loading.ClassLoaderRepository getClassLoaderRepository()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.JmxMBeanServer com.sun.jmx.mbeanserver.MBeanInstantiator getMBeanInstantiator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.JmxMBeanServer javax.management.MBeanServerDelegate getMBeanServerDelegate()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.JmxMBeanServer instantiator'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.JmxMBeanServer mBeanServerDelegateObject'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.JmxMBeanServer javax.management.MBeanServer newMBeanServer(java.lang.String, javax.management.MBeanServer, javax.management.MBeanServerDelegate, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.JmxMBeanServer javax.management.MBeanServerDelegate newMBeanServerDelegate()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.JmxMBeanServer outerShell'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.JmxMBeanServer secureClr'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.JmxMBeanServerBuilder javax.management.MBeanServer newMBeanServer(java.lang.String, javax.management.MBeanServer, javax.management.MBeanServerDelegate)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.JmxMBeanServerBuilder javax.management.MBeanServerDelegate newMBeanServerDelegate()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MBeanAnalyzer.MethodOrder instance'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MBeanAnalyzer com.sun.jmx.mbeanserver.MBeanAnalyzer&lt;M&gt; analyzer(java.lang.Class&lt;?&gt;, com.sun.jmx.mbeanserver.MBeanIntrospector&lt;M&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MBeanAnalyzer java.util.List&lt;java.lang.reflect.Method&gt; eliminateCovariantMethods(java.util.List&lt;java.lang.reflect.Method&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MBeanInstantiator java.io.ObjectInputStream deserialize(java.lang.ClassLoader, byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MBeanInstantiator java.io.ObjectInputStream deserialize(java.lang.String, javax.management.ObjectName, byte[], java.lang.ClassLoader)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MBeanInstantiator primitiveClasses'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MBeanIntrospector.MBeanInfoMaker attrs'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MBeanIntrospector.MBeanInfoMaker javax.management.MBeanInfo makeMBeanInfo(java.lang.Class&lt;?&gt;, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MBeanIntrospector.MBeanInfoMaker ops'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MBeanIntrospector javax.management.MBeanConstructorInfo[] findConstructors(java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MBeanIntrospector javax.management.MBeanInfo getClassMBeanInfo(java.lang.Class&lt;?&gt;, com.sun.jmx.mbeanserver.PerInterface&lt;M&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MBeanIntrospector javax.management.MBeanInfo getMBeanInfo(java.lang.Object, com.sun.jmx.mbeanserver.PerInterface&lt;M&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MBeanIntrospector java.util.List&lt;java.lang.reflect.Method&gt; getMethods(java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MBeanIntrospector com.sun.jmx.mbeanserver.PerInterface&lt;M&gt; getPerInterface(java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MBeanIntrospector javax.management.MBeanInfo makeInterfaceMBeanInfo(java.lang.Class&lt;?&gt;, com.sun.jmx.mbeanserver.MBeanAnalyzer&lt;M&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MBeanServerDelegateImpl attributeInfos'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MBeanServerDelegateImpl attributeNames'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MBeanServerDelegateImpl delegateInfo'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MBeanServerDelegateImpl javax.management.AttributeList getAttributes(java.lang.String[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MBeanServerDelegateImpl javax.management.MBeanInfo getMBeanInfo()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MBeanServerDelegateImpl javax.management.AttributeList setAttributes(javax.management.AttributeList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MBeanSupport javax.management.AttributeList getAttributes(java.lang.String[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MBeanSupport javax.management.MBeanInfo getMBeanInfo()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MBeanSupport java.lang.Object getResource()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MBeanSupport mbeanInfo'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MBeanSupport perInterface'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MBeanSupport resource'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MBeanSupport javax.management.AttributeList setAttributes(javax.management.AttributeList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MXBeanIntrospector com.sun.jmx.mbeanserver.MBeanAnalyzer&lt;com.sun.jmx.mbeanserver.ConvertingMethod&gt; getAnalyzer(java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MXBeanIntrospector javax.management.Descriptor getBasicMBeanDescriptor()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MXBeanIntrospector javax.management.MBeanAttributeInfo getMBeanAttributeInfo(java.lang.String, com.sun.jmx.mbeanserver.ConvertingMethod, com.sun.jmx.mbeanserver.ConvertingMethod)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MXBeanIntrospector javax.management.MBeanAttributeInfo getMBeanAttributeInfo(java.lang.String, java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MXBeanIntrospector javax.management.MBeanOperationInfo getMBeanOperationInfo(java.lang.String, com.sun.jmx.mbeanserver.ConvertingMethod)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MXBeanIntrospector javax.management.MBeanOperationInfo getMBeanOperationInfo(java.lang.String, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MXBeanIntrospector com.sun.jmx.mbeanserver.MBeanIntrospector.PerInterfaceMap&lt;com.sun.jmx.mbeanserver.ConvertingMethod&gt; getPerInterfaceMap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MXBeanIntrospector instance'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MXBeanIntrospector com.sun.jmx.mbeanserver.ConvertingMethod mFrom(java.lang.reflect.Method)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MXBeanIntrospector java.lang.Object mFrom(java.lang.reflect.Method)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MXBeanIntrospector mbeanInfoMap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MXBeanIntrospector perInterfaceMap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MXBeanIntrospector javax.management.Descriptor typeDescriptor(javax.management.openmbean.OpenType&lt;?&gt;, java.lang.reflect.Type)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MXBeanLookup currentLookup'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MXBeanLookup com.sun.jmx.mbeanserver.MXBeanLookup lookupFor(javax.management.MBeanServerConnection)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MXBeanLookup mbscToLookup'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MXBeanLookup mxbeanToObjectName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MXBeanLookup objectNameToProxy'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MXBeanMapping java.lang.reflect.Type getJavaType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MXBeanMapping javaType'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MXBeanMapping openType'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MXBeanMappingFactory DEFAULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MXBeanProxy handlerMap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MXBeanSupport lock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.MXBeanSupport java.util.Set&lt;java.lang.Class&lt;?&gt;&gt; transitiveInterfaces(java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.NamedObject name'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.PerInterface java.util.Map access$200(com.sun.jmx.mbeanserver.PerInterface)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.PerInterface java.util.Map access$300(com.sun.jmx.mbeanserver.PerInterface)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.PerInterface java.util.Map access$500(com.sun.jmx.mbeanserver.PerInterface)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.PerInterface getters'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.PerInterface ops'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.PerInterface setters'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.PerInterface java.lang.String sigString(java.lang.String[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.Repository.ObjectNamePattern keys'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.Repository.ObjectNamePattern values'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.Repository domainTb'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.Repository lock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.StandardMBeanIntrospector definitelyImmutable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.StandardMBeanIntrospector com.sun.jmx.mbeanserver.MBeanAnalyzer&lt;java.lang.reflect.Method&gt; getAnalyzer(java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.StandardMBeanIntrospector javax.management.MBeanAttributeInfo getMBeanAttributeInfo(java.lang.String, java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.StandardMBeanIntrospector javax.management.MBeanAttributeInfo getMBeanAttributeInfo(java.lang.String, java.lang.reflect.Method, java.lang.reflect.Method)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.StandardMBeanIntrospector javax.management.Descriptor getMBeanDescriptor(java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.StandardMBeanIntrospector javax.management.MBeanOperationInfo getMBeanOperationInfo(java.lang.String, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.StandardMBeanIntrospector javax.management.MBeanOperationInfo getMBeanOperationInfo(java.lang.String, java.lang.reflect.Method)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.StandardMBeanIntrospector java.lang.String[] getSignature(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.StandardMBeanIntrospector java.lang.String[] getSignature(java.lang.reflect.Method)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.StandardMBeanIntrospector instance'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.StandardMBeanIntrospector mbeanInfoMap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.StandardMBeanIntrospector perInterfaceMap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.StandardMBeanSupport javax.management.MBeanInfo getMBeanInfo()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.Util java.util.IdentityHashMap&lt;K,V&gt; newIdentityHashMap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.Util java.util.Map&lt;K,V&gt; newInsertionOrderMap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.Util java.util.List&lt;E&gt; newList()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.Util java.util.List&lt;E&gt; newList(java.util.Collection&lt;E&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.Util java.util.Map&lt;K,V&gt; newMap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.Util javax.management.ObjectName newObjectName(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.Util java.util.Set&lt;E&gt; newSet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.Util java.util.Set&lt;E&gt; newSet(java.util.Collection&lt;E&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.Util java.util.SortedMap&lt;K,V&gt; newSortedMap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.Util java.util.SortedMap&lt;K,V&gt; newSortedMap(java.util.Comparator&lt;? super K&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.Util java.util.Map&lt;K,V&gt; newSynchronizedIdentityHashMap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.Util java.util.Map&lt;K,V&gt; newSynchronizedMap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.WeakIdentityHashMap com.sun.jmx.mbeanserver.WeakIdentityHashMap&lt;K,V&gt; make()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.WeakIdentityHashMap java.lang.ref.WeakReference&lt;K&gt; makeReference(K)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.mbeanserver.WeakIdentityHashMap java.lang.ref.WeakReference&lt;K&gt; makeReference(K, java.lang.ref.ReferenceQueue&lt;K&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

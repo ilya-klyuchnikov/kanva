@@ -1,0 +1,23 @@
+<root>
+    <item name='com.sun.xml.internal.messaging.saaj.soap.name.NameImpl SOAP11_NAMESPACE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.messaging.saaj.soap.name.NameImpl SOAP12_NAMESPACE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.messaging.saaj.soap.name.NameImpl SOAP_ENVELOPE_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.messaging.saaj.soap.name.NameImpl XML_NAMESPACE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.messaging.saaj.soap.name.NameImpl XML_NAMESPACE_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.messaging.saaj.soap.name.NameImpl XML_SCHEMA_NAMESPACE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.messaging.saaj.soap.name.NameImpl XML_SCHEMA_NAMESPACE_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

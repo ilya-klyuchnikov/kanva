@@ -1,0 +1,35 @@
+<root>
+    <item name='sun.net.idn.Punycode basicToDigit'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.idn.Punycode java.lang.StringBuffer decode(java.lang.StringBuffer, boolean[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.idn.Punycode java.lang.StringBuffer encode(java.lang.StringBuffer, boolean[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.idn.StringPrep sun.text.normalizer.VersionInfo getVersionInfo(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.idn.StringPrep java.lang.StringBuffer map(sun.text.normalizer.UCharacterIterator, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.idn.StringPrep java.lang.StringBuffer normalize(java.lang.StringBuffer)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.idn.StringPrep java.lang.StringBuffer prepare(sun.text.normalizer.UCharacterIterator, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.idn.StringPrepDataReader DATA_FORMAT_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.idn.StringPrepDataReader DATA_FORMAT_VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.idn.StringPrepDataReader int[] readIndexes(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.idn.UCharacterDirection java.lang.String toString(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

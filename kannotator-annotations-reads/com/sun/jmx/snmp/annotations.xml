@@ -1,0 +1,80 @@
+<root>
+    <item name='com.sun.jmx.snmp.ServiceName BUILD_NUMBER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.snmp.ServiceName DELEGATE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.snmp.ServiceName DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.snmp.ServiceName HTML_ADAPTOR_SERVER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.snmp.ServiceName HTTPS_CONNECTOR_SERVER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.snmp.ServiceName HTTP_CONNECTOR_SERVER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.snmp.ServiceName JMX_IMPL_VENDOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.snmp.ServiceName JMX_IMPL_VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.snmp.ServiceName JMX_SPEC_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.snmp.ServiceName JMX_SPEC_VENDOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.snmp.ServiceName JMX_SPEC_VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.snmp.ServiceName MLET'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.snmp.ServiceName RMI_CONNECTOR_SERVER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.snmp.ServiceName SNMP_ADAPTOR_SERVER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.snmp.SnmpCounter64 name'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.snmp.SnmpCounter name'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.snmp.SnmpGauge name'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.snmp.SnmpInt name'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.snmp.SnmpIpAddress name'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.snmp.SnmpNull name'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.snmp.SnmpOid name'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.snmp.SnmpOpaque name'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.snmp.SnmpParameters defaultRdCommunity'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.snmp.SnmpString name'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.snmp.SnmpTimeticks name'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.snmp.SnmpUnsignedInt name'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

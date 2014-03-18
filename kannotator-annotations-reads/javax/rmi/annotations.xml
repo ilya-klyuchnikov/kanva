@@ -1,0 +1,11 @@
+<root>
+    <item name='javax.rmi.GetORBPropertiesFileAction java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.rmi.PortableRemoteObject PortableRemoteObjectClassKey'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.rmi.PortableRemoteObject defaultPortableRemoteObjectImplName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

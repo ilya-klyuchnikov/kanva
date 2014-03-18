@@ -1,0 +1,140 @@
+<root>
+    <item name='sun.security.jca.GetInstance.Instance java.lang.Object[] toArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.GetInstance sun.security.jca.GetInstance.Instance getInstance(java.lang.String, java.lang.Class, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.GetInstance sun.security.jca.GetInstance.Instance getInstance(java.lang.String, java.lang.Class, java.lang.String, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.GetInstance sun.security.jca.GetInstance.Instance getInstance(java.lang.String, java.lang.Class, java.lang.String, java.lang.Object, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.GetInstance sun.security.jca.GetInstance.Instance getInstance(java.lang.String, java.lang.Class, java.lang.String, java.lang.Object, java.security.Provider)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.GetInstance sun.security.jca.GetInstance.Instance getInstance(java.lang.String, java.lang.Class, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.GetInstance sun.security.jca.GetInstance.Instance getInstance(java.lang.String, java.lang.Class, java.lang.String, java.security.Provider)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.GetInstance sun.security.jca.GetInstance.Instance getInstance(java.security.Provider.Service, java.lang.Class)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.GetInstance sun.security.jca.GetInstance.Instance getInstance(java.security.Provider.Service, java.lang.Class, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.GetInstance java.security.Provider.Service getService(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.GetInstance java.security.Provider.Service getService(java.lang.String, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.GetInstance java.security.Provider.Service getService(java.lang.String, java.lang.String, java.security.Provider)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.GetInstance java.util.List&lt;java.security.Provider.Service&gt; getServices(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.GetInstance java.util.List&lt;java.security.Provider.Service&gt; getServices(java.lang.String, java.util.List&lt;java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.GetInstance java.util.List&lt;java.security.Provider.Service&gt; getServices(java.util.List&lt;sun.security.jca.ServiceId&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.JCAUtil LOCK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.JCAUtil java.security.SecureRandom getSecureRandom()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.ProviderConfig CL_STRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.ProviderConfig P11_SOL_ARG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.ProviderConfig P11_SOL_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.ProviderList.2 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.ProviderList.2 sun.security.jca.ProviderList run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.ProviderList.ServiceList.1 java.lang.Object next()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.ProviderList.ServiceList.1 java.security.Provider.Service next()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.ProviderList.ServiceList java.lang.Object get(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.ProviderList.ServiceList java.security.Provider.Service get(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.ProviderList.ServiceList java.util.Iterator&lt;java.security.Provider.Service&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.ProviderList EMPTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.ProviderList EMPTY_PROVIDER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.ProviderList P0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.ProviderList PC0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.ProviderList sun.security.jca.ProviderList add(sun.security.jca.ProviderList, java.security.Provider)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.ProviderList sun.security.jca.ProviderList getJarList(java.lang.String[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.ProviderList java.util.List&lt;java.security.Provider.Service&gt; getServices(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.ProviderList java.util.List&lt;java.security.Provider.Service&gt; getServices(java.lang.String, java.util.List&lt;java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.ProviderList java.util.List&lt;java.security.Provider.Service&gt; getServices(java.util.List&lt;sun.security.jca.ServiceId&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.ProviderList sun.security.jca.ProviderList insertAt(sun.security.jca.ProviderList, java.security.Provider, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.ProviderList sun.security.jca.ProviderList newList(java.security.Provider...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.ProviderList sun.security.jca.ProviderList remove(sun.security.jca.ProviderList, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.ProviderList sun.security.jca.ProviderList removeInvalid()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.ProviderList java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.ProviderList userList'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.Providers BACKUP_PROVIDER_CLASSNAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.Providers sun.security.jca.ProviderList getFullProviderList()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.Providers jarVerificationProviders'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jca.Providers threadLists'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

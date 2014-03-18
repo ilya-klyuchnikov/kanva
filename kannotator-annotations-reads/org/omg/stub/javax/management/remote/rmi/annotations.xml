@@ -1,0 +1,20 @@
+<root>
+    <item name='org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie _type_ids'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie org.omg.CORBA.Object thisObject()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.stub.javax.management.remote.rmi._RMIConnection_Stub _type_ids'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie _type_ids'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie org.omg.CORBA.Object thisObject()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.stub.javax.management.remote.rmi._RMIServer_Stub _type_ids'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

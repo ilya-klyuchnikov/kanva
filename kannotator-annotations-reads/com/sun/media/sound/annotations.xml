@@ -1,0 +1,1121 @@
+<root>
+    <item name='com.sun.media.sound.AbstractLine eventDispatcher'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AbstractLine javax.sound.sampled.Control[] getControls()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AbstractMidiDevice java.util.List&lt;javax.sound.midi.Receiver&gt; getReceivers()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AbstractMidiDevice java.util.List&lt;javax.sound.midi.Transmitter&gt; getTransmitters()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AbstractMidiDeviceProvider javax.sound.midi.MidiDevice.Info[] getDeviceInfo()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AbstractMixer javax.sound.sampled.Line.Info[] getSourceLineInfo()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AbstractMixer javax.sound.sampled.Line.Info[] getSourceLineInfo(javax.sound.sampled.Line.Info)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AbstractMixer javax.sound.sampled.Line[] getSourceLines()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AbstractMixer javax.sound.sampled.Line.Info[] getTargetLineInfo()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AbstractMixer javax.sound.sampled.Line.Info[] getTargetLineInfo(javax.sound.sampled.Line.Info)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AbstractMixer javax.sound.sampled.Line[] getTargetLines()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AiffFileReader javax.sound.sampled.AudioFileFormat getAudioFileFormat(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AiffFileReader javax.sound.sampled.AudioFileFormat getAudioFileFormat(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AiffFileReader javax.sound.sampled.AudioFileFormat getAudioFileFormat(java.net.URL)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AiffFileReader javax.sound.sampled.AudioInputStream getAudioInputStream(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AiffFileReader javax.sound.sampled.AudioInputStream getAudioInputStream(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AiffFileReader javax.sound.sampled.AudioInputStream getAudioInputStream(java.net.URL)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AiffFileReader javax.sound.sampled.AudioFileFormat getCOMM(java.io.InputStream, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AiffFileReader types'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AiffFileWriter aiffTypes'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AiffFileWriter javax.sound.sampled.AudioFileFormat getAudioFileFormat(javax.sound.sampled.AudioFileFormat.Type, javax.sound.sampled.AudioInputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AiffFileWriter javax.sound.sampled.AudioFileFormat.Type[] getAudioFileTypes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AiffFileWriter javax.sound.sampled.AudioFileFormat.Type[] getAudioFileTypes(javax.sound.sampled.AudioInputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AiffFileWriter java.io.InputStream getFileStream(com.sun.media.sound.AiffFileFormat, java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AlawCodec.AlawCodecStream this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AlawCodec ALAW_TABH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AlawCodec ALAW_TABL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AlawCodec alawEncodings'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AlawCodec javax.sound.sampled.AudioInputStream getAudioInputStream(javax.sound.sampled.AudioFormat.Encoding, javax.sound.sampled.AudioInputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AlawCodec javax.sound.sampled.AudioInputStream getAudioInputStream(javax.sound.sampled.AudioFormat, javax.sound.sampled.AudioInputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AlawCodec javax.sound.sampled.AudioInputStream getConvertedStream(javax.sound.sampled.AudioFormat, javax.sound.sampled.AudioInputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AlawCodec javax.sound.sampled.AudioFormat[] getOutputFormats(javax.sound.sampled.AudioFormat)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AlawCodec javax.sound.sampled.AudioFormat.Encoding[] getSourceEncodings()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AlawCodec javax.sound.sampled.AudioFormat.Encoding[] getTargetEncodings()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AlawCodec javax.sound.sampled.AudioFormat.Encoding[] getTargetEncodings(javax.sound.sampled.AudioFormat)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AlawCodec javax.sound.sampled.AudioFormat[] getTargetFormats(javax.sound.sampled.AudioFormat.Encoding, javax.sound.sampled.AudioFormat)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AlawCodec seg_end'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AuFileReader javax.sound.sampled.AudioFileFormat getAudioFileFormat(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AuFileReader javax.sound.sampled.AudioFileFormat getAudioFileFormat(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AuFileReader javax.sound.sampled.AudioFileFormat getAudioFileFormat(java.net.URL)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AuFileReader javax.sound.sampled.AudioInputStream getAudioInputStream(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AuFileReader javax.sound.sampled.AudioInputStream getAudioInputStream(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AuFileReader javax.sound.sampled.AudioInputStream getAudioInputStream(java.net.URL)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AuFileReader types'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AuFileWriter auTypes'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AuFileWriter javax.sound.sampled.AudioFileFormat getAudioFileFormat(javax.sound.sampled.AudioFileFormat.Type, javax.sound.sampled.AudioInputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AuFileWriter javax.sound.sampled.AudioFileFormat.Type[] getAudioFileTypes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AuFileWriter javax.sound.sampled.AudioFileFormat.Type[] getAudioFileTypes(javax.sound.sampled.AudioInputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AuFileWriter java.io.InputStream getFileStream(com.sun.media.sound.AuFileFormat, java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AudioFloatConverter.AudioFloatConversion32B byte[] toByteArray(float[], int, int, byte[], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AudioFloatConverter.AudioFloatConversion32B float[] toFloatArray(byte[], int, float[], int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AudioFloatConverter.AudioFloatConversion32L byte[] toByteArray(float[], int, int, byte[], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AudioFloatConverter.AudioFloatConversion32L float[] toFloatArray(byte[], int, float[], int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AudioFloatConverter.AudioFloatConversion64B byte[] toByteArray(float[], int, int, byte[], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AudioFloatConverter.AudioFloatConversion64L byte[] toByteArray(float[], int, int, byte[], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AudioFloatFormatConverter javax.sound.sampled.AudioInputStream getAudioInputStream(javax.sound.sampled.AudioFormat.Encoding, javax.sound.sampled.AudioInputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AudioFloatFormatConverter javax.sound.sampled.AudioInputStream getAudioInputStream(javax.sound.sampled.AudioFormat, com.sun.media.sound.AudioFloatInputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AudioFloatFormatConverter javax.sound.sampled.AudioInputStream getAudioInputStream(javax.sound.sampled.AudioFormat, javax.sound.sampled.AudioInputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AudioFloatFormatConverter javax.sound.sampled.AudioFormat.Encoding[] getSourceEncodings()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AudioFloatFormatConverter javax.sound.sampled.AudioFormat.Encoding[] getTargetEncodings()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AudioFloatFormatConverter javax.sound.sampled.AudioFormat.Encoding[] getTargetEncodings(javax.sound.sampled.AudioFormat)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AudioFloatInputStream com.sun.media.sound.AudioFloatInputStream getInputStream(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AudioFloatInputStream com.sun.media.sound.AudioFloatInputStream getInputStream(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AudioFloatInputStream com.sun.media.sound.AudioFloatInputStream getInputStream(java.net.URL)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AudioFloatInputStream com.sun.media.sound.AudioFloatInputStream getInputStream(javax.sound.sampled.AudioFormat, byte[], int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.AudioFloatInputStream com.sun.media.sound.AudioFloatInputStream getInputStream(javax.sound.sampled.AudioInputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.DLSInstrument com.sun.media.sound.ModelPatch getPatch()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.DLSInstrument javax.sound.midi.Patch getPatch()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.DLSInstrument java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.DLSSample java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.DLSSoundbank.DLSID com.sun.media.sound.DLSSoundbank.DLSID read(com.sun.media.sound.RIFFReader)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.DLSSoundbank DLSID_GMInHardware'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.DLSSoundbank DLSID_GSInHardware'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.DLSSoundbank DLSID_ManufacturersID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.DLSSoundbank DLSID_ProductID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.DLSSoundbank DLSID_SampleMemorySize'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.DLSSoundbank DLSID_SamplePlaybackRate'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.DLSSoundbank DLSID_SupportsDLS1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.DLSSoundbank DLSID_SupportsDLS2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.DLSSoundbank DLSID_XGInHardware'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.DLSSoundbank com.sun.media.sound.DLSInstrument[] getInstruments()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.DLSSoundbank javax.sound.midi.Instrument[] getInstruments()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.DLSSoundbank javax.sound.midi.SoundbankResource[] getResources()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.DLSSoundbank java.lang.String getVersion()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.DirectAudioDevice.DirectDL lockNative'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.DirectAudioDevice javax.sound.sampled.Line getLine(javax.sound.sampled.Line.Info)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.DirectAudioDeviceProvider javax.sound.sampled.Mixer.Info[] getMixerInfo()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Soundbank createSoundbank()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank general_midi_instruments'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank double[] imgPart(double[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank double[] loopExtend(double[], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank float[] loopExtend(float[], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Instrument newInstrument(com.sun.media.sound.SF2Soundbank, java.lang.String, javax.sound.midi.Patch, com.sun.media.sound.SF2Layer...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer newLayer(com.sun.media.sound.SF2Soundbank, java.lang.String, com.sun.media.sound.SF2Sample)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Sample newSimpleDrumSample(com.sun.media.sound.SF2Soundbank, java.lang.String, double[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Sample newSimpleFFTSample(com.sun.media.sound.SF2Soundbank, java.lang.String, double[], double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Sample newSimpleFFTSample(com.sun.media.sound.SF2Soundbank, java.lang.String, double[], double, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Sample newSimpleFFTSample_dist(com.sun.media.sound.SF2Soundbank, java.lang.String, double[], double, double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_bass1(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_bass2(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_bass_drum(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_bassoon(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_bell(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_brass_section(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_ch_organ(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_choir(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_clarinet(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_closed_hihat(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_crash_cymbal(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_epiano1(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_epiano2(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_flute(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_gpiano(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_gpiano2(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_guitar1(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_guitar_dist(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_guitar_pick(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_horn(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_melodic_toms(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_oboe(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_open_hihat(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_orchhit(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_organ(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_piano1(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_piano_hammer(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_reverse_cymbal(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_sax(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_side_stick(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_snare_drum(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_solostring(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_string2(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_synthbass(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_timpani(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_tom(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_trombone(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank com.sun.media.sound.SF2Layer new_trumpet(com.sun.media.sound.SF2Soundbank)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank double[] realPart(double[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.EmergencySoundbank float[] toFloat(double[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.FFT double[] computeTwiddleFactors(int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.FastShortMessage byte[] getMessage()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.JDK13Services PROPERTIES_FILENAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.JSSecurityManager java.lang.ThreadGroup access$100()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.JSSecurityManager java.lang.Thread access$200(java.lang.Runnable, java.lang.String, boolean, int, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.JSSecurityManager java.lang.Thread createThreadImpl(java.lang.Runnable, java.lang.String, boolean, int, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.JSSecurityManager java.util.List getProviders(java.lang.Class)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.JSSecurityManager java.lang.ThreadGroup getTopmostThreadGroupImpl()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.JavaSoundAudioClip java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.MidiDeviceReceiverEnvelope device'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.MidiDeviceReceiverEnvelope javax.sound.midi.MidiDevice getMidiDevice()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.MidiDeviceReceiverEnvelope javax.sound.midi.Receiver getReceiver()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.MidiDeviceReceiverEnvelope receiver'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.MidiDeviceTransmitterEnvelope device'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.MidiDeviceTransmitterEnvelope javax.sound.midi.MidiDevice getMidiDevice()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.MidiDeviceTransmitterEnvelope javax.sound.midi.Transmitter getTransmitter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.MidiDeviceTransmitterEnvelope transmitter'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.MidiInDevice javax.sound.midi.Transmitter createTransmitter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.MidiOutDevice javax.sound.midi.Receiver createReceiver()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelAbstractOscillator com.sun.media.sound.ModelInstrument getInstrument()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelAbstractOscillator javax.sound.midi.Instrument[] getInstruments()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelAbstractOscillator javax.sound.midi.Patch getPatch()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelAbstractOscillator com.sun.media.sound.ModelPerformer getPerformer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelAbstractOscillator javax.sound.midi.SoundbankResource[] getResources()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelAbstractOscillator javax.sound.midi.Soundbank getSoundBank()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelAbstractOscillator com.sun.media.sound.ModelOscillatorStream open(float)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelByteBuffer.RandomFileInputStream this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelByteBuffer com.sun.media.sound.ModelByteBuffer subbuffer(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelByteBuffer com.sun.media.sound.ModelByteBuffer subbuffer(long, long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelByteBuffer com.sun.media.sound.ModelByteBuffer subbuffer(long, long, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelByteBufferWavetable.Buffer8PlusInputStream this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelConnectionBlock no_sources'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelDestination DESTINATION_CHORUS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelDestination DESTINATION_EG1_ATTACK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelDestination DESTINATION_EG1_DECAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelDestination DESTINATION_EG1_DELAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelDestination DESTINATION_EG1_HOLD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelDestination DESTINATION_EG1_RELEASE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelDestination DESTINATION_EG1_SHUTDOWN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelDestination DESTINATION_EG1_SUSTAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelDestination DESTINATION_EG2_ATTACK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelDestination DESTINATION_EG2_DECAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelDestination DESTINATION_EG2_DELAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelDestination DESTINATION_EG2_HOLD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelDestination DESTINATION_EG2_RELEASE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelDestination DESTINATION_EG2_SHUTDOWN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelDestination DESTINATION_EG2_SUSTAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelDestination DESTINATION_FILTER_FREQ'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelDestination DESTINATION_FILTER_Q'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelDestination DESTINATION_GAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelDestination DESTINATION_KEYNUMBER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelDestination DESTINATION_LFO1_DELAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelDestination DESTINATION_LFO1_FREQ'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelDestination DESTINATION_LFO2_DELAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelDestination DESTINATION_LFO2_FREQ'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelDestination DESTINATION_PAN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelDestination DESTINATION_PITCH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelDestination DESTINATION_REVERB'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelDestination DESTINATION_VELOCITY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelIdentifier java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelInstrument boolean[] getChannels()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelInstrument com.sun.media.sound.ModelDirector getDirector(com.sun.media.sound.ModelPerformer[], javax.sound.midi.MidiChannel, com.sun.media.sound.ModelDirectedPlayer)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelInstrument java.lang.String[] getKeys()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelInstrument javax.sound.midi.Patch getPatchAlias()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelInstrument com.sun.media.sound.ModelPerformer[] getPerformers()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelMappedInstrument com.sun.media.sound.ModelDirector getDirector(com.sun.media.sound.ModelPerformer[], javax.sound.midi.MidiChannel, com.sun.media.sound.ModelDirectedPlayer)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelMappedInstrument com.sun.media.sound.ModelPerformer[] getPerformers()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelSource SOURCE_EG1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelSource SOURCE_EG2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelSource SOURCE_LFO1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelSource SOURCE_LFO2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelSource SOURCE_MIDI_CC_0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelSource SOURCE_MIDI_CHANNEL_PRESSURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelSource SOURCE_MIDI_PITCH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelSource SOURCE_MIDI_POLY_PRESSURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelSource SOURCE_MIDI_RPN_0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelSource SOURCE_NOTEON_KEYNUMBER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.ModelSource SOURCE_NOTEON_VELOCITY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.PCMtoPCMCodec.PCMtoPCMCodecStream this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.PCMtoPCMCodec javax.sound.sampled.AudioInputStream getAudioInputStream(javax.sound.sampled.AudioFormat.Encoding, javax.sound.sampled.AudioInputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.PCMtoPCMCodec javax.sound.sampled.AudioInputStream getAudioInputStream(javax.sound.sampled.AudioFormat, javax.sound.sampled.AudioInputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.PCMtoPCMCodec javax.sound.sampled.AudioInputStream getConvertedStream(javax.sound.sampled.AudioFormat, javax.sound.sampled.AudioInputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.PCMtoPCMCodec javax.sound.sampled.AudioFormat[] getOutputFormats(javax.sound.sampled.AudioFormat)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.PCMtoPCMCodec javax.sound.sampled.AudioFormat.Encoding[] getSourceEncodings()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.PCMtoPCMCodec javax.sound.sampled.AudioFormat.Encoding[] getTargetEncodings()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.PCMtoPCMCodec javax.sound.sampled.AudioFormat.Encoding[] getTargetEncodings(javax.sound.sampled.AudioFormat)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.PCMtoPCMCodec javax.sound.sampled.AudioFormat[] getTargetFormats(javax.sound.sampled.AudioFormat.Encoding, javax.sound.sampled.AudioFormat)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.PCMtoPCMCodec inputEncodings'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.PCMtoPCMCodec outputEncodings'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.Platform libNameALSA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.Platform libNameDSound'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.Platform libNameMain'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.PortMixer.FloatCtrl FLOAT_CONTROL_TYPES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.PortMixerProvider javax.sound.sampled.Mixer.Info[] getMixerInfo()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.RIFFReader java.lang.String readString(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.RealTimeSequencer.RealTimeSequencerInfo description'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.RealTimeSequencer.RealTimeSequencerInfo name'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.RealTimeSequencer.RealTimeSequencerInfo vendor'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.RealTimeSequencer.RealTimeSequencerInfo version'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.RealTimeSequencer javax.sound.midi.Receiver createReceiver()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.RealTimeSequencer javax.sound.midi.Transmitter createTransmitter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.RealTimeSequencer boolean[] ensureBoolArraySize(boolean[], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.RealTimeSequencer eventDispatcher'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.RealTimeSequencer javax.sound.midi.Sequencer.SyncMode[] getMasterSyncModes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.RealTimeSequencer javax.sound.midi.Sequencer.SyncMode[] getSlaveSyncModes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.RealTimeSequencer info'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.RealTimeSequencerProvider javax.sound.midi.MidiDevice.Info[] getDeviceInfo()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SF2Instrument javax.sound.midi.Patch getPatch()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SF2Instrument com.sun.media.sound.ModelPerformer[] getPerformers()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SF2Instrument java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SF2Layer java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SF2Region byte[] getBytes(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SF2Sample javax.sound.sampled.AudioFormat getFormat()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SF2Sample java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SF2Soundbank com.sun.media.sound.SF2Instrument[] getInstruments()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SF2Soundbank javax.sound.midi.Instrument[] getInstruments()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SF2Soundbank javax.sound.midi.SoundbankResource[] getResources()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SF2Soundbank java.lang.String getVersion()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SimpleInstrument com.sun.media.sound.ModelPatch getPatch()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SimpleInstrument javax.sound.midi.Patch getPatch()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SimpleInstrument com.sun.media.sound.ModelPerformer[] getPerformers()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SimpleSoundbank javax.sound.midi.Instrument[] getInstruments()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftAbstractResampler.ModelAbstractResamplerStream this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftAbstractResampler com.sun.media.sound.SoftResamplerStreamer openStreamer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftInstrument com.sun.media.sound.ModelDirector getDirector(javax.sound.midi.MidiChannel, com.sun.media.sound.ModelDirectedPlayer)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftLanczosResampler float[] sincTable(int, float)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftMidiAudioFileReader MIDI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftMidiAudioFileReader javax.sound.sampled.AudioFileFormat getAudioFileFormat(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftMidiAudioFileReader javax.sound.sampled.AudioFileFormat getAudioFileFormat(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftMidiAudioFileReader javax.sound.sampled.AudioFileFormat getAudioFileFormat(java.net.URL)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftMidiAudioFileReader javax.sound.sampled.AudioFileFormat getAudioFileFormat(javax.sound.midi.Sequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftMidiAudioFileReader javax.sound.sampled.AudioInputStream getAudioInputStream(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftMidiAudioFileReader javax.sound.sampled.AudioInputStream getAudioInputStream(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftMidiAudioFileReader javax.sound.sampled.AudioInputStream getAudioInputStream(java.net.URL)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftMidiAudioFileReader javax.sound.sampled.AudioInputStream getAudioInputStream(javax.sound.midi.Sequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftMixingDataLine CHORUS_SEND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftMixingMixer INFO_DESCRIPTION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftMixingMixer INFO_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftMixingMixer INFO_VENDOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftMixingMixer INFO_VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftMixingMixer javax.sound.sampled.Control[] getControls()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftMixingMixer javax.sound.sampled.Line getLine(javax.sound.sampled.Line.Info)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftMixingMixer javax.sound.sampled.Line.Info getLineInfo()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftMixingMixer javax.sound.sampled.Line.Info[] getSourceLineInfo()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftMixingMixer javax.sound.sampled.Line[] getSourceLines()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftMixingMixer javax.sound.sampled.Line.Info[] getTargetLineInfo()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftMixingMixer javax.sound.sampled.Line.Info[] getTargetLineInfo(javax.sound.sampled.Line.Info)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftMixingMixer javax.sound.sampled.Line[] getTargetLines()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftMixingMixer info'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftMixingMixerProvider javax.sound.sampled.Mixer.Info[] getMixerInfo()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftMixingMixerProvider mutex'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftPerformer java.lang.String extractKeys(com.sun.media.sound.ModelConnectionBlock)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftReverb.AllPass delaybuffer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftReverb.Comb delaybuffer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftShortMessage java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftSincResampler float[] sincTable(int, float, float)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftSincResampler float[] wHanning(int, float)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftSynthesizer.5 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftSynthesizer.5 java.util.Properties run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftSynthesizer.WeakAudioStream javax.sound.sampled.AudioInputStream getAudioInputStream()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftSynthesizer INFO_DESCRIPTION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftSynthesizer INFO_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftSynthesizer INFO_VENDOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftSynthesizer INFO_VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftSynthesizer javax.sound.midi.Instrument[] getAvailableInstruments()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftSynthesizer javax.sound.midi.MidiChannel[] getChannels()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftSynthesizer javax.sound.midi.Instrument[] getLoadedInstruments()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftSynthesizer com.sun.media.sound.AudioSynthesizerPropertyInfo[] getPropertyInfo(java.util.Map&lt;java.lang.String,java.lang.Object&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftSynthesizer javax.sound.midi.Receiver getReceiver()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftSynthesizer javax.sound.midi.Receiver getReceiverReferenceCounting()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftSynthesizer java.util.List&lt;javax.sound.midi.Receiver&gt; getReceivers()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftSynthesizer java.util.List&lt;javax.sound.midi.Transmitter&gt; getTransmitters()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftSynthesizer com.sun.media.sound.SoftTuning getTuning(javax.sound.midi.Patch)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftSynthesizer javax.sound.midi.VoiceStatus[] getVoiceStatus()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftSynthesizer info'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftSynthesizer java.lang.String patchToString(javax.sound.midi.Patch)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SoftTuning double[] getTuning()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.StandardMidiFileReader javax.sound.midi.MidiFileFormat getMidiFileFormat(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.StandardMidiFileReader javax.sound.midi.MidiFileFormat getMidiFileFormat(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.StandardMidiFileReader javax.sound.midi.MidiFileFormat getMidiFileFormat(java.net.URL)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.StandardMidiFileReader javax.sound.midi.MidiFileFormat getMidiFileFormatFromStream(java.io.InputStream, int, com.sun.media.sound.SMFParser)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.StandardMidiFileReader javax.sound.midi.Sequence getSequence(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.StandardMidiFileReader javax.sound.midi.Sequence getSequence(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.StandardMidiFileReader javax.sound.midi.Sequence getSequence(java.net.URL)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.StandardMidiFileReader types'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.StandardMidiFileWriter int[] getMidiFileTypes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.StandardMidiFileWriter int[] getMidiFileTypes(javax.sound.midi.Sequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.StandardMidiFileWriter types'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.StandardMidiFileWriter java.io.InputStream writeTrack(javax.sound.midi.Track, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SunCodec javax.sound.sampled.AudioFormat.Encoding[] getSourceEncodings()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SunCodec javax.sound.sampled.AudioFormat.Encoding[] getTargetEncodings()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.SunFileWriter javax.sound.sampled.AudioFileFormat.Type[] getAudioFileTypes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.UlawCodec.UlawCodecStream this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.UlawCodec ULAW_TABH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.UlawCodec ULAW_TABL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.UlawCodec javax.sound.sampled.AudioInputStream getAudioInputStream(javax.sound.sampled.AudioFormat.Encoding, javax.sound.sampled.AudioInputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.UlawCodec javax.sound.sampled.AudioInputStream getAudioInputStream(javax.sound.sampled.AudioFormat, javax.sound.sampled.AudioInputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.UlawCodec javax.sound.sampled.AudioInputStream getConvertedStream(javax.sound.sampled.AudioFormat, javax.sound.sampled.AudioInputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.UlawCodec javax.sound.sampled.AudioFormat[] getOutputFormats(javax.sound.sampled.AudioFormat)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.UlawCodec javax.sound.sampled.AudioFormat.Encoding[] getSourceEncodings()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.UlawCodec javax.sound.sampled.AudioFormat.Encoding[] getTargetEncodings()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.UlawCodec javax.sound.sampled.AudioFormat.Encoding[] getTargetEncodings(javax.sound.sampled.AudioFormat)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.UlawCodec javax.sound.sampled.AudioFormat[] getTargetFormats(javax.sound.sampled.AudioFormat.Encoding, javax.sound.sampled.AudioFormat)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.UlawCodec seg_end'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.UlawCodec ulawEncodings'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveExtensibleFileReader.GUID com.sun.media.sound.WaveExtensibleFileReader.GUID read(com.sun.media.sound.RIFFReader)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveExtensibleFileReader javax.sound.sampled.AudioFileFormat getAudioFileFormat(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveExtensibleFileReader javax.sound.sampled.AudioFileFormat getAudioFileFormat(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveExtensibleFileReader javax.sound.sampled.AudioFileFormat getAudioFileFormat(java.net.URL)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveExtensibleFileReader javax.sound.sampled.AudioInputStream getAudioInputStream(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveExtensibleFileReader javax.sound.sampled.AudioInputStream getAudioInputStream(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveExtensibleFileReader javax.sound.sampled.AudioInputStream getAudioInputStream(java.net.URL)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveExtensibleFileReader javax.sound.sampled.AudioFileFormat internal_getAudioFileFormat(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveFileReader javax.sound.sampled.AudioFileFormat getAudioFileFormat(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveFileReader javax.sound.sampled.AudioFileFormat getAudioFileFormat(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveFileReader javax.sound.sampled.AudioFileFormat getAudioFileFormat(java.net.URL)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveFileReader javax.sound.sampled.AudioInputStream getAudioInputStream(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveFileReader javax.sound.sampled.AudioInputStream getAudioInputStream(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveFileReader javax.sound.sampled.AudioInputStream getAudioInputStream(java.net.URL)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveFileReader javax.sound.sampled.AudioFileFormat getFMT(java.io.InputStream, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveFileReader types'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveFileWriter javax.sound.sampled.AudioFileFormat getAudioFileFormat(javax.sound.sampled.AudioFileFormat.Type, javax.sound.sampled.AudioInputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveFileWriter javax.sound.sampled.AudioFileFormat.Type[] getAudioFileTypes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveFileWriter javax.sound.sampled.AudioFileFormat.Type[] getAudioFileTypes(javax.sound.sampled.AudioInputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveFileWriter java.io.InputStream getFileStream(com.sun.media.sound.WaveFileFormat, java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveFileWriter waveTypes'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveFloatFileReader javax.sound.sampled.AudioFileFormat getAudioFileFormat(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveFloatFileReader javax.sound.sampled.AudioFileFormat getAudioFileFormat(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveFloatFileReader javax.sound.sampled.AudioFileFormat getAudioFileFormat(java.net.URL)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveFloatFileReader javax.sound.sampled.AudioInputStream getAudioInputStream(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveFloatFileReader javax.sound.sampled.AudioInputStream getAudioInputStream(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveFloatFileReader javax.sound.sampled.AudioInputStream getAudioInputStream(java.net.URL)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveFloatFileReader javax.sound.sampled.AudioFileFormat internal_getAudioFileFormat(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveFloatFileWriter javax.sound.sampled.AudioFileFormat.Type[] getAudioFileTypes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.media.sound.WaveFloatFileWriter javax.sound.sampled.AudioFileFormat.Type[] getAudioFileTypes(javax.sound.sampled.AudioInputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

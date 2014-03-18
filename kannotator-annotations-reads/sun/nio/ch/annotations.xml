@@ -1,0 +1,638 @@
+<root>
+    <item name='sun.nio.ch.AsynchronousChannelGroupImpl java.lang.Runnable bindToGroup(java.lang.Runnable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.AsynchronousChannelGroupImpl pool'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.AsynchronousChannelGroupImpl shutdown'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.AsynchronousChannelGroupImpl shutdownNowLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.AsynchronousChannelGroupImpl threadCount'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.AsynchronousFileChannelImpl closeLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.AsynchronousServerSocketChannelImpl.DefaultOptionsHolder defaultOptions'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.AsynchronousServerSocketChannelImpl.DefaultOptionsHolder java.util.Set&lt;java.net.SocketOption&lt;?&gt;&gt; defaultOptions()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.AsynchronousServerSocketChannelImpl java.nio.channels.AsynchronousServerSocketChannel bind(java.net.SocketAddress, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.AsynchronousServerSocketChannelImpl fd'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.AsynchronousServerSocketChannelImpl java.nio.channels.AsynchronousServerSocketChannel setOption(java.net.SocketOption&lt;T&gt;, T)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.AsynchronousServerSocketChannelImpl java.nio.channels.NetworkChannel setOption(java.net.SocketOption, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.AsynchronousServerSocketChannelImpl stateLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.AsynchronousServerSocketChannelImpl java.util.Set&lt;java.net.SocketOption&lt;?&gt;&gt; supportedOptions()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.AsynchronousServerSocketChannelImpl java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.AsynchronousSocketChannelImpl.DefaultOptionsHolder defaultOptions'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.AsynchronousSocketChannelImpl.DefaultOptionsHolder java.util.Set&lt;java.net.SocketOption&lt;?&gt;&gt; defaultOptions()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.AsynchronousSocketChannelImpl java.nio.channels.AsynchronousSocketChannel bind(java.net.SocketAddress)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.AsynchronousSocketChannelImpl java.nio.channels.NetworkChannel bind(java.net.SocketAddress)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.AsynchronousSocketChannelImpl closeLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.AsynchronousSocketChannelImpl readLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.AsynchronousSocketChannelImpl java.nio.channels.AsynchronousSocketChannel setOption(java.net.SocketOption&lt;T&gt;, T)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.AsynchronousSocketChannelImpl java.nio.channels.NetworkChannel setOption(java.net.SocketOption, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.AsynchronousSocketChannelImpl java.nio.channels.AsynchronousSocketChannel shutdownInput()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.AsynchronousSocketChannelImpl java.nio.channels.AsynchronousSocketChannel shutdownOutput()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.AsynchronousSocketChannelImpl stateLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.AsynchronousSocketChannelImpl java.util.Set&lt;java.net.SocketOption&lt;?&gt;&gt; supportedOptions()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.AsynchronousSocketChannelImpl java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.AsynchronousSocketChannelImpl writeLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.CompletedFuture sun.nio.ch.CompletedFuture&lt;V&gt; withFailure(java.lang.Throwable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.CompletedFuture sun.nio.ch.CompletedFuture&lt;V&gt; withResult(V)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.CompletedFuture sun.nio.ch.CompletedFuture&lt;V&gt; withResult(V, java.lang.Throwable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.DatagramChannelImpl.DefaultOptionsHolder defaultOptions'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.DatagramChannelImpl.DefaultOptionsHolder java.util.Set&lt;java.net.SocketOption&lt;?&gt;&gt; defaultOptions()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.DatagramChannelImpl java.nio.channels.DatagramChannel bind(java.net.SocketAddress)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.DatagramChannelImpl java.nio.channels.NetworkChannel bind(java.net.SocketAddress)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.DatagramChannelImpl java.nio.channels.DatagramChannel connect(java.net.SocketAddress)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.DatagramChannelImpl java.nio.channels.DatagramChannel disconnect()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.DatagramChannelImpl java.nio.channels.MembershipKey innerJoin(java.net.InetAddress, java.net.NetworkInterface, java.net.InetAddress)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.DatagramChannelImpl java.nio.channels.MembershipKey join(java.net.InetAddress, java.net.NetworkInterface)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.DatagramChannelImpl java.nio.channels.MembershipKey join(java.net.InetAddress, java.net.NetworkInterface, java.net.InetAddress)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.DatagramChannelImpl readLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.DatagramChannelImpl java.nio.channels.DatagramChannel setOption(java.net.SocketOption&lt;T&gt;, T)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.DatagramChannelImpl java.nio.channels.NetworkChannel setOption(java.net.SocketOption, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.DatagramChannelImpl stateLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.DatagramChannelImpl java.util.Set&lt;java.net.SocketOption&lt;?&gt;&gt; supportedOptions()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.DatagramChannelImpl writeLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.DatagramSocketAdaptor java.net.DatagramSocket create(sun.nio.ch.DatagramChannelImpl)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.DatagramSocketAdaptor dummyDatagramSocket'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.DefaultAsynchronousChannelProvider java.nio.channels.spi.AsynchronousChannelProvider create()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.DefaultSelectorProvider java.nio.channels.spi.SelectorProvider create()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.ExtendedSocketOption.1 java.lang.String name()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.ExtendedSocketOption.1 java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.ExtendedSocketOption.1 java.lang.Class&lt;java.lang.Boolean&gt; type()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.ExtendedSocketOption SO_OOBINLINE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.FileChannelImpl.1 java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.FileChannelImpl.SimpleFileLockTable lockList'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.FileChannelImpl.SimpleFileLockTable java.util.List&lt;java.nio.channels.FileLock&gt; removeAll()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.FileChannelImpl.Unmapper nd'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.FileChannelImpl sun.misc.JavaNioAccess.BufferPool getMappedBufferPool()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.FileChannelImpl nd'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.FileChannelImpl java.nio.channels.FileChannel open(java.io.FileDescriptor, java.lang.String, boolean, boolean, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.FileChannelImpl java.nio.channels.FileChannel open(java.io.FileDescriptor, java.lang.String, boolean, boolean, boolean, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.FileChannelImpl positionLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.FileChannelImpl threads'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.FileDispatcherImpl java.io.FileDescriptor duplicateForMapping(java.io.FileDescriptor)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.FileKey sun.nio.ch.FileKey create(java.io.FileDescriptor)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.FileLockTable sun.nio.ch.FileLockTable newSharedFileLockTable(java.nio.channels.Channel, java.io.FileDescriptor)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.IOUtil java.io.FileDescriptor newFD(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.IOVecWrapper buf'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.IOVecWrapper cached'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.IOVecWrapper sun.nio.ch.IOVecWrapper get(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.IOVecWrapper position'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.IOVecWrapper remaining'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.IOVecWrapper shadow'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.IOVecWrapper vecArray'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.Invoker myGroupAndInvokeCount'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.Iocp java.io.IOException access$700(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.Iocp keyToChannel'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.Iocp keyToChannelLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.Iocp staleIoSet'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.Iocp sun.nio.ch.Iocp start()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.Iocp java.io.IOException translateErrorToIOException(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.MembershipKeyImpl java.nio.channels.MembershipKey block(java.net.InetAddress)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.MembershipKeyImpl java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.MembershipKeyImpl java.nio.channels.MembershipKey unblock(java.net.InetAddress)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.NativeObject sun.nio.ch.NativeObject getObject(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.NativeObject sun.nio.ch.NativeObject subObject(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.Net.1 java.lang.String name()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.Net UNSPEC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.Net java.net.InetSocketAddress asInetSocketAddress(java.net.SocketAddress)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.Net java.net.InetSocketAddress checkAddress(java.net.SocketAddress)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.Net java.net.InetAddress inet4FromInt(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.Net java.net.InetSocketAddress localAddress(java.io.FileDescriptor)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.Net java.net.InetSocketAddress remoteAddress(java.io.FileDescriptor)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.Net java.io.FileDescriptor serverSocket(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.Net java.io.FileDescriptor socket(java.net.ProtocolFamily, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.Net java.io.FileDescriptor socket(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.PendingFuture CANCELLED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.PendingIoCache pendingIoMap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.PipeImpl rnd'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.Reflect java.lang.reflect.Field lookupField(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.Reflect java.lang.reflect.Method lookupMethod(java.lang.String, java.lang.String, java.lang.Class...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SctpChannelImpl message'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SctpMessageInfoImpl com.sun.nio.sctp.MessageInfo complete(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SctpMessageInfoImpl com.sun.nio.sctp.MessageInfo payloadProtocolID(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SctpMessageInfoImpl com.sun.nio.sctp.MessageInfo streamNumber(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SctpMessageInfoImpl com.sun.nio.sctp.MessageInfo timeToLive(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SctpMessageInfoImpl java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SctpMessageInfoImpl com.sun.nio.sctp.MessageInfo unordered(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SctpMultiChannelImpl message'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SctpServerChannelImpl message'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.Secrets java.nio.channels.ServerSocketChannel newServerSocketChannel(java.io.FileDescriptor)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.Secrets java.nio.channels.SocketChannel newSocketChannel(java.io.FileDescriptor)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.Secrets java.nio.channels.spi.SelectorProvider provider()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SelectionKeyImpl java.nio.channels.SelectionKey interestOps(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SelectionKeyImpl java.nio.channels.SelectionKey nioInterestOps(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SelectorImpl java.nio.channels.SelectionKey register(java.nio.channels.spi.AbstractSelectableChannel, int, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SelectorProviderImpl java.nio.channels.DatagramChannel openDatagramChannel()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SelectorProviderImpl java.nio.channels.DatagramChannel openDatagramChannel(java.net.ProtocolFamily)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SelectorProviderImpl java.nio.channels.Pipe openPipe()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SelectorProviderImpl java.nio.channels.ServerSocketChannel openServerSocketChannel()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SelectorProviderImpl java.nio.channels.SocketChannel openSocketChannel()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.ServerSocketAdaptor java.net.ServerSocket create(sun.nio.ch.ServerSocketChannelImpl)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.ServerSocketAdaptor java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.ServerSocketChannelImpl.DefaultOptionsHolder defaultOptions'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.ServerSocketChannelImpl.DefaultOptionsHolder java.util.Set&lt;java.net.SocketOption&lt;?&gt;&gt; defaultOptions()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.ServerSocketChannelImpl java.nio.channels.ServerSocketChannel bind(java.net.SocketAddress, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.ServerSocketChannelImpl lock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.ServerSocketChannelImpl java.nio.channels.NetworkChannel setOption(java.net.SocketOption, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.ServerSocketChannelImpl java.nio.channels.ServerSocketChannel setOption(java.net.SocketOption&lt;T&gt;, T)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.ServerSocketChannelImpl stateLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.ServerSocketChannelImpl java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SharedFileLockTable fileKey'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SharedFileLockTable java.util.List&lt;java.nio.channels.FileLock&gt; removeAll()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SocketAdaptor.1 java.io.InputStream run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SocketAdaptor.1 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SocketAdaptor.2 java.io.OutputStream run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SocketAdaptor.2 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SocketAdaptor.SocketInputStream this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SocketAdaptor java.net.Socket create(sun.nio.ch.SocketChannelImpl)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SocketAdaptor java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SocketChannelImpl.DefaultOptionsHolder defaultOptions'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SocketChannelImpl.DefaultOptionsHolder java.util.Set&lt;java.net.SocketOption&lt;?&gt;&gt; defaultOptions()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SocketChannelImpl java.nio.channels.NetworkChannel bind(java.net.SocketAddress)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SocketChannelImpl java.nio.channels.SocketChannel bind(java.net.SocketAddress)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SocketChannelImpl readLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SocketChannelImpl java.nio.channels.NetworkChannel setOption(java.net.SocketOption, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SocketChannelImpl java.nio.channels.SocketChannel setOption(java.net.SocketOption&lt;T&gt;, T)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SocketChannelImpl java.nio.channels.SocketChannel shutdownInput()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SocketChannelImpl java.nio.channels.SocketChannel shutdownOutput()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SocketChannelImpl stateLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SocketChannelImpl java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SocketChannelImpl writeLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SocketOptionRegistry.LazyInitialization options'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.SocketOptionRegistry.LazyInitialization java.util.Map&lt;sun.nio.ch.SocketOptionRegistry.RegistryKey,sun.nio.ch.OptionKey&gt; options()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.ThreadPool.1 java.lang.Thread newThread(java.lang.Runnable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.ThreadPool.DefaultThreadPoolHolder defaultThreadPool'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.ThreadPool DEFAULT_THREAD_POOL_INITIAL_SIZE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.ThreadPool DEFAULT_THREAD_POOL_THREAD_FACTORY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.ThreadPool sun.nio.ch.ThreadPool create(int, java.util.concurrent.ThreadFactory)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.ThreadPool sun.nio.ch.ThreadPool createDefault()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.ThreadPool defaultThreadFactory'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.ThreadPool sun.nio.ch.ThreadPool getDefault()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.ThreadPool sun.nio.ch.ThreadPool wrap(java.util.concurrent.ExecutorService, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.Util.1 java.lang.Object initialValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.Util.1 sun.nio.ch.Util.BufferCache initialValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.Util.2 java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.Util java.nio.ByteBuffer getTemporaryDirectBuffer(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.Util java.nio.ByteBuffer[] subsequence(java.nio.ByteBuffer[], int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.Util java.util.Set&lt;E&gt; ungrowableSet(java.util.Set&lt;E&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsAsynchronousChannelProvider java.nio.channels.AsynchronousChannelGroup openAsynchronousChannelGroup(int, java.util.concurrent.ThreadFactory)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsAsynchronousChannelProvider java.nio.channels.AsynchronousChannelGroup openAsynchronousChannelGroup(java.util.concurrent.ExecutorService, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsAsynchronousChannelProvider java.nio.channels.AsynchronousServerSocketChannel openAsynchronousServerSocketChannel(java.nio.channels.AsynchronousChannelGroup)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsAsynchronousChannelProvider java.nio.channels.AsynchronousSocketChannel openAsynchronousSocketChannel(java.nio.channels.AsynchronousChannelGroup)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsAsynchronousFileChannelImpl.DefaultIocpHolder defaultIocp'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsAsynchronousFileChannelImpl.DefaultIocpHolder sun.nio.ch.Iocp defaultIocp()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsAsynchronousFileChannelImpl java.io.IOException access$300(java.lang.Throwable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsAsynchronousFileChannelImpl sun.nio.ch.AsynchronousChannelGroupImpl group()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsAsynchronousFileChannelImpl ioCache'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsAsynchronousFileChannelImpl iocp'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsAsynchronousFileChannelImpl nd'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsAsynchronousFileChannelImpl java.nio.channels.AsynchronousFileChannel open(java.io.FileDescriptor, boolean, boolean, sun.nio.ch.ThreadPool)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsAsynchronousFileChannelImpl java.io.IOException toIOException(java.lang.Throwable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsAsynchronousFileChannelImpl java.nio.channels.AsynchronousFileChannel truncate(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsAsynchronousServerSocketChannelImpl sun.nio.ch.PendingIoCache access$300(sun.nio.ch.WindowsAsynchronousServerSocketChannelImpl)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsAsynchronousServerSocketChannelImpl sun.nio.ch.Iocp access$600(sun.nio.ch.WindowsAsynchronousServerSocketChannelImpl)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsAsynchronousServerSocketChannelImpl sun.nio.ch.AsynchronousChannelGroupImpl group()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsAsynchronousServerSocketChannelImpl ioCache'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsAsynchronousServerSocketChannelImpl iocp'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsAsynchronousSocketChannelImpl.ConnectTask java.io.IOException toIOException(java.lang.Throwable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsAsynchronousSocketChannelImpl.ReadTask bufs'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsAsynchronousSocketChannelImpl.WriteTask bufs'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsAsynchronousSocketChannelImpl sun.nio.ch.PendingIoCache access$100(sun.nio.ch.WindowsAsynchronousSocketChannelImpl)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsAsynchronousSocketChannelImpl sun.nio.ch.AsynchronousChannelGroupImpl group()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsAsynchronousSocketChannelImpl java.util.concurrent.Future&lt;V&gt; implRead(boolean, java.nio.ByteBuffer, java.nio.ByteBuffer[], long, java.util.concurrent.TimeUnit, A, java.nio.channels.CompletionHandler&lt;V,? super A&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsAsynchronousSocketChannelImpl java.util.concurrent.Future&lt;V&gt; implWrite(boolean, java.nio.ByteBuffer, java.nio.ByteBuffer[], long, java.util.concurrent.TimeUnit, A, java.nio.channels.CompletionHandler&lt;V,? super A&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsAsynchronousSocketChannelImpl ioCache'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsAsynchronousSocketChannelImpl iocp'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsSelectorImpl.SelectThread subSelector'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsSelectorImpl.SelectThread this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsSelectorImpl.SubSelector exceptFds'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsSelectorImpl.SubSelector readFds'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsSelectorImpl.SubSelector writeFds'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsSelectorImpl fdMap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsSelectorImpl finishLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsSelectorImpl interruptLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsSelectorImpl startLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsSelectorImpl subSelector'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsSelectorImpl threads'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsSelectorImpl java.nio.channels.Selector wakeup()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.nio.ch.WindowsSelectorProvider java.nio.channels.spi.AbstractSelector openSelector()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

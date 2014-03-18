@@ -1,0 +1,119 @@
+<root>
+    <item name='com.sun.org.omg.CORBA.AttrDescriptionSeqHelper com.sun.org.omg.CORBA.AttributeDescription[] extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.AttrDescriptionSeqHelper com.sun.org.omg.CORBA.AttributeDescription[] read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.AttributeDescriptionHelper com.sun.org.omg.CORBA.AttributeDescription extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.AttributeDescriptionHelper com.sun.org.omg.CORBA.AttributeDescription read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.AttributeMode ATTR_NORMAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.AttributeMode ATTR_READONLY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.ContextIdSeqHelper java.lang.String[] extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.ContextIdSeqHelper java.lang.String[] read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.ExcDescriptionSeqHelper com.sun.org.omg.CORBA.ExceptionDescription[] extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.ExcDescriptionSeqHelper com.sun.org.omg.CORBA.ExceptionDescription[] read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.ExceptionDescriptionHelper com.sun.org.omg.CORBA.ExceptionDescription extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.ExceptionDescriptionHelper com.sun.org.omg.CORBA.ExceptionDescription read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.InitializerHelper com.sun.org.omg.CORBA.Initializer extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.InitializerHelper com.sun.org.omg.CORBA.Initializer read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.InitializerSeqHelper com.sun.org.omg.CORBA.Initializer[] extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.InitializerSeqHelper com.sun.org.omg.CORBA.Initializer[] read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.OpDescriptionSeqHelper com.sun.org.omg.CORBA.OperationDescription[] extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.OpDescriptionSeqHelper com.sun.org.omg.CORBA.OperationDescription[] read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.OperationDescriptionHelper com.sun.org.omg.CORBA.OperationDescription extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.OperationDescriptionHelper com.sun.org.omg.CORBA.OperationDescription read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.OperationMode OP_NORMAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.OperationMode OP_ONEWAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.ParDescriptionSeqHelper com.sun.org.omg.CORBA.ParameterDescription[] extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.ParDescriptionSeqHelper com.sun.org.omg.CORBA.ParameterDescription[] read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.ParameterDescriptionHelper com.sun.org.omg.CORBA.ParameterDescription extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.ParameterDescriptionHelper com.sun.org.omg.CORBA.ParameterDescription read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.ParameterMode PARAM_IN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.ParameterMode PARAM_INOUT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.ParameterMode PARAM_OUT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.RepositoryIdSeqHelper java.lang.String[] extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.RepositoryIdSeqHelper java.lang.String[] read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.StructMemberHelper org.omg.CORBA.StructMember extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.StructMemberHelper org.omg.CORBA.StructMember read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.StructMemberSeqHelper org.omg.CORBA.StructMember[] extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.StructMemberSeqHelper org.omg.CORBA.StructMember[] read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.ValueMemberHelper org.omg.CORBA.ValueMember extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.ValueMemberHelper org.omg.CORBA.ValueMember read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.ValueMemberSeqHelper org.omg.CORBA.ValueMember[] extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.omg.CORBA.ValueMemberSeqHelper org.omg.CORBA.ValueMember[] read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

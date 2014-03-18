@@ -1,0 +1,8 @@
+<root>
+    <item name='com.sun.xml.internal.ws.protocol.soap.MUTube MUST_UNDERSTAND_FAULT_MESSAGE_STRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.protocol.soap.MUTube MU_FAULT_DETAIL_LOCALPART'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

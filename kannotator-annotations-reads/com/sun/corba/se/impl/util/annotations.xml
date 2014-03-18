@@ -1,0 +1,281 @@
+<root>
+    <item name='com.sun.corba.se.impl.util.IdentityHashtable java.util.Enumeration elements()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.IdentityHashtable java.util.Enumeration keys()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.IdentityHashtable java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.JDKBridge LOCAL_CODEBASE_KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.JDKBridge USE_CODEBASE_ONLY_KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.JDKClassLoader.JDKClassLoaderCache KNOWN_TO_FAIL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.JDKClassLoader.JDKClassLoaderCache cache'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.JDKClassLoader.JDKClassLoaderCache java.lang.Object createKey(java.lang.String, java.lang.ClassLoader)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.JDKClassLoader classCache'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.ORBProperties ORB_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.ORBProperties ORB_SINGLETON_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.PackagePrefixChecker PACKAGE_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.PackagePrefixChecker java.lang.String packagePrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.PackagePrefixChecker java.lang.String withoutPackagePrefix(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId ASCII_HEX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId IDL_IDENTIFIER_CHARS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId cache'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId java.lang.String convertFromISOLatin1(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId java.lang.String convertToISOLatin1(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId java.lang.String createForIDLType(java.lang.Class, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId java.lang.String createForJavaType(java.io.Serializable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId java.lang.String createForJavaType(java.lang.Class)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId java.lang.String createHashString(java.io.Serializable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId java.lang.String createHashString(java.lang.Class)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId java.lang.String createSequenceRepID(java.lang.Class)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId java.lang.String createSequenceRepID(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId java.lang.String delete(java.lang.String, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId com.sun.corba.se.impl.util.RepositoryId init(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kAnyRepID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kArrayPrefix'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kCORBAPrefix'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kClassDescStubValue'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kClassDescTypeStr'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kClassDescValueHash'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kClassDescValueRepID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kExternalizableHashStr'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kExternalizableStubValue'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kExternalizableValueHash'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kIDLClassnamePrefix'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kIDLNamePrefix'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kIDLPrefix'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kInterfaceHashCode'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kInterfaceOnlyHashStr'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kNoArgs'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kNoParamTypes'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kObjectStubValue'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kObjectValueHash'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kPrimitiveSequenceValueHash'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kRemoteStubValue'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kRemoteTypeStr'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kRemoteValueHash'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kRemoteValueRepID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kSequenceKeyword'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kSequencePrefix'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kSequenceValueHash'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kSerializableStubValue'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kSerializableValueHash'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kSpecialArrayTypeStrings'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kSpecialCasesArrayPrefix'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kSpecialCasesClasses'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kSpecialCasesRepIDs'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kSpecialCasesStubValues'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kSpecialCasesVersions'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kSpecialPrimitives'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kValuePrefix'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kWStringStubValue'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kWStringTypeStr'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kWStringValueHash'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kWStringValueRepID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId kWStringValueVersion'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId repStrToByteArray'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryId java.lang.String replace(java.lang.String, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.RepositoryIdCache com.sun.corba.se.impl.util.RepositoryId getId(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.Utility DYNAMIC_STUB_SUFFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.Utility IDL_STUB_SUFFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.Utility RMI_STUB_SUFFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.Utility STUB_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.Utility TIE_SUFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.Utility java.lang.String dynamicStubName(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.Utility java.lang.String idlStubName(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.Utility java.lang.String stubName(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.Utility java.lang.String stubName(java.lang.String, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.Utility java.lang.String stubNameForCompiler(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.Utility java.lang.String stubNameForCompiler(java.lang.String, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.Utility java.lang.String stubNameFromRepID(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.Utility java.lang.String tieName(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.Utility java.lang.String tieNameForCompiler(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.Version BUILD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.Version BUILD_TIME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.Version FULL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.Version PROJECT_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.Version VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.util.Version java.lang.String asString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,89 @@
+<root>
+    <item name='com.sun.xml.internal.stream.writers.UTF8OutputStreamWriter java.lang.String getEncoding()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.writers.WriterUtility CLOSE_EMPTY_ELEMENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.writers.WriterUtility DEFAULT_ENCODING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.writers.WriterUtility DEFAULT_XMLDECL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.writers.WriterUtility DEFAULT_XML_VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.writers.WriterUtility END_CDATA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.writers.WriterUtility END_COMMENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.writers.WriterUtility OPEN_END_TAG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.writers.WriterUtility SPACE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.writers.WriterUtility START_CDATA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.writers.WriterUtility START_COMMENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.writers.WriterUtility UTF_8'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.writers.XMLDOMWriterImpl java.lang.String getQName(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.writers.XMLStreamWriterImpl.NamespaceContextImpl java.util.Iterator getPrefixes(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.writers.XMLStreamWriterImpl CLOSE_EMPTY_ELEMENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.writers.XMLStreamWriterImpl DEFAULT_ENCODING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.writers.XMLStreamWriterImpl DEFAULT_XMLDECL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.writers.XMLStreamWriterImpl DEFAULT_XML_VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.writers.XMLStreamWriterImpl END_CDATA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.writers.XMLStreamWriterImpl END_COMMENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.writers.XMLStreamWriterImpl OPEN_END_TAG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.writers.XMLStreamWriterImpl OUTPUTSTREAM_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.writers.XMLStreamWriterImpl SPACE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.writers.XMLStreamWriterImpl START_CDATA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.writers.XMLStreamWriterImpl START_COMMENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.writers.XMLStreamWriterImpl UTF_8'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.writers.XMLStreamWriterImpl com.sun.xml.internal.stream.util.ReadOnlyIterator access$100(com.sun.xml.internal.stream.writers.XMLStreamWriterImpl)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.writers.XMLStreamWriterImpl fReadOnlyIterator'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.writers.XMLStreamWriterImpl java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

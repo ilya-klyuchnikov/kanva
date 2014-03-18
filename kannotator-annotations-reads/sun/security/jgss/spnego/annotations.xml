@@ -1,0 +1,53 @@
+<root>
+    <item name='sun.security.jgss.spnego.SpNegoContext sun.security.util.BitArray getContextFlags()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.spnego.SpNegoContext java.lang.String printState(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.spnego.SpNegoMechFactory PROVIDER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.spnego.SpNegoMechFactory availableMechs'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.spnego.SpNegoMechFactory sun.security.jgss.spi.GSSCredentialSpi getCredentialElement(sun.security.jgss.spi.GSSNameSpi, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.spnego.SpNegoMechFactory sun.security.jgss.spi.GSSContextSpi getMechanismContext(sun.security.jgss.spi.GSSCredentialSpi)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.spnego.SpNegoMechFactory sun.security.jgss.spi.GSSContextSpi getMechanismContext(sun.security.jgss.spi.GSSNameSpi, sun.security.jgss.spi.GSSCredentialSpi, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.spnego.SpNegoMechFactory sun.security.jgss.spi.GSSContextSpi getMechanismContext(byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.spnego.SpNegoMechFactory manager'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.spnego.SpNegoToken.NegoResult $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.spnego.SpNegoToken.NegoResult ACCEPT_COMPLETE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.spnego.SpNegoToken.NegoResult ACCEPT_INCOMPLETE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.spnego.SpNegoToken.NegoResult REJECT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.spnego.SpNegoToken.NegoResult sun.security.jgss.spnego.SpNegoToken.NegoResult valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.spnego.SpNegoToken java.lang.String getNegoResultString(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.spnego.SpNegoToken sun.security.jgss.spnego.SpNegoToken.NegoResult getNegoResultType(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.spnego.SpNegoToken java.lang.String getTokenName(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

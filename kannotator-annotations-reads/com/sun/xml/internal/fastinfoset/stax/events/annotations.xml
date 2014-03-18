@@ -1,0 +1,29 @@
+<root>
+    <item name='com.sun.xml.internal.fastinfoset.stax.events.NamespaceBase DEFAULT_NS_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.fastinfoset.stax.events.NamespaceBase W3C_XML_SCHEMA_INSTANCE_NS_URI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.fastinfoset.stax.events.NamespaceBase W3C_XML_SCHEMA_NS_URI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.fastinfoset.stax.events.NamespaceBase XMLNS_ATTRIBUTE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.fastinfoset.stax.events.NamespaceBase XMLNS_ATTRIBUTE_NS_URI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.fastinfoset.stax.events.NamespaceBase XML_NS_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.fastinfoset.stax.events.NamespaceBase XML_NS_URI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.fastinfoset.stax.events.XMLConstants ENCODING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.fastinfoset.stax.events.XMLConstants XMLVERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

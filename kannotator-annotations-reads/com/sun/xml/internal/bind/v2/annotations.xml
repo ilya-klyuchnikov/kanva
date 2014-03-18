@@ -1,0 +1,26 @@
+<root>
+    <item name='com.sun.xml.internal.bind.v2.ContextFactory USE_JAXB_PROPERTIES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.bind.v2.WellKnownNamespace JAXB'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.bind.v2.WellKnownNamespace SWA_URI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.bind.v2.WellKnownNamespace XML_MIME_URI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.bind.v2.WellKnownNamespace XML_NAMESPACE_URI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.bind.v2.WellKnownNamespace XML_SCHEMA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.bind.v2.WellKnownNamespace XML_SCHEMA_INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.bind.v2.WellKnownNamespace XOP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

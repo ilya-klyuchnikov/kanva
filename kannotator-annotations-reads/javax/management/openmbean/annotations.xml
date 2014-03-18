@@ -1,0 +1,161 @@
+<root>
+    <item name='javax.management.openmbean.ArrayType PRIMITIVE_ARRAY_TYPES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.ArrayType java.lang.String buildArrayClassName(int, javax.management.openmbean.OpenType&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.ArrayType java.lang.String buildArrayClassName(int, javax.management.openmbean.OpenType&lt;?&gt;, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.ArrayType java.lang.String buildArrayDescription(int, javax.management.openmbean.OpenType&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.ArrayType java.lang.String buildArrayDescription(int, javax.management.openmbean.OpenType&lt;?&gt;, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.ArrayType javax.management.openmbean.ArrayType&lt;T&gt; convertFromPrimitiveToWrapperTypes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.ArrayType javax.management.openmbean.ArrayType&lt;T&gt; convertFromWrapperToPrimitiveTypes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.ArrayType javax.management.openmbean.ArrayType&lt;E[]&gt; getArrayType(javax.management.openmbean.OpenType&lt;E&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.ArrayType javax.management.openmbean.ArrayType&lt;T&gt; getPrimitiveArrayType(java.lang.Class&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.ArrayType java.lang.Object readResolve()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.ArrayType java.lang.Object writeReplace()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.CompositeDataInvocationHandler compositeData'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.CompositeDataInvocationHandler javax.management.openmbean.CompositeData getCompositeData()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.CompositeDataSupport compositeType'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.CompositeDataSupport java.lang.String contentString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.CompositeDataSupport contents'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.CompositeDataSupport java.lang.Object[] getAll(java.lang.String[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.CompositeDataSupport javax.management.openmbean.CompositeType getCompositeType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.CompositeDataSupport java.util.SortedMap&lt;java.lang.String,java.lang.Object&gt; makeMap(java.util.Map&lt;java.lang.String,?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.CompositeDataSupport java.util.SortedMap&lt;java.lang.String,java.lang.Object&gt; makeMap(java.lang.String[], java.lang.Object[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.CompositeDataSupport java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.CompositeDataSupport java.util.Collection&lt;?&gt; values()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.OpenMBeanAttributeInfoSupport java.lang.Object readResolve()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.OpenMBeanAttributeInfoSupport java.lang.String toString(javax.management.openmbean.OpenMBeanParameterInfo)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.OpenMBeanOperationInfoSupport java.lang.Object readResolve()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.OpenMBeanParameterInfoSupport java.lang.Object readResolve()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.OpenType ALLOWED_CLASSNAMES_LIST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.OpenType java.lang.String valid(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.OpenType java.lang.String validClassName(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.SimpleType BIGDECIMAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.SimpleType BIGINTEGER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.SimpleType BOOLEAN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.SimpleType BYTE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.SimpleType CHARACTER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.SimpleType DATE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.SimpleType DOUBLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.SimpleType FLOAT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.SimpleType INTEGER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.SimpleType LONG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.SimpleType OBJECTNAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.SimpleType SHORT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.SimpleType STRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.SimpleType VOID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.SimpleType canonicalTypes'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.SimpleType java.lang.Object readResolve()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.SimpleType typeArray'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.TabularDataSupport java.util.List&lt;?&gt; checkValueAndIndex(javax.management.openmbean.CompositeData)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.TabularDataSupport java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.TabularDataSupport javax.management.openmbean.TabularType getTabularType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.TabularDataSupport java.util.List&lt;?&gt; internalCalculateIndex(javax.management.openmbean.CompositeData)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.TabularDataSupport java.lang.Object put(java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.TabularDataSupport tabularType'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.openmbean.TabularDataSupport java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

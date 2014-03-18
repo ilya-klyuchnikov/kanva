@@ -1,0 +1,113 @@
+<root>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAP12NamespaceConstants ACTOR_NEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAP12NamespaceConstants ATTR_ACTOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAP12NamespaceConstants ATTR_ENCODING_STYLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAP12NamespaceConstants ATTR_MISUNDERSTOOD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAP12NamespaceConstants ATTR_MUST_UNDERSTAND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAP12NamespaceConstants ATTR_NOT_UNDERSTOOD_QNAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAP12NamespaceConstants ENCODING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAP12NamespaceConstants ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAP12NamespaceConstants ROLE_NEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAP12NamespaceConstants ROLE_NONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAP12NamespaceConstants ROLE_ULTIMATE_RECEIVER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAP12NamespaceConstants SOAP_RPC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAP12NamespaceConstants SOAP_UPGRADE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAP12NamespaceConstants TAG_BODY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAP12NamespaceConstants TAG_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAP12NamespaceConstants TAG_HEADER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAP12NamespaceConstants TAG_NOT_UNDERSTOOD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAP12NamespaceConstants TAG_RESULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAP12NamespaceConstants TRANSPORT_HTTP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAP12NamespaceConstants XML_NS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAP12NamespaceConstants XSD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAP12NamespaceConstants XSI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAPNamespaceConstants ACTOR_NEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAPNamespaceConstants ATTR_ACTOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAPNamespaceConstants ATTR_ENCODING_STYLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAPNamespaceConstants ATTR_MUST_UNDERSTAND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAPNamespaceConstants ENCODING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAPNamespaceConstants ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAPNamespaceConstants NSPREFIX_SOAP_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAPNamespaceConstants TAG_BODY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAPNamespaceConstants TAG_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAPNamespaceConstants TAG_FAULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAPNamespaceConstants TAG_HEADER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAPNamespaceConstants TRANSPORT_HTTP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAPNamespaceConstants XMLNS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAPNamespaceConstants XSD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.encoding.soap.streaming.SOAPNamespaceConstants XSI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

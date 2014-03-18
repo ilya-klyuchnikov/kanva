@@ -1,0 +1,47 @@
+<root>
+    <item name='sun.org.mozilla.javascript.internal.optimizer.Codegen DEFAULT_MAIN_METHOD_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.org.mozilla.javascript.internal.optimizer.Codegen DIRECT_CALL_PARENT_FIELD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.org.mozilla.javascript.internal.optimizer.Codegen FUNCTION_CONSTRUCTOR_SIGNATURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.org.mozilla.javascript.internal.optimizer.Codegen FUNCTION_INIT_SIGNATURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.org.mozilla.javascript.internal.optimizer.Codegen ID_FIELD_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.org.mozilla.javascript.internal.optimizer.Codegen REGEXP_ARRAY_FIELD_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.org.mozilla.javascript.internal.optimizer.Codegen REGEXP_ARRAY_FIELD_TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.org.mozilla.javascript.internal.optimizer.Codegen REGEXP_INIT_METHOD_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.org.mozilla.javascript.internal.optimizer.Codegen REGEXP_INIT_METHOD_SIGNATURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.org.mozilla.javascript.internal.optimizer.Codegen SUPER_CLASS_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.org.mozilla.javascript.internal.optimizer.OptRuntime.GeneratorState CLASS_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.org.mozilla.javascript.internal.optimizer.OptRuntime.GeneratorState resumptionPoint_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.org.mozilla.javascript.internal.optimizer.OptRuntime.GeneratorState resumptionPoint_TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.org.mozilla.javascript.internal.optimizer.OptRuntime.GeneratorState thisObj_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.org.mozilla.javascript.internal.optimizer.OptRuntime.GeneratorState thisObj_TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,53 @@
+<root>
+    <item name='com.sun.beans.finder.AbstractFinder T find(T[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.beans.finder.BeanInfoFinder DEFAULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.beans.finder.BeanInfoFinder DEFAULT_NEW'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.beans.finder.ConstructorFinder CACHE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.beans.finder.FieldFinder java.lang.reflect.Field findField(java.lang.Class&lt;?&gt;, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.beans.finder.FieldFinder java.lang.reflect.Field findInstanceField(java.lang.Class&lt;?&gt;, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.beans.finder.FieldFinder java.lang.reflect.Field findStaticField(java.lang.Class&lt;?&gt;, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.beans.finder.InstanceFinder EMPTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.beans.finder.MethodFinder CACHE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.beans.finder.MethodFinder java.lang.reflect.Method findInstanceMethod(java.lang.Class&lt;?&gt;, java.lang.String, java.lang.Class&lt;?&gt;...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.beans.finder.MethodFinder java.lang.reflect.Method findStaticMethod(java.lang.Class&lt;?&gt;, java.lang.String, java.lang.Class&lt;?&gt;...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.beans.finder.PersistenceDelegateFinder registry'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.beans.finder.PrimitiveTypeMap map'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.beans.finder.PrimitiveWrapperMap map'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.beans.finder.PropertyEditorFinder DEFAULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.beans.finder.PropertyEditorFinder DEFAULT_NEW'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.beans.finder.PropertyEditorFinder registry'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,29 @@
+<root>
+    <item name='sun.org.mozilla.javascript.internal.Arguments FTAG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.org.mozilla.javascript.internal.Context errorReporterProperty'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.org.mozilla.javascript.internal.Context languageVersionProperty'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.org.mozilla.javascript.internal.NativeDate js_NaN_date_str'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.org.mozilla.javascript.internal.NativeGlobal URI_DECODE_RESERVED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.org.mozilla.javascript.internal.NativeIterator ITERATOR_PROPERTY_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.org.mozilla.javascript.internal.NativeIterator STOP_ITERATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.org.mozilla.javascript.internal.NativeJavaClass javaClassPropertyName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.org.mozilla.javascript.internal.ScriptRuntime DEFAULT_NS_TAG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

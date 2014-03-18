@@ -1,0 +1,131 @@
+<root>
+    <item name='java.util.prefs.AbstractPreferences EMPTY_ABSTRACT_PREFS_ARRAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences EMPTY_STRING_ARRAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences absolutePath'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences eventQueue'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences lock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences name'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences java.lang.String name()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.Base64 byte[] altBase64ToByteArray(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.Base64 altBase64ToInt'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.Base64 byte[] base64ToByteArray(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.Base64 byte[] base64ToByteArray(java.lang.String, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.Base64 base64ToInt'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.Base64 java.lang.String byteArrayToAltBase64(byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.Base64 java.lang.String byteArrayToBase64(byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.Base64 java.lang.String byteArrayToBase64(byte[], boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.Base64 intToAltBase64'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.Base64 intToBase64'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.Preferences java.lang.String nodeName(java.lang.Class)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences WINDOWS_ROOT_PATH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences int[] WindowsRegCreateKeyEx1(int, byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences int[] WindowsRegQueryInfoKey1(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences java.lang.String byteArrayToString(byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences java.util.prefs.AbstractPreferences childSpi(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences java.lang.String[] childrenNamesSpi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences java.lang.String[] keysSpi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences byte[] stringToByteArray(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences systemRoot'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences java.lang.String toJavaAlt64Name(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences java.lang.String toJavaName(byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences java.lang.String toJavaValueString(byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences byte[] toWindowsAlt64Name(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences byte[] toWindowsName(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences byte[] toWindowsValueString(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences userRoot'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences byte[] windowsAbsolutePath()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferencesFactory java.util.prefs.Preferences systemRoot()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferencesFactory java.util.prefs.Preferences userRoot()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.XmlSupport.Resolver org.xml.sax.InputSource resolveEntity(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.XmlSupport EXTERNAL_XML_VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.XmlSupport MAP_XML_VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.XmlSupport PREFS_DTD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.XmlSupport PREFS_DTD_URI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

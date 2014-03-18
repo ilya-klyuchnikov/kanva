@@ -1,0 +1,62 @@
+<root>
+    <item name='javax.xml.bind.annotation.W3CDomHandler javax.xml.transform.Result createUnmarshaller(javax.xml.bind.ValidationEventHandler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.annotation.W3CDomHandler javax.xml.transform.dom.DOMResult createUnmarshaller(javax.xml.bind.ValidationEventHandler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.annotation.W3CDomHandler javax.xml.transform.Source marshal(java.lang.Object, javax.xml.bind.ValidationEventHandler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.annotation.W3CDomHandler javax.xml.transform.Source marshal(org.w3c.dom.Element, javax.xml.bind.ValidationEventHandler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.annotation.XmlAccessOrder $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.annotation.XmlAccessOrder ALPHABETICAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.annotation.XmlAccessOrder UNDEFINED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.annotation.XmlAccessOrder javax.xml.bind.annotation.XmlAccessOrder valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.annotation.XmlAccessType $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.annotation.XmlAccessType FIELD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.annotation.XmlAccessType NONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.annotation.XmlAccessType PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.annotation.XmlAccessType PUBLIC_MEMBER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.annotation.XmlAccessType javax.xml.bind.annotation.XmlAccessType valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.annotation.XmlNsForm $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.annotation.XmlNsForm QUALIFIED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.annotation.XmlNsForm UNQUALIFIED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.annotation.XmlNsForm UNSET'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.annotation.XmlNsForm javax.xml.bind.annotation.XmlNsForm valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.annotation.XmlSchema NO_LOCATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

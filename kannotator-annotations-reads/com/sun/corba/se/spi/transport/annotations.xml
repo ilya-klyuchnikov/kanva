@@ -1,0 +1,26 @@
+<root>
+    <item name='com.sun.corba.se.spi.transport.CorbaTransportManager SOCKET_OR_CHANNEL_CONNECTION_CACHE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.transport.SocketInfo IIOP_CLEAR_TEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.transport.TransportDefault.1 com.sun.corba.se.spi.transport.CorbaContactInfoList create(com.sun.corba.se.spi.ior.IOR)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.transport.TransportDefault.2 com.sun.corba.se.spi.protocol.CorbaClientDelegate create(com.sun.corba.se.spi.transport.CorbaContactInfoList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.transport.TransportDefault.3 com.sun.corba.se.spi.transport.ReadTimeouts create(int, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.transport.TransportDefault com.sun.corba.se.spi.protocol.ClientDelegateFactory makeClientDelegateFactory(com.sun.corba.se.spi.orb.ORB)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.transport.TransportDefault com.sun.corba.se.spi.transport.CorbaContactInfoListFactory makeCorbaContactInfoListFactory(com.sun.corba.se.spi.orb.ORB)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.spi.transport.TransportDefault com.sun.corba.se.spi.transport.ReadTimeoutsFactory makeReadTimeoutsFactory()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

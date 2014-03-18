@@ -1,0 +1,89 @@
+<root>
+    <item name='com.sun.xml.internal.ws.addressing.W3CAddressingConstants ACTION_NOT_SUPPORTED_TEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.W3CAddressingConstants ANONYMOUS_EPR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.W3CAddressingConstants DESTINATION_UNREACHABLE_TEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.W3CAddressingConstants ENDPOINT_UNAVAILABLE_TEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.W3CAddressingConstants INVALID_MAP_TEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.W3CAddressingConstants MAP_REQUIRED_TEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.W3CAddressingConstants WSAW_ENDPOINTNAME_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.W3CAddressingConstants WSAW_INTERFACENAME_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.W3CAddressingConstants WSAW_SERVICENAME_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.W3CAddressingConstants WSAW_USING_ADDRESSING_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.W3CAddressingConstants WSA_ADDRESS_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.W3CAddressingConstants WSA_ANONYMOUS_ADDRESS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.W3CAddressingConstants WSA_DEFAULT_FAULT_ACTION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.W3CAddressingConstants WSA_EPR_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.W3CAddressingConstants WSA_METADATA_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.W3CAddressingConstants WSA_NAMESPACE_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.W3CAddressingConstants WSA_NAMESPACE_WSDL_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.W3CAddressingConstants WSA_NONE_ADDRESS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.W3CAddressingConstants WSA_REFERENCEPARAMETERS_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.W3CAddressingConstants WSA_REFERENCEPROPERTIES_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.W3CAddressingMetadataConstants WSAM_ADDRESSING_ASSERTION_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.W3CAddressingMetadataConstants WSAM_ANONYMOUS_NESTED_ASSERTION_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.W3CAddressingMetadataConstants WSAM_NAMESPACE_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.W3CAddressingMetadataConstants WSAM_NONANONYMOUS_NESTED_ASSERTION_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.W3CAddressingMetadataConstants WSAM_PREFIX_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.W3CAddressingMetadataConstants WSAM_WSDLI_ATTRIBUTE_LOCALNAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.W3CAddressingMetadataConstants WSAM_WSDLI_ATTRIBUTE_NAMESPACE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.W3CAddressingMetadataConstants WSAM_WSDLI_ATTRIBUTE_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.WsaServerTube REQUEST_MESSAGE_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

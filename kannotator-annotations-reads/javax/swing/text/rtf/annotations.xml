@@ -1,0 +1,158 @@
+<root>
+    <item name='javax.swing.text.rtf.AbstractFilter allSpecialsTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.AbstractFilter latin1TranslationTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.AbstractFilter noSpecialsTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.Constants Caps'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.Constants Deleted'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.Constants GutterWidth'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.Constants Hidden'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.Constants MarginBottom'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.Constants MarginLeft'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.Constants MarginRight'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.Constants MarginTop'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.Constants Outline'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.Constants PaperHeight'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.Constants PaperWidth'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.Constants RTFCharacterSet'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.Constants STCharacter'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.Constants STParagraph'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.Constants STSection'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.Constants Shadow'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.Constants SmallCaps'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.Constants Strikethrough'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.Constants StyleAdditive'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.Constants StyleHidden'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.Constants StyleNext'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.Constants StyleType'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.Constants Tabs'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.Constants WidowControl'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.RTFAttributes.NumericAttribute javax.swing.text.rtf.RTFAttributes.NumericAttribute NewTwips(int, java.lang.Object, java.lang.String, float, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.RTFAttributes.NumericAttribute javax.swing.text.rtf.RTFAttributes.NumericAttribute NewTwips(int, java.lang.Object, java.lang.String, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.RTFAttributes java.util.Dictionary&lt;java.lang.String,javax.swing.text.rtf.RTFAttribute&gt; attributesByKeyword()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.RTFEditorKit java.lang.String getContentType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.RTFGenerator MagicToken'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.RTFGenerator java.lang.String approximationForUnicode(char)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.RTFGenerator defaultFontFamily'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.RTFGenerator hexdigits'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.RTFGenerator int[] outputConversionForName(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.RTFGenerator int[] outputConversionFromTranslationTable(char[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.RTFReader.AttributeTrackingDestination javax.swing.text.MutableAttributeSet currentParagraphAttributes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.RTFReader.AttributeTrackingDestination javax.swing.text.AttributeSet currentSectionAttributes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.RTFReader.AttributeTrackingDestination javax.swing.text.MutableAttributeSet currentTextAttributes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.RTFReader.AttributeTrackingDestination javax.swing.text.MutableAttributeSet rootCharacterAttributes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.RTFReader.AttributeTrackingDestination javax.swing.text.MutableAttributeSet rootParagraphAttributes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.RTFReader.AttributeTrackingDestination javax.swing.text.MutableAttributeSet rootSectionAttributes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.RTFReader.AttributeTrackingDestination this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.RTFReader.DocumentDestination this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.RTFReader.StylesheetDestination.StyleDefiningDestination this$1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.RTFReader.TextHandlingDestination this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.RTFReader TabAlignmentKey'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.RTFReader TabLeaderKey'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.RTFReader java.lang.Object getCharacterSet(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.RTFReader char[] readCharset(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.rtf.RTFReader char[] readCharset(java.net.URL)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

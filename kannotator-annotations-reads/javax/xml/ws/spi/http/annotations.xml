@@ -1,0 +1,11 @@
+<root>
+    <item name='javax.xml.ws.spi.http.HttpExchange REQUEST_CIPHER_SUITE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.ws.spi.http.HttpExchange REQUEST_KEY_SIZE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.ws.spi.http.HttpExchange REQUEST_X509CERTIFICATE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

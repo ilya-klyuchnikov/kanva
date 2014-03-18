@@ -1,0 +1,200 @@
+<root>
+    <item name='com.sun.imageio.plugins.jpeg.AdobeMarkerSegment javax.imageio.metadata.IIOMetadataNode getNativeNode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.COMMarkerSegment ENCODING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.COMMarkerSegment javax.imageio.metadata.IIOMetadataNode getNativeNode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.DHTMarkerSegment.Htable javax.imageio.metadata.IIOMetadataNode getNativeNode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.DHTMarkerSegment java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.DHTMarkerSegment com.sun.imageio.plugins.jpeg.DHTMarkerSegment.Htable getHtableFromNode(org.w3c.dom.Node)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.DHTMarkerSegment javax.imageio.metadata.IIOMetadataNode getNativeNode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.DQTMarkerSegment.Qtable javax.imageio.metadata.IIOMetadataNode getNativeNode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.DQTMarkerSegment.Qtable zigzag'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.DQTMarkerSegment java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.DQTMarkerSegment com.sun.imageio.plugins.jpeg.DQTMarkerSegment.Qtable getChromaForLuma(com.sun.imageio.plugins.jpeg.DQTMarkerSegment.Qtable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.DQTMarkerSegment javax.imageio.metadata.IIOMetadataNode getNativeNode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.DQTMarkerSegment com.sun.imageio.plugins.jpeg.DQTMarkerSegment.Qtable getQtableFromNode(org.w3c.dom.Node)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.DRIMarkerSegment javax.imageio.metadata.IIOMetadataNode getNativeNode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.ImageTypeProducer defaultTypes'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JFIFMarkerSegment.ICCMarkerSegment javax.imageio.metadata.IIOMetadataNode getNativeNode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JFIFMarkerSegment.JFIFExtensionMarkerSegment javax.imageio.metadata.IIOMetadataNode getNativeNode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JFIFMarkerSegment.JFIFThumbJPEG javax.imageio.metadata.IIOMetadataNode getNativeNode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JFIFMarkerSegment.JFIFThumbPalette java.awt.image.BufferedImage getThumbnail(javax.imageio.stream.ImageInputStream, com.sun.imageio.plugins.jpeg.JPEGImageReader)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JFIFMarkerSegment.JFIFThumbRGB java.awt.image.BufferedImage getThumbnail(javax.imageio.stream.ImageInputStream, com.sun.imageio.plugins.jpeg.JPEGImageReader)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JFIFMarkerSegment.JFIFThumbUncompressed javax.imageio.metadata.IIOMetadataNode getNativeNode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JFIFMarkerSegment java.awt.image.BufferedImage expandGrayThumb(java.awt.image.BufferedImage)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JFIFMarkerSegment javax.imageio.metadata.IIOMetadataNode getNativeNode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEG MIMETypes'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEG bOffsRGB'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEG bandOffsets'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEG javax.imageio.plugins.jpeg.JPEGHuffmanTable[] getDefaultHuffmanTables(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEG javax.imageio.plugins.jpeg.JPEGQTable[] getDefaultQTables()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEG names'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEG nativeImageMetadataFormatClassName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEG nativeImageMetadataFormatName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEG nativeStreamMetadataFormatClassName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEG nativeStreamMetadataFormatName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEG suffixes'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEG vendor'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEG version'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEGImageMetadataFormatResources java.lang.Object[][] getContents()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEGImageMetadataFormatResources imageContents'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEGImageReader.1 javax.imageio.ImageTypeSpecifier produce()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEGImageReader javax.imageio.ImageReadParam getDefaultReadParam()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEGImageReader java.util.Iterator getImageTypes(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEGImageReader java.util.Iterator getImageTypesOnThread(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEGImageReaderResources java.lang.Object[][] getContents()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEGImageReaderSpi javax.imageio.ImageReader createReaderInstance(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEGImageReaderSpi java.lang.String getDescription(java.util.Locale)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEGImageWriter javax.imageio.metadata.IIOMetadata getDefaultImageMetadata(javax.imageio.ImageTypeSpecifier, javax.imageio.ImageWriteParam)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEGImageWriter javax.imageio.metadata.IIOMetadata getDefaultStreamMetadata(javax.imageio.ImageWriteParam)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEGImageWriter javax.imageio.ImageWriteParam getDefaultWriteParam()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEGImageWriter preferredThumbSizes'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEGImageWriterResources java.lang.Object[][] getContents()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEGImageWriterSpi javax.imageio.ImageWriter createWriterInstance(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEGImageWriterSpi java.lang.String getDescription(java.util.Locale)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEGMetadata java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEGMetadata java.awt.Point findIntegerRatio(float)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEGMetadata javax.imageio.metadata.IIOMetadataNode getNativeTree()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEGMetadata javax.imageio.metadata.IIOMetadataNode getStandardCompressionNode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEGMetadata javax.imageio.metadata.IIOMetadataNode getStandardDimensionNode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEGMetadataFormatResources commonContents'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.JPEGStreamMetadataFormatResources java.lang.Object[][] getContents()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.MarkerSegment javax.imageio.metadata.IIOMetadataNode getNativeNode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.SOFMarkerSegment.ComponentSpec javax.imageio.metadata.IIOMetadataNode getNativeNode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.SOFMarkerSegment com.sun.imageio.plugins.jpeg.SOFMarkerSegment.ComponentSpec getComponentSpec(byte, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.SOFMarkerSegment javax.imageio.metadata.IIOMetadataNode getNativeNode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.SOSMarkerSegment.ScanComponentSpec javax.imageio.metadata.IIOMetadataNode getNativeNode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.SOSMarkerSegment javax.imageio.metadata.IIOMetadataNode getNativeNode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.imageio.plugins.jpeg.SOSMarkerSegment com.sun.imageio.plugins.jpeg.SOSMarkerSegment.ScanComponentSpec getScanComponentSpec(byte, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

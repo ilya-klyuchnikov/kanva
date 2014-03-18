@@ -1,0 +1,239 @@
+<root>
+    <item name='sun.java2d.Disposer queue'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.Disposer records'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.NullSurfaceData java.awt.Rectangle getBounds()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.NullSurfaceData sun.java2d.SurfaceData getReplacement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.NullSurfaceData nullpipe'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.NullSurfaceData theInstance'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.ScreenUpdateManager java.awt.Graphics2D createGraphics(sun.java2d.SurfaceData, sun.awt.windows.WComponentPeer, java.awt.Color, java.awt.Color, java.awt.Font)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.ScreenUpdateManager sun.java2d.SurfaceData createScreenSurface(sun.awt.Win32GraphicsConfig, sun.awt.windows.WComponentPeer, int, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.Spans.Span java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.Spans.SpanIntersection instance'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.StateTrackable.State $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.StateTrackable.State DYNAMIC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.StateTrackable.State IMMUTABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.StateTrackable.State STABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.StateTrackable.State UNTRACKABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.StateTrackable.State sun.java2d.StateTrackable.State valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.StateTrackableDelegate.2 $SwitchMap$sun$java2d$StateTrackable$State'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.StateTrackableDelegate IMMUTABLE_DELEGATE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.StateTrackableDelegate UNTRACKABLE_DELEGATE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.StateTracker ALWAYS_CURRENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.StateTracker NEVER_CURRENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SunGraphics2D IDENT_ATX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SunGraphics2D IDENT_MATRIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SunGraphics2D sun.java2d.loops.FontInfo checkFontInfo(sun.java2d.loops.FontInfo, java.awt.Font, java.awt.font.FontRenderContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SunGraphics2D java.awt.Shape cloneShape(java.awt.Shape)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SunGraphics2D java.awt.geom.AffineTransform cloneTransform()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SunGraphics2D defaultComposite'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SunGraphics2D defaultFont'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SunGraphics2D defaultStroke'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SunGraphics2D java.awt.Rectangle getClipBounds(java.awt.Rectangle)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SunGraphics2D java.awt.Rectangle getImageRegion(java.awt.image.RenderedImage, sun.java2d.pipe.Region, java.awt.geom.AffineTransform, java.awt.geom.AffineTransform, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SunGraphics2D java.awt.geom.AffineTransform getTransform()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SunGraphics2D java.awt.RenderingHints makeHints(java.util.Map)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SunGraphicsEnvironment java.awt.Graphics2D createGraphics(java.awt.image.BufferedImage)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SunGraphicsEnvironment java.awt.GraphicsDevice[] getScreenDevices()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SunGraphicsEnvironment java.awt.Rectangle getUsableBounds(java.awt.GraphicsDevice)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData AAClipColorShape'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData AAClipColorViaShape'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData AAClipCompShape'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData AAClipCompViaShape'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData AAClipPaintShape'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData AAClipPaintViaShape'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData AAColorShape'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData AAColorViaPgram'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData AAColorViaShape'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData AACompShape'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData AACompViaShape'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData AAPaintShape'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData AAPaintViaShape'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData aaTextRenderer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData clipColorPipe'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData clipColorText'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData clipCompPipe'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData clipCompText'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData clipPaintPipe'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData clipPaintText'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData colorPipe'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData colorPrimitives'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData colorText'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData colorViaPgram'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData colorViaShape'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData compPipe'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData compShape'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData compText'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData compViaShape'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData sun.java2d.loops.RenderLoops getRenderLoops(sun.java2d.SunGraphics2D)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData imagepipe'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData lcdTextRenderer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData sun.java2d.pipe.PixelToParallelogramConverter makeConverter(sun.java2d.pipe.AAShapePipe)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData sun.java2d.pipe.PixelToParallelogramConverter makeConverter(sun.java2d.pipe.AAShapePipe, sun.java2d.pipe.ParallelogramPipe)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData sun.java2d.loops.RenderLoops makeRenderLoops(sun.java2d.loops.SurfaceType, sun.java2d.loops.CompositeType, sun.java2d.loops.SurfaceType)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData outlineTextRenderer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData paintPipe'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData paintShape'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData paintText'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData paintViaShape'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceData solidTextRenderer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.SurfaceDataProxy sun.java2d.StateTracker getRetryTracker(sun.java2d.SurfaceData)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.WindowsSurfaceManagerFactory sun.awt.image.VolatileSurfaceManager createVolatileManager(sun.awt.image.SunVolatileImage, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

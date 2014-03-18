@@ -1,0 +1,5 @@
+<root>
+    <item name='com.sun.org.apache.xml.internal.security.utils.resolver.implementations.ResolverXPointer XP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

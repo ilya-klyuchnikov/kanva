@@ -1,0 +1,731 @@
+<root>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar.BuiltinSchemaGrammar EXTENDED_SCHEMA_FACTORY_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar.BuiltinSchemaGrammar com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarDescription getGrammarDescription()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar.Schema4Annotations INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar.Schema4Annotations com.sun.org.apache.xerces.internal.impl.xs.XSElementDecl createAnnotationElementDecl(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar.Schema4Annotations com.sun.org.apache.xerces.internal.impl.xs.XSParticleDecl createAnyLaxWildcardParticle()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar.Schema4Annotations com.sun.org.apache.xerces.internal.impl.xs.XSParticleDecl createChoiceElementParticle(com.sun.org.apache.xerces.internal.impl.xs.XSElementDecl)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar.Schema4Annotations com.sun.org.apache.xerces.internal.impl.xs.XSParticleDecl createUnboundedAnyWildcardSequenceParticle()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar.Schema4Annotations com.sun.org.apache.xerces.internal.impl.xs.XSParticleDecl createUnboundedModelGroupParticle()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar.Schema4Annotations com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarDescription getGrammarDescription()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar.XSAnyType com.sun.org.apache.xerces.internal.impl.xs.XSAttributeGroupDecl getAttrGrp()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar.XSAnyType com.sun.org.apache.xerces.internal.xs.XSWildcard getAttributeWildcard()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar.XSAnyType com.sun.org.apache.xerces.internal.xs.XSParticle getParticle()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar GLOBAL_COMP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar SG_SchemaNS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar SG_SchemaNSExtended'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar SG_XSI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar fAnyType'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar com.sun.org.apache.xerces.internal.parsers.DOMParser getDOMParser()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar com.sun.org.apache.xerces.internal.xs.StringList getDocumentLocations()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar com.sun.org.apache.xerces.internal.parsers.SAXParser getSAXParser()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar com.sun.org.apache.xerces.internal.impl.xs.XSComplexTypeDecl[] resize(com.sun.org.apache.xerces.internal.impl.xs.XSComplexTypeDecl[], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar com.sun.org.apache.xerces.internal.impl.xs.XSElementDecl[] resize(com.sun.org.apache.xerces.internal.impl.xs.XSElementDecl[], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar com.sun.org.apache.xerces.internal.impl.xs.XSGroupDecl[] resize(com.sun.org.apache.xerces.internal.impl.xs.XSGroupDecl[], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar com.sun.org.apache.xerces.internal.impl.xs.util.SimpleLocator[] resize(com.sun.org.apache.xerces.internal.impl.xs.util.SimpleLocator[], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar com.sun.org.apache.xerces.internal.xs.XSModel toXSModel()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar com.sun.org.apache.xerces.internal.xs.XSModel toXSModel(com.sun.org.apache.xerces.internal.xni.grammars.XSGrammar[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_ANYSIMPLETYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_ANYTYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_ANYURI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_BASE64BINARY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_BOOLEAN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_BYTE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_COLLAPSE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_DATE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_DATETIME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_DAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_DECIMAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_DOUBLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_DURATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_ENTITIES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_ENTITY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_EXTENSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_FALSE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_FALSE_0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_FLOAT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_HEXBINARY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_IDREF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_IDREFS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_INT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_INTEGER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_LANGUAGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_LAX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_LIST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_LONG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_MONTH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_MONTHDAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_NCNAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_NEGATIVEINTEGER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_NMTOKEN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_NMTOKENS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_NONNEGATIVEINTEGER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_NONPOSITIVEINTEGER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_NORMALIZEDSTRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_NOTATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_OPTIONAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_POSITIVEINTEGER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_POUNDALL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_PRESERVE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_PROHIBITED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_QNAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_QUALIFIED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_REPLACE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_REQUIRED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_RESTRICTION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_SHORT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_SKIP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_STRICT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_STRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_SUBSTITUTION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_TIME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_TOKEN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_TRUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_TRUE_1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_TWOPOUNDANY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_TWOPOUNDLOCAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_TWOPOUNDOTHER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_TWOPOUNDTARGETNS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_UNBOUNDED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_UNION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_UNQUALIFIED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_UNSIGNEDBYTE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_UNSIGNEDINT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_UNSIGNEDLONG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_UNSIGNEDSHORT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_YEAR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols ATTVAL_YEARMONTH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SubstitutionGroupHandler EMPTY_GROUP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.SubstitutionGroupHandler EMPTY_VECTOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader ALLOW_JAVA_ENCODINGS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader AUGMENT_PSVI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader CONTINUE_AFTER_FATAL_ERROR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader DISALLOW_DOCTYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader ENTITY_MANAGER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader ENTITY_RESOLVER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader ERROR_HANDLER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader ERROR_REPORTER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader GENERATE_SYNTHETIC_ANNOTATIONS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader HONOUR_ALL_SCHEMALOCATIONS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader JAXP_SCHEMA_SOURCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader LOCALE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader NAMESPACE_GROWTH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader PARSER_SETTINGS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader RECOGNIZED_FEATURES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader RECOGNIZED_PROPERTIES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader SCHEMA_DV_FACTORY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader SCHEMA_FULL_CHECKING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader SCHEMA_LOCATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader SCHEMA_NONS_LOCATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader SECURITY_MANAGER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader STANDARD_URI_CONFORMANT_FEATURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader SYMBOL_TABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader TOLERATE_DUPLICATES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader USE_SERVICE_MECHANISM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader VALIDATE_ANNOTATIONS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader XMLGRAMMAR_POOL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource dom2xmlInputSource(org.w3c.dom.ls.LSInput)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader fNodeFactory'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader org.w3c.dom.DOMConfiguration getConfig()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource saxToXMLInputSource(org.xml.sax.InputSource)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource xsdToXMLInputSource(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.ValueStoreBase fTempBuffer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.ValueStoreBase fValues'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.ValueStoreBase java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.ValueStoreBase java.lang.String toString(java.util.Vector, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.ValueStoreBase java.lang.String toString(java.lang.Object[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.ValueStoreCache fGlobalIDConstraintMap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.ValueStoreCache fGlobalMapStack'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.ValueStoreCache fIdentityConstraint2ValueStoreMap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.ValueStoreCache fLocalId'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.ValueStoreCache fValueStores'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.ValueStoreCache java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator ALLOW_JAVA_ENCODINGS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator CONTINUE_AFTER_FATAL_ERROR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator DYNAMIC_VALIDATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator EMPTY_TABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator ENTITY_MANAGER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator ENTITY_RESOLVER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator ERROR_REPORTER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator FEATURE_DEFAULTS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator GENERATE_SYNTHETIC_ANNOTATIONS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator HONOUR_ALL_SCHEMALOCATIONS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator JAXP_SCHEMA_LANGUAGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator JAXP_SCHEMA_SOURCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator NAMESPACE_GROWTH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator NORMALIZE_DATA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator PARSER_SETTINGS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator PROPERTY_DEFAULTS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator RECOGNIZED_FEATURES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator RECOGNIZED_PROPERTIES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator REPORT_WHITESPACE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator SCHEMA_AUGMENT_PSVI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator SCHEMA_DV_FACTORY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator SCHEMA_ELEMENT_DEFAULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator SCHEMA_FULL_CHECKING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator SCHEMA_LOCATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator SCHEMA_NONS_LOCATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator SCHEMA_VALIDATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator STANDARD_URI_CONFORMANT_FEATURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator SYMBOL_TABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator TOLERATE_DUPLICATES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator USE_GRAMMAR_POOL_ONLY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator USE_SERVICE_MECHANISM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator VALIDATE_ANNOTATIONS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator VALIDATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator VALIDATION_MANAGER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator XMLGRAMMAR_POOL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator com.sun.org.apache.xerces.internal.impl.xs.identity.XPathMatcher activateField(com.sun.org.apache.xerces.internal.impl.xs.identity.Field, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator java.lang.String expectedStr(java.util.Vector)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator fAugmentations'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator fBuffer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator fCMBuilder'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator fEmptyXMLStr'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator fGrammarBucket'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator fLocationPairs'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator fMayMatchFieldMap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator fNormalizedStr'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator fSchemaLoader'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator fSubGroupHandler'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator fTempQName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator fXSDDescription'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator fXSIErrorReporter'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator com.sun.org.apache.xerces.internal.xni.Augmentations getEmptyAugs(com.sun.org.apache.xerces.internal.xni.Augmentations)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator nodeFactory'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSAttributeGroupDecl com.sun.org.apache.xerces.internal.impl.xs.XSAttributeUseImpl[] resize(com.sun.org.apache.xerces.internal.impl.xs.XSAttributeUseImpl[], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSComplexTypeDecl java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSConstraints ELEMENT_PARTICLE_COMPARATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSDDescription java.lang.String getGrammarType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSDDescription com.sun.org.apache.xerces.internal.impl.xs.XSDDescription makeClone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSDeclarationPool com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl[][] resize(com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl[][], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSDeclarationPool com.sun.org.apache.xerces.internal.impl.xs.XSAttributeDecl[][] resize(com.sun.org.apache.xerces.internal.impl.xs.XSAttributeDecl[][], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSDeclarationPool com.sun.org.apache.xerces.internal.impl.xs.XSAttributeUseImpl[][] resize(com.sun.org.apache.xerces.internal.impl.xs.XSAttributeUseImpl[][], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSDeclarationPool com.sun.org.apache.xerces.internal.impl.xs.XSComplexTypeDecl[][] resize(com.sun.org.apache.xerces.internal.impl.xs.XSComplexTypeDecl[][], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSDeclarationPool com.sun.org.apache.xerces.internal.impl.xs.XSElementDecl[][] resize(com.sun.org.apache.xerces.internal.impl.xs.XSElementDecl[][], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSDeclarationPool com.sun.org.apache.xerces.internal.impl.xs.XSModelGroupImpl[][] resize(com.sun.org.apache.xerces.internal.impl.xs.XSModelGroupImpl[][], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSDeclarationPool com.sun.org.apache.xerces.internal.impl.xs.XSParticleDecl[][] resize(com.sun.org.apache.xerces.internal.impl.xs.XSParticleDecl[][], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSElementDecl com.sun.org.apache.xerces.internal.xs.XSNamedMap getIdentityConstraints()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSElementDecl com.sun.org.apache.xerces.internal.impl.xs.identity.IdentityConstraint[] resize(com.sun.org.apache.xerces.internal.impl.xs.identity.IdentityConstraint[], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSGrammarBucket com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar[] getGrammars()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSImplementationImpl com.sun.org.apache.xerces.internal.xs.XSLoader createXSLoader(com.sun.org.apache.xerces.internal.xs.StringList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSImplementationImpl com.sun.org.apache.xerces.internal.xs.StringList getRecognizedVersions()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSLoaderImpl.XSGrammarMerger com.sun.org.apache.xerces.internal.xni.grammars.Grammar[] retrieveInitialGrammarSet(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSLoaderImpl fGrammarPool'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSLoaderImpl fSchemaLoader'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSLoaderImpl org.w3c.dom.DOMConfiguration getConfig()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSMessageFormatter SCHEMA_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSMessageFormatter java.lang.String formatMessage(java.util.Locale, java.lang.String, java.lang.Object[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSModelGroupImpl com.sun.org.apache.xerces.internal.xs.XSObjectList getParticles()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSModelImpl GLOBAL_COMP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSModelImpl com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar[] access$100(com.sun.org.apache.xerces.internal.impl.xs.XSModelImpl)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSModelImpl com.sun.org.apache.xerces.internal.util.SymbolHash buildSubGroups()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSModelImpl com.sun.org.apache.xerces.internal.util.SymbolHash buildSubGroups_Org()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSModelImpl fGlobalComponents'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSModelImpl fGrammarList'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSModelImpl fGrammarMap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSModelImpl fNSComponents'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSModelImpl fNamespaces'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSModelImpl fNamespacesList'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSModelImpl fSubGroupMap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSModelImpl com.sun.org.apache.xerces.internal.xs.XSNamespaceItemList getNamespaceItems()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSModelImpl com.sun.org.apache.xerces.internal.xs.StringList getNamespaces()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSModelImpl java.util.Iterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSModelImpl java.util.ListIterator listIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSModelImpl java.util.ListIterator listIterator(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSModelImpl java.util.ListIterator listIterator0(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSModelImpl java.lang.Object[] toArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSModelImpl java.lang.Object[] toArray(java.lang.Object[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSParticleDecl com.sun.org.apache.xerces.internal.impl.xs.XSParticleDecl makeClone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSWildcardDecl com.sun.org.apache.xerces.internal.xs.StringList getNsConstraintList()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSWildcardDecl java.lang.String getProcessContentsAsString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSWildcardDecl java.lang.String[] intersect2sets(java.lang.String[], java.lang.String[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.impl.xs.XSWildcardDecl java.lang.String[] union2sets(java.lang.String[], java.lang.String[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

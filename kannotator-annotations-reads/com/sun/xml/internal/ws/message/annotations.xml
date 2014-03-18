@@ -1,0 +1,17 @@
+<root>
+    <item name='com.sun.xml.internal.ws.message.ProblemActionHeader actionLocalName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.message.ProblemActionHeader soapActionLocalName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.message.StringHeader MUST_UNDERSTAND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.message.StringHeader S11_MUST_UNDERSTAND_TRUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.message.StringHeader S12_MUST_UNDERSTAND_TRUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

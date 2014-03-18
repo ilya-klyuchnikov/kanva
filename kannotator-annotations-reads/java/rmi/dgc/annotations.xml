@@ -1,0 +1,8 @@
+<root>
+    <item name='java.rmi.dgc.VMID byte[] computeAddressHash()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.dgc.VMID java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

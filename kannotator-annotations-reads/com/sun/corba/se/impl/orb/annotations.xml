@@ -1,0 +1,302 @@
+<root>
+    <item name='com.sun.corba.se.impl.orb.DataCollectorBase java.util.Set getCORBAPrefixes(java.util.Set)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.DataCollectorBase java.util.Properties getFileProperties()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.DataCollectorBase java.util.Iterator getSystemPropertyNames()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.DataCollectorBase java.util.Iterator makeIterator(java.util.Enumeration)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.DataCollectorFactory com.sun.corba.se.spi.orb.DataCollector create(java.applet.Applet, java.util.Properties, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.DataCollectorFactory com.sun.corba.se.spi.orb.DataCollector create(java.util.Properties, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.DataCollectorFactory com.sun.corba.se.spi.orb.DataCollector create(java.lang.String[], java.util.Properties, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBConfiguratorImpl.1 com.sun.corba.se.spi.transport.CorbaContactInfoList create(com.sun.corba.se.spi.ior.IOR)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBConfiguratorImpl.3 java.lang.Object evaluate()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBConfiguratorImpl.ConfigParser com.sun.corba.se.spi.orb.PropertyParser makeParser()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl.3 java.lang.Object initialValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl.4 java.lang.Object initialValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl.ConfigParser com.sun.corba.se.spi.orb.PropertyParser makeParser()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl com.sun.corba.se.pept.protocol.ClientInvocationInfo createOrIncrementInvocationInfo()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl org.omg.CORBA.TypeCode create_abstract_interface_tc(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl org.omg.CORBA.TypeCode create_alias_tc(java.lang.String, java.lang.String, org.omg.CORBA.TypeCode)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl org.omg.CORBA.Any create_any()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl org.omg.CORBA.TypeCode create_array_tc(int, org.omg.CORBA.TypeCode)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl org.omg.CORBA.ContextList create_context_list()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl org.omg.CORBA.TypeCode create_enum_tc(java.lang.String, java.lang.String, java.lang.String[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl org.omg.CORBA.Environment create_environment()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl org.omg.CORBA.ExceptionList create_exception_list()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl org.omg.CORBA.TypeCode create_exception_tc(java.lang.String, java.lang.String, org.omg.CORBA.StructMember[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl org.omg.CORBA.TypeCode create_fixed_tc(short, short)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl org.omg.CORBA.TypeCode create_interface_tc(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl org.omg.CORBA.NVList create_list(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl org.omg.CORBA.NamedValue create_named_value(java.lang.String, org.omg.CORBA.Any, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl org.omg.CORBA.TypeCode create_native_tc(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl org.omg.CORBA.portable.OutputStream create_output_stream()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl org.omg.CORBA.TypeCode create_recursive_sequence_tc(int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl org.omg.CORBA.TypeCode create_recursive_tc(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl org.omg.CORBA.TypeCode create_sequence_tc(int, org.omg.CORBA.TypeCode)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl org.omg.CORBA.TypeCode create_string_tc(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl org.omg.CORBA.TypeCode create_struct_tc(java.lang.String, java.lang.String, org.omg.CORBA.StructMember[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl org.omg.CORBA.TypeCode create_union_tc(java.lang.String, java.lang.String, org.omg.CORBA.TypeCode, org.omg.CORBA.UnionMember[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl org.omg.CORBA.TypeCode create_value_box_tc(java.lang.String, java.lang.String, org.omg.CORBA.TypeCode)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl org.omg.CORBA.TypeCode create_value_tc(java.lang.String, java.lang.String, short, org.omg.CORBA.TypeCode, org.omg.CORBA.ValueMember[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl org.omg.CORBA.TypeCode create_wstring_tc(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl org.omg.CORBA.Request get_next_response()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl org.omg.CORBA.Object resolve_initial_references(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl resolverLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBImpl urlOperationLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBSingleton org.omg.CORBA.TypeCode create_abstract_interface_tc(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBSingleton org.omg.CORBA.TypeCode create_alias_tc(java.lang.String, java.lang.String, org.omg.CORBA.TypeCode)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBSingleton org.omg.CORBA.Any create_any()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBSingleton org.omg.CORBA.TypeCode create_array_tc(int, org.omg.CORBA.TypeCode)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBSingleton org.omg.CORBA.ContextList create_context_list()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBSingleton org.omg.CORBA.TypeCode create_enum_tc(java.lang.String, java.lang.String, java.lang.String[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBSingleton org.omg.CORBA.Environment create_environment()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBSingleton org.omg.CORBA.ExceptionList create_exception_list()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBSingleton org.omg.CORBA.TypeCode create_exception_tc(java.lang.String, java.lang.String, org.omg.CORBA.StructMember[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBSingleton org.omg.CORBA.TypeCode create_fixed_tc(short, short)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBSingleton org.omg.CORBA.TypeCode create_interface_tc(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBSingleton org.omg.CORBA.NVList create_list(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBSingleton org.omg.CORBA.NamedValue create_named_value(java.lang.String, org.omg.CORBA.Any, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBSingleton org.omg.CORBA.TypeCode create_native_tc(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBSingleton org.omg.CORBA.portable.OutputStream create_output_stream()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBSingleton org.omg.CORBA.TypeCode create_recursive_sequence_tc(int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBSingleton org.omg.CORBA.TypeCode create_recursive_tc(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBSingleton org.omg.CORBA.TypeCode create_sequence_tc(int, org.omg.CORBA.TypeCode)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBSingleton org.omg.CORBA.TypeCode create_string_tc(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBSingleton org.omg.CORBA.TypeCode create_struct_tc(java.lang.String, java.lang.String, org.omg.CORBA.StructMember[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBSingleton org.omg.CORBA.TypeCode create_union_tc(java.lang.String, java.lang.String, org.omg.CORBA.TypeCode, org.omg.CORBA.UnionMember[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBSingleton org.omg.CORBA.TypeCode create_value_box_tc(java.lang.String, java.lang.String, org.omg.CORBA.TypeCode)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBSingleton org.omg.CORBA.TypeCode create_value_tc(java.lang.String, java.lang.String, short, org.omg.CORBA.TypeCode, org.omg.CORBA.ValueMember[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBSingleton org.omg.CORBA.TypeCode create_wstring_tc(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBSingleton com.sun.corba.se.impl.encoding.CodeSetComponentInfo getCodeSetComponentInfo()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBVersionImpl FOREIGN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBVersionImpl JDK1_3_1_01'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBVersionImpl NEW'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBVersionImpl NEWER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBVersionImpl OLD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBVersionImpl PEORB'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ORBVersionImpl java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ParserActionFactory com.sun.corba.se.impl.orb.ParserAction makeNormalAction(java.lang.String, com.sun.corba.se.spi.orb.Operation, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ParserActionFactory com.sun.corba.se.impl.orb.ParserAction makePrefixAction(java.lang.String, com.sun.corba.se.spi.orb.Operation, java.lang.String, java.lang.Class)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ParserTable.11 java.lang.Object operate(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ParserTable.12 java.lang.Object operate(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ParserTable.15 java.lang.Object operate(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ParserTable.2 java.lang.Object operate(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ParserTable.9 java.lang.Object operate(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ParserTable.TestAcceptor1 java.lang.String getConnectionCacheType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ParserTable.TestAcceptor2 java.lang.String getConnectionCacheType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ParserTable com.sun.corba.se.spi.orb.ParserData[] getParserData()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ParserTable com.sun.corba.se.spi.orb.Operation makeADOperation()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ParserTable com.sun.corba.se.spi.orb.Operation makeAcceptorInstantiationOperation()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ParserTable com.sun.corba.se.spi.orb.Operation makeBMGROperation()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ParserTable com.sun.corba.se.spi.orb.Operation makeCSOperation()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ParserTable com.sun.corba.se.spi.orb.Operation makeContactInfoListFactoryOperation()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ParserTable com.sun.corba.se.spi.orb.Operation makeFSOperation()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ParserTable com.sun.corba.se.spi.orb.Operation makeGVOperation()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ParserTable com.sun.corba.se.spi.orb.Operation makeIIOPPrimaryToContactInfoOperation()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ParserTable com.sun.corba.se.spi.orb.Operation makeIORToSocketInfoOperation()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ParserTable com.sun.corba.se.spi.orb.Operation makeInitRefOperation()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ParserTable com.sun.corba.se.spi.orb.Operation makeLegacySocketFactoryOperation()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ParserTable com.sun.corba.se.spi.orb.Operation makeMapOperation(java.util.Map)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ParserTable com.sun.corba.se.spi.orb.Operation makeROIOperation()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ParserTable com.sun.corba.se.spi.orb.Operation makeSocketFactoryOperation()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ParserTable com.sun.corba.se.spi.orb.Operation makeTTCPRTOperation()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.orb.ParserTable com.sun.corba.se.spi.orb.Operation makeUSLOperation()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

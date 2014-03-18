@@ -1,0 +1,29 @@
+<root>
+    <item name='com.sun.xml.internal.fastinfoset.AbstractResourceBundle LOCALE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.fastinfoset.CommonResourceBundle BASE_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.fastinfoset.Decoder BUFFER_SIZE_SYSTEM_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.fastinfoset.Decoder STRING_INTERNING_SYSTEM_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.fastinfoset.Encoder CHARACTER_ENCODING_SCHEME_SYSTEM_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.fastinfoset.EncodingConstants XMLNS_NAMESPACE_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.fastinfoset.EncodingConstants XMLNS_NAMESPACE_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.fastinfoset.EncodingConstants XML_NAMESPACE_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.fastinfoset.EncodingConstants XML_NAMESPACE_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

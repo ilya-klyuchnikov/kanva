@@ -1,0 +1,14 @@
+<root>
+    <item name='com.sun.org.apache.bcel.internal.Constants CONSTRUCTOR_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.bcel.internal.Constants ILLEGAL_OPCODE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.bcel.internal.Constants ILLEGAL_TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.bcel.internal.Constants STATIC_INITIALIZER_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

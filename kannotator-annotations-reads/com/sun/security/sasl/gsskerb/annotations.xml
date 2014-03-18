@@ -1,0 +1,5 @@
+<root>
+    <item name='com.sun.security.sasl.gsskerb.GssKrb5Base KRB5_OID_STR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

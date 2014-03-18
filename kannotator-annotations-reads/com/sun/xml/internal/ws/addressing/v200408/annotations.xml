@@ -1,0 +1,56 @@
+<root>
+    <item name='com.sun.xml.internal.ws.addressing.v200408.MemberSubmissionAddressingConstants ACTION_NOT_SUPPORTED_TEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.v200408.MemberSubmissionAddressingConstants ANONYMOUS_EPR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.v200408.MemberSubmissionAddressingConstants DESTINATION_UNREACHABLE_TEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.v200408.MemberSubmissionAddressingConstants ENDPOINT_UNAVAILABLE_TEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.v200408.MemberSubmissionAddressingConstants INVALID_MAP_TEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.v200408.MemberSubmissionAddressingConstants MAP_REQUIRED_TEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.v200408.MemberSubmissionAddressingConstants MEX_METADATA_DIALECT_ATTRIBUTE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.v200408.MemberSubmissionAddressingConstants MEX_METADATA_DIALECT_VALUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.v200408.MemberSubmissionAddressingConstants WSA_ADDRESS_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.v200408.MemberSubmissionAddressingConstants WSA_ANONYMOUS_ADDRESS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.v200408.MemberSubmissionAddressingConstants WSA_DEFAULT_FAULT_ACTION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.v200408.MemberSubmissionAddressingConstants WSA_NAMESPACE_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.v200408.MemberSubmissionAddressingConstants WSA_NAMESPACE_POLICY_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.v200408.MemberSubmissionAddressingConstants WSA_NAMESPACE_WSDL_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.v200408.MemberSubmissionAddressingConstants WSA_NONE_ADDRESS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.v200408.MemberSubmissionAddressingConstants WSA_PORTNAME_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.v200408.MemberSubmissionAddressingConstants WSA_PORTTYPE_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.addressing.v200408.MemberSubmissionAddressingConstants WSA_SERVICENAME_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,677 @@
+<root>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.AttributeSet AttributeSetPrefix'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.AttributeValueTemplate DELIMITER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants ABSOLUTE_ITERATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants ADD_ATTRIBUTE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants ADD_ATTRIBUTE_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants ADD_ITERATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants ADD_ITERATOR_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants ADD_PARAMETER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants ADD_PARAMETER_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants APPLY_TEMPLATES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants ATTRIBUTES_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants ATTRIBUTE_LIST_FIELD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants ATTRIBUTE_LIST_IMPL_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants ATTRIBUTE_LIST_IMPL_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants ATTR_SET_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants BASIS_LIBRARY_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants BOOLEAN_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants BOOLEAN_VALUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants BOOLEAN_VALUE_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants CACHED_NODE_LIST_ITERATOR_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants CHARACTERS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants CHARACTERSW'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants CHARACTERSW_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants CHARACTERS_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants CLEAR_ATTRIBUTES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants CLEAR_ATTRIBUTES_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants COLLATOR_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants COLLATOR_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants COMPILER_PACKAGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants CURRENT_NODE_LIST_FILTER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants CURRENT_NODE_LIST_FILTER_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants CURRENT_NODE_LIST_ITERATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants CURRENT_NODE_LIST_ITERATOR_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants DEFAULT_NODE_COUNTER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants DEFAULT_NODE_COUNTER_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants DOCUMENT_PNAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants DOM_ADAPTER_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants DOM_ADAPTER_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants DOM_FIELD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants DOM_IMPL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants DOM_IMPL_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants DOM_IMPL_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants DOM_INTF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants DOM_INTF_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants DOM_PNAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants DOUBLE_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants DOUBLE_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants DOUBLE_VALUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants DOUBLE_VALUE_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants DUP_FILTERED_ITERATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants EMPTYATTR_FIELD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants EMPTYSTRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants FALLBACK_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants FILTER_INTERFACE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants FILTER_INTERFACE_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants FILTER_ITERATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants FILTER_STEP_ITERATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants FORMAT_SYMBOLS_FIELD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants GET_ATTRIBUTE_VALUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants GET_ATTRIBUTE_VALUE_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants GET_CHILDREN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants GET_CHILDREN_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants GET_ELEMENT_VALUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants GET_ELEMENT_VALUE_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants GET_ITERATOR_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants GET_NODE_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants GET_NODE_NAME_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants GET_NODE_TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants GET_NODE_TYPE_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants GET_NODE_VALUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants GET_NODE_VALUE_ITERATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants GET_NODE_VALUE_ITERATOR_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants GET_NODE_VALUE_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants GET_PARAMETER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants GET_PARAMETER_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants GET_PARENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants GET_PARENT_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants GET_TYPED_CHILDREN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants GET_TYPED_CHILDREN_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants GET_UNPARSED_ENTITY_URI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants GET_UNPARSED_ENTITY_URI_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants HASIDCALL_INDEX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants HASIDCALL_INDEX_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants HAS_ATTRIBUTE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants HAS_ATTRIBUTE_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants INTEGER_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants INTEGER_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants INT_VALUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants INT_VALUE_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants INVOKE_METHOD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants ITERATOR_FIELD_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants ITERATOR_PNAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants KEY_INDEX_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants KEY_INDEX_ITERATOR_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants KEY_INDEX_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants LOAD_DOCUMENT_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants LOCALE_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants LOCALE_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants MAKE_NODE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants MAKE_NODE_LIST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants MAKE_NODE_LIST_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants MAKE_NODE_LIST_SIG2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants MAKE_NODE_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants MAKE_NODE_SIG2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants MATCHING_ITERATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants MATH_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants MULTI_DOM_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants MULTI_DOM_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants NAMESPACE_FEATURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants NAMESPACE_INDEX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants NAMESPACE_INDEX_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants NAMES_INDEX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants NAMES_INDEX_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants NEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants NEXTID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants NEXT_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants NODE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants NODE_COUNTER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants NODE_COUNTER_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants NODE_FIELD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants NODE_FIELD_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants NODE_ITERATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants NODE_ITERATOR_BASE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants NODE_ITERATOR_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants NODE_PNAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants NODE_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants NODE_SORT_FACTORY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants NODE_SORT_FACTORY_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants NODE_SORT_RECORD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants NODE_SORT_RECORD_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants NTH_ITERATOR_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants OBJECT_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants OBJECT_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants ORDER_ITERATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants ORDER_ITERATOR_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants OUTPUT_BASE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants OUTPUT_HANDLER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants OUTPUT_HANDLER_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants POP_PARAM_FRAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants POP_PARAM_FRAME_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants PUSH_PARAM_FRAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants PUSH_PARAM_FRAME_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants REDIRECT_URI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants RESET'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants RESET_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants RUNTIME_NODE_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants RUNTIME_PACKAGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants SAX_IMPL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants SAX_IMPL_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants SAX_IMPL_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants SET_START_NODE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants SET_START_NODE_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants SINGLETON_ITERATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants SORT_ITERATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants SORT_ITERATOR_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants STATIC_CHAR_DATA_FIELD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants STATIC_CHAR_DATA_FIELD_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants STATIC_NAMESPACE_ARRAY_FIELD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants STATIC_NAMES_ARRAY_FIELD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants STATIC_TYPES_ARRAY_FIELD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants STATIC_URIS_ARRAY_FIELD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants STEP_ITERATOR_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants STREAM_XML_OUTPUT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants STRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants STRING_BUFFER_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants STRING_BUFFER_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants STRING_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants STRING_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants STRING_TO_INT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants STRING_TO_INT_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants STRING_TO_REAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants STRING_TO_REAL_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants STRING_VALUE_HANDLER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants STRING_VALUE_HANDLER_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants STRING_WRITER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants STRIP_SPACE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants STRIP_SPACE_INTF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants STRIP_SPACE_PARAMS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants STRIP_SPACE_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants TRANSLET_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants TRANSLET_FIELD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants TRANSLET_FIELD_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants TRANSLET_INTF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants TRANSLET_INTF_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants TRANSLET_OUTPUT_BASE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants TRANSLET_OUTPUT_INTERFACE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants TRANSLET_OUTPUT_PNAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants TRANSLET_OUTPUT_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants TRANSLET_PNAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants TRANSLET_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants TRANSLET_URI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants TRANSLET_VERSION_INDEX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants TRANSLET_VERSION_INDEX_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants TYPES_INDEX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants TYPES_INDEX_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants UNION_ITERATOR_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants UNION_ITERATOR_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants URIS_INDEX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants URIS_INDEX_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants WRITER_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants XHTML_URI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants XMLNS_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants XMLNS_STRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants XMLNS_URI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants XSLT_PACKAGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Constants XSLT_URI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.DecimalFormatting DFS_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.DecimalFormatting DFS_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.FunctionCall EXSLT_COMMON'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.FunctionCall EXSLT_DATETIME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.FunctionCall EXSLT_MATH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.FunctionCall EXSLT_SETS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.FunctionCall EXSLT_STRINGS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.FunctionCall EXT_XALAN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.FunctionCall EXT_XSLTC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.FunctionCall JAVA_EXT_XALAN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.FunctionCall JAVA_EXT_XALAN_OLD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.FunctionCall JAVA_EXT_XSLTC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.LiteralElement XMLNS_STRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Output HTML_VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Output STRING_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Output XML_VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Parser TRANSLET'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.Parser XSL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.xsltc.compiler.UseAttributeSets ATTR_SET_NOT_FOUND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

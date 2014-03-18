@@ -1,0 +1,155 @@
+<root>
+    <item name='com.sun.org.apache.xml.internal.serialize.BaseMarkupSerializer org.xml.sax.ContentHandler asContentHandler()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.BaseMarkupSerializer com.sun.org.apache.xml.internal.serialize.DOMSerializer asDOMSerializer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.BaseMarkupSerializer org.xml.sax.DocumentHandler asDocumentHandler()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.BaseMarkupSerializer com.sun.org.apache.xml.internal.serialize.ElementState enterElementState(java.lang.String, java.lang.String, java.lang.String, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.BaseMarkupSerializer fDOMError'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.BaseMarkupSerializer fStrBuffer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.BaseMarkupSerializer org.w3c.dom.DOMError modifyDOMError(java.lang.String, short, java.lang.String, org.w3c.dom.Node)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.DOMSerializerImpl abort'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.DOMSerializerImpl fError'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.DOMSerializerImpl fLocator'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.DOMSerializerImpl org.w3c.dom.DOMConfiguration getDomConfig()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.EncodingInfo java.io.Writer getWriter(java.io.OutputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.Encodings DEFAULT_ENCODING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.Encodings JIS_DANGER_CHARS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.Encodings UNICODE_ENCODINGS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.Encodings com.sun.org.apache.xml.internal.serialize.EncodingInfo getEncodingInfo(java.lang.String, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.HTMLSerializer XHTMLNamespace'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.HTMLSerializer java.lang.String escapeURI(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.HTMLdtd ENTITIES_RESOURCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.HTMLdtd HTMLPublicId'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.HTMLdtd HTMLSystemId'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.HTMLdtd XHTMLPublicId'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.HTMLdtd XHTMLSystemId'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.LineSeparator Macintosh'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.LineSeparator Unix'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.LineSeparator Web'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.LineSeparator Windows'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.Method FOP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.Method HTML'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.Method TEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.Method XHTML'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.Method XML'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.ObjectFactory DEFAULT_PROPERTIES_FILENAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.OutputFormat.DTD HTMLPublicId'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.OutputFormat.DTD HTMLSystemId'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.OutputFormat.DTD XHTMLPublicId'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.OutputFormat.DTD XHTMLSystemId'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.OutputFormat.Defaults Encoding'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.OutputFormat java.lang.String whichMethod(org.w3c.dom.Document)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.Printer _buffer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.SecuritySupport.5 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.SecuritySupport.7 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.SecuritySupport.8 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.SecuritySupport securitySupport'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.SerializerFactory FactoriesProperty'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.SerializerFactoryImpl com.sun.org.apache.xml.internal.serialize.Serializer getSerializer(com.sun.org.apache.xml.internal.serialize.OutputFormat)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.SerializerFactoryImpl com.sun.org.apache.xml.internal.serialize.Serializer makeSerializer(com.sun.org.apache.xml.internal.serialize.OutputFormat)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.SerializerFactoryImpl com.sun.org.apache.xml.internal.serialize.Serializer makeSerializer(java.io.OutputStream, com.sun.org.apache.xml.internal.serialize.OutputFormat)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.SerializerFactoryImpl com.sun.org.apache.xml.internal.serialize.Serializer makeSerializer(java.io.Writer, com.sun.org.apache.xml.internal.serialize.OutputFormat)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.XML11Serializer PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.serialize.XMLSerializer PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,20 @@
+<root>
+    <item name='com.sun.xml.internal.stream.buffer.sax.Features EXTERNAL_GENERAL_ENTITIES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.buffer.sax.Features EXTERNAL_PARAMETER_ENTITIES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.buffer.sax.Features NAMESPACES_FEATURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.buffer.sax.Features NAMESPACE_PREFIXES_FEATURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.buffer.sax.Features STRING_INTERNING_FEATURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.stream.buffer.sax.Properties LEXICAL_HANDLER_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,11 @@
+<root>
+    <item name='com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection JAXM_URLENDPOINT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection ibmVmVendor'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection sunVmVendor'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

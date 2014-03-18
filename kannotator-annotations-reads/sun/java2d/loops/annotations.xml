@@ -1,0 +1,620 @@
+<root>
+    <item name='sun.java2d.loops.Blit.TraceBlit sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.Blit methodSignature'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.Blit sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.BlitBg.TraceBlitBg sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.BlitBg sun.java2d.loops.GraphicsPrimitive makePrimitive(sun.java2d.loops.SurfaceType, sun.java2d.loops.CompositeType, sun.java2d.loops.SurfaceType)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.BlitBg methodSignature'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.BlitBg sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType AlphaXor'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType Any'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType AnyAlpha'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType Clear'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType DESC_ALPHA_XOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType DESC_ANY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType DESC_ANY_ALPHA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType DESC_CLEAR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType DESC_DST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType DESC_DST_ATOP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType DESC_DST_IN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType DESC_DST_OUT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType DESC_DST_OVER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType DESC_SRC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType DESC_SRC_ATOP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType DESC_SRC_IN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType DESC_SRC_NO_EA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType DESC_SRC_OUT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType DESC_SRC_OVER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType DESC_SRC_OVER_NO_EA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType DESC_XOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType Dst'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType DstAtop'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType DstIn'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType DstOut'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType DstOver'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType General'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType OpaqueSrcOverNoEa'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType Src'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType SrcAtop'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType SrcIn'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType SrcNoEa'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType SrcOut'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType SrcOver'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType SrcOverNoEa'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType Xor'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType compositeUIDMap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CompositeType sun.java2d.loops.CompositeType deriveSubType(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.CustomComponent sun.java2d.pipe.Region getRegionOfInterest(sun.java2d.SurfaceData, sun.java2d.SurfaceData, sun.java2d.pipe.Region, int, int, int, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.DrawGlyphList.TraceDrawGlyphList sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.DrawGlyphList sun.java2d.loops.GraphicsPrimitive makePrimitive(sun.java2d.loops.SurfaceType, sun.java2d.loops.CompositeType, sun.java2d.loops.SurfaceType)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.DrawGlyphList methodSignature'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.DrawGlyphList sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.DrawGlyphListAA.TraceDrawGlyphListAA sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.DrawGlyphListAA sun.java2d.loops.GraphicsPrimitive makePrimitive(sun.java2d.loops.SurfaceType, sun.java2d.loops.CompositeType, sun.java2d.loops.SurfaceType)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.DrawGlyphListAA methodSignature'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.DrawGlyphListAA sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.DrawGlyphListLCD.TraceDrawGlyphListLCD sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.DrawGlyphListLCD methodSignature'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.DrawGlyphListLCD sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.DrawLine.TraceDrawLine sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.DrawLine methodSignature'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.DrawLine sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.DrawParallelogram.TraceDrawParallelogram sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.DrawParallelogram methodSignature'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.DrawParallelogram sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.DrawPath.TraceDrawPath sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.DrawPath methodSignature'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.DrawPath sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.DrawPolygons.TraceDrawPolygons sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.DrawPolygons methodSignature'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.DrawPolygons sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.DrawRect.TraceDrawRect sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.DrawRect methodSignature'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.DrawRect sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.FillParallelogram.TraceFillParallelogram sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.FillParallelogram methodSignature'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.FillParallelogram sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.FillPath.TraceFillPath sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.FillPath methodSignature'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.FillPath sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.FillRect.TraceFillRect sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.FillRect sun.java2d.loops.GraphicsPrimitive makePrimitive(sun.java2d.loops.SurfaceType, sun.java2d.loops.CompositeType, sun.java2d.loops.SurfaceType)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.FillRect methodSignature'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.FillRect sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.FillSpans.TraceFillSpans sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.FillSpans methodSignature'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.FillSpans sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.FontInfo java.lang.String mtx(double[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.FontInfo java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.GeneralRenderer sun.java2d.loops.PixelWriter createSolidPixelWriter(sun.java2d.SunGraphics2D, sun.java2d.SurfaceData)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.GeneralRenderer sun.java2d.loops.PixelWriter createXorPixelWriter(sun.java2d.SunGraphics2D, sun.java2d.SurfaceData)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.GeneralRenderer int[] doDrawLine(sun.java2d.SurfaceData, sun.java2d.loops.PixelWriter, int[], sun.java2d.pipe.Region, int, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.GraphicsPrimitive sun.java2d.SurfaceData convertFrom(sun.java2d.loops.Blit, sun.java2d.SurfaceData, int, int, int, int, sun.java2d.SurfaceData)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.GraphicsPrimitive sun.java2d.SurfaceData convertFrom(sun.java2d.loops.Blit, sun.java2d.SurfaceData, int, int, int, int, sun.java2d.SurfaceData, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.GraphicsPrimitiveProxy java.lang.String getPackageName(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.MaskBlit.TraceMaskBlit sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.MaskBlit sun.java2d.loops.GraphicsPrimitive makePrimitive(sun.java2d.loops.SurfaceType, sun.java2d.loops.CompositeType, sun.java2d.loops.SurfaceType)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.MaskBlit methodSignature'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.MaskBlit sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.MaskFill.TraceMaskFill sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.MaskFill drawPgramSignature'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.MaskFill fillPgramSignature'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.MaskFill sun.java2d.loops.GraphicsPrimitive makePrimitive(sun.java2d.loops.SurfaceType, sun.java2d.loops.CompositeType, sun.java2d.loops.SurfaceType)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.MaskFill methodSignature'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.MaskFill sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.ScaledBlit.TraceScaledBlit sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.ScaledBlit methodSignature'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.ScaledBlit sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType Any'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType Any3Byte'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType Any4Byte'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType AnyByte'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType AnyByteBinary'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType AnyColor'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType AnyDcm'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType AnyInt'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType AnyPaint'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType AnyShort'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType ByteBinary1Bit'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType ByteBinary2Bit'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType ByteBinary4Bit'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType ByteGray'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType ByteIndexed'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType ByteIndexedBm'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType ByteIndexedOpaque'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType Custom'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_3BYTE_BGR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_3BYTE_RGB'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_4BYTE_ABGR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_4BYTE_ABGR_PRE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_ANY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_ANY_3BYTE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_ANY_4BYTE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_ANY_BYTE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_ANY_COLOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_ANY_INT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_ANY_INT_DCM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_ANY_PAINT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_ANY_SHORT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_BYTE_BINARY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_BYTE_BINARY_1BIT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_BYTE_BINARY_2BIT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_BYTE_BINARY_4BIT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_BYTE_GRAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_BYTE_INDEXED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_BYTE_INDEXED_BM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_BYTE_INDEXED_OPAQUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_GRADIENT_PAINT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_INDEX12_GRAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_INDEX8_GRAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_INT_ARGB'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_INT_ARGB_BM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_INT_ARGB_PRE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_INT_BGR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_INT_BGRx'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_INT_RGB'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_INT_RGBx'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_LINEAR_GRADIENT_PAINT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_OPAQUE_COLOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_OPAQUE_GRADIENT_PAINT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_OPAQUE_LINEAR_GRADIENT_PAINT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_OPAQUE_RADIAL_GRADIENT_PAINT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_OPAQUE_TEXTURE_PAINT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_RADIAL_GRADIENT_PAINT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_TEXTURE_PAINT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_USHORT_4444_ARGB'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_USHORT_555_RGB'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_USHORT_555_RGBx'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_USHORT_565_RGB'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_USHORT_GRAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType DESC_USHORT_INDEXED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType FourByteAbgr'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType FourByteAbgrPre'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType GradientPaint'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType Index12Gray'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType Index8Gray'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType IntArgb'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType IntArgbBm'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType IntArgbPre'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType IntBgr'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType IntBgrx'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType IntRgb'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType IntRgbx'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType LinearGradientPaint'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType OpaqueColor'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType OpaqueGradientPaint'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType OpaqueLinearGradientPaint'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType OpaqueRadialGradientPaint'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType OpaqueTexturePaint'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType RadialGradientPaint'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType TexturePaint'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType ThreeByteBgr'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType ThreeByteRgb'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType Ushort4444Argb'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType Ushort555Rgb'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType Ushort555Rgbx'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType Ushort565Rgb'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType UshortGray'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType UshortIndexed'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType sun.java2d.loops.SurfaceType deriveSubType(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.SurfaceType sun.java2d.loops.SurfaceType deriveSubType(java.lang.String, sun.awt.image.PixelConverter)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.TransformBlit.TraceTransformBlit sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.TransformBlit methodSignature'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.TransformBlit sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.TransformHelper.TraceTransformHelper sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.TransformHelper methodSignature'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.TransformHelper sun.java2d.loops.GraphicsPrimitive traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.loops.XORComposite java.awt.CompositeContext createContext(java.awt.image.ColorModel, java.awt.image.ColorModel, java.awt.RenderingHints)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

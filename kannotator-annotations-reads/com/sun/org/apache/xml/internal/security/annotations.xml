@@ -1,0 +1,5 @@
+<root>
+    <item name='com.sun.org.apache.xml.internal.security.Init CONF_NS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

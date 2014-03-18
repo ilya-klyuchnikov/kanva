@@ -1,0 +1,14 @@
+<root>
+    <item name='sun.security.timestamp.HttpTimestamper TS_QUERY_MIME_TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.timestamp.HttpTimestamper TS_REPLY_MIME_TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.timestamp.HttpTimestamper sun.security.timestamp.TSResponse generateTimestamp(sun.security.timestamp.TSRequest)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.timestamp.TSResponse java.lang.String getStatusCodeAsText()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

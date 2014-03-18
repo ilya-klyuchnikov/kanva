@@ -1,0 +1,23 @@
+<root>
+    <item name='com.sun.org.apache.xerces.internal.xpointer.ElementSchemePointer.Scanner fASCIICharMap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.xpointer.ElementSchemePointer.Tokens fgTokenNames'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.xpointer.XPointerHandler.Scanner fASCIICharMap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.xpointer.XPointerHandler.Tokens fgTokenNames'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.xpointer.XPointerHandler ELEMENT_SCHEME_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.xpointer.XPointerMessageFormatter XPOINTER_DOMAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xerces.internal.xpointer.XPointerMessageFormatter java.lang.String formatMessage(java.util.Locale, java.lang.String, java.lang.Object[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

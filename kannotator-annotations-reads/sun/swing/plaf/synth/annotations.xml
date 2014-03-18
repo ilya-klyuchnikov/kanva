@@ -1,0 +1,116 @@
+<root>
+    <item name='sun.swing.plaf.synth.DefaultSynthStyle.StateInfo java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.DefaultSynthStyle.StateInfo java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.DefaultSynthStyle PENDING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.DefaultSynthStyle sun.swing.plaf.synth.DefaultSynthStyle addTo(sun.swing.plaf.synth.DefaultSynthStyle)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.DefaultSynthStyle java.awt.Insets getInsets(javax.swing.plaf.synth.SynthContext, java.awt.Insets)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.DefaultSynthStyle java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.Paint9Painter.PaintType $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.Paint9Painter.PaintType CENTER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.Paint9Painter.PaintType PAINT9_STRETCH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.Paint9Painter.PaintType PAINT9_TILE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.Paint9Painter.PaintType TILE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.Paint9Painter.PaintType sun.swing.plaf.synth.Paint9Painter.PaintType valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.Paint9Painter EMPTY_INSETS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.Paint9Painter java.awt.Image createImage(java.awt.Component, int, int, java.awt.GraphicsConfiguration, java.lang.Object[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.StyleAssociation sun.swing.plaf.synth.StyleAssociation createStyleAssociation(java.lang.String, javax.swing.plaf.synth.SynthStyle)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.StyleAssociation sun.swing.plaf.synth.StyleAssociation createStyleAssociation(java.lang.String, javax.swing.plaf.synth.SynthStyle, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.SynthFileChooserUI.UIBorder java.awt.Insets getBorderInsets(java.awt.Component, java.awt.Insets)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.SynthFileChooserUI java.beans.PropertyChangeListener createPropertyChangeListener(javax.swing.JFileChooser)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.SynthFileChooserUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.SynthFileChooserUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.SynthFileChooserUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.SynthFileChooserUIImpl.3 java.awt.Dimension getMaximumSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.SynthFileChooserUIImpl.AlignedLabel java.awt.Dimension getPreferredSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.SynthFileChooserUIImpl.ButtonAreaLayout java.awt.Dimension minimumLayoutSize(java.awt.Container)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.SynthFileChooserUIImpl.ButtonAreaLayout java.awt.Dimension preferredLayoutSize(java.awt.Container)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.SynthFileChooserUIImpl.DirectoryComboBoxModel this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.SynthFileChooserUIImpl.DirectoryComboBoxRenderer java.awt.Component getListCellRendererComponent(javax.swing.JList, java.lang.Object, int, boolean, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.SynthFileChooserUIImpl.FilterComboBoxModel this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.SynthFileChooserUIImpl javax.swing.ActionMap createActionMap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.SynthFileChooserUIImpl sun.swing.plaf.synth.SynthFileChooserUIImpl.DirectoryComboBoxModel createDirectoryComboBoxModel(javax.swing.JFileChooser)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.SynthFileChooserUIImpl sun.swing.plaf.synth.SynthFileChooserUIImpl.DirectoryComboBoxRenderer createDirectoryComboBoxRenderer(javax.swing.JFileChooser)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.SynthFileChooserUIImpl sun.swing.plaf.synth.SynthFileChooserUIImpl.FilterComboBoxModel createFilterComboBoxModel()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.SynthFileChooserUIImpl sun.swing.plaf.synth.SynthFileChooserUIImpl.FilterComboBoxRenderer createFilterComboBoxRenderer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.SynthFileChooserUIImpl java.lang.String fileNameString(java.io.File[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.SynthFileChooserUIImpl hstrut5'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.SynthFileChooserUIImpl modeListener'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.SynthFileChooserUIImpl shrinkwrap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.plaf.synth.SynthFileChooserUIImpl vstrut5'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

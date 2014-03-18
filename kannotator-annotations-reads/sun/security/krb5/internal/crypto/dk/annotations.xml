@@ -1,0 +1,89 @@
+<root>
+    <item name='sun.security.krb5.internal.crypto.dk.AesDkCrypto ZERO_IV'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.crypto.dk.AesDkCrypto byte[] calculateChecksum(byte[], int, byte[], int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.crypto.dk.AesDkCrypto byte[] encrypt(byte[], int, byte[], byte[], byte[], int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.crypto.dk.AesDkCrypto byte[] encryptCTS(byte[], int, byte[], byte[], byte[], int, int, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.crypto.dk.AesDkCrypto byte[] encryptRaw(byte[], int, byte[], byte[], int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.crypto.dk.AesDkCrypto javax.crypto.Cipher getCipher(byte[], byte[], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.crypto.dk.AesDkCrypto byte[] getHmac(byte[], byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.crypto.dk.ArcFourCrypto ZERO_IV'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.crypto.dk.ArcFourCrypto byte[] calculateChecksum(byte[], int, byte[], int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.crypto.dk.ArcFourCrypto byte[] decrypt(byte[], int, byte[], byte[], int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.crypto.dk.ArcFourCrypto byte[] encrypt(byte[], int, byte[], byte[], byte[], int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.crypto.dk.ArcFourCrypto javax.crypto.Cipher getCipher(byte[], byte[], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.crypto.dk.ArcFourCrypto byte[] getSalt(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.crypto.dk.Des3DkCrypto ZERO_IV'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.crypto.dk.Des3DkCrypto byte[] des3Expand(byte[], int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.crypto.dk.Des3DkCrypto javax.crypto.Cipher getCipher(byte[], byte[], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.crypto.dk.Des3DkCrypto byte[] parityFix(byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.crypto.dk.Des3DkCrypto byte[] randomToKey(byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.crypto.dk.DkCrypto KERBEROS_CONSTANT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.crypto.dk.DkCrypto byte[] binaryStringToBytes(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.crypto.dk.DkCrypto java.lang.String bytesToString(byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.crypto.dk.DkCrypto byte[] calculateChecksum(byte[], int, byte[], int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.crypto.dk.DkCrypto byte[] charToUtf16(char[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.crypto.dk.DkCrypto byte[] charToUtf8(char[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.crypto.dk.DkCrypto byte[] decrypt(byte[], int, byte[], byte[], int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.crypto.dk.DkCrypto byte[] dr(byte[], byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.crypto.dk.DkCrypto byte[] encrypt(byte[], int, byte[], byte[], byte[], int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.crypto.dk.DkCrypto byte[] encryptRaw(byte[], int, byte[], byte[], int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.crypto.dk.DkCrypto byte[] nfold(byte[], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

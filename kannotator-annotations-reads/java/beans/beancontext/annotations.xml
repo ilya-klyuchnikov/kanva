@@ -1,0 +1,20 @@
+<root>
+    <item name='java.beans.beancontext.BeanContext globalHierarchyLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.beancontext.BeanContextServicesSupport java.beans.beancontext.BeanContextSupport.BCSChild createBCSChild(java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.beancontext.BeanContextServicesSupport java.beans.beancontext.BeanContextServicesSupport.BCSSServiceProvider createBCSSServiceProvider(java.lang.Class, java.beans.beancontext.BeanContextServiceProvider)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.beancontext.BeanContextServicesSupport java.util.Iterator getCurrentServiceClasses()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.beancontext.BeanContextSupport java.beans.beancontext.BeanContextSupport.BCSChild createBCSChild(java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.beans.beancontext.BeanContextSupport java.util.Iterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

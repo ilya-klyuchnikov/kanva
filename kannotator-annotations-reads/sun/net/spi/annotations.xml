@@ -1,0 +1,8 @@
+<root>
+    <item name='sun.net.spi.DefaultProxySelector.NonProxyInfo defStringVal'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.spi.DefaultProxySelector SOCKS_PROXY_VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,176 @@
+<root>
+    <item name='sun.reflect.AccessorGenerator java.lang.String getClassName(java.lang.Class, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.AccessorGenerator java.lang.String internalize(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.AccessorGenerator primitiveTypes'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.ByteVectorFactory sun.reflect.ByteVector create()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.ByteVectorFactory sun.reflect.ByteVector create(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.ClassDefiner.1 java.lang.ClassLoader run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.ClassDefiner.1 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.MethodAccessorGenerator java.lang.String buildInternalSignature()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.MethodAccessorGenerator java.lang.String generateName(boolean, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.Reflection java.util.Map&lt;java.lang.Class,java.lang.String[]&gt; registerFilter(java.util.Map&lt;java.lang.Class,java.lang.String[]&gt;, java.lang.Class, java.lang.String...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.ReflectionFactory sun.reflect.FieldAccessor newFieldAccessor(java.lang.reflect.Field, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.SignatureIterator java.lang.String returnType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UTF8 byte[] encode(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeBooleanFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeByteFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeCharacterFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeDoubleFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeFieldAccessorFactory sun.reflect.FieldAccessor newFieldAccessor(java.lang.reflect.Field, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeFieldAccessorImpl field'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeFieldAccessorImpl java.lang.String getQualifiedFieldName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeFieldAccessorImpl java.lang.String getSetMessage(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeFieldAccessorImpl java.lang.IllegalArgumentException newGetBooleanIllegalArgumentException()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeFieldAccessorImpl java.lang.IllegalArgumentException newGetByteIllegalArgumentException()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeFieldAccessorImpl java.lang.IllegalArgumentException newGetCharIllegalArgumentException()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeFieldAccessorImpl java.lang.IllegalArgumentException newGetDoubleIllegalArgumentException()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeFieldAccessorImpl java.lang.IllegalArgumentException newGetFloatIllegalArgumentException()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeFieldAccessorImpl java.lang.IllegalArgumentException newGetIllegalArgumentException(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeFieldAccessorImpl java.lang.IllegalArgumentException newGetIntIllegalArgumentException()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeFieldAccessorImpl java.lang.IllegalArgumentException newGetLongIllegalArgumentException()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeFieldAccessorImpl java.lang.IllegalArgumentException newGetShortIllegalArgumentException()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeFloatFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeIntegerFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeLongFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeQualifiedBooleanFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeQualifiedByteFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeQualifiedCharacterFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeQualifiedDoubleFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeQualifiedFloatFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeQualifiedIntegerFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeQualifiedLongFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeQualifiedShortFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeQualifiedStaticBooleanFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeQualifiedStaticByteFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeQualifiedStaticCharacterFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeQualifiedStaticDoubleFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeQualifiedStaticFloatFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeQualifiedStaticIntegerFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeQualifiedStaticLongFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeQualifiedStaticShortFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeShortFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeStaticBooleanFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeStaticByteFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeStaticCharacterFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeStaticDoubleFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeStaticFloatFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeStaticIntegerFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeStaticLongFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.reflect.UnsafeStaticShortFieldAccessorImpl java.lang.Object get(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

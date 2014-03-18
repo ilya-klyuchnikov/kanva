@@ -1,0 +1,20 @@
+<root>
+    <item name='com.sun.jndi.ldap.sasl.LdapSasl NO_BYTES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.sasl.LdapSasl SASL_AUTHZ_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.sasl.LdapSasl SASL_CALLBACK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.sasl.LdapSasl SASL_REALM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.sasl.LdapSasl java.lang.String[] getSaslMechanismNames(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.sasl.LdapSasl com.sun.jndi.ldap.LdapResult saslBind(com.sun.jndi.ldap.LdapClient, com.sun.jndi.ldap.Connection, java.lang.String, java.lang.String, java.lang.Object, java.lang.String, java.util.Hashtable, javax.naming.ldap.Control[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,17 @@
+<root>
+    <item name='com.sun.xml.internal.messaging.saaj.soap.FastInfosetDataContentHandler STR_SRC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.messaging.saaj.soap.JpegDataContentHandler STR_SRC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.messaging.saaj.soap.MessageImpl CONTENT_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.messaging.saaj.soap.MessageImpl CONTENT_LOCATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.messaging.saaj.soap.XmlDataContentHandler STR_SRC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

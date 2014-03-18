@@ -1,0 +1,23 @@
+<root>
+    <item name='com.sun.xml.internal.ws.message.stream.OutboundStreamHeader IS_REFERENCE_PARAMETER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.message.stream.OutboundStreamHeader TRUE_VALUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.message.stream.StreamHeader11 SOAP_1_1_MUST_UNDERSTAND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.message.stream.StreamHeader11 SOAP_1_1_ROLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.message.stream.StreamHeader12 SOAP_1_2_MUST_UNDERSTAND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.message.stream.StreamHeader12 SOAP_1_2_RELAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.message.stream.StreamHeader12 SOAP_1_2_ROLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

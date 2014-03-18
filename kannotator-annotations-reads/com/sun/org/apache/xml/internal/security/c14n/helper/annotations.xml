@@ -1,0 +1,5 @@
+<root>
+    <item name='com.sun.org.apache.xml.internal.security.c14n.helper.AttrCompare XMLNS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

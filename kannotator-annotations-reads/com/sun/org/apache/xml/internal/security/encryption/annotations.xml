@@ -1,0 +1,329 @@
+<root>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory.AgreementMethodImpl org.w3c.dom.Element toElement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory.CipherDataImpl referenceMessage'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory.CipherDataImpl valueMessage'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory.CipherReferenceImpl org.w3c.dom.Element toElement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory.CipherValueImpl org.w3c.dom.Element toElement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory.EncryptedDataImpl org.w3c.dom.Element toElement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory.EncryptedKeyImpl org.w3c.dom.Element toElement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory.EncryptionMethodImpl org.w3c.dom.Element toElement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory.ReferenceListImpl.DataReference org.w3c.dom.Element toElement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory.ReferenceListImpl.KeyReference org.w3c.dom.Element toElement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory.ReferenceListImpl.ReferenceImpl org.w3c.dom.Element toElement(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory.ReferenceListImpl com.sun.org.apache.xml.internal.security.encryption.Reference newDataReference(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory.ReferenceListImpl com.sun.org.apache.xml.internal.security.encryption.Reference newKeyReference(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory.TransformsImpl java.lang.String getBaseNamespace()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory.TransformsImpl com.sun.org.apache.xml.internal.security.transforms.Transforms getDSTransforms()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory com.sun.org.apache.xml.internal.security.encryption.AgreementMethod newAgreementMethod(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory com.sun.org.apache.xml.internal.security.encryption.AgreementMethod newAgreementMethod(org.w3c.dom.Element)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory com.sun.org.apache.xml.internal.security.encryption.CipherData newCipherData(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory com.sun.org.apache.xml.internal.security.encryption.CipherData newCipherData(org.w3c.dom.Element)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory com.sun.org.apache.xml.internal.security.encryption.CipherReference newCipherReference(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory com.sun.org.apache.xml.internal.security.encryption.CipherReference newCipherReference(org.w3c.dom.Element)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory com.sun.org.apache.xml.internal.security.encryption.CipherValue newCipherValue(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory com.sun.org.apache.xml.internal.security.encryption.CipherValue newCipherValue(org.w3c.dom.Element)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory com.sun.org.apache.xml.internal.security.encryption.EncryptedData newEncryptedData(com.sun.org.apache.xml.internal.security.encryption.CipherData)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory com.sun.org.apache.xml.internal.security.encryption.EncryptedData newEncryptedData(org.w3c.dom.Element)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory com.sun.org.apache.xml.internal.security.encryption.EncryptedKey newEncryptedKey(com.sun.org.apache.xml.internal.security.encryption.CipherData)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory com.sun.org.apache.xml.internal.security.encryption.EncryptedKey newEncryptedKey(org.w3c.dom.Element)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory com.sun.org.apache.xml.internal.security.encryption.EncryptionMethod newEncryptionMethod(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory com.sun.org.apache.xml.internal.security.encryption.EncryptionMethod newEncryptionMethod(org.w3c.dom.Element)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory com.sun.org.apache.xml.internal.security.encryption.EncryptionProperties newEncryptionProperties()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory com.sun.org.apache.xml.internal.security.encryption.EncryptionProperties newEncryptionProperties(org.w3c.dom.Element)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory com.sun.org.apache.xml.internal.security.encryption.EncryptionProperty newEncryptionProperty()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory com.sun.org.apache.xml.internal.security.encryption.EncryptionProperty newEncryptionProperty(org.w3c.dom.Element)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory com.sun.org.apache.xml.internal.security.encryption.ReferenceList newReferenceList(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory com.sun.org.apache.xml.internal.security.encryption.ReferenceList newReferenceList(org.w3c.dom.Element)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory com.sun.org.apache.xml.internal.security.encryption.Transforms newTransforms()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory com.sun.org.apache.xml.internal.security.encryption.Transforms newTransforms(org.w3c.dom.Document)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory org.w3c.dom.Element toElement(com.sun.org.apache.xml.internal.security.encryption.AgreementMethod)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory org.w3c.dom.Element toElement(com.sun.org.apache.xml.internal.security.encryption.CipherReference)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory org.w3c.dom.Element toElement(com.sun.org.apache.xml.internal.security.encryption.CipherValue)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory org.w3c.dom.Element toElement(com.sun.org.apache.xml.internal.security.encryption.EncryptedData)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory org.w3c.dom.Element toElement(com.sun.org.apache.xml.internal.security.encryption.EncryptedKey)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Factory org.w3c.dom.Element toElement(com.sun.org.apache.xml.internal.security.encryption.EncryptionMethod)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Serializer java.lang.String canonSerialize(org.w3c.dom.Node)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Serializer java.lang.String serialize(org.w3c.dom.Document)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Serializer java.lang.String serialize(org.w3c.dom.Element)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher.Serializer java.lang.String serialize(org.w3c.dom.NodeList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher AES_128'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher AES_128_KeyWrap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher AES_192'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher AES_192_KeyWrap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher AES_256'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher AES_256_KeyWrap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher BASE64_ENCODING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher DIFFIE_HELLMAN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher ENC_ALGORITHMS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher EXCL_XML_N14C'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher EXCL_XML_N14C_WITH_COMMENTS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher N14C_XML'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher N14C_XML_WITH_COMMENTS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher RIPEMD_160'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher RSA_OAEP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher RSA_v1dot5'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher SHA1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher SHA256'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher SHA512'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher TRIPLEDES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher TRIPLEDES_KeyWrap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher XML_DSIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher com.sun.org.apache.xml.internal.security.encryption.AgreementMethod createAgreementMethod(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher com.sun.org.apache.xml.internal.security.encryption.CipherData createCipherData(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher com.sun.org.apache.xml.internal.security.encryption.CipherReference createCipherReference(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher com.sun.org.apache.xml.internal.security.encryption.CipherValue createCipherValue(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher com.sun.org.apache.xml.internal.security.encryption.EncryptionMethod createEncryptionMethod(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher com.sun.org.apache.xml.internal.security.encryption.EncryptionProperties createEncryptionProperties()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher com.sun.org.apache.xml.internal.security.encryption.EncryptionProperty createEncryptionProperty()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher com.sun.org.apache.xml.internal.security.encryption.ReferenceList createReferenceList(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher com.sun.org.apache.xml.internal.security.encryption.Transforms createTransforms()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher com.sun.org.apache.xml.internal.security.encryption.Transforms createTransforms(org.w3c.dom.Document)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher com.sun.org.apache.xml.internal.security.encryption.XMLCipher getInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher com.sun.org.apache.xml.internal.security.encryption.XMLCipher getInstance(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher com.sun.org.apache.xml.internal.security.encryption.XMLCipher getInstance(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher com.sun.org.apache.xml.internal.security.encryption.XMLCipher getInstance(java.lang.String, javax.crypto.Cipher)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher com.sun.org.apache.xml.internal.security.encryption.XMLCipher getProviderInstance(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher com.sun.org.apache.xml.internal.security.encryption.XMLCipher getProviderInstance(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher com.sun.org.apache.xml.internal.security.encryption.XMLCipher getProviderInstance(java.lang.String, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher org.w3c.dom.Element martial(com.sun.org.apache.xml.internal.security.encryption.EncryptedData)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher org.w3c.dom.Element martial(com.sun.org.apache.xml.internal.security.encryption.EncryptedKey)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher org.w3c.dom.Element martial(org.w3c.dom.Document, com.sun.org.apache.xml.internal.security.encryption.EncryptedData)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipher org.w3c.dom.Element martial(org.w3c.dom.Document, com.sun.org.apache.xml.internal.security.encryption.EncryptedKey)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipherParameters AES_128'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipherParameters AES_128_KEYWRAP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipherParameters AES_192'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipherParameters AES_192_KEYWRAP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipherParameters AES_256'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipherParameters AES_256_KEYWRAP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipherParameters DIFFIE_HELLMAN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipherParameters EXCL_XML_N14C'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipherParameters EXCL_XML_N14C_CMMNTS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipherParameters N14C_XML'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipherParameters N14C_XML_CMMNTS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipherParameters RIPEMD_160'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipherParameters RSA_1_5'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipherParameters RSA_OAEP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipherParameters SHA1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipherParameters SHA256'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipherParameters SHA512'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipherParameters TRIPLEDES_KEYWRAP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.security.encryption.XMLCipherParameters XML_DSIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

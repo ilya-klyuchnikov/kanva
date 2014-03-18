@@ -1,0 +1,8 @@
+<root>
+    <item name='com.sun.org.apache.xpath.internal.jaxp.JAXPPrefixResolver S_XMLNAMESPACEURI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xpath.internal.jaxp.XPathFactoryImpl CLASS_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

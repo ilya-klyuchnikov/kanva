@@ -1,0 +1,41 @@
+<root>
+    <item name='com.sun.xml.internal.ws.transport.http.DeploymentDescriptorParser ATTRVALUE_VERSION_1_0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.transport.http.DeploymentDescriptorParser ATTR_BINDING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.transport.http.DeploymentDescriptorParser ATTR_ENABLE_MTOM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.transport.http.DeploymentDescriptorParser ATTR_IMPLEMENTATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.transport.http.DeploymentDescriptorParser ATTR_MTOM_THRESHOLD_VALUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.transport.http.DeploymentDescriptorParser ATTR_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.transport.http.DeploymentDescriptorParser ATTR_PORT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.transport.http.DeploymentDescriptorParser ATTR_SERVICE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.transport.http.DeploymentDescriptorParser ATTR_URL_PATTERN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.transport.http.DeploymentDescriptorParser ATTR_VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.transport.http.DeploymentDescriptorParser ATTR_WSDL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.transport.http.DeploymentDescriptorParser JAXWS_WSDL_DD_DIR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.transport.http.DeploymentDescriptorParser NS_RUNTIME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,113 @@
+<root>
+    <item name='com.sun.nio.sctp.AssociationChangeNotification.AssocChangeEvent $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.AssociationChangeNotification.AssocChangeEvent CANT_START'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.AssociationChangeNotification.AssocChangeEvent COMM_LOST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.AssociationChangeNotification.AssocChangeEvent COMM_UP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.AssociationChangeNotification.AssocChangeEvent RESTART'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.AssociationChangeNotification.AssocChangeEvent SHUTDOWN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.AssociationChangeNotification.AssocChangeEvent com.sun.nio.sctp.AssociationChangeNotification.AssocChangeEvent valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.HandlerResult $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.HandlerResult CONTINUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.HandlerResult RETURN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.HandlerResult com.sun.nio.sctp.HandlerResult valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.MessageInfo com.sun.nio.sctp.MessageInfo createOutgoing(com.sun.nio.sctp.Association, java.net.SocketAddress, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.MessageInfo com.sun.nio.sctp.MessageInfo createOutgoing(java.net.SocketAddress, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.PeerAddressChangeNotification.AddressChangeEvent $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.PeerAddressChangeNotification.AddressChangeEvent ADDR_ADDED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.PeerAddressChangeNotification.AddressChangeEvent ADDR_AVAILABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.PeerAddressChangeNotification.AddressChangeEvent ADDR_CONFIRMED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.PeerAddressChangeNotification.AddressChangeEvent ADDR_MADE_PRIMARY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.PeerAddressChangeNotification.AddressChangeEvent ADDR_REMOVED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.PeerAddressChangeNotification.AddressChangeEvent ADDR_UNREACHABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.PeerAddressChangeNotification.AddressChangeEvent com.sun.nio.sctp.PeerAddressChangeNotification.AddressChangeEvent valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.SctpChannel com.sun.nio.sctp.SctpChannel open()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.SctpChannel com.sun.nio.sctp.SctpChannel open(java.net.SocketAddress, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.SctpMultiChannel com.sun.nio.sctp.SctpMultiChannel open()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.SctpServerChannel com.sun.nio.sctp.SctpServerChannel open()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.SctpStandardSocketOptions.InitMaxStreams com.sun.nio.sctp.SctpStandardSocketOptions.InitMaxStreams create(int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.SctpStandardSocketOptions.InitMaxStreams java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.SctpStandardSocketOptions SCTP_DISABLE_FRAGMENTS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.SctpStandardSocketOptions SCTP_EXPLICIT_COMPLETE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.SctpStandardSocketOptions SCTP_FRAGMENT_INTERLEAVE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.SctpStandardSocketOptions SCTP_INIT_MAXSTREAMS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.SctpStandardSocketOptions SCTP_NODELAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.SctpStandardSocketOptions SCTP_PRIMARY_ADDR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.SctpStandardSocketOptions SCTP_SET_PEER_PRIMARY_ADDR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.SctpStandardSocketOptions SO_LINGER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.SctpStandardSocketOptions SO_RCVBUF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.nio.sctp.SctpStandardSocketOptions SO_SNDBUF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

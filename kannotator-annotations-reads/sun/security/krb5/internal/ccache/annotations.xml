@@ -1,0 +1,26 @@
+<root>
+    <item name='sun.security.krb5.internal.ccache.CCacheInputStream boolean[] readFlags()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.ccache.CCacheInputStream sun.security.krb5.EncryptionKey readKey(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.ccache.CCacheInputStream sun.security.krb5.PrincipalName readPrincipal(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.ccache.CCacheInputStream sun.security.krb5.internal.ccache.Tag readTag()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.ccache.CCacheInputStream long[] readTimes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.ccache.Credentials sun.security.krb5.Credentials setKrbCreds()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.ccache.FileCredentialsCache java.lang.String getDefaultCacheName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.krb5.internal.ccache.Tag byte[] toByteArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

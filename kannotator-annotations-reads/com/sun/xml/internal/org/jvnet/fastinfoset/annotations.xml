@@ -1,0 +1,50 @@
+<root>
+    <item name='com.sun.xml.internal.org.jvnet.fastinfoset.FastInfosetParser BUFFER_SIZE_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.org.jvnet.fastinfoset.FastInfosetParser EXTERNAL_VOCABULARIES_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.org.jvnet.fastinfoset.FastInfosetParser FORCE_STREAM_CLOSE_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.org.jvnet.fastinfoset.FastInfosetParser REGISTERED_ENCODING_ALGORITHMS_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.org.jvnet.fastinfoset.FastInfosetParser STRING_INTERNING_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.org.jvnet.fastinfoset.FastInfosetSerializer BUFFER_SIZE_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.org.jvnet.fastinfoset.FastInfosetSerializer EXTERNAL_VOCABULARIES_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.org.jvnet.fastinfoset.FastInfosetSerializer IGNORE_COMMENTS_FEATURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.org.jvnet.fastinfoset.FastInfosetSerializer IGNORE_DTD_FEATURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.org.jvnet.fastinfoset.FastInfosetSerializer IGNORE_PROCESSING_INSTRUCTIONS_FEATURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.org.jvnet.fastinfoset.FastInfosetSerializer IGNORE_WHITE_SPACE_TEXT_CONTENT_FEATURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.org.jvnet.fastinfoset.FastInfosetSerializer REGISTERED_ENCODING_ALGORITHMS_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.org.jvnet.fastinfoset.FastInfosetSerializer UTF_16BE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.org.jvnet.fastinfoset.FastInfosetSerializer UTF_8'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.org.jvnet.fastinfoset.RestrictedAlphabet DATE_TIME_CHARACTERS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.org.jvnet.fastinfoset.RestrictedAlphabet NUMERIC_CHARACTERS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

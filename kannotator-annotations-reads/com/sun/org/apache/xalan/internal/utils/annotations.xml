@@ -1,0 +1,23 @@
+<root>
+    <item name='com.sun.org.apache.xalan.internal.utils.FactoryImpl DBF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.utils.FactoryImpl SF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.utils.ObjectFactory DEFAULT_PROPERTIES_FILENAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.utils.ObjectFactory SERVICES_PATH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.utils.SecuritySupport.5 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.utils.SecuritySupport.8 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xalan.internal.utils.SecuritySupport securitySupport'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,44 @@
+<root>
+    <item name='sun.swing.text.CompoundPrintable printables'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.text.TextComponentPrintable.2 java.lang.Object call()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.text.TextComponentPrintable.2 javax.swing.text.JTextComponent call()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.text.TextComponentPrintable.IntegerSegment java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.text.TextComponentPrintable javax.swing.text.JTextComponent access$000(sun.swing.text.TextComponentPrintable, javax.swing.text.JTextComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.text.TextComponentPrintable javax.swing.text.JTextComponent createPrintShellOnEDT(javax.swing.text.JTextComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.text.TextComponentPrintable footerFont'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.text.TextComponentPrintable frc'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.text.TextComponentPrintable java.util.List&lt;javax.swing.JEditorPane&gt; getFrames(javax.swing.JEditorPane)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.text.TextComponentPrintable java.awt.print.Printable getPrintable(javax.swing.text.JTextComponent, java.text.MessageFormat, java.text.MessageFormat)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.text.TextComponentPrintable headerFont'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.text.TextComponentPrintable pagesMetrics'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.text.TextComponentPrintable rowsMetrics'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.swing.text.TextComponentPrintable textComponentToPrint'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

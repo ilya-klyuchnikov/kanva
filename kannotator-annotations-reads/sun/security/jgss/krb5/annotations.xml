@@ -1,0 +1,152 @@
+<root>
+    <item name='sun.security.jgss.krb5.AcceptSecContextToken byte[] encode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.CipherHelper ZERO_IV'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.CipherHelper ZERO_IV_AES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.CipherHelper byte[] aes128Encrypt(byte[], byte[], byte[], int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.CipherHelper byte[] aes256Encrypt(byte[], byte[], byte[], int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.CipherHelper byte[] calculateChecksum(byte[], byte[], int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.CipherHelper byte[] encryptData(sun.security.jgss.krb5.WrapToken_v2, byte[], byte[], byte[], int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.CipherHelper byte[] getDesCbcChecksum(byte[], byte[], byte[], int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.CipherHelper byte[] getDesEncryptionKey(byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.CipherHelper javax.crypto.Cipher getInitializedDes(boolean, byte[], byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.InitSecContextToken byte[] encode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.InitialToken.OverloadedChecksum sun.security.krb5.Checksum getChecksum()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.InitialToken.OverloadedChecksum this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.InitialToken CHECKSUM_FIRST_BYTES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.InitialToken byte[] access$000(sun.security.jgss.krb5.InitialToken)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.Krb5AcceptCredential sun.security.jgss.krb5.Krb5AcceptCredential getInstance(sun.security.jgss.GSSCaller, sun.security.jgss.krb5.Krb5NameElement)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.Krb5AcceptCredential sun.security.krb5.EncryptionKey[] getKrb5EncryptionKeys()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.Krb5Context.4 $SwitchMap$com$sun$security$jgss$InquireType'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.Krb5Context.KerberosSessionKey java.lang.String getAlgorithm()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.Krb5Context.KerberosSessionKey java.lang.String getFormat()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.Krb5Context.KerberosSessionKey java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.Krb5Context java.lang.String getHexBytes(byte[], int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.Krb5Context java.lang.String printState(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.Krb5InitCredential sun.security.jgss.krb5.Krb5InitCredential getInstance(sun.security.jgss.GSSCaller, sun.security.jgss.krb5.Krb5NameElement, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.Krb5InitCredential sun.security.jgss.krb5.Krb5InitCredential getInstance(sun.security.jgss.krb5.Krb5NameElement, sun.security.krb5.Credentials)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.Krb5MechFactory PROVIDER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.Krb5MechFactory sun.security.jgss.spi.GSSCredentialSpi getCredentialElement(sun.security.jgss.spi.GSSNameSpi, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.Krb5MechFactory sun.security.jgss.spi.GSSContextSpi getMechanismContext(sun.security.jgss.spi.GSSCredentialSpi)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.Krb5MechFactory sun.security.jgss.spi.GSSContextSpi getMechanismContext(sun.security.jgss.spi.GSSNameSpi, sun.security.jgss.spi.GSSCredentialSpi, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.Krb5MechFactory sun.security.jgss.spi.GSSContextSpi getMechanismContext(byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.Krb5MechFactory sun.security.jgss.spi.GSSNameSpi getNameElement(java.lang.String, org.ietf.jgss.Oid)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.Krb5MechFactory sun.security.jgss.spi.GSSNameSpi getNameElement(byte[], org.ietf.jgss.Oid)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.Krb5NameElement java.lang.String[] getComponents(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.Krb5NameElement java.lang.String getHostBasedInstance(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.Krb5NameElement sun.security.jgss.krb5.Krb5NameElement getInstance(java.lang.String, org.ietf.jgss.Oid)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.Krb5NameElement sun.security.jgss.krb5.Krb5NameElement getInstance(sun.security.krb5.PrincipalName)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.Krb5NameElement java.security.Provider getProvider()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.Krb5Token java.lang.String getTokenName(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.Krb5Util.ServiceCreds sun.security.krb5.EncryptionKey[] getEKeys()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.Krb5Util javax.security.auth.kerberos.KerberosTicket credsToTicket(sun.security.krb5.Credentials)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.Krb5Util sun.security.krb5.Credentials ticketToCreds(javax.security.auth.kerberos.KerberosTicket)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.MessageToken_v2.MessageTokenHeader this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.MessageToken_v2 byte[] getChecksum(byte[], int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.MicToken byte[] encode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.MicToken_v2 byte[] encode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.WrapToken byte[] encode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.WrapToken byte[] getData()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.WrapToken pads'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.WrapToken_v2 byte[] encode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.jgss.krb5.WrapToken_v2 byte[] getData()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

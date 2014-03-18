@@ -1,0 +1,1160 @@
+<root>
+    <item name='com.sun.java.swing.plaf.windows.AnimationController.1 $SwitchMap$com$sun$java$swing$plaf$windows$TMSchema$State'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.AnimationController.PartUIClientPropertyKey com.sun.java.swing.plaf.windows.AnimationController.PartUIClientPropertyKey getKey(com.sun.java.swing.plaf.windows.TMSchema.Part)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.AnimationController.PartUIClientPropertyKey map'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.AnimationController.PartUIClientPropertyKey java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.AnimationController ANIMATION_CONTROLLER_KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.AnimationController animationStateMap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.AnimationController com.sun.java.swing.plaf.windows.AnimationController getAnimationController()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.AnimationController timer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.DesktopProperty queue'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Control $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Control BUTTON'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Control COMBOBOX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Control EDIT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Control HEADER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Control LISTBOX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Control LISTVIEW'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Control MENU'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Control PROGRESS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Control REBAR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Control SCROLLBAR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Control SPIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Control TAB'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Control TOOLBAR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Control TRACKBAR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Control TREEVIEW'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Control WINDOW'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Control com.sun.java.swing.plaf.windows.TMSchema.Control valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part BP_CHECKBOX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part BP_GROUPBOX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part BP_PUSHBUTTON'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part BP_RADIOBUTTON'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part CP_BACKGROUND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part CP_BORDER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part CP_COMBOBOX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part CP_CUEBANNER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part CP_DROPDOWNBUTTON'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part CP_DROPDOWNBUTTONLEFT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part CP_DROPDOWNBUTTONRIGHT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part CP_READONLY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part CP_TRANSPARENTBACKGROUND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part EP_EDIT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part EP_EDITTEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part HP_HEADERITEM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part HP_HEADERSORTARROW'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part LBP_LISTBOX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part LVP_LISTVIEW'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part MENU'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part MP_BARBACKGROUND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part MP_BARITEM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part MP_POPUPBACKGROUND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part MP_POPUPBORDERS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part MP_POPUPCHECK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part MP_POPUPCHECKBACKGROUND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part MP_POPUPGUTTER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part MP_POPUPITEM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part MP_POPUPSEPARATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part MP_POPUPSUBMENU'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part PP_BAR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part PP_BARVERT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part PP_CHUNK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part PP_CHUNKVERT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part PP_PROGRESS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part RP_GRIPPER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part RP_GRIPPERVERT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part SBP_ARROWBTN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part SBP_GRIPPERHORZ'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part SBP_GRIPPERVERT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part SBP_LOWERTRACKHORZ'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part SBP_LOWERTRACKVERT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part SBP_SCROLLBAR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part SBP_SIZEBOX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part SBP_THUMBBTNHORZ'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part SBP_THUMBBTNVERT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part SBP_UPPERTRACKHORZ'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part SBP_UPPERTRACKVERT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part SPNP_DOWN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part SPNP_UP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part TABP_PANE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part TABP_TABITEM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part TABP_TABITEMLEFTEDGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part TABP_TABITEMRIGHTEDGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part TKP_THUMB'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part TKP_THUMBBOTTOM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part TKP_THUMBLEFT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part TKP_THUMBRIGHT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part TKP_THUMBTOP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part TKP_THUMBVERT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part TKP_TICS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part TKP_TICSVERT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part TKP_TRACK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part TKP_TRACKVERT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part TP_BUTTON'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part TP_SEPARATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part TP_SEPARATORVERT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part TP_TOOLBAR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part TVP_GLYPH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part TVP_TREEVIEW'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part WP_CAPTION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part WP_CLOSEBUTTON'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part WP_FRAMEBOTTOM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part WP_FRAMELEFT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part WP_FRAMERIGHT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part WP_MAXBUTTON'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part WP_MAXCAPTION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part WP_MDICLOSEBUTTON'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part WP_MDIMINBUTTON'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part WP_MDIRESTOREBUTTON'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part WP_MDISYSBUTTON'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part WP_MINBUTTON'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part WP_MINCAPTION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part WP_RESTOREBUTTON'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part WP_SYSBUTTON'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part WP_WINDOW'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part java.lang.String getControlName(java.awt.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Part com.sun.java.swing.plaf.windows.TMSchema.Part valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Prop $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Prop BGTYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Prop BORDERCOLOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Prop BORDERONLY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Prop BORDERSIZE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Prop CAPTIONMARGINS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Prop COLOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Prop CONTENTMARGINS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Prop FILLCOLOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Prop FLATMENUS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Prop IMAGECOUNT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Prop NORMALSIZE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Prop PROGRESSCHUNKSIZE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Prop PROGRESSSPACESIZE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Prop SIZE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Prop SIZINGMARGINS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Prop TEXTCOLOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Prop TEXTSHADOWCOLOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Prop TEXTSHADOWOFFSET'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Prop TEXTSHADOWTYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Prop TRANSITIONDURATIONS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Prop java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.Prop com.sun.java.swing.plaf.windows.TMSchema.Prop valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State ACTIVE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State ASSIST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State BITMAP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State BULLETDISABLED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State BULLETNORMAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State CHECKED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State CHECKEDDISABLED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State CHECKEDHOT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State CHECKEDNORMAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State CHECKEDPRESSED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State CHECKMARKDISABLED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State CHECKMARKNORMAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State CLOSED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State DEFAULTED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State DISABLED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State DISABLEDHOT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State DISABLEDPUSHED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State DOWNDISABLED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State DOWNHOT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State DOWNHOVER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State DOWNNORMAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State DOWNPRESSED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State FOCUSED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State HOT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State HOTCHECKED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State HOVER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State ICONHOT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State ICONNORMAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State ICONPRESSED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State ICONSORTEDHOT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State ICONSORTEDNORMAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State ICONSORTEDPRESSED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State INACTIVE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State INACTIVEDISABLED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State INACTIVEHOT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State INACTIVENORMAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State INACTIVEPUSHED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State LEFTDISABLED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State LEFTHOT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State LEFTHOVER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State LEFTNORMAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State LEFTPRESSED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State MIXEDDISABLED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State MIXEDHOT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State MIXEDNORMAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State MIXEDPRESSED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State NORMAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State OPENED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State PRESSED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State PUSHED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State READONLY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State RIGHTDISABLED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State RIGHTHOT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State RIGHTHOVER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State RIGHTNORMAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State RIGHTPRESSED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State SELECTED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State SORTEDDOWN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State SORTEDHOT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State SORTEDNORMAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State SORTEDPRESSED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State SORTEDUP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State UNCHECKEDDISABLED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State UNCHECKEDHOT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State UNCHECKEDNORMAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State UNCHECKEDPRESSED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State UPDISABLED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State UPHOT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State UPHOVER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State UPNORMAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State UPPRESSED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.State com.sun.java.swing.plaf.windows.TMSchema.State valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.TypeEnum $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.TypeEnum BT_BORDERFILL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.TypeEnum BT_IMAGEFILE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.TypeEnum TST_CONTINUOUS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.TypeEnum TST_NONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.TypeEnum TST_SINGLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.TypeEnum java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.TMSchema.TypeEnum com.sun.java.swing.plaf.windows.TMSchema.TypeEnum valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsBorders.ProgressBarBorder java.awt.Insets getBorderInsets(java.awt.Component, java.awt.Insets)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsBorders.ToolBarBorder java.awt.Insets getBorderInsets(java.awt.Component, java.awt.Insets)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsBorders javax.swing.border.Border getFocusCellHighlightBorder()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsBorders javax.swing.border.Border getInternalFrameBorder()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsBorders javax.swing.border.Border getProgressBarBorder()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsBorders javax.swing.border.Border getTableHeaderBorder()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsBorders javax.swing.border.Border getToolBarBorder()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsButtonUI.1 $SwitchMap$com$sun$java$swing$plaf$windows$TMSchema$Part'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsButtonUI WINDOWS_BUTTON_UI_KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsButtonUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsCheckBoxMenuItemUI accessor'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsCheckBoxMenuItemUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsCheckBoxUI WINDOWS_CHECK_BOX_UI_KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsCheckBoxUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsCheckBoxUI java.lang.String getPropertyPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsCheckBoxUI propertyPrefix'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsClassicLookAndFeel java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsComboBoxUI.WindowsComboBoxEditor javax.swing.JTextField createEditorComponent()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsComboBoxUI.WindowsComboBoxRenderer BORDER_KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsComboBoxUI.WindowsComboBoxRenderer NULL_BORDER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsComboBoxUI.WindowsComboPopup.InvocationKeyHandler this$1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsComboBoxUI.WindowsComboPopup java.awt.event.KeyListener createKeyListener()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsComboBoxUI.XPComboBoxButton java.awt.Dimension getPreferredSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsComboBoxUI.XPComboBoxButton com.sun.java.swing.plaf.windows.WindowsComboBoxUI getWindowsComboBoxUI()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsComboBoxUI.XPComboBoxButton this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsComboBoxUI componentOrientationListener'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsComboBoxUI javax.swing.JButton createArrowButton()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsComboBoxUI javax.swing.ComboBoxEditor createEditor()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsComboBoxUI java.awt.LayoutManager createLayoutManager()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsComboBoxUI javax.swing.plaf.basic.ComboPopup createPopup()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsComboBoxUI javax.swing.ListCellRenderer createRenderer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsComboBoxUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsComboBoxUI java.awt.Dimension getMinimumSize(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsComboBoxUI rolloverListener'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsDesktopIconUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsDesktopIconUI java.awt.Dimension getMinimumSize(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsDesktopIconUI java.awt.Dimension getPreferredSize(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsDesktopPaneUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsEditorPaneUI javax.swing.text.Caret createCaret()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsEditorPaneUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsFileChooserUI.2 java.awt.Dimension getMinimumSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsFileChooserUI.2 java.awt.Dimension getPreferredSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsFileChooserUI.7 java.awt.Dimension getMaximumSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsFileChooserUI.DirectoryComboBoxModel this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsFileChooserUI.DirectoryComboBoxRenderer java.awt.Component getListCellRendererComponent(javax.swing.JList, java.lang.Object, int, boolean, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsFileChooserUI.FilterComboBoxModel this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsFileChooserUI.FilterComboBoxRenderer java.awt.Component getListCellRendererComponent(javax.swing.JList, java.lang.Object, int, boolean, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsFileChooserUI.WindowsFileChooserUIAccessor javax.swing.JPanel createDetailsView()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsFileChooserUI.WindowsFileChooserUIAccessor javax.swing.JPanel createList()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsFileChooserUI javax.swing.ActionMap createActionMap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsFileChooserUI javax.swing.JPanel createDetailsView(javax.swing.JFileChooser)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsFileChooserUI com.sun.java.swing.plaf.windows.WindowsFileChooserUI.DirectoryComboBoxModel createDirectoryComboBoxModel(javax.swing.JFileChooser)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsFileChooserUI com.sun.java.swing.plaf.windows.WindowsFileChooserUI.DirectoryComboBoxRenderer createDirectoryComboBoxRenderer(javax.swing.JFileChooser)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsFileChooserUI com.sun.java.swing.plaf.windows.WindowsFileChooserUI.FilterComboBoxModel createFilterComboBoxModel()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsFileChooserUI com.sun.java.swing.plaf.windows.WindowsFileChooserUI.FilterComboBoxRenderer createFilterComboBoxRenderer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsFileChooserUI javax.swing.JPanel createList(javax.swing.JFileChooser)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsFileChooserUI java.beans.PropertyChangeListener createPropertyChangeListener(javax.swing.JFileChooser)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsFileChooserUI javax.swing.JButton createToolButton(javax.swing.Action, javax.swing.Icon, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsFileChooserUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsFileChooserUI java.lang.String fileNameString(java.io.File[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsFileChooserUI javax.swing.ActionMap getActionMap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsFileChooserUI java.awt.Dimension getMaximumSize(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsFileChooserUI java.awt.Dimension getPreferredSize(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsFileChooserUI hstrut10'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsFileChooserUI shrinkwrap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsFileChooserUI vstrut4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsFileChooserUI vstrut6'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsFileChooserUI vstrut8'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsIconFactory.VistaMenuItemCheckIconFactory.VistaMenuItemCheckIcon java.lang.String typeToString(java.lang.Class&lt;? extends javax.swing.JMenuItem&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsIconFactory.VistaMenuItemCheckIconFactory java.lang.Class access$1100(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsIconFactory.VistaMenuItemCheckIconFactory javax.swing.Icon getIcon(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsIconFactory.VistaMenuItemCheckIconFactory javax.swing.Icon getIcon(javax.swing.JMenuItem)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsIconFactory.VistaMenuItemCheckIconFactory java.lang.Class&lt;? extends javax.swing.JMenuItem&gt; getType(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsInternalFrameTitlePane java.awt.LayoutManager createLayout()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsInternalFrameTitlePane java.beans.PropertyChangeListener createPropertyChangeListener()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsInternalFrameTitlePane java.awt.Dimension getMinimumSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsInternalFrameTitlePane java.awt.Dimension getPreferredSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsInternalFrameUI.XPBorder java.awt.Insets getBorderInsets(java.awt.Component, java.awt.Insets)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsInternalFrameUI javax.swing.DesktopManager createDesktopManager()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsInternalFrameUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsLabelUI WINDOWS_LABEL_UI_KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsLabelUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsLookAndFeel.2 $SwitchMap$javax$swing$LayoutStyle$ComponentPlacement'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsLookAndFeel.ActiveWindowsIcon.1 this$1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsLookAndFeel.LazyWindowsIcon java.lang.Object createValue(javax.swing.UIDefaults)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsLookAndFeel.WindowsFontSizeProperty java.lang.Object configureValue(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsLookAndFeel.XPValue NULL_VALUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsLookAndFeel HI_RES_DISABLED_ICON_CLIENT_KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsLookAndFeel java.lang.String getDescription()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsLookAndFeel java.lang.String getID()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsLookAndFeel javax.swing.LayoutStyle getLayoutStyle()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsLookAndFeel java.lang.Object[] getLazyValueDefaults()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsLookAndFeel java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsMenuBarUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsMenuItemUI accessor'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsMenuItemUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsMenuUI accessor'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsMenuUI javax.swing.event.MouseInputListener createMouseInputListener(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsMenuUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsPasswordFieldUI javax.swing.text.Caret createCaret()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsPasswordFieldUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsPopupMenuSeparatorUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsPopupMenuSeparatorUI java.awt.Dimension getPreferredSize(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsPopupMenuUI GUTTER_OFFSET_KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsPopupMenuUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsProgressBarUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsProgressBarUI java.awt.Rectangle getFullChunkBounds(java.awt.Rectangle)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsProgressBarUI java.awt.Dimension getPreferredInnerHorizontal()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsProgressBarUI java.awt.Dimension getPreferredInnerVertical()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsRadioButtonMenuItemUI accessor'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsRadioButtonMenuItemUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsRadioButtonUI WINDOWS_RADIO_BUTTON_UI_KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsRadioButtonUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsRootPaneUI altProcessor'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsRootPaneUI windowsRootPaneUI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsScrollBarUI.Grid com.sun.java.swing.plaf.windows.WindowsScrollBarUI.Grid getGrid(java.awt.Color, java.awt.Color)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsScrollBarUI.WindowsArrowButton java.awt.Dimension getPreferredSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsScrollBarUI javax.swing.plaf.basic.BasicScrollBarUI.ArrowButtonListener createArrowButtonListener()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsScrollBarUI javax.swing.JButton createDecreaseButton(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsScrollBarUI javax.swing.JButton createIncreaseButton(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsScrollBarUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsSliderUI javax.swing.plaf.basic.BasicSliderUI.TrackListener createTrackListener(javax.swing.JSlider)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsSliderUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsSliderUI java.awt.Dimension getThumbSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsSpinnerUI java.awt.Component createNextButton()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsSpinnerUI java.awt.Component createPreviousButton()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsSpinnerUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsSplitPaneUI javax.swing.plaf.basic.BasicSplitPaneDivider createDefaultDivider()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsSplitPaneUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsTabbedPaneUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsTableHeaderUI.1 $SwitchMap$com$sun$java$swing$plaf$windows$TMSchema$State'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsTableHeaderUI.1 $SwitchMap$javax$swing$SortOrder'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsTableHeaderUI.IconBorder java.awt.Insets getBorderInsets(java.awt.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsTableHeaderUI.XPDefaultRenderer java.awt.Component getTableCellRendererComponent(javax.swing.JTable, java.lang.Object, boolean, boolean, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsTableHeaderUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsTextAreaUI javax.swing.text.Caret createCaret()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsTextAreaUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsTextFieldUI javax.swing.text.Caret createCaret()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsTextFieldUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsTextPaneUI javax.swing.text.Caret createCaret()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsTextPaneUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsTextUI javax.swing.text.Caret createCaret()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsToggleButtonUI WINDOWS_TOGGLE_BUTTON_UI_KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsToggleButtonUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsToolBarSeparatorUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsToolBarSeparatorUI java.awt.Dimension getMaximumSize(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsToolBarSeparatorUI java.awt.Dimension getPreferredSize(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsToolBarUI javax.swing.border.Border createNonRolloverBorder()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsToolBarUI javax.swing.border.Border createRolloverBorder()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsToolBarUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsTreeUI.CollapsedIcon javax.swing.Icon createCollapsedIcon()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsTreeUI.ExpandedIcon javax.swing.Icon createExpandedIcon()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsTreeUI.WindowsTreeCellRenderer java.awt.Component getTreeCellRendererComponent(javax.swing.JTree, java.lang.Object, boolean, boolean, boolean, int, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsTreeUI javax.swing.tree.TreeCellRenderer createDefaultCellRenderer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.WindowsTreeUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.XPStyle.Skin java.lang.String access$000(com.sun.java.swing.plaf.windows.XPStyle.Skin)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.XPStyle.Skin part'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.XPStyle.Skin string'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.XPStyle.Skin java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.XPStyle.SkinPainter java.awt.Image createImage(java.awt.Component, int, int, java.awt.GraphicsConfiguration, java.lang.Object[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.XPStyle.XPEmptyBorder java.awt.Insets getBorderInsets(java.awt.Component, java.awt.Insets)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.XPStyle.XPFillBorder java.awt.Insets getBorderInsets(java.awt.Component, java.awt.Insets)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.XPStyle.XPImageBorder java.awt.Insets getBorderInsets(java.awt.Component, java.awt.Insets)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.XPStyle.XPImageBorder this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.java.swing.plaf.windows.XPStyle com.sun.java.swing.plaf.windows.XPStyle.Skin getSkin(java.awt.Component, com.sun.java.swing.plaf.windows.TMSchema.Part)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

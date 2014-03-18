@@ -1,0 +1,62 @@
+<root>
+    <item name='sun.java2d.d3d.D3DContext.D3DContextCaps java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.d3d.D3DGraphicsConfig java.awt.image.VolatileImage createBackBuffer(sun.awt.windows.WComponentPeer)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.d3d.D3DGraphicsConfig sun.java2d.SurfaceData createSurfaceData(sun.awt.windows.WComponentPeer, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.d3d.D3DGraphicsConfig java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.d3d.D3DGraphicsDevice sun.java2d.pipe.hw.ContextCapabilities getDeviceCaps(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.d3d.D3DRenderer.Tracer sun.java2d.pipe.ParallelogramPipe getAAParallelogramPipe()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.d3d.D3DRenderer sun.java2d.d3d.D3DRenderer traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.d3d.D3DScreenUpdateManager.2 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.d3d.D3DScreenUpdateManager java.awt.Graphics2D createGraphics(sun.java2d.SurfaceData, sun.awt.windows.WComponentPeer, java.awt.Color, java.awt.Color, java.awt.Font)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.d3d.D3DScreenUpdateManager sun.java2d.SurfaceData createScreenSurface(sun.awt.Win32GraphicsConfig, sun.awt.windows.WComponentPeer, int, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.d3d.D3DScreenUpdateManager sun.java2d.SurfaceData getGdiSurface(sun.java2d.d3d.D3DSurfaceData.D3DWindowSurfaceData)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.d3d.D3DSurfaceData D3DSurface'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.d3d.D3DSurfaceData D3DSurfaceRTT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.d3d.D3DSurfaceData D3DTexture'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.d3d.D3DSurfaceData DESC_D3D_SURFACE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.d3d.D3DSurfaceData DESC_D3D_SURFACE_RTT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.d3d.D3DSurfaceData DESC_D3D_TEXTURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.d3d.D3DSurfaceData java.awt.Rectangle getBounds()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.d3d.D3DSurfaceData java.awt.Rectangle getNativeBounds()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.d3d.D3DTextRenderer sun.java2d.d3d.D3DTextRenderer traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,11 @@
+<root>
+    <item name='com.sun.xml.internal.ws.api.message.Packet HA_INFO'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.api.message.Packet INBOUND_TRANSPORT_HEADERS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.xml.internal.ws.api.message.Packet OUTBOUND_TRANSPORT_HEADERS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

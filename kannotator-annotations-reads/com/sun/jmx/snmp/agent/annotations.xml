@@ -1,0 +1,8 @@
+<root>
+    <item name='com.sun.jmx.snmp.agent.SnmpTableEntryNotification SNMP_ENTRY_ADDED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jmx.snmp.agent.SnmpTableEntryNotification SNMP_ENTRY_REMOVED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

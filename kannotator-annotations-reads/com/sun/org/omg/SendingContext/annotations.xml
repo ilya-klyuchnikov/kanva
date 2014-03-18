@@ -1,0 +1,5 @@
+<root>
+    <item name='com.sun.org.omg.SendingContext._CodeBaseImplBase org.omg.CORBA.portable.OutputStream _invoke(java.lang.String, org.omg.CORBA.portable.InputStream, org.omg.CORBA.portable.ResponseHandler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

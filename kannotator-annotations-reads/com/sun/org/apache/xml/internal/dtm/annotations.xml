@@ -1,0 +1,23 @@
+<root>
+    <item name='com.sun.org.apache.xml.internal.dtm.Axis isReverse'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.dtm.Axis names'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.dtm.DTMException java.lang.String getMessageAndLocation()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.dtm.DTMException java.lang.Throwable initCause(java.lang.Throwable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.dtm.DTMManager defaultPropName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.dtm.DTMManager com.sun.org.apache.xml.internal.dtm.DTMManager newInstance(com.sun.org.apache.xml.internal.utils.XMLStringFactory)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.org.apache.xml.internal.dtm.DTMManager com.sun.org.apache.xml.internal.dtm.DTMManager newInstance(com.sun.org.apache.xml.internal.utils.XMLStringFactory, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

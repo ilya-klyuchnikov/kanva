@@ -1,0 +1,86 @@
+<root>
+    <item name='sun.security.validator.EndEntityChecker NSCT_CODE_SIGNING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.validator.EndEntityChecker NSCT_SSL_CLIENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.validator.EndEntityChecker NSCT_SSL_SERVER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.validator.EndEntityChecker OID_EKU_ANY_USAGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.validator.EndEntityChecker OID_EKU_CODE_SIGNING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.validator.EndEntityChecker OID_EKU_MS_SGC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.validator.EndEntityChecker OID_EKU_NS_SGC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.validator.EndEntityChecker OID_EKU_TIME_STAMPING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.validator.EndEntityChecker OID_EKU_TLS_CLIENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.validator.EndEntityChecker OID_EKU_TLS_SERVER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.validator.EndEntityChecker OID_EXTENDED_KEY_USAGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.validator.EndEntityChecker OID_SUBJECT_ALT_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.validator.SimpleValidator NSCT_CODE_SIGNING_CA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.validator.SimpleValidator NSCT_SSL_CA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.validator.SimpleValidator OID_BASIC_CONSTRAINTS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.validator.SimpleValidator OID_EKU_ANY_USAGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.validator.SimpleValidator OID_EXTENDED_KEY_USAGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.validator.SimpleValidator OID_KEY_USAGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.validator.SimpleValidator OID_NETSCAPE_CERT_TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.validator.Validator TYPE_PKIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.validator.Validator TYPE_SIMPLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.validator.Validator VAR_CODE_SIGNING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.validator.Validator VAR_GENERIC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.validator.Validator VAR_JCE_SIGNING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.validator.Validator VAR_PLUGIN_CODE_SIGNING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.validator.Validator VAR_TLS_CLIENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.validator.Validator VAR_TLS_SERVER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.security.validator.Validator VAR_TSA_SERVER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

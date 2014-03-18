@@ -1,0 +1,56 @@
+<root>
+    <item name='com.sun.corba.se.impl.interceptors.CDREncapsCodec org.omg.CORBA.Any decode(byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.interceptors.CDREncapsCodec org.omg.CORBA.Any decodeImpl(byte[], org.omg.CORBA.TypeCode)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.interceptors.CDREncapsCodec org.omg.CORBA.Any decode_value(byte[], org.omg.CORBA.TypeCode)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.interceptors.ClientRequestInfoImpl org.omg.IOP.TaggedComponent[] get_effective_components(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.interceptors.ClientRequestInfoImpl validCall'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.interceptors.CodecFactoryImpl org.omg.IOP.Codec create_codec(org.omg.IOP.Encoding)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.interceptors.InterceptorList classTypes'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.interceptors.ORBInitInfoImpl MESSAGE_ORBINITINFO_INVALID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.interceptors.PICurrent.1 java.lang.Object initialValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.interceptors.PIHandlerImpl.1 java.lang.Object initialValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.interceptors.PIHandlerImpl.2 java.lang.Object initialValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.interceptors.PIHandlerImpl REPLY_MESSAGE_TO_PI_REPLY_STATUS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.interceptors.PIHandlerImpl com.sun.corba.se.impl.interceptors.ORBInitInfoImpl createORBInitInfo()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.interceptors.RequestInfoImpl org.omg.IOP.ServiceContext getServiceContext(java.util.HashMap, com.sun.corba.se.spi.servicecontext.ServiceContexts, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.interceptors.RequestInfoImpl org.omg.CORBA.Object iorToObject(com.sun.corba.se.spi.ior.IOR)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.interceptors.RequestInfoImpl org.omg.Dynamic.Parameter[] nvListToParameterArray(org.omg.CORBA.NVList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.interceptors.ServerRequestInfoImpl java.lang.String server_id()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.corba.se.impl.interceptors.ServerRequestInfoImpl validCall'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

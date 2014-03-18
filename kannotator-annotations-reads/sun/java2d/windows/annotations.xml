@@ -1,0 +1,29 @@
+<root>
+    <item name='sun.java2d.windows.GDIRenderer sun.java2d.windows.GDIRenderer traceWrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.windows.GDIWindowSurfaceData AnyGdi'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.windows.GDIWindowSurfaceData DESC_GDI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.windows.GDIWindowSurfaceData IntRgbGdi'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.windows.GDIWindowSurfaceData ThreeByteBgrGdi'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.windows.GDIWindowSurfaceData Ushort555RgbGdi'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.windows.GDIWindowSurfaceData Ushort565RgbGdi'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.windows.GDIWindowSurfaceData sun.java2d.windows.GDIWindowSurfaceData createData(sun.awt.windows.WComponentPeer)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.windows.GDIWindowSurfaceData java.awt.Rectangle getBounds()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,20 @@
+<root>
+    <item name='sun.net.dns.ResolverConfiguration lock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.dns.ResolverConfigurationImpl java.util.List&lt;java.lang.String&gt; nameservers()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.dns.ResolverConfigurationImpl sun.net.dns.ResolverConfiguration.Options options()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.dns.ResolverConfigurationImpl opts'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.dns.ResolverConfigurationImpl java.util.List&lt;java.lang.String&gt; searchlist()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.net.dns.ResolverConfigurationImpl java.util.LinkedList&lt;java.lang.String&gt; stringToList(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

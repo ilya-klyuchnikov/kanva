@@ -1,0 +1,5 @@
+<root>
+    <item name='com.sun.xml.internal.org.jvnet.mimepull.MIMEConfig DEFAULT_FILE_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

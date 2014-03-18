@@ -1,0 +1,740 @@
+<root>
+    <item name='com.sun.jndi.ldap.BerDecoder byte[] parseOctetString(int, int[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.BerDecoder java.lang.String parseString(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.BerDecoder java.lang.String parseStringWithTag(int, boolean, int[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.BerEncoder byte[] getTrimmedBuf()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.ClientId hostname'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.ClientId java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.ClientId java.lang.String toStringControls(javax.naming.ldap.Control[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.Connection com.sun.jndi.ldap.LdapRequest writeRequest(com.sun.jndi.ldap.BerEncoder, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.Connection com.sun.jndi.ldap.LdapRequest writeRequest(com.sun.jndi.ldap.BerEncoder, int, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.Connection com.sun.jndi.ldap.LdapRequest writeRequest(com.sun.jndi.ldap.BerEncoder, int, boolean, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.DigestClientId SASL_PROPS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.DigestClientId java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.EntryChangeResponseControl OID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.EventQueue com.sun.jndi.ldap.EventQueue.QueueElement dequeue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.Filter int[] findRightParen(byte[], int[], int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.Filter byte[] unescapeFilterValue(byte[], int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapAttribute java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapBindingEnumeration javax.naming.NameClassPair createItem(java.lang.String, javax.naming.directory.Attributes, java.util.Vector)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapBindingEnumeration com.sun.jndi.ldap.LdapNamingEnumeration getReferredResults(com.sun.jndi.ldap.LdapReferralContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapClient DISCONNECT_OID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapClient LDAPS_URL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapClient LDAP_CONTROL_MANAGE_DSA_IT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapClient LDAP_CONTROL_PAGED_RESULTS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapClient LDAP_CONTROL_PREFERRED_LANG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapClient LDAP_CONTROL_SERVER_SORT_REQ'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapClient LDAP_CONTROL_SERVER_SORT_RES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapClient LDAP_URL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapClient com.sun.jndi.ldap.LdapResult authenticate(boolean, java.lang.String, java.lang.Object, int, java.lang.String, javax.naming.ldap.Control[], java.util.Hashtable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapClient defaultBinaryAttrs'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapClient com.sun.jndi.ldap.LdapResult extendedOp(java.lang.String, byte[], javax.naming.ldap.Control[], boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapClient java.lang.String getErrorMessage(int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapClient com.sun.jndi.ldap.LdapClient getInstance(boolean, java.lang.String, int, java.lang.String, int, int, java.io.OutputStream, int, java.lang.String, javax.naming.ldap.Control[], java.lang.String, java.lang.String, java.lang.Object, java.util.Hashtable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapClient com.sun.jndi.ldap.LdapResult getSearchReply(com.sun.jndi.ldap.LdapRequest, int, com.sun.jndi.ldap.LdapResult, java.util.Hashtable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapClient com.sun.jndi.ldap.LdapResult ldapBind(java.lang.String, byte[], javax.naming.ldap.Control[], java.lang.String, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapClient ldap_error_message'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapClient javax.naming.directory.Attribute parseAttribute(com.sun.jndi.ldap.BerDecoder, java.util.Hashtable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapClient com.sun.jndi.ldap.LdapResult search(java.lang.String, int, int, int, int, boolean, java.lang.String[], java.lang.String, int, javax.naming.ldap.Control[], java.util.Hashtable, boolean, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapClientFactory com.sun.jndi.ldap.pool.PooledConnection createPooledConnection(com.sun.jndi.ldap.pool.PoolCallback)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapClientFactory java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx BINARY_ATTRIBUTES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx BIND_CONTROLS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx CONNECT_TIMEOUT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx DEFAULT_HOST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx DEFAULT_SSL_FACTORY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx DELETE_RDN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx DEREF_ALIASES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx DOMAIN_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx EMPTY_SCHEMA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx ENABLE_POOL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx NETSCAPE_SCHEMA_BUG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx OLD_NETSCAPE_SCHEMA_BUG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx READ_TIMEOUT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx REFERRAL_LIMIT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx REF_SEPARATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx REPLY_QUEUE_SIZE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx SCHEMA_ATTRIBUTES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx SOCKET_FACTORY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx STARTTLS_REQ_OID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx TRACE_BER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx TYPES_ONLY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx WAIT_FOR_REPLY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx javax.naming.ldap.Control[] addControl(javax.naming.ldap.Control[], javax.naming.ldap.Control)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx javax.naming.directory.DirContext buildSchemaTree(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx javax.naming.directory.DirContext c_getSchema(javax.naming.Name, com.sun.jndi.toolkit.ctx.Continuation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx javax.naming.NamingEnumeration c_list(javax.naming.Name, com.sun.jndi.toolkit.ctx.Continuation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx javax.naming.NamingEnumeration c_listBindings(javax.naming.Name, com.sun.jndi.toolkit.ctx.Continuation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx javax.naming.NamingEnumeration c_search(javax.naming.Name, java.lang.String, javax.naming.directory.SearchControls, com.sun.jndi.toolkit.ctx.Continuation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx javax.naming.NamingEnumeration c_search(javax.naming.Name, java.lang.String, java.lang.Object[], javax.naming.directory.SearchControls, com.sun.jndi.toolkit.ctx.Continuation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx javax.naming.NamingEnumeration c_search(javax.naming.Name, javax.naming.directory.Attributes, com.sun.jndi.toolkit.ctx.Continuation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx javax.naming.NamingEnumeration c_search(javax.naming.Name, javax.naming.directory.Attributes, java.lang.String[], com.sun.jndi.toolkit.ctx.Continuation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx com.sun.jndi.ldap.LdapResult compare(javax.naming.Name, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx com.sun.jndi.ldap.LdapResult doSearch(javax.naming.Name, java.lang.String, javax.naming.directory.SearchControls, boolean, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx com.sun.jndi.ldap.LdapResult doSearchOnce(javax.naming.Name, java.lang.String, javax.naming.directory.SearchControls, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx java.util.Vector extractURLs(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx java.util.Hashtable getEnvironment()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx javax.naming.directory.DirContext getSchemaTree(javax.naming.Name)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx manageReferralControl'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx myResponseControlFactory'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx javax.naming.ldap.LdapContext newInstance(javax.naming.ldap.Control[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx parser'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtx javax.naming.NamingEnumeration searchAux(javax.naming.Name, java.lang.String, javax.naming.directory.SearchControls, boolean, boolean, com.sun.jndi.toolkit.ctx.Continuation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtxFactory ADDRESS_TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtxFactory javax.naming.Context getInitialContext(java.util.Hashtable&lt;?,?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtxFactory javax.naming.directory.DirContext getLdapCtxInstance(java.lang.Object, java.util.Hashtable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtxFactory java.lang.String[] getTypeNames(java.lang.Class, java.util.Vector)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtxFactory java.lang.String[] getURLs(javax.naming.Reference)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtxFactory javax.naming.directory.DirContext getUsingURL(java.lang.String, java.util.Hashtable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapCtxFactory javax.naming.directory.DirContext getUsingURLs(java.lang.String[], java.util.Hashtable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName.1 java.lang.Object nextElement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName.DnParser chars'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName.DnParser java.util.Vector getDn()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName.DnParser com.sun.jndi.ldap.LdapName.Rdn getRdn()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName.DnParser name'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName.DnParser java.lang.String parseAttrType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName.DnParser java.lang.String parseAttrValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName.DnParser java.lang.String parseBinaryAttrValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName.DnParser java.lang.String parseQuotedAttrValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName.DnParser com.sun.jndi.ldap.LdapName.Rdn parseRdn()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName.DnParser java.lang.String parseStringAttrValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName.Rdn javax.naming.directory.Attributes toAttributes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName.Rdn java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName.Rdn tvs'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName.TypeAndValue byte[] decodeHexPairs(char[], int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName.TypeAndValue java.lang.String escapeBinaryValue(byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName.TypeAndValue java.lang.String escapeStringValue(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName.TypeAndValue java.lang.String escapeValue(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName.TypeAndValue java.lang.Object getUnescapedValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName.TypeAndValue byte[] getUtf8Octets(char[], int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName.TypeAndValue java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName.TypeAndValue java.lang.Object unescapeValue(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName.TypeAndValue value'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName javax.naming.Name add(int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName javax.naming.Name add(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName javax.naming.Name addAll(int, javax.naming.Name)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName javax.naming.Name addAll(javax.naming.Name)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName java.lang.String escapeAttributeValue(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName java.lang.String get(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName java.util.Enumeration getAll()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName javax.naming.Name getPrefix(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName javax.naming.Name getSuffix(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName java.lang.Object remove(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapName java.lang.Object unescapeAttributeValue(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapNameParser javax.naming.Name parse(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapNamingEnumeration javax.naming.NameClassPair createItem(java.lang.String, javax.naming.directory.Attributes, java.util.Vector)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapNamingEnumeration com.sun.jndi.ldap.LdapNamingEnumeration getReferredResults(com.sun.jndi.ldap.LdapReferralContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapNamingEnumeration java.lang.Object next()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapNamingEnumeration java.lang.Object nextAux()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapNamingEnumeration java.lang.Object nextImpl()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapPoolManager DEBUG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapPoolManager DEFAULT_AUTH_MECHS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapPoolManager DEFAULT_PROTOCOLS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapPoolManager INIT_POOL_SIZE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapPoolManager MAX_POOL_SIZE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapPoolManager POOL_AUTH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapPoolManager POOL_PROTOCOL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapPoolManager POOL_TIMEOUT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapPoolManager PREF_POOL_SIZE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapPoolManager SASL_CALLBACK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapPoolManager com.sun.jndi.ldap.LdapClient getLdapClient(java.lang.String, int, java.lang.String, int, int, java.io.OutputStream, int, java.lang.String, javax.naming.ldap.Control[], java.lang.String, java.lang.String, java.lang.Object, java.util.Hashtable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapPoolManager pools'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapReferralContext java.lang.String composeName(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapReferralContext javax.naming.NamingEnumeration list(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapReferralContext javax.naming.NamingEnumeration list(javax.naming.Name)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapReferralContext javax.naming.NamingEnumeration listBindings(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapReferralContext javax.naming.NamingEnumeration listBindings(javax.naming.Name)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapReferralContext javax.naming.NamingEnumeration search(java.lang.String, java.lang.String, javax.naming.directory.SearchControls)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapReferralContext javax.naming.NamingEnumeration search(java.lang.String, java.lang.String, java.lang.Object[], javax.naming.directory.SearchControls)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapReferralContext javax.naming.NamingEnumeration search(java.lang.String, javax.naming.directory.Attributes)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapReferralContext javax.naming.NamingEnumeration search(java.lang.String, javax.naming.directory.Attributes, java.lang.String[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapReferralContext javax.naming.NamingEnumeration search(javax.naming.Name, java.lang.String, javax.naming.directory.SearchControls)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapReferralContext javax.naming.NamingEnumeration search(javax.naming.Name, java.lang.String, java.lang.Object[], javax.naming.directory.SearchControls)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapReferralContext javax.naming.NamingEnumeration search(javax.naming.Name, javax.naming.directory.Attributes)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapReferralContext javax.naming.NamingEnumeration search(javax.naming.Name, javax.naming.directory.Attributes, java.lang.String[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapReferralContext javax.naming.Name toName(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapReferralException javax.naming.Context getReferralContext()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapReferralException javax.naming.Context getReferralContext(java.util.Hashtable&lt;?,?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapReferralException javax.naming.Context getReferralContext(java.util.Hashtable&lt;?,?&gt;, javax.naming.ldap.Control[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaCtx.SchemaInfo com.sun.jndi.ldap.LdapCtx reopenEntry(java.util.Hashtable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaCtx com.sun.jndi.toolkit.dir.HierMemDirCtx createNewCtx()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaCtx javax.naming.directory.DirContext createSchemaTree(java.util.Hashtable, java.lang.String, com.sun.jndi.ldap.LdapCtx, javax.naming.directory.Attributes, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaCtx javax.naming.directory.Attributes deepClone(javax.naming.directory.Attributes)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaCtx javax.naming.directory.DirContext doCreateSubcontext(javax.naming.Name, javax.naming.directory.Attributes)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaCtx com.sun.jndi.ldap.LdapSchemaCtx setup(int, java.lang.String, javax.naming.directory.Attributes)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser ABSTRACT_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser ATTRIBUTEDESC_ATTR_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser ATTRIBUTE_DEFINITION_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser ATTR_DEF_ATTRS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser AUXILARY_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser CLASS_DEF_ATTRS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser COLLECTIVE_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser DESC_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser EQUALITY_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser MATCHRULEDESC_ATTR_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser MATCHRULE_DEFINITION_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser MATCHRULE_DEF_ATTRS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser MAY_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser MUST_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser NAME_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser NO_USER_MOD_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser NUMERICOID_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser OBJECTCLASSDESC_ATTR_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser OBJECTCLASS_DEFINITION_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser OBSOLETE_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser ORDERING_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser PRIVATE_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser SCHEMA_TRUE_VALUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser SINGLE_VAL_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser STRUCTURAL_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser SUBSTR_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser SUP_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser SYNTAXDESC_ATTR_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser SYNTAX_DEFINITION_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser SYNTAX_DEF_ATTRS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser SYNTAX_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser USAGE_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser java.lang.String attrDef2AttrDesc(javax.naming.directory.Attributes)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser javax.naming.directory.DirContext attrDescs2AttrDefs(javax.naming.directory.Attribute, com.sun.jndi.ldap.LdapSchemaCtx)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser java.lang.String classDef2ObjectDesc(javax.naming.directory.Attributes)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser java.lang.Object[] desc2Def(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser java.lang.String matchRuleDef2MatchRuleDesc(javax.naming.directory.Attributes)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser javax.naming.directory.DirContext matchRuleDescs2MatchRuleDefs(javax.naming.directory.Attribute, com.sun.jndi.ldap.LdapSchemaCtx)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser javax.naming.directory.DirContext objectDescs2ClassDefs(javax.naming.directory.Attribute, com.sun.jndi.ldap.LdapSchemaCtx)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser javax.naming.directory.Attribute readNextTag(java.lang.String, int[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser javax.naming.directory.Attribute readNumericOID(java.lang.String, int[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser java.lang.String[] readOIDs(java.lang.String, int[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser java.lang.String[] readQDString(java.lang.String, int[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser java.lang.String[] readQDStrings(java.lang.String, int[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser java.lang.String[] readQDescrList(java.lang.String, int[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser java.lang.String[] readQDescrs(java.lang.String, int[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser java.lang.String[] readTag(java.lang.String, java.lang.String, int[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser java.lang.String[] readWOID(java.lang.String, int[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser javax.naming.directory.Attribute stringifyAttrDesc(javax.naming.directory.Attributes)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser javax.naming.directory.Attribute stringifyMatchRuleDesc(javax.naming.directory.Attributes)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser javax.naming.directory.Attribute stringifyObjDesc(javax.naming.directory.Attributes)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser javax.naming.directory.Attribute stringifySyntaxDesc(javax.naming.directory.Attributes)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser java.lang.String syntaxDef2SyntaxDesc(javax.naming.directory.Attributes)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser javax.naming.directory.DirContext syntaxDescs2SyntaxDefs(javax.naming.directory.Attribute, com.sun.jndi.ldap.LdapSchemaCtx)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser java.lang.String writeBoolean(javax.naming.directory.Attribute)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser java.lang.String writeNumericOID(javax.naming.directory.Attribute)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser java.lang.String writeOIDs(javax.naming.directory.Attribute)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser java.lang.String writeQDString(javax.naming.directory.Attribute)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser java.lang.String writeQDStrings(javax.naming.directory.Attribute)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser java.lang.String writeQDescrs(javax.naming.directory.Attribute)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSchemaParser java.lang.String writeWOID(javax.naming.directory.Attribute)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSearchEnumeration javax.naming.NameClassPair createItem(java.lang.String, javax.naming.directory.Attributes, java.util.Vector)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapSearchEnumeration com.sun.jndi.ldap.LdapNamingEnumeration getReferredResults(com.sun.jndi.ldap.LdapReferralContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapURL java.lang.String[] fromList(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.LdapURL java.lang.String toUrlString(java.lang.String, int, java.lang.String, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.ManageReferralControl OID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.Obj JAVA_ATTRIBUTES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.Obj JAVA_OBJECT_CLASSES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.Obj JAVA_OBJECT_CLASSES_LOWER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.Obj javax.naming.Reference decodeReference(javax.naming.directory.Attributes, java.lang.String[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.Obj java.lang.Object decodeRmiObject(java.lang.String, java.lang.String, java.lang.String[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.Obj byte[] serializeObject(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.PersistentSearchControl OID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.PersistentSearchControl byte[] setEncodedValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.ServiceLocator SRV_RR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.ServiceLocator SRV_RR_ATTR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.ServiceLocator random'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.SimpleClientId java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.VersionHelper12.3 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.VersionHelper12 TRUST_URL_CODEBASE_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jndi.ldap.VersionHelper java.net.URL[] getUrlArray(java.lang.String[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

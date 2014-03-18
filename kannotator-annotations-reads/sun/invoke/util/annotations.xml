@@ -1,0 +1,257 @@
+<root>
+    <item name='sun.invoke.util.BytecodeDescriptor java.util.List&lt;java.lang.Class&lt;?&gt;&gt; parseMethod(java.lang.String, int, int, java.lang.ClassLoader)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.BytecodeDescriptor java.util.List&lt;java.lang.Class&lt;?&gt;&gt; parseMethod(java.lang.String, java.lang.ClassLoader)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.BytecodeDescriptor java.lang.String unparse(java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.BytecodeDescriptor java.lang.String unparse(java.lang.invoke.MethodType)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.BytecodeDescriptor java.lang.String unparseMethod(java.lang.Class&lt;?&gt;, java.util.List&lt;java.lang.Class&lt;?&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.BytecodeName DANGEROUS_CHARS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.BytecodeName DANGEROUS_CHARS_CA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.BytecodeName REPLACEMENT_CHARS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.BytecodeName SPECIAL_BITMAP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.BytecodeName java.lang.String appendAll(java.lang.Object[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.BytecodeName java.lang.String demangle(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.BytecodeName java.lang.String quoteDisplay(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.BytecodeName java.lang.String toDisplayName(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.BytecodeName java.lang.String toSourceName(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions.3 java.lang.Object computeValue(java.lang.Class)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions.3 java.lang.invoke.MethodHandle[] computeValue(java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions.4 $SwitchMap$sun$invoke$util$Wrapper'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions BOX_CONVERSIONS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions CONSTANT_FUNCTIONS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions CONVERT_PRIMITIVE_FUNCTIONS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions FILL_ARRAY_TO_RIGHT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions IMPL_LOOKUP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions NO_ARGS_ARRAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions NO_ARGS_LIST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions THIS_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions TYPED_COLLECTORS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions UNBOX_CONVERSIONS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions WRAPPER_CASTS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.lang.InternalError access$200(java.lang.String, java.lang.Throwable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.lang.invoke.MethodHandle box(java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.lang.invoke.MethodHandle box(sun.invoke.util.Wrapper)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.lang.invoke.MethodHandle box(sun.invoke.util.Wrapper, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.lang.Double boxDouble(double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.lang.Float boxFloat(float)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.lang.invoke.MethodHandle buildVarargsList(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.lang.String capitalize(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.lang.invoke.MethodHandle convertPrimitive(java.lang.Class&lt;?&gt;, java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.lang.invoke.MethodHandle convertPrimitive(sun.invoke.util.Wrapper, sun.invoke.util.Wrapper)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.lang.Object copyAsPrimitiveArray(sun.invoke.util.Wrapper, java.lang.Object...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.lang.Object[] fillNewArray(java.lang.Integer, java.lang.Object[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.lang.invoke.MethodHandle identity(sun.invoke.util.Wrapper)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.util.List&lt;java.lang.Object&gt; list(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.util.List&lt;java.lang.Object&gt; list(java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.util.List&lt;java.lang.Object&gt; list(java.lang.Object, java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.util.List&lt;java.lang.Object&gt; list(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.util.List&lt;java.lang.Object&gt; list(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.util.List&lt;java.lang.Object&gt; list(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.util.List&lt;java.lang.Object&gt; list(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.util.List&lt;java.lang.Object&gt; list(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.util.List&lt;java.lang.Object&gt; list(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.util.List&lt;java.lang.Object&gt; list(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.util.List&lt;java.lang.Object&gt; makeList(java.lang.Object...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.lang.InternalError newInternalError(java.lang.String, java.lang.Throwable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.lang.InternalError newInternalError(java.lang.Throwable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.util.EnumMap&lt;sun.invoke.util.Wrapper,java.lang.invoke.MethodHandle&gt;[] newWrapperCaches(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.lang.invoke.MethodHandle varargsList(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.ValueConversions java.lang.invoke.MethodHandle zeroConstantFunction(sun.invoke.util.Wrapper)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.VerifyAccess java.lang.Class&lt;?&gt; getOutermostEnclosingClass(java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.VerifyAccess java.lang.String getPackageName(java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.Wrapper $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.Wrapper BOOLEAN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.Wrapper BYTE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.Wrapper CHAR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.Wrapper DOUBLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.Wrapper FLOAT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.Wrapper FROM_CHAR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.Wrapper FROM_PRIM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.Wrapper FROM_WRAP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.Wrapper INT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.Wrapper LONG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.Wrapper OBJECT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.Wrapper SHORT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.Wrapper VOID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.Wrapper java.lang.String detailString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.Wrapper sun.invoke.util.Wrapper forBasicType(char)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.Wrapper sun.invoke.util.Wrapper forPrimitiveType(java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.Wrapper sun.invoke.util.Wrapper forWrapperType(java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.Wrapper java.lang.ClassCastException newClassCastException(java.lang.Class&lt;?&gt;, java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.Wrapper java.lang.RuntimeException newIllegalArgumentException(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.Wrapper java.lang.RuntimeException newIllegalArgumentException(java.lang.String, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.Wrapper primitiveSimpleName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.Wrapper primitiveType'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.Wrapper sun.invoke.util.Wrapper valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.Wrapper wrapperSimpleName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.invoke.util.Wrapper wrapperType'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

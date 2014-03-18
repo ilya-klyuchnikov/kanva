@@ -1,0 +1,20 @@
+<root>
+    <item name='javax.sql.rowset.BaseRowSet java.lang.Object[] getParams()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sql.rowset.RowSetProvider ROWSET_DEBUG_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sql.rowset.RowSetProvider ROWSET_FACTORY_IMPL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sql.rowset.RowSetProvider ROWSET_FACTORY_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sql.rowset.WebRowSet PUBLIC_XML_SCHEMA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sql.rowset.WebRowSet SCHEMA_SYSTEM_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

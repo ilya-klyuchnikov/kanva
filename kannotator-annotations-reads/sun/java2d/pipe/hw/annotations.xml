@@ -1,0 +1,35 @@
+<root>
+    <item name='sun.java2d.pipe.hw.AccelDeviceEventNotifier listeners'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.pipe.hw.AccelTypedVolatileImage java.awt.Graphics2D createGraphics()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.pipe.hw.ContextCapabilities adapterId'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.pipe.hw.ContextCapabilities java.lang.String getAdapterId()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.pipe.hw.ContextCapabilities java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.pipe.hw.ExtendedBufferCapabilities.VSyncType $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.pipe.hw.ExtendedBufferCapabilities.VSyncType VSYNC_DEFAULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.pipe.hw.ExtendedBufferCapabilities.VSyncType VSYNC_OFF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.pipe.hw.ExtendedBufferCapabilities.VSyncType VSYNC_ON'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.pipe.hw.ExtendedBufferCapabilities.VSyncType sun.java2d.pipe.hw.ExtendedBufferCapabilities.VSyncType valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='sun.java2d.pipe.hw.ExtendedBufferCapabilities sun.java2d.pipe.hw.ExtendedBufferCapabilities derive(sun.java2d.pipe.hw.ExtendedBufferCapabilities.VSyncType)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

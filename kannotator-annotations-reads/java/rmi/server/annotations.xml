@@ -1,0 +1,59 @@
+<root>
+    <item name='java.rmi.server.LoaderHandler packagePrefix'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.LogStream java.rmi.server.LogStream log(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.ObjID mySpace'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.ObjID nextObjNum'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.ObjID java.rmi.server.ObjID read(java.io.ObjectInput)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.ObjID secureRandom'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.ObjID java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.RMIClassLoader defaultProvider'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.RMIClassLoader java.rmi.server.RMIClassLoaderSpi newDefaultProviderInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.RemoteObject java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.RemoteObjectInvocationHandler.MethodToHash_Maps java.lang.Object computeValue(java.lang.Class)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.RemoteObjectInvocationHandler.MethodToHash_Maps java.util.Map&lt;java.lang.reflect.Method,java.lang.Long&gt; computeValue(java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.RemoteObjectInvocationHandler methodToHash_Maps'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.RemoteObjectInvocationHandler java.lang.String proxyToString(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.RemoteRef packagePrefix'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.UID lock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.UID java.rmi.server.UID read(java.io.DataInput)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.UID java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.UnicastRemoteObject java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>
