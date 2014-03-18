@@ -11,8 +11,8 @@ import org.objectweb.asm.Type
 
 import kanva.util.createMethodNodeStub
 import kanva.index.ClassSource
-import kanva.validation.buildCFG
-import kanva.validation.collectNotNullParams
+import kanva.analysis.buildCFG
+import kanva.analysis.collectNotNullParams
 import kanva.context.Context
 
 import org.spek.*

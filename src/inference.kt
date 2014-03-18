@@ -7,7 +7,7 @@ import kanva.dependencies.buildFunctionDependencyGraph
 import kanva.dependencies.getTopologicallySortedStronglyConnectedComponents
 import kanva.graphs.Node
 
-import kanva.validation.*
+import kanva.analysis.*
 import kanva.declarations.*
 import kanva.annotations.Nullability
 import java.util.Date

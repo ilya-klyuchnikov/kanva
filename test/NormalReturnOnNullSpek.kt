@@ -11,7 +11,7 @@ import org.objectweb.asm.Type
 
 import kanva.util.createMethodNodeStub
 import kanva.index.ClassSource
-import kanva.validation.*
+import kanva.analysis.*
 import kanva.context.Context
 
 import org.spek.*

@@ -1,4 +1,4 @@
-package kanva.validation
+package kanva.analysis
 
 import java.util.HashSet
 
