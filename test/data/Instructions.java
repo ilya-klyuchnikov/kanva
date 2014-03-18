@@ -80,4 +80,24 @@ public class Instructions {
         i1.i = i2.i;
     }
 
+    public void exceptions1(Object o1, Object o2) {
+        if (o1 == null) {
+            throw new NullPointerException("xx");
+        }
+        if (o2 == null) {
+            throw new NullPointerException("yy");
+        }
+    }
+
+    public native Object test();
+
+    public Instructions exceptions2(Instructions r) {
+        Object dummy = test();
+        if (dummy != null) {
+            r.i = 1;
+        } else if (r == null) {
+            throw new NullPointerException("null parameter");
+        }
+        return r;
+    }
 }

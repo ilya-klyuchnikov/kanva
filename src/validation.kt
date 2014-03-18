@@ -103,7 +103,7 @@ fun collectNotNullParams(context: Context, cfg: Graph<Int>, method: Method, meth
 }
 
 fun normalReturnOnNullReachable(context: Context, cfg: Graph<Int>, method: Method, methodNode: MethodNode, nullParam: Int): Boolean {
-    return ThrowAnalyzer(context, cfg, method, methodNode, nullParam).reachable()
+    return ThrowAnalyzer(context, cfg, method, methodNode, nullParam).normalReturnReachable()
 }
 
 private fun Set<TracedValue>.paramIndices(): Set<Int> =
@@ -251,7 +251,8 @@ private class ThrowAnalyzer(
         val paramIndex: Int
 ) {
 
-    fun reachable(): Boolean {
+    /* returns true if there exists a normal path with ith param = null */
+    fun normalReturnReachable(): Boolean {
         if (cfg.nodes.empty) {
             return true
         }
