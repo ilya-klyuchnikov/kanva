@@ -24,81 +24,11 @@ import kanva.graphs.*
 import kanva.index.*
 import kanva.util.*
 
-fun main(args: Array<String>) {
-    println(Date())
-    val jarFile = File("/Users/lambdamix/code/kannotator/lib/jdk/jre-7u12-windows-rt.jar")
-    val annotationsDir = File("/Users/lambdamix/code/kannotator/jdk-annotations-inferred")
-    val errors = validateLib(jarFile, annotationsDir)
-
-    println("ERRORS:")
-    for (error in errors) {
-        println(error)
-    }
-
-    println("${errors.size} errors")
-    println(Date())
-}
-
-// validates external annotations against a jar-file
-fun validateLib(jarFile: File, annotationsDir: File): Collection<AnnotationPosition> {
-    val jarSource = FileBasedClassSource(listOf(jarFile))
-    val context = Context(jarSource, listOf(annotationsDir))
-    val errors = arrayListOf<AnnotationPosition>()
-
-    class MethodNodesCollector(val className: ClassName): ClassVisitor(Opcodes.ASM4) {
-        val methods = HashMap<Method, MethodNode>()
-        public override fun visitMethod(access: Int, name: String, desc: String, signature: String?, exceptions: Array<out String>?): MethodVisitor? {
-            val method = Method(className, access, name, desc, signature)
-            val methodNode = method.createMethodNodeStub()
-            methods[method] = methodNode
-            return methodNode
-        }
-    }
-
-    context.classSource.forEach { classReader ->
-        val collector = MethodNodesCollector(ClassName.fromInternalName(classReader.getClassName()))
-        classReader.accept(collector, 0)
-
-        for ((method, methodNode) in collector.methods) {
-            validateMethod(context, method, methodNode, errors)
-        }
-    }
-    return errors
-}
-
-fun validateMethod(
-        context: Context,
-        method: Method,
-        methodNode: MethodNode,
-        errorPositions: MutableCollection<AnnotationPosition>
-) {
-    if (method.access.isNative() || method.access.isAbstract()) {
-        return
-    }
-
-    val cfg = buildCFG(method, methodNode)
-    val nonNullParams = collectNotNullParams(context, cfg, method, methodNode)
-
-    val positions = context.findNotNullParamPositions(method)
-    if (positions.empty) {
-        return
-    }
-
-    for (pos in positions) {
-        if (!nonNullParams.contains(pos.index)) {
-            val returnReachable = normalReturnOnNullReachable(context, cfg, method, methodNode, pos.index)
-            if (returnReachable) {
-                errorPositions.add(PositionsForMethod(method).get(pos))
-            }
-        }
-    }
-}
-
 fun buildCFG(method: Method, methodNode: MethodNode): Graph<Int> =
         ControlFlowBuilder().buildCFG(method, methodNode)
 
 fun collectNotNullParams(context: Context, cfg: Graph<Int>, method: Method, methodNode: MethodNode): Set<Int> {
-    val called = NotNullParametersCollector(context, cfg, method, methodNode).collectNotNulls()
+    val called = NotNullParametersAnalyzer(context, cfg, method, methodNode).collectNotNulls()
     return called.paramIndices()
 }
 
@@ -107,7 +37,7 @@ fun normalReturnOnNullReachable(context: Context, cfg: Graph<Int>, method: Metho
 }
 
 private fun Set<TracedValue>.paramIndices(): Set<Int> =
-        this.map{if (it.source is Arg) it.source.pos else null}.filterNotNull().toSet()
+        this.map{if (it.source is Param) it.source.pos else null}.filterNotNull().toSet()
 
 private class ControlFlowBuilder : Analyzer<BasicValue>(BasicInterpreter()) {
     private class CfgBuilder: GraphBuilder<Int, Int, GraphImpl<Int>>(true, true) {
@@ -134,7 +64,7 @@ private class ControlFlowBuilder : Analyzer<BasicValue>(BasicInterpreter()) {
 abstract class Source(val asString: String) {
     override fun toString() = asString
 }
-private data class Arg(val pos: Int): Source("Arg($pos)")
+private data class Param(val pos: Int): Source("Arg($pos)")
 private data object Unknown: Source("Unknown")
 private data object ThisObject: Source("ThisObject")
 
@@ -150,13 +80,13 @@ data class TracedValue(val source: Source, tp: Type?) : BasicValue(tp) {
 val Node<Int>.insnIndex: Int
     get() = data
 
-data class PendingState(val frame: Frame<BasicValue>, val node: Node<Int>, val called: Set<TracedValue>): Comparable<PendingState> {
-    override fun compareTo(other: PendingState): Int {
-        return other.node.insnIndex - this.node.insnIndex
-    }
-}
+class NotNullParametersAnalyzer(val context: Context, val cfg: Graph<Int>, val m: Method, val method: MethodNode) {
 
-class NotNullParametersCollector(val context: Context, val cfg: Graph<Int>, val m: Method, val method: MethodNode) {
+    data class PendingState(val frame: Frame<BasicValue>, val node: Node<Int>, val called: Set<TracedValue>): Comparable<PendingState> {
+        override fun compareTo(other: PendingState): Int {
+            return other.node.insnIndex - this.node.insnIndex
+        }
+    }
 
     fun collectNotNulls(): Set<TracedValue> {
         if (cfg.nodes.empty) {
@@ -201,7 +131,7 @@ class NotNullParametersCollector(val context: Context, val cfg: Graph<Int>, val 
             val delta = hashSetOf<TracedValue>()
             val nextFrame = Frame(frame)
             if (!isIdle) {
-                nextFrame.execute(insnNode, NotNullCollectingInterpreter(context, delta))
+                nextFrame.execute(insnNode, NotNullParametersCollectingInterpreter(context, delta))
             }
 
             val calledSoFar = (called + delta).toSet()
@@ -238,9 +168,6 @@ class NotNullParametersCollector(val context: Context, val cfg: Graph<Int>, val 
     }
 }
 
-private class ReturnException() : Exception("Return found")
-private val RETURN_EXCEPTION = ReturnException()
-
 // KAnnotator logic: when given param is null all paths result to exception
 // and there is at least one path after null check
 private class ThrowAnalyzer(
@@ -250,6 +177,11 @@ private class ThrowAnalyzer(
         val methodNode: MethodNode,
         val paramIndex: Int
 ) {
+    private class ReturnException() : Exception("Return found")
+
+    class object {
+        val RETURN_EXCEPTION = ReturnException()
+    }
 
     /* returns true if there exists a normal path with ith param = null */
     fun normalReturnReachable(): Boolean {
@@ -278,22 +210,22 @@ private class ThrowAnalyzer(
                     frame
                 } else {
                     val executed = Frame(frame)
-                    executed.execute(insnNode, NotNullCollectingInterpreter(context, delta))
+                    executed.execute(insnNode, NotNullParametersCollectingInterpreter(context, delta))
                     executed
                 }
 
-        if (delta.contains(TracedValue(Arg(paramIndex), null))) {
+        if (delta.contains(TracedValue(Param(paramIndex), null))) {
             return
         }
 
         val opCode = insnNode.getOpcode()
         val nextNodes = node.successors.filter { it.insnIndex > node.insnIndex }
 
-        if (opCode == Opcodes.IFNONNULL && Frame(frame).pop() == TracedValue(Arg(paramIndex), null)) {
+        if (opCode == Opcodes.IFNONNULL && Frame(frame).pop() == TracedValue(Param(paramIndex), null)) {
             nullTaken = true
             visit(nextFrame, nextNodes.toList().first())
         }
-        else if (opCode == Opcodes.IFNULL && Frame(frame).pop() == TracedValue(Arg(paramIndex), null)) {
+        else if (opCode == Opcodes.IFNULL && Frame(frame).pop() == TracedValue(Param(paramIndex), null)) {
             nullTaken = true
             visit(nextFrame, nextNodes.toList().last())
         }
@@ -307,7 +239,6 @@ private class ThrowAnalyzer(
             throw RETURN_EXCEPTION
         }
     }
-
 }
 
 private fun createStartFrame(owner: String, method: MethodNode): Frame<BasicValue> {
@@ -327,7 +258,7 @@ private fun createStartFrame(owner: String, method: MethodNode): Frame<BasicValu
         shift = 1
     }
     for (i in 0..args.size - 1) {
-        startFrame.setLocal(local, TracedValue(Arg(i + shift), args[i]))
+        startFrame.setLocal(local, TracedValue(Param(i + shift), args[i]))
         local++
         if (args[i].getSize() == 2) {
             startFrame.setLocal(local, TracedValue(Unknown, null))
@@ -343,7 +274,10 @@ private fun createStartFrame(owner: String, method: MethodNode): Frame<BasicValu
 // collect TracedValue's that should be @NotNull
 // a trace value should be @NotNull if internals of this value are accessed (method/field)
 // or it is passed to as an argument to some method position which is marked as @NotNull
-private class NotNullCollectingInterpreter(val context: Context, val called: HashSet<TracedValue>): BasicInterpreter() {
+private class NotNullParametersCollectingInterpreter(
+        val context: Context,
+        val called: HashSet<TracedValue>
+): BasicInterpreter() {
 
     public override fun unaryOperation(insn: AbstractInsnNode, value: BasicValue): BasicValue? {
         val opCode = insn.getOpcode()
@@ -405,7 +339,7 @@ private class NotNullCollectingInterpreter(val context: Context, val called: Has
 
         if (opcode != Opcodes.INVOKESTATIC) {
             val receiver = values[0]
-            if (receiver is TracedValue && receiver.source is Arg) {
+            if (receiver is TracedValue && receiver.source is Param) {
                 called.add(receiver)
             }
         }
@@ -416,7 +350,7 @@ private class NotNullCollectingInterpreter(val context: Context, val called: Has
                 for (position in context.findNotNullParamPositions(method)) {
                     val index = position.index
                     val value = values[index]
-                    if (value is TracedValue && value.source is Arg) {
+                    if (value is TracedValue && value.source is Param) {
                         called.add(value)
                     }
                 }
