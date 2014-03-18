@@ -28,7 +28,7 @@ fun inferLib(jarFile: File) {
         processComponent(context, component)
     }
     println("${context.annotations.size()} annotations inferred")
-    writeAnnotationsToXmlByPackage(File("inferred"), context.annotations)
+    writeAnnotationsToXmlByPackage(File("kanva"), context.annotations)
 }
 
 fun processComponent(context: Context, component: Set<Node<Method>>) {
@@ -48,7 +48,7 @@ fun processComponent(context: Context, component: Set<Node<Method>>) {
         val indices = (skip .. (method.getArgumentTypes().size + skip - 1)).toList()
         for (i in indices) {
             if (i !in notNulls) {
-                val normalReturn = normalReturnOnNullReachable(context, cfg, methodNode, i)
+                val normalReturn = normalReturnOnNullReachable(context, cfg, method, methodNode, i)
                 if (!normalReturn) {
                     println("by exception")
                     context.annotations[methodPositions.get(ParameterPosition(i))] = Nullability.NOT_NULL
@@ -78,7 +78,7 @@ fun processComponent(context: Context, component: Set<Node<Method>>) {
                 val indices = (skip .. (method.getArgumentTypes().size + skip - 1)).toList()
                 for (i in indices) {
                     if (i !in notNulls && context.annotations[methodPositions.get(ParameterPosition(i))] != Nullability.NOT_NULL) {
-                        val normalReturn = normalReturnOnNullReachable(context, cfg, methodNode, i)
+                        val normalReturn = normalReturnOnNullReachable(context, cfg, method, methodNode, i)
                         if (!normalReturn) {
                             println("by exception")
                             context.annotations[methodPositions.get(ParameterPosition(i))] = Nullability.NOT_NULL

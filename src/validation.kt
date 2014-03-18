@@ -89,7 +89,7 @@ fun validateMethod(
 
     for (pos in positions) {
         if (!nonNullParams.contains(pos.index)) {
-            val returnReachable = normalReturnOnNullReachable(context, cfg, methodNode, pos.index)
+            val returnReachable = normalReturnOnNullReachable(context, cfg, method, methodNode, pos.index)
             if (returnReachable) {
                 errorPositions.add(PositionsForMethod(method).get(pos))
             }
@@ -110,11 +110,12 @@ fun collectNotNullParams(context: Context, cfg: Graph<Int>, method: Method, meth
     return called.paramIndices()
 }
 
-fun normalReturnOnNullReachable(context: Context, cfg: Graph<Int>, methodNode: MethodNode, nullParam: Int): Boolean {
+fun normalReturnOnNullReachable(context: Context, cfg: Graph<Int>, method: Method, methodNode: MethodNode, nullParam: Int): Boolean {
     try {
         return ReachabilityAnalyzer(context, cfg, methodNode, nullParam).reachable()
     } catch (e : Throwable) {
-        println("TODO")
+        println("failure: $method")
+        e.printStackTrace()
         return true
     }
 }
@@ -255,10 +256,10 @@ private class ReachabilityAnalyzer(val context: Context, val cfg: Graph<Int>, va
             return true
         }
         val startFrame = createStartFrame(method)
-        return check(startFrame, cfg.findNode(0)!!)
+        return check(startFrame, cfg.findNode(0)!!, false)
     }
 
-    private fun check(frame: Frame<BasicValue>, node: Node<Int>): Boolean {
+    private fun check(frame: Frame<BasicValue>, node: Node<Int>, nullArg: Boolean): Boolean {
         val insnNode = method.instructions[node.insnIndex]
         val insnType = insnNode.getType()
         val transitInstr =
@@ -274,21 +275,26 @@ private class ReachabilityAnalyzer(val context: Context, val cfg: Graph<Int>, va
                 }
 
         val opcode = insnNode.getOpcode()
-        val nextNodes = node.successors
-        if (nextNodes.empty) {
-            return opcode != Opcodes.ATHROW
-        }
-
+        val nextNodes = node.successors.filter { it.insnIndex > node.insnIndex }
         if (opcode == Opcodes.IFNONNULL && Frame(frame).pop() == TracedValue(Arg(paramIndex))) {
-            return check(nextFrame, nextNodes.toList()[0])
+            return check(nextFrame, nextNodes.toList().first(), true)
         }
 
         if (opcode == Opcodes.IFNULL && Frame(frame).pop() == TracedValue(Arg(paramIndex))) {
-            return check(nextFrame, nextNodes.toList()[1])
+            return check(nextFrame, nextNodes.toList().last(), true)
+        }
+
+        if (nextNodes.empty) {
+            if (nullArg) {
+                val result =  opcode != Opcodes.ATHROW
+                println("result : $result")
+                return result
+            }
+            return true
         }
 
         for (nextNode in nextNodes) {
-            if (nextNode.insnIndex > node.insnIndex && check(nextFrame, nextNode)) {
+            if (check(nextFrame, nextNode, nullArg)) {
                 return true
             }
         }
