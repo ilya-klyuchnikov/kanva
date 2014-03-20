@@ -93,18 +93,23 @@ private fun loadExternalAnnotations(
     }
 
     var paramAnns = 0
+    var fieldAnns = 0
+    var returnAnns = 0
     result.forEachPosition { pos, ann ->
-        if (pos is MethodPosition) {
-            if (pos.relativePosition is ParameterPosition) {
-                paramAnns ++
-            }
+        when {
+            pos is MethodPosition && pos.relativePosition is ParameterPosition ->
+                    paramAnns ++
+            pos is MethodPosition && pos.relativePosition == RETURN_POSITION ->
+                    returnAnns ++
+            pos is FieldPosition ->
+                    fieldAnns ++
         }
     }
 
-    println("total loaded ${result.size()}")
-    println("param annotations: $paramAnns")
+    println("total annotations : ${result.size()}")
+    println("param annotations : $paramAnns")
+    println("fields annotations: $fieldAnns")
+    println("return annotations: $fieldAnns")
+
     return result
 }
-
-
-
