@@ -34,3 +34,19 @@ public fun Method.createMethodNodeStub(): MethodNode =
 
 public fun Field.createFieldNodeStub(): FieldNode =
         FieldNode(access.flags, id.fieldName, desc, genericSignature, null)
+
+public fun Type.isPrimitiveOrVoidType() : Boolean =
+        when (getSort()) {
+            Type.VOID,
+            Type.BOOLEAN,
+            Type.CHAR,
+            Type.BYTE,
+            Type.SHORT,
+            Type.INT,
+            Type.FLOAT,
+            Type.LONG,
+            Type.DOUBLE ->
+                true
+            else ->
+                false
+        }
