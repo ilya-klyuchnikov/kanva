@@ -14,6 +14,7 @@ import kanva.index.*
 import kanva.util.*
 import kanva.analysis.*
 
+// TODO - it should be rethought
 fun main(args: Array<String>) {
     println(Date())
     val jarFile = File("/Users/lambdamix/code/kannotator/lib/jdk/jre-7u12-windows-rt.jar")

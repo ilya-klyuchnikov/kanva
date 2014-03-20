@@ -46,8 +46,6 @@ data class TracedValue(val source: Source, tp: Type?) : BasicValue(tp) {
     override fun hashCode(): Int = str.hashCode()
 }
 
-val Node<Int>.insnIndex: Int
-    get() = data
 
 class NotNullParametersAnalyzer(val context: Context, val cfg: Graph<Int>, val m: Method, val method: MethodNode) {
 

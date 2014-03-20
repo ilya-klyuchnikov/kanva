@@ -19,22 +19,14 @@ class Context(
         val annotations: MutableAnnotations<Nullability>
 )
 
-fun Context(classSource: ClassSource, annotationFiles: Collection<File>): Context {
+fun Context(classSource: ClassSource, annotationDirs: Collection<File>): Context {
     val declarationIndex = DeclarationIndexImpl(classSource)
-    val xmlAnnotations = ArrayList<File>()
+    val xmls = ArrayList<File>()
 
-    for (annFile in annotationFiles) {
-        annFile.recurseFiltered(
-                { it.isFile() && it.name.endsWith(".xml") },
-                { xmlAnnotations.add(it) }
-        )
-    }
+    for (annFile in annotationDirs)
+        annFile.recurseFiltered({it.name.endsWith(".xml")}, {xmls.add(it)})
 
-    val annotations = loadExternalAnnotations(
-            xmlAnnotations map {{FileReader(it)}},
-            declarationIndex
-    )
-
+    val annotations = loadExternalAnnotations(xmls map {{FileReader(it)}}, declarationIndex)
     return Context(classSource, declarationIndex, annotations)
 }
 
@@ -98,11 +90,11 @@ private fun loadExternalAnnotations(
     result.forEachPosition { pos, ann ->
         when {
             pos is MethodPosition && pos.relativePosition is ParameterPosition ->
-                    paramAnns ++
+                paramAnns ++
             pos is MethodPosition && pos.relativePosition == RETURN_POSITION ->
-                    returnAnns ++
+                returnAnns ++
             pos is FieldPosition ->
-                    fieldAnns ++
+                fieldAnns ++
         }
     }
 

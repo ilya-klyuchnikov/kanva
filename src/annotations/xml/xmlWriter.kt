@@ -1,9 +1,69 @@
 package kanva.annotations.xml
 
 import java.io.Writer
-import java.util.LinkedHashMap
-import kanva.declarations.AnnotationPosition
+import java.io.File
+import java.io.FileWriter
+import java.util.HashSet
+import java.util.ArrayList
+import java.util.HashMap
+
 import kotlinlib.*
+import kanva.annotations.*
+import kanva.annotations.xml.*
+import kanva.declarations.*
+import kanva.util.*
+
+fun isInteresting(pkg: String): Boolean {
+    return pkg.startsWith("java") || pkg.startsWith("javax") || pkg.startsWith("org")
+}
+
+fun writeAnnotationsToXmlByPackage(annotations: Annotations<Nullability>) {
+    val members = HashSet<ClassMember>()
+    annotations.forEachPosition { pos, ann -> members.add(pos.member) }
+    val sortedMembers = members.sortBy {it.toString()}
+
+    val sortedParams = ArrayList<AnnotationPosition>()
+    val sortedFields = ArrayList<AnnotationPosition>()
+    val sortedMethods = ArrayList<AnnotationPosition>()
+
+    for (member in sortedMembers) {
+        when (member) {
+            is Method ->
+                PositionsForMethod(member).forEachValidPosition { pos ->
+                    if (annotations[pos] == Nullability.NOT_NULL) {
+                        if (pos.relativePosition is ParameterPosition) {
+                            sortedParams.add(pos)
+                        } else {
+                            sortedMethods.add(pos)
+                        }
+                    }
+                }
+            is Field ->
+                sortedFields.add(getFieldPosition(member))
+        }
+    }
+
+    doWrite(File("kanva-annotations-fields"), sortedFields)
+    doWrite(File("kanva-annotations-returns"), sortedMethods)
+    doWrite(File("kanva-annotations-params"), sortedParams)
+}
+
+private fun doWrite(destination: File, positions: List<AnnotationPosition>) {
+    val positionsByPackage = HashMap<String, MutableList<AnnotationPosition>>()
+    for (pos in positions) {
+        val packageName = pos.member.getInternalPackageName()
+        positionsByPackage.getOrPut(packageName, { arrayListOf() }).add(pos)
+    }
+
+    for ((path, pathAnnotations) in positionsByPackage) {
+        val outputDir = File(destination, path)
+        outputDir.mkdirs()
+        val outputFile = File(outputDir, "annotations.xml")
+        val writer = FileWriter(outputFile)
+        writeAnnotationsToXML(writer, pathAnnotations)
+    }
+}
+
 
 // only for not nulls for now
 fun writeAnnotationsToXML(writer: Writer, annotations: List<AnnotationPosition>) {

@@ -50,3 +50,9 @@ public fun Type.isPrimitiveOrVoidType() : Boolean =
             else ->
                 false
         }
+
+fun ClassMember.getInternalPackageName(): String {
+    val className = declaringClass.internal
+    val delimiter = className.lastIndexOf('/')
+    return if (delimiter >= 0) className.substring(0, delimiter) else ""
+}
