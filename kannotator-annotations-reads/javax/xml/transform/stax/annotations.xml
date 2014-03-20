@@ -1,8 +1,0 @@
-<root>
-    <item name='javax.xml.transform.stax.StAXResult FEATURE'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='javax.xml.transform.stax.StAXSource FEATURE'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

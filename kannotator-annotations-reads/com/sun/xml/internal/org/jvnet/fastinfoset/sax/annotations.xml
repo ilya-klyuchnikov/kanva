@@ -1,8 +1,0 @@
-<root>
-    <item name='com.sun.xml.internal.org.jvnet.fastinfoset.sax.FastInfosetReader ENCODING_ALGORITHM_CONTENT_HANDLER_PROPERTY'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='com.sun.xml.internal.org.jvnet.fastinfoset.sax.FastInfosetReader PRIMITIVE_TYPE_CONTENT_HANDLER_PROPERTY'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

@@ -1,8 +1,0 @@
-<root>
-    <item name='com.sun.xml.internal.stream.dtd.DTDGrammarUtil NAMESPACES'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='com.sun.xml.internal.stream.dtd.DTDGrammarUtil SYMBOL_TABLE'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

@@ -1,8 +1,0 @@
-<root>
-    <item name='com.sun.xml.internal.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl DATE'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='com.sun.xml.internal.bind.v2.model.impl.RuntimeBuiltinLeafInfoImpl MAP_ANYURI_TO_URI'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

@@ -1,8 +1,0 @@
-<root>
-    <item name='com.sun.xml.internal.ws.binding.SOAPBindingImpl ROLE_NONE'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='com.sun.xml.internal.ws.binding.SOAPBindingImpl X_SOAP12HTTP_BINDING'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

@@ -1,5 +1,0 @@
-<root>
-    <item name='com.sun.xml.internal.ws.util.xml.XmlUtil LEXICAL_HANDLER_PROPERTY'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

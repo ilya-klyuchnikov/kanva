@@ -1,8 +1,0 @@
-<root>
-    <item name='com.sun.org.apache.xml.internal.security.keys.KeyInfo java.lang.String getBaseLocalName()'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='com.sun.org.apache.xml.internal.security.keys.KeyInfo nullList'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

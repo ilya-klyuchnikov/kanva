@@ -1,5 +1,0 @@
-<root>
-    <item name='com.sun.xml.internal.ws.api.client.SelectOptimalEncodingFeature ID'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

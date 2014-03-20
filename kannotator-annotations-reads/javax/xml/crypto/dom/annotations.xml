@@ -1,8 +1,0 @@
-<root>
-    <item name='javax.xml.crypto.dom.DOMStructure org.w3c.dom.Node getNode()'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='javax.xml.crypto.dom.DOMStructure node'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

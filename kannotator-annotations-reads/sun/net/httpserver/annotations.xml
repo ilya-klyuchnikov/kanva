@@ -1,8 +1,0 @@
-<root>
-    <item name='sun.net.httpserver.ExchangeImpl HEAD'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='sun.net.httpserver.ExchangeImpl pattern'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

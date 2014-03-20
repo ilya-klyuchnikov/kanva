@@ -1,5 +1,0 @@
-<root>
-    <item name='sun.net.www.protocol.https.HttpsClient defaultHVCanonicalName'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

@@ -1,5 +1,0 @@
-<root>
-    <item name='javax.swing.undo.UndoManager void undoableEditHappened(javax.swing.event.UndoableEditEvent) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

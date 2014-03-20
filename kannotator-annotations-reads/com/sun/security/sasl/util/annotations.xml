@@ -1,8 +1,0 @@
-<root>
-    <item name='com.sun.security.sasl.util.AbstractSaslImpl MAX_SEND_BUF'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='com.sun.security.sasl.util.AbstractSaslImpl SASL_LOGGER_NAME'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

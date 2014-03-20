@@ -1,5 +1,0 @@
-<root>
-    <item name='com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl FACTORY'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

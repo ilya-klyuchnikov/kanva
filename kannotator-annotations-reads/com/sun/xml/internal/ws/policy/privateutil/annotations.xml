@@ -1,8 +1,0 @@
-<root>
-    <item name='com.sun.xml.internal.ws.policy.privateutil.PolicyLogger POLICY_PACKAGE_ROOT'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='com.sun.xml.internal.ws.policy.privateutil.ServiceFinder prefix'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

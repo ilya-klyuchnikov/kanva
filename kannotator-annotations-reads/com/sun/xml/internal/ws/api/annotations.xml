@@ -1,5 +1,0 @@
-<root>
-    <item name='com.sun.xml.internal.ws.api.BindingID.SOAPHTTPImpl MTOM_PARAM'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

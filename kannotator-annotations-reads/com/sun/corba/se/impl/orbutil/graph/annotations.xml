@@ -1,8 +1,0 @@
-<root>
-    <item name='com.sun.corba.se.impl.orbutil.graph.GraphImpl java.util.Set collectRootSet()'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='com.sun.corba.se.impl.orbutil.graph.GraphImpl java.util.Set getRoots()'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

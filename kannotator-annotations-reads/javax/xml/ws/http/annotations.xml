@@ -1,5 +1,0 @@
-<root>
-    <item name='javax.xml.ws.http.HTTPBinding HTTP_BINDING'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

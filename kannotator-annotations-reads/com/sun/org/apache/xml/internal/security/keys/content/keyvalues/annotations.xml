@@ -1,8 +1,0 @@
-<root>
-    <item name='com.sun.org.apache.xml.internal.security.keys.content.keyvalues.DSAKeyValue java.lang.String getBaseLocalName()'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='com.sun.org.apache.xml.internal.security.keys.content.keyvalues.RSAKeyValue java.lang.String getBaseLocalName()'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

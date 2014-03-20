@@ -1,5 +1,0 @@
-<root>
-    <item name='com.sun.xml.internal.ws.streaming.XMLStreamReaderUtil.AttributesImpl XMLNS_NAMESPACE_URI'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

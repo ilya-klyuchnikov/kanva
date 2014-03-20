@@ -1,8 +1,0 @@
-<root>
-    <item name='com.sun.xml.internal.ws.encoding.xml.XMLCodec XML_APPLICATION_MIME_TYPE'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='com.sun.xml.internal.ws.encoding.xml.XMLCodec XML_TEXT_MIME_TYPE'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

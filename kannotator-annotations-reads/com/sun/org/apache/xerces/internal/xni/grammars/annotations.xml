@@ -1,8 +1,0 @@
-<root>
-    <item name='com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarDescription XML_DTD'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarDescription XML_SCHEMA'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

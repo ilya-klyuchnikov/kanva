@@ -1,5 +1,0 @@
-<root>
-    <item name='sun.net.www.protocol.jar.Handler separator'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

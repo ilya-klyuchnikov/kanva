@@ -1,5 +1,0 @@
-<root>
-    <item name='com.sun.corba.se.spi.orbutil.proxy.DelegateInvocationHandlerImpl java.lang.reflect.InvocationHandler create(java.lang.Object)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

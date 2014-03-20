@@ -1,8 +1,0 @@
-<root>
-    <item name='javax.xml.transform.stream.StreamResult FEATURE'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='javax.xml.transform.stream.StreamSource FEATURE'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

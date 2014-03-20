@@ -1,8 +1,0 @@
-<root>
-    <item name='com.sun.istack.internal.logging.Logger ROOT_WS_PACKAGE'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='com.sun.istack.internal.logging.Logger WS_LOGGING_SUBSYSTEM_NAME_ROOT'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

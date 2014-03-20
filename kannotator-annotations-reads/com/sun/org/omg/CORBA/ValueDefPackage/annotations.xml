@@ -1,8 +1,0 @@
-<root>
-    <item name='com.sun.org.omg.CORBA.ValueDefPackage.FullValueDescriptionHelper com.sun.org.omg.CORBA.ValueDefPackage.FullValueDescription extract(org.omg.CORBA.Any)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='com.sun.org.omg.CORBA.ValueDefPackage.FullValueDescriptionHelper com.sun.org.omg.CORBA.ValueDefPackage.FullValueDescription read(org.omg.CORBA.portable.InputStream)'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

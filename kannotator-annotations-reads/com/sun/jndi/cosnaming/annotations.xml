@@ -1,8 +1,0 @@
-<root>
-    <item name='com.sun.jndi.cosnaming.CNCtx FED_PROP'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='com.sun.jndi.cosnaming.IiopUrl DEFAULT_HOST'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>
