@@ -48,7 +48,7 @@ fun main(args: Array<String>) {
         }
     }
 
-
+    println("== DIFFS ==")
     println("total diffs: ${diff.size()}")
     println("fields: $fieldDiffs")
     println("params: $paramDiffs")
