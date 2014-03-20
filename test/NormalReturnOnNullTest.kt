@@ -1,24 +1,26 @@
 package kanva.test
 
+import org.objectweb.asm.Type
+import org.objectweb.asm.tree.MethodNode
+import kanva.declarations.Method
 import org.objectweb.asm.ClassReader
-import kanva.declarations.ClassName
 import org.objectweb.asm.ClassVisitor
 import org.objectweb.asm.Opcodes
-import kanva.declarations.Method
-import org.objectweb.asm.tree.MethodNode
 import org.objectweb.asm.MethodVisitor
-import org.objectweb.asm.Type
-
+import kanva.declarations.ClassName
 import kanva.util.createMethodNodeStub
-import kanva.index.ClassSource
-import kanva.analysis.*
+import kanva.analysis.normalReturnOnNullReachable
 import kanva.context.Context
+import kanva.index.ClassSource
+import kanva.analysis.buildCFG
+import org.junit.Assert
+import org.junit.Test
+import org.junit.Ignore
 
-import org.spek.*
+class NormalReturnOnNullTest {
+    val testClass = javaClass<data.Instructions>()
 
-class NormalReturnOnNullSpek : Spek() {
-
-    fun test(testClass: Class<*>, methodName: String, param: Int): Boolean {
+    fun reachable(methodName: String, param: Int): Boolean {
         val internalName = Type.getInternalName(testClass)
         var methodNode: MethodNode? = null
         var method: Method? = null
@@ -49,36 +51,21 @@ class NormalReturnOnNullSpek : Spek() {
         )
     }
 
-    {
-        given("Instructions.java") {
+    Test
+    fun exceptions1() {
+        Assert.assertFalse("exceptions1", reachable("exceptions1", 1))
+        Assert.assertFalse("exceptions1", reachable("exceptions1", 2))
+    }
 
-            val testClass = javaClass<data.Instructions>()
+    Test
+    fun exceptions2() {
+        Assert.assertFalse("exceptions2", reachable("exceptions2", 1))
+    }
 
-
-            on("exceptions1") {
-                val methodName = "exceptions1"
-
-                val result1 = test(testClass, methodName, 1)
-                it("should detect first parameter") {
-                    shouldEqual(false, result1)
-                }
-
-                val result2 = test(testClass, methodName, 2)
-                it("should detect second param") {
-                    shouldEqual(false, result2)
-                }
-            }
-
-            on("exceptions2") {
-                val methodName = "exceptions2"
-
-                val result1 = test(testClass, methodName, 1)
-                it("should detect first parameter") {
-                    shouldEqual(false, result1)
-                }
-            }
-
-        }
-
+    Ignore
+    Test
+    fun instanceOf() {
+        Assert.assertFalse("instanceOf", reachable("instanceOfException1", 1))
+        Assert.assertFalse("instanceOf", reachable("instanceOfException1", 2))
     }
 }

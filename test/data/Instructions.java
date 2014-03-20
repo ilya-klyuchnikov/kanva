@@ -4,19 +4,22 @@ public class Instructions {
 
     int i;
 
-    public void invokeMethod(Object o1) {
+    public void invokeMethod(
+            @ShouldBeCollected Object o1
+    ) {
         o1.toString();
     }
 
     public int arrayLength(
-            int[] is,
-            boolean[] bs,
-            long[] ls,
-            short[] ss,
-            char[] cs,
-            double[] ds,
-            float[] fs,
-            Object[] os) {
+            @ShouldBeCollected int[] is,
+            @ShouldBeCollected boolean[] bs,
+            @ShouldBeCollected long[] ls,
+            @ShouldBeCollected short[] ss,
+            @ShouldBeCollected char[] cs,
+            @ShouldBeCollected double[] ds,
+            @ShouldBeCollected float[] fs,
+            @ShouldBeCollected Object[] os
+    ) {
         return is.length +
                 bs.length +
                 ls.length +
@@ -28,15 +31,14 @@ public class Instructions {
     }
 
     public String arrayLoad(
-            int[] is,
-            boolean[] bs,
-            long[] ls,
-            short[] ss,
-            char[] cs,
-            double[] ds,
-            float[] fs,
-            Object[] os
-
+            @ShouldBeCollected int[] is,
+            @ShouldBeCollected boolean[] bs,
+            @ShouldBeCollected long[] ls,
+            @ShouldBeCollected short[] ss,
+            @ShouldBeCollected char[] cs,
+            @ShouldBeCollected double[] ds,
+            @ShouldBeCollected float[] fs,
+            @ShouldBeCollected Object[] os
     ) {
         return "" +
                 is[0] +
@@ -50,15 +52,14 @@ public class Instructions {
     }
 
     public void arrayStore(
-            int[] is,
-            boolean[] bs,
-            long[] ls,
-            short[] ss,
-            char[] cs,
-            double[] ds,
-            float[] fs,
-            Object[] os
-
+            @ShouldBeCollected int[] is,
+            @ShouldBeCollected boolean[] bs,
+            @ShouldBeCollected long[] ls,
+            @ShouldBeCollected short[] ss,
+            @ShouldBeCollected char[] cs,
+            @ShouldBeCollected double[] ds,
+            @ShouldBeCollected float[] fs,
+            @ShouldBeCollected Object[] os
     ) {
         is[0] = 0;
         bs[0] = false;
@@ -70,15 +71,46 @@ public class Instructions {
         os[0] = null;
     }
 
-    public int monitor(Object o) {
+    public int monitor(
+            @ShouldBeCollected Object o
+    ) {
         synchronized (o) {
             return 1;
         }
     }
 
-    public void fields(Instructions i1, Instructions i2) {
+    public void fields(
+            @ShouldBeCollected Instructions i1,
+            @ShouldBeCollected Instructions i2
+    ) {
         i1.i = i2.i;
     }
+
+    //// branching
+    public void pureBranching01(Object o1, @ShouldBeCollected Object o2, int i) {
+        if (i > 0) {
+            o1.hashCode();
+        }
+        o2.hashCode();
+    }
+
+    public void pureBranching02(Object o1, Object o2, int i) {
+        if (i > 0) {
+            o1.hashCode();
+        } else {
+            o2.hashCode();
+        }
+    }
+
+    public boolean pureBranching03(@ShouldBeCollected Object[] os, Object o) {
+        for (Object o1 : os) {
+            if (o.hashCode() == o1.hashCode()) {
+                return true;
+            }
+        }
+        return false;
+    }
+
 
     public void exceptions1(Object o1, Object o2) {
         if (o1 == null) {
@@ -99,5 +131,19 @@ public class Instructions {
             throw new NullPointerException("null parameter");
         }
         return r;
+    }
+
+    public void instanceOfException1(Object o) {
+        if (o instanceof String) {
+            return;
+        }
+        throw new IllegalArgumentException("xxx");
+    }
+
+    public void instanceOfException2(Object o) {
+        if (!(o instanceof String)) {
+            throw new IllegalArgumentException("xxx");
+        }
+
     }
 }
