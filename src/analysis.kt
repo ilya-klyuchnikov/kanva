@@ -16,9 +16,6 @@ import kanva.context.*
 import kanva.declarations.*
 import kanva.graphs.*
 
-fun buildCFG(method: Method, methodNode: MethodNode): Graph<Int> =
-        ControlFlowBuilder().buildCFG(method, methodNode)
-
 fun collectNotNullParams(context: Context, cfg: Graph<Int>, method: Method, methodNode: MethodNode): Set<Int> {
     val called = NotNullParametersAnalyzer(context, cfg, method, methodNode).collectNotNulls()
     return called.paramIndices()
@@ -31,26 +28,6 @@ fun normalReturnOnNullReachable(context: Context, cfg: Graph<Int>, method: Metho
 private fun Set<TracedValue>.paramIndices(): Set<Int> =
         this.map{if (it.source is Param) it.source.pos else null}.filterNotNull().toSet()
 
-private class ControlFlowBuilder : Analyzer<BasicValue>(BasicInterpreter()) {
-    private class CfgBuilder: GraphBuilder<Int, Int, GraphImpl<Int>>(true, true) {
-        override fun newNode(data: Int) = DefaultNodeImpl<Int>(data)
-        override fun newGraph() = GraphImpl<Int>(true)
-    }
-
-    private var builder = CfgBuilder()
-
-    fun buildCFG(method: Method, methodNode: MethodNode): Graph<Int> {
-        builder = CfgBuilder()
-        analyze(method.declaringClass.internal, methodNode)
-        return builder.graph
-    }
-
-    override protected fun newControlFlowEdge(insn: Int, successor: Int) {
-        val fromNode = builder.getOrCreateNode(insn)
-        val toNode = builder.getOrCreateNode(successor)
-        builder.getOrCreateEdge(fromNode, toNode)
-    }
-}
 
 
 abstract class Source(val asString: String) {
