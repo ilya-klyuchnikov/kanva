@@ -1,0 +1,11 @@
+<root>
+    <item name='org.omg.CosNaming.NamingContextPackage.NotFoundReason missing_node'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.CosNaming.NamingContextPackage.NotFoundReason not_context'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.CosNaming.NamingContextPackage.NotFoundReason not_object'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

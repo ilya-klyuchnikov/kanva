@@ -1,0 +1,95 @@
+<root>
+    <item name='javax.management.relation.MBeanServerNotificationFilter newSerialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.MBeanServerNotificationFilter oldSerialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.MBeanServerNotificationFilter serialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationNotification RELATION_BASIC_CREATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationNotification RELATION_BASIC_REMOVAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationNotification RELATION_BASIC_UPDATE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationNotification RELATION_MBEAN_CREATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationNotification RELATION_MBEAN_REMOVAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationNotification RELATION_MBEAN_UPDATE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationNotification newSerialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationNotification oldSerialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationNotification serialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationService atomicSeqNo'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationService myRefedMBeanObjName2RelIdsMap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationSupport myInRelServFlg'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationSupport myRoleName2ValueMap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationTypeSupport newSerialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationTypeSupport oldSerialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationTypeSupport serialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.Role newSerialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.Role oldSerialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.Role serialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RoleInfo newSerialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RoleInfo oldSerialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RoleInfo serialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RoleResult newSerialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RoleResult oldSerialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RoleResult serialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RoleUnresolved newSerialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RoleUnresolved oldSerialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RoleUnresolved serialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

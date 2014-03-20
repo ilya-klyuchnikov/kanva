@@ -1,0 +1,53 @@
+<root>
+    <item name='org.omg.PortableServer.IdAssignmentPolicyValue SYSTEM_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.PortableServer.IdAssignmentPolicyValue USER_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.PortableServer.IdUniquenessPolicyValue MULTIPLE_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.PortableServer.IdUniquenessPolicyValue UNIQUE_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.PortableServer.ImplicitActivationPolicyValue IMPLICIT_ACTIVATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.PortableServer.ImplicitActivationPolicyValue NO_IMPLICIT_ACTIVATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.PortableServer.LifespanPolicyValue PERSISTENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.PortableServer.LifespanPolicyValue TRANSIENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.PortableServer.RequestProcessingPolicyValue USE_ACTIVE_OBJECT_MAP_ONLY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.PortableServer.RequestProcessingPolicyValue USE_DEFAULT_SERVANT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.PortableServer.RequestProcessingPolicyValue USE_SERVANT_MANAGER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.PortableServer.ServantRetentionPolicyValue NON_RETAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.PortableServer.ServantRetentionPolicyValue RETAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.PortableServer.ThreadPolicyValue ORB_CTRL_MODEL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.PortableServer.ThreadPolicyValue SINGLE_THREAD_MODEL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.PortableServer._ServantActivatorStub _opsClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.PortableServer._ServantLocatorStub _opsClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

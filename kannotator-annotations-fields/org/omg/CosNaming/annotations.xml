@@ -1,0 +1,14 @@
+<root>
+    <item name='org.omg.CosNaming.BindingType ncontext'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.CosNaming.BindingType nobject'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.CosNaming._BindingIteratorImplBase _type_ids'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.CosNaming._NamingContextImplBase _type_ids'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

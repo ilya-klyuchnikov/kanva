@@ -1,0 +1,71 @@
+<root>
+    <item name='java.awt.event.ActionEvent java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.event.AdjustmentEvent java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.event.ComponentEvent java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.event.ContainerEvent java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.event.FocusEvent java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.event.HierarchyEvent java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.event.InputEvent.1 int[] getButtonDownMasks()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.event.InputEvent int[] access$000()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.event.InputEvent int[] getButtonDownMasks()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.event.InputEvent java.lang.String getModifiersExText(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.event.InputMethodEvent java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.event.InvocationEvent java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.event.ItemEvent java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.event.KeyEvent java.lang.String getKeyModifiersText(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.event.KeyEvent java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.event.MouseEvent java.awt.Point getLocationOnScreen()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.event.MouseEvent java.lang.String getMouseModifiersText(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.event.MouseEvent java.awt.Point getPoint()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.event.MouseEvent java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.event.MouseWheelEvent java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.event.PaintEvent java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.event.TextEvent java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.event.WindowEvent java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

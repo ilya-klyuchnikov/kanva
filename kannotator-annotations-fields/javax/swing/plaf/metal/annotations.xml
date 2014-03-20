@@ -1,0 +1,206 @@
+<root>
+    <item name='javax.swing.plaf.metal.DefaultMetalTheme defaultNames'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.DefaultMetalTheme fontNames'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.DefaultMetalTheme fontSizes'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.DefaultMetalTheme fontStyles'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.DefaultMetalTheme primary1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.DefaultMetalTheme primary2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.DefaultMetalTheme primary3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.DefaultMetalTheme secondary1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.DefaultMetalTheme secondary2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.DefaultMetalTheme secondary3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalBumps ALPHA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalBumps METAL_BUMPS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalButtonUI METAL_BUTTON_UI_KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalCheckBoxUI METAL_CHECK_BOX_UI_KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalCheckBoxUI propertyPrefix'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalFileChooserUI.DirectoryComboBoxModel this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalFileChooserUI.FilterComboBoxModel this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalFileChooserUI hstrut11'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalFileChooserUI hstrut5'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalFileChooserUI shrinkwrap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalFileChooserUI vstrut5'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalFontDesktopProperty propertyMapping'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalHighContrastTheme controlHighlight'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalHighContrastTheme primary1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalHighContrastTheme primary2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalHighContrastTheme primary3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalHighContrastTheme primaryHighlight'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalHighContrastTheme secondary2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalHighContrastTheme secondary3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalIconFactory fileIcon16Size'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalIconFactory folderIcon16Size'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalIconFactory menuArrowIconSize'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalIconFactory menuCheckIconSize'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalIconFactory treeControlSize'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalInternalFrameTitlePane handyEmptyBorder'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalInternalFrameUI handyEmptyBorder'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalInternalFrameUI metalPropertyChangeListener'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalLabelUI METAL_LABEL_UI_KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalLookAndFeel.1 $SwitchMap$javax$swing$LayoutStyle$ComponentPlacement'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalRadioButtonUI METAL_RADIO_BUTTON_UI_KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalRootPaneUI borderKeys'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalRootPaneUI cursorMapping'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalScrollBarUI FREE_STANDING_PROP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalSliderUI SLIDER_FILL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalTabbedPaneUI.TabbedPaneLayout this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalTitlePane.CloseAction this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalTitlePane.IconifyAction this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalTitlePane.MaximizeAction this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalTitlePane.RestoreAction this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalTitlePane handyEmptyBorder'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalToggleButtonUI METAL_TOGGLE_BUTTON_UI_KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalToolBarUI.MetalDockingListener this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalTreeUI HORIZ_STYLE_STRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalTreeUI LEG_LINE_STYLE_STRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalTreeUI LINE_STYLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalTreeUI NO_STYLE_STRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.MetalUtils.GradientPainter INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.OceanTheme CONTROL_TEXT_COLOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.OceanTheme INACTIVE_CONTROL_TEXT_COLOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.OceanTheme MENU_DISABLED_FOREGROUND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.OceanTheme OCEAN_BLACK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.OceanTheme OCEAN_DROP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.OceanTheme PRIMARY1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.OceanTheme PRIMARY2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.OceanTheme PRIMARY3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.OceanTheme SECONDARY1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.OceanTheme SECONDARY2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.metal.OceanTheme SECONDARY3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

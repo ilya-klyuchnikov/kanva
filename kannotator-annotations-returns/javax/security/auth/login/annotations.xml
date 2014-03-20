@@ -1,0 +1,5 @@
+<root>
+    <item name='javax.security.auth.login.AppConfigurationEntry.LoginModuleControlFlag java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

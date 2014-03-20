@@ -1,0 +1,674 @@
+<root>
+    <item name='javax.swing.plaf.synth.ImagePainter sun.swing.plaf.synth.Paint9Painter getPaint9Painter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.ParsedSynthStyle.PainterInfo java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.ParsedSynthStyle.StateInfo sun.swing.plaf.synth.DefaultSynthStyle.StateInfo addTo(sun.swing.plaf.synth.DefaultSynthStyle.StateInfo)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.ParsedSynthStyle.StateInfo java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.ParsedSynthStyle.StateInfo java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.ParsedSynthStyle sun.swing.plaf.synth.DefaultSynthStyle addTo(sun.swing.plaf.synth.DefaultSynthStyle)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.ParsedSynthStyle java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.Region java.lang.String getLowerCaseName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.Region java.util.Map&lt;javax.swing.plaf.synth.Region,java.lang.String&gt; getLowerCaseNameMap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.Region java.util.Map&lt;java.lang.String,javax.swing.plaf.synth.Region&gt; getUItoRegionMap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.Region java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthArrowButton.SynthArrowButtonUI java.awt.Dimension getMaximumSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthArrowButton.SynthArrowButtonUI java.awt.Dimension getMinimumSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthArrowButton.SynthArrowButtonUI java.awt.Dimension getPreferredSize(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthArrowButton java.lang.String getUIClassID()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthBorder java.awt.Insets getBorderInsets(java.awt.Component, java.awt.Insets)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthButtonUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthButtonUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthButtonUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthCheckBoxMenuItemUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthCheckBoxMenuItemUI java.lang.String getPropertyPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthCheckBoxUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthCheckBoxUI java.lang.String getPropertyPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthColorChooserUI javax.swing.colorchooser.AbstractColorChooserPanel[] createDefaultChoosers()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthColorChooserUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthColorChooserUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthColorChooserUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthComboBoxUI.SynthComboBoxEditor javax.swing.JTextField createEditorComponent()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthComboBoxUI.SynthComboBoxRenderer java.awt.Component getListCellRendererComponent(javax.swing.JList, java.lang.Object, int, boolean, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthComboBoxUI.SynthComboBoxRenderer java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthComboBoxUI javax.swing.JButton createArrowButton()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthComboBoxUI javax.swing.ComboBoxEditor createEditor()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthComboBoxUI javax.swing.plaf.basic.ComboPopup createPopup()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthComboBoxUI javax.swing.ListCellRenderer createRenderer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthComboBoxUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthComboBoxUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthComboBoxUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthComboBoxUI java.awt.Dimension getDefaultSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthComboPopup java.awt.Rectangle computePopupBounds(int, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthContext javax.swing.plaf.synth.SynthContext getContext(java.lang.Class, javax.swing.JComponent, javax.swing.plaf.synth.Region, javax.swing.plaf.synth.SynthStyle, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthDesktopIconUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthDesktopIconUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthDesktopIconUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthDesktopPaneUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthDesktopPaneUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthDesktopPaneUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthEditorPaneUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthEditorPaneUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthEditorPaneUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthFormattedTextFieldUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthFormattedTextFieldUI java.lang.String getPropertyPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthGraphicsUtils.SynthIconWrapper javax.swing.plaf.synth.SynthGraphicsUtils.SynthIconWrapper get(sun.swing.plaf.synth.SynthIcon, javax.swing.plaf.synth.SynthContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthGraphicsUtils java.awt.Dimension getMaximumSize(javax.swing.plaf.synth.SynthContext, java.awt.Font, java.lang.String, javax.swing.Icon, int, int, int, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthGraphicsUtils java.awt.Dimension getMinimumSize(javax.swing.plaf.synth.SynthContext, java.awt.Font, java.lang.String, javax.swing.Icon, int, int, int, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthGraphicsUtils java.awt.Dimension getPreferredMenuItemSize(javax.swing.plaf.synth.SynthContext, javax.swing.plaf.synth.SynthContext, javax.swing.JComponent, javax.swing.Icon, javax.swing.Icon, int, java.lang.String, boolean, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthGraphicsUtils java.awt.Dimension getPreferredSize(javax.swing.plaf.synth.SynthContext, java.awt.Font, java.lang.String, javax.swing.Icon, int, int, int, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthInternalFrameTitlePane.SynthTitlePaneLayout java.awt.Dimension minimumLayoutSize(java.awt.Container)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthInternalFrameTitlePane.SynthTitlePaneLayout java.awt.Dimension preferredLayoutSize(java.awt.Container)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthInternalFrameTitlePane java.awt.LayoutManager createLayout()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthInternalFrameTitlePane javax.swing.JButton createNoFocusButton()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthInternalFrameTitlePane javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthInternalFrameTitlePane javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthInternalFrameTitlePane java.lang.String getUIClassID()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthInternalFrameUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthInternalFrameUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthInternalFrameUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthLabelUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthLabelUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthLabelUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthLabelUI java.awt.Dimension getMaximumSize(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthLabelUI java.awt.Dimension getMinimumSize(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthLabelUI java.awt.Dimension getPreferredSize(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthListUI.SynthListCellRenderer java.awt.Component getListCellRendererComponent(javax.swing.JList, java.lang.Object, int, boolean, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthListUI.SynthListCellRenderer java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthListUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthListUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthListUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthLookAndFeel javax.swing.UIDefaults getDefaults()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthLookAndFeel java.lang.String getDescription()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthLookAndFeel java.lang.String getID()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthLookAndFeel java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthMenuBarUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthMenuBarUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthMenuBarUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthMenuItemUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthMenuItemUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthMenuItemUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthMenuItemUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, javax.swing.plaf.synth.Region)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthMenuItemUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, javax.swing.plaf.synth.Region, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthMenuItemUI java.awt.Dimension getPreferredMenuItemSize(javax.swing.JComponent, javax.swing.Icon, javax.swing.Icon, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthMenuLayout java.awt.Dimension preferredLayoutSize(java.awt.Container)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthMenuUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthMenuUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthMenuUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthMenuUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, javax.swing.plaf.synth.Region)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthMenuUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, javax.swing.plaf.synth.Region, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthMenuUI java.awt.Dimension getPreferredMenuItemSize(javax.swing.JComponent, javax.swing.Icon, javax.swing.Icon, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthOptionPaneUI java.awt.Container createMessageArea()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthOptionPaneUI java.awt.Container createSeparator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthOptionPaneUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthOptionPaneUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthOptionPaneUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthPanelUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthPanelUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthPanelUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthParser java.awt.Insets parseInsets(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthPasswordFieldUI javax.swing.text.View create(javax.swing.text.Element)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthPasswordFieldUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthPasswordFieldUI java.lang.String getPropertyPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthPopupMenuUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthPopupMenuUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthPopupMenuUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthProgressBarUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthProgressBarUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthProgressBarUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthProgressBarUI java.awt.Dimension getPreferredSize(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthRadioButtonMenuItemUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthRadioButtonMenuItemUI java.lang.String getPropertyPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthRadioButtonUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthRadioButtonUI java.lang.String getPropertyPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthRootPaneUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthRootPaneUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthRootPaneUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthScrollBarUI javax.swing.JButton createDecreaseButton(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthScrollBarUI javax.swing.JButton createIncreaseButton(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthScrollBarUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthScrollBarUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthScrollBarUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthScrollBarUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, javax.swing.plaf.synth.Region)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthScrollBarUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, javax.swing.plaf.synth.Region, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthScrollBarUI java.awt.Dimension getPreferredSize(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthScrollPaneUI.ViewportBorder java.awt.Insets getBorderInsets(java.awt.Component, java.awt.Insets)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthScrollPaneUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthScrollPaneUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthScrollPaneUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSeparatorUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSeparatorUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSeparatorUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSeparatorUI java.awt.Dimension getMaximumSize(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSeparatorUI java.awt.Dimension getMinimumSize(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSeparatorUI java.awt.Dimension getPreferredSize(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSliderUI javax.swing.plaf.basic.BasicSliderUI.TrackListener createTrackListener(javax.swing.JSlider)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSliderUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSliderUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSliderUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSliderUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, javax.swing.plaf.synth.Region)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSliderUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, javax.swing.plaf.synth.Region, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSliderUI java.awt.Dimension getMinimumSize(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSliderUI java.awt.Dimension getPreferredSize(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSliderUI java.awt.Dimension getThumbSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSpinnerUI.SpinnerLayout java.awt.Dimension minimumLayoutSize(java.awt.Container)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSpinnerUI.SpinnerLayout java.awt.Dimension preferredLayoutSize(java.awt.Container)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSpinnerUI.SpinnerLayout java.awt.Dimension preferredSize(java.awt.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSpinnerUI javax.swing.JComponent createEditor()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSpinnerUI java.awt.LayoutManager createLayout()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSpinnerUI java.awt.Component createNextButton()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSpinnerUI java.awt.Component createPreviousButton()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSpinnerUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSpinnerUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSpinnerUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSplitPaneDivider javax.swing.JButton createLeftOneTouchButton()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSplitPaneDivider javax.swing.JButton createRightOneTouchButton()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSplitPaneUI javax.swing.plaf.basic.BasicSplitPaneDivider createDefaultDivider()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSplitPaneUI java.awt.Component createDefaultNonContinuousLayoutDivider()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSplitPaneUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSplitPaneUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSplitPaneUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSplitPaneUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, javax.swing.plaf.synth.Region)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthSplitPaneUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, javax.swing.plaf.synth.Region, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthStyle java.awt.Insets getInsets(javax.swing.plaf.synth.SynthContext, java.awt.Insets)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTabbedPaneUI java.awt.LayoutManager createLayoutManager()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTabbedPaneUI java.awt.event.MouseListener createMouseListener()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTabbedPaneUI javax.swing.JButton createScrollButton(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTabbedPaneUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTabbedPaneUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTabbedPaneUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTabbedPaneUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, javax.swing.plaf.synth.Region, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTableHeaderUI.HeaderRenderer java.awt.Component getTableCellRendererComponent(javax.swing.JTable, java.lang.Object, boolean, boolean, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTableHeaderUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTableHeaderUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTableHeaderUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTableUI.SynthBooleanTableCellRenderer java.awt.Component getTableCellRendererComponent(javax.swing.JTable, java.lang.Object, boolean, boolean, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTableUI.SynthTableCellRenderer java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTableUI.SynthTableCellRenderer java.awt.Component getTableCellRendererComponent(javax.swing.JTable, java.lang.Object, boolean, boolean, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTableUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTableUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTableUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTextAreaUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTextAreaUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTextAreaUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTextFieldUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTextFieldUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTextFieldUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTextPaneUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTextPaneUI java.lang.String getPropertyPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthToggleButtonUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthToggleButtonUI java.lang.String getPropertyPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthToolBarUI.SynthToolBarLayoutManager java.awt.Dimension minimumLayoutSize(java.awt.Container)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthToolBarUI.SynthToolBarLayoutManager java.awt.Dimension preferredLayoutSize(java.awt.Container)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthToolBarUI java.awt.LayoutManager createLayout()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthToolBarUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthToolBarUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthToolBarUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthToolBarUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, javax.swing.plaf.synth.Region, javax.swing.plaf.synth.SynthStyle)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthToolBarUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, javax.swing.plaf.synth.Region, javax.swing.plaf.synth.SynthStyle, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthToolTipUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthToolTipUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthToolTipUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthToolTipUI java.awt.Dimension getPreferredSize(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTreeUI.SynthTreeCellEditor.1 java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTreeUI.SynthTreeCellEditor javax.swing.tree.TreeCellEditor createTreeCellEditor()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTreeUI.SynthTreeCellRenderer java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTreeUI.SynthTreeCellRenderer java.awt.Component getTreeCellRendererComponent(javax.swing.JTree, java.lang.Object, boolean, boolean, boolean, int, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTreeUI javax.swing.plaf.synth.SynthContext access$300(javax.swing.plaf.synth.SynthTreeUI, javax.swing.JComponent, javax.swing.plaf.synth.Region)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTreeUI javax.swing.tree.TreeCellEditor createDefaultCellEditor()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTreeUI javax.swing.tree.TreeCellRenderer createDefaultCellRenderer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTreeUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTreeUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTreeUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTreeUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, javax.swing.plaf.synth.Region)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthTreeUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, javax.swing.plaf.synth.Region, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthViewportUI javax.swing.plaf.ComponentUI createUI(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthViewportUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.synth.SynthViewportUI javax.swing.plaf.synth.SynthContext getContext(javax.swing.JComponent, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

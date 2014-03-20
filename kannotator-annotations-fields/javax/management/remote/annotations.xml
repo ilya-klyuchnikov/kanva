@@ -1,0 +1,101 @@
+<root>
+    <item name='javax.management.remote.JMXConnectionNotification CLOSED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXConnectionNotification FAILED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXConnectionNotification NOTIFS_LOST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXConnectionNotification OPENED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXConnectionNotification connectionId'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXConnector CREDENTIALS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXConnectorFactory DEFAULT_CLASS_LOADER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXConnectorFactory PROTOCOL_PROVIDER_CLASS_LOADER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXConnectorFactory PROTOCOL_PROVIDER_DEFAULT_PACKAGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXConnectorFactory PROTOCOL_PROVIDER_PACKAGES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXConnectorFactory logger'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXConnectorServer AUTHENTICATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXConnectorServer connectionIds'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXConnectorServer sequenceNumberLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXConnectorServerFactory DEFAULT_CLASS_LOADER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXConnectorServerFactory DEFAULT_CLASS_LOADER_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXConnectorServerFactory PROTOCOL_PROVIDER_CLASS_LOADER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXConnectorServerFactory PROTOCOL_PROVIDER_DEFAULT_PACKAGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXConnectorServerFactory PROTOCOL_PROVIDER_PACKAGES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXConnectorServerFactory logger'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXServiceURL alphaBitSet'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXServiceURL alphaNumericBitSet'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXServiceURL host'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXServiceURL hostNameBitSet'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXServiceURL logger'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXServiceURL numericBitSet'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXServiceURL protocol'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXServiceURL protocolBitSet'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXServiceURL randomException'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXServiceURL urlPath'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.NotificationResult targetedNotifications'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.TargetedNotification id'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.TargetedNotification notif'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

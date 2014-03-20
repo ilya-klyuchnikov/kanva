@@ -1,0 +1,20 @@
+<root>
+    <item name='java.nio.channels.AsynchronousFileChannel NO_ATTRIBUTES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.channels.FileChannel.MapMode PRIVATE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.channels.FileChannel.MapMode READ_ONLY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.channels.FileChannel.MapMode READ_WRITE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.channels.FileChannel NO_ATTRIBUTES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.channels.SelectionKey attachmentUpdater'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

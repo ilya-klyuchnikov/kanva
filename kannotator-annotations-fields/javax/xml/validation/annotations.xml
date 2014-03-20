@@ -1,0 +1,8 @@
+<root>
+    <item name='javax.xml.validation.SchemaFactoryFinder SERVICE_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.validation.SchemaFactoryFinder SERVICE_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

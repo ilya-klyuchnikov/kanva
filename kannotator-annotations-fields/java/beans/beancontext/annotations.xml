@@ -1,0 +1,5 @@
+<root>
+    <item name='java.beans.beancontext.BeanContext globalHierarchyLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

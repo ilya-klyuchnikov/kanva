@@ -1,0 +1,44 @@
+<root>
+    <item name='java.nio.ByteOrder BIG_ENDIAN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.ByteOrder LITTLE_ENDIAN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.DirectCharBufferS att'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.DirectCharBufferU att'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.DirectDoubleBufferS att'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.DirectDoubleBufferU att'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.DirectFloatBufferS att'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.DirectFloatBufferU att'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.DirectIntBufferS att'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.DirectIntBufferU att'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.DirectLongBufferS att'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.DirectLongBufferU att'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.DirectShortBufferS att'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.DirectShortBufferU att'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

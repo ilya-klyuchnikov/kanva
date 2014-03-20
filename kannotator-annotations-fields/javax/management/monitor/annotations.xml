@@ -1,0 +1,113 @@
+<root>
+    <item name='javax.management.monitor.CounterMonitor.1 $SwitchMap$javax$management$monitor$Monitor$NumericalType'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.CounterMonitor notifsInfo'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.CounterMonitor types'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.GaugeMonitor.1 $SwitchMap$javax$management$monitor$Monitor$NumericalType'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.GaugeMonitor notifsInfo'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.GaugeMonitor types'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.Monitor.1 $SwitchMap$javax$management$monitor$Monitor$NumericalType'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.Monitor.DaemonThreadFactory namePrefix'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.Monitor.DaemonThreadFactory nameSuffix'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.Monitor.DaemonThreadFactory threadNumber'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.Monitor.NumericalType $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.Monitor.NumericalType BYTE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.Monitor.NumericalType DOUBLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.Monitor.NumericalType FLOAT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.Monitor.NumericalType INTEGER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.Monitor.NumericalType LONG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.Monitor.NumericalType SHORT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.Monitor executors'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.Monitor executorsLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.Monitor noPermissionsACC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.Monitor observedObjects'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.Monitor remainingAttributes'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.Monitor scheduler'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.Monitor schedulerTask'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.Monitor sequenceNumber'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.MonitorNotification OBSERVED_ATTRIBUTE_ERROR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.MonitorNotification OBSERVED_ATTRIBUTE_TYPE_ERROR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.MonitorNotification OBSERVED_OBJECT_ERROR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.MonitorNotification RUNTIME_ERROR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.MonitorNotification STRING_TO_COMPARE_VALUE_DIFFERED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.MonitorNotification STRING_TO_COMPARE_VALUE_MATCHED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.MonitorNotification THRESHOLD_ERROR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.MonitorNotification THRESHOLD_HIGH_VALUE_EXCEEDED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.MonitorNotification THRESHOLD_LOW_VALUE_EXCEEDED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.MonitorNotification THRESHOLD_VALUE_EXCEEDED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.StringMonitor notifsInfo'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.StringMonitor types'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,110 @@
+<root>
+    <item name='javax.sound.sampled.AudioFileFormat.Type AIFC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.AudioFileFormat.Type AIFF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.AudioFileFormat.Type AU'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.AudioFileFormat.Type SND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.AudioFileFormat.Type WAVE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.AudioFormat.Encoding ALAW'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.AudioFormat.Encoding PCM_FLOAT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.AudioFormat.Encoding PCM_SIGNED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.AudioFormat.Encoding PCM_UNSIGNED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.AudioFormat.Encoding ULAW'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.BooleanControl.Type APPLY_REVERB'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.BooleanControl.Type MUTE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.EnumControl.Type REVERB'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.FloatControl.Type AUX_RETURN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.FloatControl.Type AUX_SEND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.FloatControl.Type BALANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.FloatControl.Type MASTER_GAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.FloatControl.Type PAN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.FloatControl.Type REVERB_RETURN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.FloatControl.Type REVERB_SEND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.FloatControl.Type SAMPLE_RATE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.FloatControl.Type VOLUME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.FloatControl maxLabel'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.FloatControl midLabel'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.FloatControl minLabel'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.Line.Info lineClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.LineEvent.Type CLOSE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.LineEvent.Type OPEN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.LineEvent.Type START'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.LineEvent.Type STOP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.Port.Info COMPACT_DISC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.Port.Info HEADPHONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.Port.Info LINE_IN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.Port.Info LINE_OUT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.Port.Info MICROPHONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.sampled.Port.Info SPEAKER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

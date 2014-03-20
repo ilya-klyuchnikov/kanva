@@ -1,0 +1,11 @@
+<root>
+    <item name='javax.xml.crypto.dsig.spec.XPathFilter2ParameterSpec java.util.List getXPathList()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.dsig.spec.XPathType java.lang.String getExpression()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.dsig.spec.XPathType javax.xml.crypto.dsig.spec.XPathType.Filter getFilter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,8 @@
+<root>
+    <item name='javax.lang.model.util.ElementKindVisitor6.1 $SwitchMap$javax$lang$model$element$ElementKind'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.lang.model.util.TypeKindVisitor6.1 $SwitchMap$javax$lang$model$type$TypeKind'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

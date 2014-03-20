@@ -1,0 +1,17 @@
+<root>
+    <item name='javax.xml.crypto.KeySelector.Purpose DECRYPT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.KeySelector.Purpose ENCRYPT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.KeySelector.Purpose SIGN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.KeySelector.Purpose VERIFY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.KeySelector.SingletonKeySelector key'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,35 @@
+<root>
+    <item name='javax.security.auth.PrivateCredentialPermission EMPTY_PRINCIPALS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.security.auth.Subject.AuthPermissionHolder DO_AS_PERMISSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.security.auth.Subject.AuthPermissionHolder DO_AS_PRIVILEGED_PERMISSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.security.auth.Subject.AuthPermissionHolder GET_SUBJECT_PERMISSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.security.auth.Subject.AuthPermissionHolder MODIFY_PRINCIPALS_PERMISSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.security.auth.Subject.AuthPermissionHolder MODIFY_PRIVATE_CREDENTIALS_PERMISSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.security.auth.Subject.AuthPermissionHolder MODIFY_PUBLIC_CREDENTIALS_PERMISSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.security.auth.Subject.AuthPermissionHolder SET_READ_ONLY_PERMISSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.security.auth.Subject.ClassSet this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.security.auth.Subject.SecureSet serialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.security.auth.Subject NULL_PD_ARRAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

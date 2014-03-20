@@ -1,0 +1,122 @@
+<root>
+    <item name='java.nio.file.attribute.AclEntryFlag $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.AclEntryFlag DIRECTORY_INHERIT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.AclEntryFlag FILE_INHERIT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.AclEntryFlag INHERIT_ONLY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.AclEntryFlag NO_PROPAGATE_INHERIT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.AclEntryPermission $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.AclEntryPermission ADD_FILE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.AclEntryPermission ADD_SUBDIRECTORY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.AclEntryPermission APPEND_DATA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.AclEntryPermission DELETE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.AclEntryPermission DELETE_CHILD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.AclEntryPermission EXECUTE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.AclEntryPermission LIST_DIRECTORY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.AclEntryPermission READ_ACL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.AclEntryPermission READ_ATTRIBUTES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.AclEntryPermission READ_DATA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.AclEntryPermission READ_NAMED_ATTRS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.AclEntryPermission SYNCHRONIZE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.AclEntryPermission WRITE_ACL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.AclEntryPermission WRITE_ATTRIBUTES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.AclEntryPermission WRITE_DATA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.AclEntryPermission WRITE_NAMED_ATTRS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.AclEntryPermission WRITE_OWNER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.AclEntryType $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.AclEntryType ALARM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.AclEntryType ALLOW'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.AclEntryType AUDIT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.AclEntryType DENY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.FileTime.1 $SwitchMap$java$util$concurrent$TimeUnit'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.FileTime unit'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.PosixFilePermission $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.PosixFilePermission GROUP_EXECUTE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.PosixFilePermission GROUP_READ'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.PosixFilePermission GROUP_WRITE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.PosixFilePermission OTHERS_EXECUTE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.PosixFilePermission OTHERS_READ'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.PosixFilePermission OTHERS_WRITE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.PosixFilePermission OWNER_EXECUTE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.PosixFilePermission OWNER_READ'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.file.attribute.PosixFilePermission OWNER_WRITE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,14 @@
+<root>
+    <item name='javax.xml.crypto.dsig.keyinfo.KeyInfoFactory javax.xml.crypto.dsig.keyinfo.KeyInfoFactory getInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.dsig.keyinfo.KeyInfoFactory javax.xml.crypto.dsig.keyinfo.KeyInfoFactory getInstance(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.dsig.keyinfo.KeyInfoFactory javax.xml.crypto.dsig.keyinfo.KeyInfoFactory getInstance(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.dsig.keyinfo.KeyInfoFactory javax.xml.crypto.dsig.keyinfo.KeyInfoFactory getInstance(java.lang.String, java.security.Provider)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

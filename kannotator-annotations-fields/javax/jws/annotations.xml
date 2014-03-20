@@ -1,0 +1,14 @@
+<root>
+    <item name='javax.jws.WebParam.Mode $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.jws.WebParam.Mode IN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.jws.WebParam.Mode INOUT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.jws.WebParam.Mode OUT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

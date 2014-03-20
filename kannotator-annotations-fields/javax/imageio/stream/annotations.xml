@@ -1,0 +1,32 @@
+<root>
+    <item name='javax.imageio.stream.FileCacheImageInputStream closeAction'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.imageio.stream.FileCacheImageInputStream disposerRecord'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.imageio.stream.FileCacheImageInputStream disposerReferent'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.imageio.stream.FileCacheImageOutputStream closeAction'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.imageio.stream.FileImageInputStream disposerRecord'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.imageio.stream.FileImageInputStream disposerReferent'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.imageio.stream.FileImageOutputStream disposerRecord'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.imageio.stream.FileImageOutputStream disposerReferent'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.imageio.stream.MemoryCacheImageInputStream disposerRecord'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.imageio.stream.MemoryCacheImageInputStream disposerReferent'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

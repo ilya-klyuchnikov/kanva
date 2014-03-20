@@ -1,0 +1,38 @@
+<root>
+    <item name='javax.xml.ws.BindingProvider ENDPOINT_ADDRESS_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.ws.BindingProvider PASSWORD_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.ws.BindingProvider SESSION_MAINTAIN_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.ws.BindingProvider SOAPACTION_URI_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.ws.BindingProvider SOAPACTION_USE_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.ws.BindingProvider USERNAME_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.ws.Endpoint WSDL_PORT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.ws.Endpoint WSDL_SERVICE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.ws.RespectBindingFeature ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.ws.Service.Mode $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.ws.Service.Mode MESSAGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.ws.Service.Mode PAYLOAD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

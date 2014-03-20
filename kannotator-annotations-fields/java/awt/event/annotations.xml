@@ -1,0 +1,8 @@
+<root>
+    <item name='java.awt.event.InputEvent BUTTON_DOWN_MASK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.event.InputEvent logger'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

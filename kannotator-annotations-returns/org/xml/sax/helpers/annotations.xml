@@ -1,0 +1,17 @@
+<root>
+    <item name='org.xml.sax.helpers.NamespaceSupport java.util.Enumeration getPrefixes(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.xml.sax.helpers.ParserAdapter.AttributeListAdapter java.lang.String getLocalName(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.xml.sax.helpers.ParserAdapter.AttributeListAdapter java.lang.String getURI(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.xml.sax.helpers.ParserAdapter org.xml.sax.SAXParseException makeException(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.xml.sax.helpers.ParserAdapter java.lang.String[] processName(java.lang.String, boolean, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

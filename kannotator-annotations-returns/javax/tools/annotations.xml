@@ -1,0 +1,29 @@
+<root>
+    <item name='javax.tools.Diagnostic.Kind javax.tools.Diagnostic.Kind valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.tools.DiagnosticCollector java.util.List&lt;javax.tools.Diagnostic&lt;? extends S&gt;&gt; getDiagnostics()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.tools.JavaFileObject.Kind javax.tools.JavaFileObject.Kind valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.tools.SimpleJavaFileObject javax.tools.JavaFileObject.Kind getKind()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.tools.SimpleJavaFileObject java.io.Reader openReader(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.tools.SimpleJavaFileObject java.io.Writer openWriter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.tools.SimpleJavaFileObject java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.tools.SimpleJavaFileObject java.net.URI toUri()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.tools.StandardLocation javax.tools.StandardLocation valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

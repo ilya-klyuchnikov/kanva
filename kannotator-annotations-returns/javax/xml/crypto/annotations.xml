@@ -1,0 +1,8 @@
+<root>
+    <item name='javax.xml.crypto.KeySelector.SingletonKeySelector javax.xml.crypto.KeySelectorResult select(javax.xml.crypto.dsig.keyinfo.KeyInfo, javax.xml.crypto.KeySelector.Purpose, javax.xml.crypto.AlgorithmMethod, javax.xml.crypto.XMLCryptoContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.KeySelector javax.xml.crypto.KeySelector singletonKeySelector(java.security.Key)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

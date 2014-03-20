@@ -1,0 +1,8 @@
+<root>
+    <item name='javax.swing.filechooser.FileNameExtensionFilter extensions'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.filechooser.FileNameExtensionFilter lowerCaseExtensions'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,1124 @@
+<root>
+    <item name='javax.print.attribute.standard.Chromaticity COLOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Chromaticity MONOCHROME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Chromaticity myEnumValueTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Chromaticity myStringTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.ColorSupported NOT_SUPPORTED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.ColorSupported SUPPORTED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.ColorSupported myEnumValueTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.ColorSupported myStringTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Compression COMPRESS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Compression DEFLATE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Compression GZIP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Compression NONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Compression myEnumValueTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Compression myStringTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.DialogTypeSelection COMMON'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.DialogTypeSelection NATIVE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.DialogTypeSelection myEnumValueTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.DialogTypeSelection myStringTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Fidelity FIDELITY_FALSE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Fidelity FIDELITY_TRUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Fidelity myEnumValueTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Fidelity myStringTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Finishings BIND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Finishings COVER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Finishings EDGE_STITCH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Finishings EDGE_STITCH_BOTTOM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Finishings EDGE_STITCH_LEFT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Finishings EDGE_STITCH_RIGHT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Finishings EDGE_STITCH_TOP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Finishings NONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Finishings SADDLE_STITCH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Finishings STAPLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Finishings STAPLE_BOTTOM_LEFT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Finishings STAPLE_BOTTOM_RIGHT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Finishings STAPLE_DUAL_BOTTOM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Finishings STAPLE_DUAL_LEFT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Finishings STAPLE_DUAL_RIGHT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Finishings STAPLE_DUAL_TOP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Finishings STAPLE_TOP_LEFT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Finishings STAPLE_TOP_RIGHT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Finishings myEnumValueTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Finishings myStringTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobSheets NONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobSheets STANDARD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobSheets myEnumValueTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobSheets myStringTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobState ABORTED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobState CANCELED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobState COMPLETED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobState PENDING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobState PENDING_HELD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobState PROCESSING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobState PROCESSING_STOPPED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobState UNKNOWN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobState myEnumValueTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobState myStringTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason ABORTED_BY_SYSTEM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason COMPRESSION_ERROR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason DOCUMENT_ACCESS_ERROR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason DOCUMENT_FORMAT_ERROR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason JOB_CANCELED_AT_DEVICE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason JOB_CANCELED_BY_OPERATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason JOB_CANCELED_BY_USER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason JOB_COMPLETED_SUCCESSFULLY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason JOB_COMPLETED_WITH_ERRORS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason JOB_COMPLETED_WITH_WARNINGS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason JOB_DATA_INSUFFICIENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason JOB_HOLD_UNTIL_SPECIFIED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason JOB_INCOMING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason JOB_INTERPRETING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason JOB_OUTGOING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason JOB_PRINTING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason JOB_QUEUED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason JOB_QUEUED_FOR_MARKER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason JOB_RESTARTABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason JOB_TRANSFORMING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason PRINTER_STOPPED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason PRINTER_STOPPED_PARTLY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason PROCESSING_TO_STOP_POINT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason QUEUED_IN_DEVICE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason RESOURCES_ARE_NOT_READY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason SERVICE_OFF_LINE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason SUBMISSION_INTERRUPTED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason UNSUPPORTED_COMPRESSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason UNSUPPORTED_DOCUMENT_FORMAT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason myEnumValueTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReason myStringTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaName ISO_A4_TRANSPARENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaName ISO_A4_WHITE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaName NA_LETTER_TRANSPARENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaName NA_LETTER_WHITE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaName myEnumValueTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaName myStringTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.Engineering A'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.Engineering B'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.Engineering C'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.Engineering D'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.Engineering E'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.ISO A0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.ISO A1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.ISO A10'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.ISO A2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.ISO A3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.ISO A4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.ISO A5'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.ISO A6'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.ISO A7'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.ISO A8'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.ISO A9'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.ISO B0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.ISO B1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.ISO B10'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.ISO B2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.ISO B3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.ISO B4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.ISO B5'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.ISO B6'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.ISO B7'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.ISO B8'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.ISO B9'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.ISO C3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.ISO C4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.ISO C5'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.ISO C6'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.ISO DESIGNATED_LONG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS B0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS B1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS B10'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS B2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS B3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS B4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS B5'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS B6'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS B7'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS B8'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS B9'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS CHOU_1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS CHOU_2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS CHOU_3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS CHOU_30'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS CHOU_4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS CHOU_40'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS KAKU_0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS KAKU_1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS KAKU_2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS KAKU_20'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS KAKU_3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS KAKU_4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS KAKU_5'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS KAKU_6'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS KAKU_7'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS KAKU_8'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS KAKU_A4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS YOU_1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS YOU_2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS YOU_3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS YOU_4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS YOU_5'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS YOU_6'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.JIS YOU_7'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.NA LEGAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.NA LETTER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.NA NA_10X15_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.NA NA_10x13_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.NA NA_10x14_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.NA NA_5X7'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.NA NA_6X9_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.NA NA_7X9_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.NA NA_8X10'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.NA NA_9x11_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.NA NA_9x12_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.NA NA_NUMBER_10_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.NA NA_NUMBER_11_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.NA NA_NUMBER_12_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.NA NA_NUMBER_14_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.NA NA_NUMBER_9_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.Other EXECUTIVE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.Other FOLIO'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.Other INVOICE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.Other ITALY_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.Other JAPANESE_DOUBLE_POSTCARD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.Other JAPANESE_POSTCARD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.Other LEDGER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.Other MONARCH_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.Other PERSONAL_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.Other QUARTO'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSize.Other TABLOID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName A'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName B'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName C'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName D'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName E'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName EXECUTIVE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName FOLIO'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName INVOICE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_A0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_A1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_A10'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_A2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_A3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_A4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_A5'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_A6'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_A7'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_A8'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_A9'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_B0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_B1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_B10'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_B2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_B3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_B4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_B5'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_B6'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_B7'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_B8'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_B9'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_C0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_C1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_C2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_C3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_C4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_C5'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_C6'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ISO_DESIGNATED_LONG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName ITALY_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName JAPANESE_DOUBLE_POSTCARD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName JAPANESE_POSTCARD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName JIS_B0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName JIS_B1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName JIS_B10'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName JIS_B2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName JIS_B3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName JIS_B4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName JIS_B5'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName JIS_B6'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName JIS_B7'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName JIS_B8'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName JIS_B9'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName LEDGER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName MONARCH_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName NA_10X13_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName NA_10X14_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName NA_10X15_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName NA_5X7'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName NA_6X9_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName NA_7X9_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName NA_8X10'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName NA_9X11_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName NA_9X12_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName NA_LEGAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName NA_LETTER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName NA_NUMBER_10_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName NA_NUMBER_11_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName NA_NUMBER_12_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName NA_NUMBER_14_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName NA_NUMBER_9_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName PERSONAL_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName QUARTO'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName TABLOID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName myEnumValueTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaSizeName myStringTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaTray BOTTOM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaTray ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaTray LARGE_CAPACITY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaTray MAIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaTray MANUAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaTray MIDDLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaTray SIDE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaTray TOP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaTray myEnumValueTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MediaTray myStringTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MultipleDocumentHandling SEPARATE_DOCUMENTS_COLLATED_COPIES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MultipleDocumentHandling SEPARATE_DOCUMENTS_UNCOLLATED_COPIES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MultipleDocumentHandling SINGLE_DOCUMENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MultipleDocumentHandling SINGLE_DOCUMENT_NEW_SHEET'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MultipleDocumentHandling myEnumValueTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.MultipleDocumentHandling myStringTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.OrientationRequested LANDSCAPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.OrientationRequested PORTRAIT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.OrientationRequested REVERSE_LANDSCAPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.OrientationRequested REVERSE_PORTRAIT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.OrientationRequested myEnumValueTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.OrientationRequested myStringTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PDLOverrideSupported ATTEMPTED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PDLOverrideSupported NOT_ATTEMPTED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PDLOverrideSupported myEnumValueTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PDLOverrideSupported myStringTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PresentationDirection TOBOTTOM_TOLEFT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PresentationDirection TOBOTTOM_TORIGHT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PresentationDirection TOLEFT_TOBOTTOM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PresentationDirection TOLEFT_TOTOP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PresentationDirection TORIGHT_TOBOTTOM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PresentationDirection TORIGHT_TOTOP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PresentationDirection TOTOP_TOLEFT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PresentationDirection TOTOP_TORIGHT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PresentationDirection myEnumValueTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PresentationDirection myStringTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrintQuality DRAFT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrintQuality HIGH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrintQuality NORMAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrintQuality myEnumValueTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrintQuality myStringTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterIsAcceptingJobs ACCEPTING_JOBS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterIsAcceptingJobs NOT_ACCEPTING_JOBS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterIsAcceptingJobs myEnumValueTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterIsAcceptingJobs myStringTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterState IDLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterState PROCESSING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterState STOPPED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterState UNKNOWN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterState myEnumValueTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterState myStringTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason CONNECTING_TO_DEVICE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason COVER_OPEN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason DEVELOPER_EMPTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason DEVELOPER_LOW'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason DOOR_OPEN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason FUSER_OVER_TEMP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason FUSER_UNDER_TEMP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason INPUT_TRAY_MISSING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason INTERLOCK_OPEN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason INTERPRETER_RESOURCE_UNAVAILABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason MARKER_SUPPLY_EMPTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason MARKER_SUPPLY_LOW'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason MARKER_WASTE_ALMOST_FULL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason MARKER_WASTE_FULL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason MEDIA_EMPTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason MEDIA_JAM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason MEDIA_LOW'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason MEDIA_NEEDED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason MOVING_TO_PAUSED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason OPC_LIFE_OVER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason OPC_NEAR_EOL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason OTHER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason OUTPUT_AREA_ALMOST_FULL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason OUTPUT_AREA_FULL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason OUTPUT_TRAY_MISSING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason PAUSED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason SHUTDOWN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason SPOOL_AREA_FULL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason STOPPED_PARTLY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason STOPPING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason TIMED_OUT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason TONER_EMPTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason TONER_LOW'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason myEnumValueTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReason myStringTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.ReferenceUriSchemesSupported FILE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.ReferenceUriSchemesSupported FTP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.ReferenceUriSchemesSupported GOPHER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.ReferenceUriSchemesSupported HTTP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.ReferenceUriSchemesSupported HTTPS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.ReferenceUriSchemesSupported NEWS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.ReferenceUriSchemesSupported NNTP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.ReferenceUriSchemesSupported WAIS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.ReferenceUriSchemesSupported myEnumValueTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.ReferenceUriSchemesSupported myStringTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Severity ERROR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Severity REPORT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Severity WARNING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Severity myEnumValueTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Severity myStringTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.SheetCollate COLLATED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.SheetCollate UNCOLLATED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.SheetCollate myEnumValueTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.SheetCollate myStringTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Sides DUPLEX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Sides ONE_SIDED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Sides TUMBLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Sides TWO_SIDED_LONG_EDGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Sides TWO_SIDED_SHORT_EDGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Sides myEnumValueTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Sides myStringTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

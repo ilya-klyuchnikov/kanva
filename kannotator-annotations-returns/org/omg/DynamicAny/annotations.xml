@@ -1,0 +1,38 @@
+<root>
+    <item name='org.omg.DynamicAny.AnySeqHelper org.omg.CORBA.Any[] extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.DynamicAny.AnySeqHelper org.omg.CORBA.Any[] read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.DynamicAny.DynAnySeqHelper org.omg.DynamicAny.DynAny[] extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.DynamicAny.DynAnySeqHelper org.omg.DynamicAny.DynAny[] read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.DynamicAny.NameDynAnyPairHelper org.omg.DynamicAny.NameDynAnyPair extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.DynamicAny.NameDynAnyPairHelper org.omg.DynamicAny.NameDynAnyPair read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.DynamicAny.NameDynAnyPairSeqHelper org.omg.DynamicAny.NameDynAnyPair[] extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.DynamicAny.NameDynAnyPairSeqHelper org.omg.DynamicAny.NameDynAnyPair[] read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.DynamicAny.NameValuePairHelper org.omg.DynamicAny.NameValuePair extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.DynamicAny.NameValuePairHelper org.omg.DynamicAny.NameValuePair read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.DynamicAny.NameValuePairSeqHelper org.omg.DynamicAny.NameValuePair[] extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.DynamicAny.NameValuePairSeqHelper org.omg.DynamicAny.NameValuePair[] read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,251 @@
+<root>
+    <item name='java.lang.invoke.BoundMethodHandle.Factory BMH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.BoundMethodHandle.Factory BMHSPECIES_DATA_EWI_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.BoundMethodHandle.Factory BMHSPECIES_DATA_GFC_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.BoundMethodHandle.Factory BMH_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.BoundMethodHandle.Factory E_THROWABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.BoundMethodHandle.Factory JLC_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.BoundMethodHandle.Factory JLO_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.BoundMethodHandle.Factory JLS_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.BoundMethodHandle.Factory MH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.BoundMethodHandle.Factory MH_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.BoundMethodHandle.Factory MYSPECIES_DATA_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.BoundMethodHandle.Factory SIG_INCIPIT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.BoundMethodHandle.Factory SPECIES_DATA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.BoundMethodHandle.Factory SPECIES_DATA_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.BoundMethodHandle.Factory SPECIES_PREFIX_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.BoundMethodHandle.Factory SPECIES_PREFIX_PATH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.BoundMethodHandle.Factory TYPES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.BoundMethodHandle.Factory VOID_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.BoundMethodHandle.SpeciesData CACHE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.BoundMethodHandle.SpeciesData EMPTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.BoundMethodHandle EXTENSION_TYPES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.BoundMethodHandle SPECIES_DATA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.DirectMethodHandle.EnsureInitialized INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.DirectMethodHandle ACCESSOR_FORMS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.DirectMethodHandle NF_allocateInstance'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.DirectMethodHandle NF_checkBase'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.DirectMethodHandle NF_checkCast'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.DirectMethodHandle NF_constructorMethod'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.DirectMethodHandle NF_ensureInitialized'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.DirectMethodHandle NF_fieldOffset'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.DirectMethodHandle NF_internalMemberName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.DirectMethodHandle NF_internalMemberNameEnsureInit'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.DirectMethodHandle NF_staticBase'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.DirectMethodHandle NF_staticOffset'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.DirectMethodHandle member'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.InvokeGeneric EXTRA_ARGS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.InvokeGeneric initialInvoker'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.InvokerBytecodeGenerator BMH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.InvokerBytecodeGenerator CLS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.InvokerBytecodeGenerator HOST_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.InvokerBytecodeGenerator LF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.InvokerBytecodeGenerator LFN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.InvokerBytecodeGenerator LFN_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.InvokerBytecodeGenerator LF_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.InvokerBytecodeGenerator LL_SIG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.InvokerBytecodeGenerator MH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.InvokerBytecodeGenerator OBJ'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.InvokerBytecodeGenerator OBJARY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.InvokerBytecodeGenerator className'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.InvokerBytecodeGenerator invokerName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.InvokerBytecodeGenerator localsMap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.InvokerBytecodeGenerator sourceFile'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.InvokerBytecodeGenerator superName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.Invokers NF_asType'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.Invokers NF_checkExactType'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.Invokers NF_checkGenericType'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.Invokers NF_getCallSiteTarget'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.Invokers spreadInvokers'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.Invokers targetType'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.LambdaForm ALL_TYPES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.LambdaForm CONSTANT_ZERO'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.LambdaForm INTERNED_ARGUMENTS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.LambdaForm PREPARED_FORMS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.MemberName CONSTRUCTOR_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.MethodHandle NF_reinvokerTarget'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.MethodHandle form'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.MethodHandle type'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.MethodHandleImpl.ArrayAccessor GETTER_CACHE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.MethodHandleImpl.ArrayAccessor SETTER_CACHE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.MethodHandleImpl.AsVarargsCollector arrayType'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.MethodHandleImpl NF_checkSpreadArgument'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.MethodHandles.1 $SwitchMap$sun$invoke$util$Wrapper'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.MethodHandles.Lookup IMPL_LOOKUP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.MethodHandles.Lookup PUBLIC_LOOKUP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.MethodType.WeakInternSet queue'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.MethodType NO_PTYPES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.MethodType internTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.MethodType objectOnlyTypes'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.MethodType serialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.MethodTypeForm erasedType'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.MethodTypeForm slotToArgTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.MutableCallSite STORE_BARRIER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.invoke.SwitchPoint mcs'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

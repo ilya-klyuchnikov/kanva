@@ -1,0 +1,59 @@
+<root>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMCanonicalXMLC14N11Method C14N_11'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMCanonicalXMLC14N11Method C14N_11_WITH_COMMENTS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMCryptoBinary bigNum'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMDigestMethod SHA384'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMKeyInfo keyInfoTypes'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMManifest references'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMReference digestMethod'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMSignatureMethod HMAC_SHA256'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMSignatureMethod HMAC_SHA384'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMSignatureMethod HMAC_SHA512'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMSignatureMethod RSA_SHA256'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMSignatureMethod RSA_SHA384'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMSignatureMethod RSA_SHA512'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMSignatureProperties properties'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMSignatureProperty content'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMURIDereferencer INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMX509Data content'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMX509IssuerSerial serialNumber'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.XMLDSigRI INFO'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

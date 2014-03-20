@@ -1,0 +1,44 @@
+<root>
+    <item name='javax.net.ssl.KeyStoreBuilderParameters parameters'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.net.ssl.SSLEngineResult.HandshakeStatus $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.net.ssl.SSLEngineResult.HandshakeStatus FINISHED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.net.ssl.SSLEngineResult.HandshakeStatus NEED_TASK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.net.ssl.SSLEngineResult.HandshakeStatus NEED_UNWRAP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.net.ssl.SSLEngineResult.HandshakeStatus NEED_WRAP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.net.ssl.SSLEngineResult.HandshakeStatus NOT_HANDSHAKING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.net.ssl.SSLEngineResult.Status $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.net.ssl.SSLEngineResult.Status BUFFER_OVERFLOW'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.net.ssl.SSLEngineResult.Status BUFFER_UNDERFLOW'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.net.ssl.SSLEngineResult.Status CLOSED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.net.ssl.SSLEngineResult.Status OK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.net.ssl.SSLEngineResult handshakeStatus'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.net.ssl.SSLEngineResult status'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

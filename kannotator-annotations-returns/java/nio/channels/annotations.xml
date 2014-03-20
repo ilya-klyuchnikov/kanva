@@ -1,0 +1,32 @@
+<root>
+    <item name='java.nio.channels.Channels java.io.InputStream newInputStream(java.nio.channels.AsynchronousByteChannel)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.channels.Channels java.io.InputStream newInputStream(java.nio.channels.ReadableByteChannel)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.channels.Channels java.io.OutputStream newOutputStream(java.nio.channels.AsynchronousByteChannel)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.channels.Channels java.io.OutputStream newOutputStream(java.nio.channels.WritableByteChannel)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.channels.Channels java.io.Reader newReader(java.nio.channels.ReadableByteChannel, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.channels.Channels java.io.Reader newReader(java.nio.channels.ReadableByteChannel, java.nio.charset.CharsetDecoder, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.channels.Channels java.io.Writer newWriter(java.nio.channels.WritableByteChannel, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.channels.Channels java.io.Writer newWriter(java.nio.channels.WritableByteChannel, java.nio.charset.CharsetEncoder, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.channels.FileLock java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.channels.SocketChannel java.nio.channels.SocketChannel open(java.net.SocketAddress)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

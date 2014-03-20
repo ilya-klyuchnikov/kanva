@@ -1,0 +1,95 @@
+<root>
+    <item name='javax.print.attribute.standard.DateTimeAtCompleted DateTimeAtCompleted(java.util.Date) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.DateTimeAtCreation DateTimeAtCreation(java.util.Date) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.DateTimeAtProcessing DateTimeAtProcessing(java.util.Date) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.Destination Destination(java.net.URI) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.DocumentName DocumentName(java.lang.String, java.util.Locale) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobHoldUntil JobHoldUntil(java.util.Date) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobMessageFromOperator JobMessageFromOperator(java.lang.String, java.util.Locale) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobName JobName(java.lang.String, java.util.Locale) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobOriginatingUserName JobOriginatingUserName(java.lang.String, java.util.Locale) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReasons JobStateReasons(java.util.Collection&lt;javax.print.attribute.standard.JobStateReason&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReasons boolean add(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.JobStateReasons boolean add(javax.print.attribute.standard.JobStateReason) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.NumberUpSupported NumberUpSupported(int[][]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.OutputDeviceAssigned OutputDeviceAssigned(java.lang.String, java.util.Locale) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PageRanges PageRanges(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PageRanges PageRanges(int[][]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterInfo PrinterInfo(java.lang.String, java.util.Locale) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterLocation PrinterLocation(java.lang.String, java.util.Locale) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterMakeAndModel PrinterMakeAndModel(java.lang.String, java.util.Locale) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterMessageFromOperator PrinterMessageFromOperator(java.lang.String, java.util.Locale) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterMoreInfo PrinterMoreInfo(java.net.URI) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterMoreInfoManufacturer PrinterMoreInfoManufacturer(java.net.URI) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterName PrinterName(java.lang.String, java.util.Locale) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReasons PrinterStateReasons(java.util.Map&lt;javax.print.attribute.standard.PrinterStateReason,javax.print.attribute.standard.Severity&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReasons java.util.Set&lt;javax.print.attribute.standard.PrinterStateReason&gt; printerStateReasonSet(javax.print.attribute.standard.Severity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReasons java.lang.Object put(java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReasons java.lang.Object put(java.lang.Object, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReasons javax.print.attribute.standard.Severity put(javax.print.attribute.standard.PrinterStateReason, javax.print.attribute.standard.Severity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterStateReasons javax.print.attribute.standard.Severity put(javax.print.attribute.standard.PrinterStateReason, javax.print.attribute.standard.Severity) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.PrinterURI PrinterURI(java.net.URI) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.standard.RequestingUserName RequestingUserName(java.lang.String, java.util.Locale) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

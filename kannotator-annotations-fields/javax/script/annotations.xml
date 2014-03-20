@@ -1,0 +1,23 @@
+<root>
+    <item name='javax.script.ScriptEngine ARGV'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.script.ScriptEngine ENGINE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.script.ScriptEngine ENGINE_VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.script.ScriptEngine FILENAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.script.ScriptEngine LANGUAGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.script.ScriptEngine LANGUAGE_VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.script.ScriptEngine NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

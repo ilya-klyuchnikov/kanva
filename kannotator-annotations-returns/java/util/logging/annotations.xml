@@ -1,0 +1,65 @@
+<root>
+    <item name='java.util.logging.Formatter java.lang.String getHead(java.util.logging.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.logging.Formatter java.lang.String getTail(java.util.logging.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.logging.Level java.lang.String getLocalizedName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.logging.Level java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.logging.Level java.util.logging.Level parse(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.logging.Level java.lang.Object readResolve()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.logging.Level java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.logging.LogManager java.util.logging.Logger demandLogger(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.logging.Logger java.util.logging.Logger getAnonymousLogger()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.logging.Logger java.util.logging.Logger getAnonymousLogger(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.logging.Logger java.lang.String getEffectiveResourceBundleName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.logging.Logger java.util.logging.Logger getLogger(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.logging.Logger java.util.logging.Logger getLogger(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.logging.Logging java.util.List&lt;java.lang.String&gt; getLoggerNames()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.logging.LoggingProxyImpl java.lang.String getLevelName(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.logging.LoggingProxyImpl java.lang.Object getLogger(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.logging.LoggingProxyImpl java.lang.Object parseLevel(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.logging.SimpleFormatter java.lang.String format(java.util.logging.LogRecord)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.logging.XMLFormatter java.lang.String format(java.util.logging.LogRecord)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.logging.XMLFormatter java.lang.String getHead(java.util.logging.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.logging.XMLFormatter java.lang.String getTail(java.util.logging.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

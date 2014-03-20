@@ -1,0 +1,11 @@
+<root>
+    <item name='javax.swing.tree.DefaultMutableTreeNode.PreorderEnumeration stack'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.DefaultTreeSelectionModel SELECTION_MODE_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.FixedHeightLayoutCache.VisibleFHTreeStateNodeEnumeration this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

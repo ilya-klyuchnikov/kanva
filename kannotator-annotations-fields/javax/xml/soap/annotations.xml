@@ -1,0 +1,95 @@
+<root>
+    <item name='javax.xml.soap.MessageFactory DEFAULT_MESSAGE_FACTORY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.MessageFactory MESSAGE_FACTORY_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.MimeHeaders.MatchingIterator this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.SAAJMetaFactory DEFAULT_META_FACTORY_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.SAAJMetaFactory META_FACTORY_CLASS_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.SOAPConnectionFactory DEFAULT_SOAP_CONNECTION_FACTORY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.SOAPConnectionFactory SF_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.SOAPConstants DEFAULT_SOAP_PROTOCOL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.SOAPConstants DYNAMIC_SOAP_PROTOCOL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.SOAPConstants SOAP_1_1_CONTENT_TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.SOAPConstants SOAP_1_1_PROTOCOL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.SOAPConstants SOAP_1_2_CONTENT_TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.SOAPConstants SOAP_1_2_PROTOCOL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.SOAPConstants SOAP_DATAENCODINGUNKNOWN_FAULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.SOAPConstants SOAP_ENV_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.SOAPConstants SOAP_MUSTUNDERSTAND_FAULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.SOAPConstants SOAP_RECEIVER_FAULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.SOAPConstants SOAP_SENDER_FAULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.SOAPConstants SOAP_VERSIONMISMATCH_FAULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.SOAPConstants URI_NS_SOAP_1_1_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.SOAPConstants URI_NS_SOAP_1_2_ENCODING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.SOAPConstants URI_NS_SOAP_1_2_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.SOAPConstants URI_NS_SOAP_ENCODING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.SOAPConstants URI_NS_SOAP_ENVELOPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.SOAPConstants URI_SOAP_1_2_ROLE_NEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.SOAPConstants URI_SOAP_1_2_ROLE_NONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.SOAPConstants URI_SOAP_1_2_ROLE_ULTIMATE_RECEIVER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.SOAPConstants URI_SOAP_ACTOR_NEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.SOAPFactory SOAP_FACTORY_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.SOAPMessage CHARACTER_SET_ENCODING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.soap.SOAPMessage WRITE_XML_DECLARATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

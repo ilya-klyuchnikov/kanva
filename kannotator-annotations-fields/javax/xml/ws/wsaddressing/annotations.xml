@@ -1,0 +1,8 @@
+<root>
+    <item name='javax.xml.ws.wsaddressing.W3CEndpointReference NS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.ws.wsaddressing.W3CEndpointReference w3cjc'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

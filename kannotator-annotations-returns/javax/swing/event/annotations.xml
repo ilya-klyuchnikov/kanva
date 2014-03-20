@@ -1,0 +1,26 @@
+<root>
+    <item name='javax.swing.event.EventListenerList java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.event.InternalFrameEvent java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.event.ListDataEvent java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.event.ListSelectionEvent java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.event.RowSorterEvent.Type javax.swing.event.RowSorterEvent.Type valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.event.TreeModelEvent java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.event.TreeSelectionEvent java.lang.Object cloneWithSource(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.event.TreeSelectionEvent javax.swing.tree.TreePath[] getPaths()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

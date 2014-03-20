@@ -1,0 +1,62 @@
+<root>
+    <item name='javax.swing.colorchooser.CenterLayout java.awt.Dimension minimumLayoutSize(java.awt.Container)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.CenterLayout java.awt.Dimension preferredLayoutSize(java.awt.Container)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.ColorChooserComponentFactory javax.swing.colorchooser.AbstractColorChooserPanel[] getDefaultChooserPanels()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.ColorChooserComponentFactory javax.swing.JComponent getPreviewPanel()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.ColorModelCMYK float[] CMYKtoRGB(float[], float[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.ColorModelCMYK float[] RGBtoCMYK(float[], float[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.ColorModelHSL float[] HSLtoRGB(float[], float[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.ColorModelHSL float[] RGBtoHSL(float[], float[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.ColorModelHSV float[] HSVtoRGB(float[], float[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.ColorModelHSV float[] RGBtoHSV(float[], float[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.DefaultPreviewPanel java.awt.Dimension getPreferredSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.MainSwatchPanel int[] initRawValues()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.SlidingSpinner javax.swing.JSlider getSlider()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.SlidingSpinner javax.swing.JSpinner getSpinner()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.SmartGridLayout java.awt.Dimension minimumLayoutSize(java.awt.Container)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.SmartGridLayout java.awt.Dimension preferredLayoutSize(java.awt.Container)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.SwatchPanel java.awt.Dimension getPreferredSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.SwatchPanel java.lang.String getToolTipText(java.awt.event.MouseEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.ValueFormatter javax.swing.text.DocumentFilter getDocumentFilter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.ValueFormatter java.lang.String valueToString(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,41 @@
+<root>
+    <item name='javax.naming.ldap.InitialLdapContext BIND_CONTROLS_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.LdapContext CONTROL_FACTORIES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.ManageReferralControl OID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.PagedResultsControl EMPTY_COOKIE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.PagedResultsControl OID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.PagedResultsResponseControl OID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.Rdn escapees'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.Rfc2253Parser chars'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.Rfc2253Parser name'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.SortControl OID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.SortResponseControl OID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.StartTlsRequest OID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.ldap.StartTlsResponse OID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

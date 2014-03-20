@@ -1,0 +1,8 @@
+<root>
+    <item name='java.lang.annotation.ElementType java.lang.annotation.ElementType valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.annotation.RetentionPolicy java.lang.annotation.RetentionPolicy valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

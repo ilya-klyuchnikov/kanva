@@ -1,0 +1,29 @@
+<root>
+    <item name='org.omg.DynamicAny._DynAnyFactoryStub _opsClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.DynamicAny._DynAnyStub _opsClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.DynamicAny._DynArrayStub _opsClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.DynamicAny._DynEnumStub _opsClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.DynamicAny._DynFixedStub _opsClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.DynamicAny._DynSequenceStub _opsClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.DynamicAny._DynStructStub _opsClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.DynamicAny._DynUnionStub _opsClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.DynamicAny._DynValueStub _opsClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

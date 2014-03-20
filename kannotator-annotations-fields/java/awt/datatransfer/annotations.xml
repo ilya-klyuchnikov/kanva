@@ -1,0 +1,44 @@
+<root>
+    <item name='java.awt.datatransfer.DataFlavor ioInputStreamClass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.datatransfer.DataFlavor javaJVMLocalObjectMimeType'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.datatransfer.DataFlavor javaRemoteObjectMimeType'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.datatransfer.DataFlavor javaSerializedObjectMimeType'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.datatransfer.MimeType TSPECIALS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.datatransfer.MimeTypeParameterList TSPECIALS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.datatransfer.StringSelection flavors'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.datatransfer.SystemFlavorMap ENCODED_TEXT_CLASSES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.datatransfer.SystemFlavorMap TEXT_PLAIN_BASE_TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.datatransfer.SystemFlavorMap UNICODE_TEXT_CLASSES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.datatransfer.SystemFlavorMap flavorMaps'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.datatransfer.SystemFlavorMap keyValueSeparators'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.datatransfer.SystemFlavorMap strictKeyValueSeparators'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.datatransfer.SystemFlavorMap whiteSpaceChars'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

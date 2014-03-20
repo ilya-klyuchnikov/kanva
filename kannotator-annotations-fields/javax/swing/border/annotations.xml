@@ -1,0 +1,8 @@
+<root>
+    <item name='javax.swing.border.StrokeBorder stroke'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.border.TitledBorder label'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

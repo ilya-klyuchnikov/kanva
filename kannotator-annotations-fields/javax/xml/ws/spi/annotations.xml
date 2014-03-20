@@ -1,0 +1,8 @@
+<root>
+    <item name='javax.xml.ws.spi.Provider DEFAULT_JAXWSPROVIDER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.ws.spi.Provider JAXWSPROVIDER_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

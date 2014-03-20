@@ -1,0 +1,14 @@
+<root>
+    <item name='org.omg.PortableServer.POAManagerPackage.State ACTIVE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.PortableServer.POAManagerPackage.State DISCARDING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.PortableServer.POAManagerPackage.State HOLDING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.PortableServer.POAManagerPackage.State INACTIVE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,4 +1,5 @@
 .idea/workspace.xml
 out
-kanva-annotations-reads/
-kanva-annotations-writes/
+kanva-annotations-fields/
+kanva-annotations-params/
+kanva-annotations-returns/

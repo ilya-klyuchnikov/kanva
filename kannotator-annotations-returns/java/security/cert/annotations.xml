@@ -1,0 +1,128 @@
+<root>
+    <item name='java.security.cert.CRLReason java.security.cert.CRLReason valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertPath java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertPath java.lang.Object writeReplace()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertPathBuilder java.lang.String getDefaultType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertPathBuilder java.security.cert.CertPathBuilder getInstance(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertPathBuilder java.security.cert.CertPathBuilder getInstance(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertPathBuilder java.security.cert.CertPathBuilder getInstance(java.lang.String, java.security.Provider)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertPathValidator java.lang.String getDefaultType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertPathValidator java.security.cert.CertPathValidator getInstance(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertPathValidator java.security.cert.CertPathValidator getInstance(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertPathValidator java.security.cert.CertPathValidator getInstance(java.lang.String, java.security.Provider)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertPathValidatorException.BasicReason java.security.cert.CertPathValidatorException.BasicReason valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertStore java.lang.String getDefaultType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.Certificate java.lang.Object writeReplace()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertificateFactory java.security.cert.CertificateFactory getInstance(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertificateFactory java.security.cert.CertificateFactory getInstance(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertificateFactory java.security.cert.CertificateFactory getInstance(java.lang.String, java.security.Provider)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertificateRevokedException javax.security.auth.x500.X500Principal getAuthorityName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertificateRevokedException java.util.Map&lt;java.lang.String,java.security.cert.Extension&gt; getExtensions()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertificateRevokedException java.lang.String getMessage()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertificateRevokedException java.security.cert.CRLReason getRevocationReason()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CollectionCertStoreParameters java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.LDAPCertStoreParameters java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.PKIXBuilderParameters java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.PKIXCertPathBuilderResult java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.PKIXCertPathValidatorResult java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.PKIXParameters java.util.List&lt;java.security.cert.PKIXCertPathChecker&gt; getCertPathCheckers()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.PKIXParameters java.util.List&lt;java.security.cert.CertStore&gt; getCertStores()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.PKIXParameters java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.PKIXReason java.security.cert.PKIXReason valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.TrustAnchor java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.X509CRLSelector java.util.HashSet&lt;java.lang.Object&gt; cloneAndCheckIssuerNames(java.util.Collection&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.X509CRLSelector java.util.HashSet&lt;java.lang.Object&gt; cloneIssuerNames(java.util.Collection&lt;java.lang.Object&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.X509CRLSelector java.util.HashSet&lt;javax.security.auth.x500.X500Principal&gt; parseIssuerNames(java.util.Collection&lt;java.lang.Object&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.X509CRLSelector java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.X509CertSelector java.util.Set&lt;java.util.List&lt;?&gt;&gt; cloneAndCheckNames(java.util.Collection&lt;java.util.List&lt;?&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.X509CertSelector java.util.Set&lt;java.util.List&lt;?&gt;&gt; cloneNames(java.util.Collection&lt;java.util.List&lt;?&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.X509CertSelector java.util.Set&lt;?&gt; cloneSet(java.util.Set&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.X509CertSelector java.lang.String keyUsageToString(boolean[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.X509CertSelector sun.security.x509.GeneralNameInterface makeGeneralNameInterface(int, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.X509CertSelector java.util.Set&lt;sun.security.x509.GeneralNameInterface&gt; parseNames(java.util.Collection&lt;java.util.List&lt;?&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.X509CertSelector java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

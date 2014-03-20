@@ -1,0 +1,38 @@
+<root>
+    <item name='javax.xml.transform.OutputKeys CDATA_SECTION_ELEMENTS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.transform.OutputKeys DOCTYPE_PUBLIC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.transform.OutputKeys DOCTYPE_SYSTEM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.transform.OutputKeys ENCODING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.transform.OutputKeys INDENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.transform.OutputKeys MEDIA_TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.transform.OutputKeys METHOD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.transform.OutputKeys OMIT_XML_DECLARATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.transform.OutputKeys STANDALONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.transform.OutputKeys VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.transform.Result PI_DISABLE_OUTPUT_ESCAPING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.transform.Result PI_ENABLE_OUTPUT_ESCAPING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

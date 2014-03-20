@@ -1,0 +1,11 @@
+<root>
+    <item name='javax.xml.bind.helpers.AbstractUnmarshallerImpl javax.xml.bind.UnmarshalException createUnmarshalException(org.xml.sax.SAXException)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.helpers.AbstractUnmarshallerImpl org.xml.sax.InputSource streamSourceToInputSource(javax.xml.transform.stream.StreamSource)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.helpers.DefaultValidationEventHandler java.lang.String getLocation(javax.xml.bind.ValidationEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

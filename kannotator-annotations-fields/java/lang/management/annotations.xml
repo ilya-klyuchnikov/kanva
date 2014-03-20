@@ -1,0 +1,104 @@
+<root>
+    <item name='java.lang.management.ManagementFactory CLASS_LOADING_MXBEAN_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.ManagementFactory COMPILATION_MXBEAN_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.ManagementFactory GARBAGE_COLLECTOR_MXBEAN_DOMAIN_TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.ManagementFactory MEMORY_MANAGER_MXBEAN_DOMAIN_TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.ManagementFactory MEMORY_MXBEAN_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.ManagementFactory MEMORY_POOL_MXBEAN_DOMAIN_TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.ManagementFactory NOTIF_EMITTER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.ManagementFactory OPERATING_SYSTEM_MXBEAN_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.ManagementFactory RUNTIME_MXBEAN_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.ManagementFactory THREAD_MXBEAN_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.MemoryNotificationInfo MEMORY_COLLECTION_THRESHOLD_EXCEEDED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.MemoryNotificationInfo MEMORY_THRESHOLD_EXCEEDED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.MemoryNotificationInfo poolName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.MemoryType $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.MemoryType HEAP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.MemoryType NON_HEAP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent BUFFER_POOL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent CLASS_LOADING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent COMPILATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent GARBAGE_COLLECTOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent HOTSPOT_DIAGNOSTIC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent LOGGING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent MEMORY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent MEMORY_MANAGER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent MEMORY_POOL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent OPERATING_SYSTEM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent RUNTIME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent SUN_GARBAGE_COLLECTOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent SUN_OPERATING_SYSTEM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent SUN_UNIX_OPERATING_SYSTEM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent THREADING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.ThreadInfo.1 $SwitchMap$java$lang$Thread$State'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.ThreadInfo NO_STACK_TRACE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

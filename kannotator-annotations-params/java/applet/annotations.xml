@@ -1,0 +1,8 @@
+<root>
+    <item name='java.applet.Applet void readObject(java.io.ObjectInputStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.applet.Applet void resize(java.awt.Dimension) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,83 @@
+<root>
+    <item name='javax.print.attribute.AttributeSetUtilities javax.print.attribute.AttributeSet synchronizedView(javax.print.attribute.AttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.AttributeSetUtilities javax.print.attribute.DocAttributeSet synchronizedView(javax.print.attribute.DocAttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.AttributeSetUtilities javax.print.attribute.PrintJobAttributeSet synchronizedView(javax.print.attribute.PrintJobAttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.AttributeSetUtilities javax.print.attribute.PrintRequestAttributeSet synchronizedView(javax.print.attribute.PrintRequestAttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.AttributeSetUtilities javax.print.attribute.PrintServiceAttributeSet synchronizedView(javax.print.attribute.PrintServiceAttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.AttributeSetUtilities javax.print.attribute.AttributeSet unmodifiableView(javax.print.attribute.AttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.AttributeSetUtilities javax.print.attribute.DocAttributeSet unmodifiableView(javax.print.attribute.DocAttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.AttributeSetUtilities javax.print.attribute.PrintJobAttributeSet unmodifiableView(javax.print.attribute.PrintJobAttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.AttributeSetUtilities javax.print.attribute.PrintRequestAttributeSet unmodifiableView(javax.print.attribute.PrintRequestAttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.AttributeSetUtilities javax.print.attribute.PrintServiceAttributeSet unmodifiableView(javax.print.attribute.PrintServiceAttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.AttributeSetUtilities javax.print.attribute.Attribute verifyAttributeValue(java.lang.Object, java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.DateTimeSyntax java.util.Date getValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.DateTimeSyntax java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.EnumSyntax java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.EnumSyntax java.lang.Object readResolve()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.HashAttributeSet javax.print.attribute.Attribute[] toArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.IntegerSyntax java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.ResolutionSyntax int[] getResolution(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.ResolutionSyntax java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.ResolutionSyntax java.lang.String toString(int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.SetOfIntegerSyntax int[][] getMembers()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.SetOfIntegerSyntax java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.Size2DSyntax float[] getSize(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.Size2DSyntax java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.Size2DSyntax java.lang.String toString(int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.TextSyntax java.lang.String verify(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.attribute.URISyntax java.net.URI verify(java.net.URI)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

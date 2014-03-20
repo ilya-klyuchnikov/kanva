@@ -1,0 +1,11 @@
+<root>
+    <item name='javax.naming.directory.BasicAttribute.ValuesEnumImpl this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.directory.BasicAttributes.AttrEnumImpl this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.naming.directory.BasicAttributes.IDEnumImpl this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

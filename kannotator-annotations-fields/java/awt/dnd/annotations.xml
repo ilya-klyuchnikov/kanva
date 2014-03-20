@@ -1,0 +1,11 @@
+<root>
+    <item name='java.awt.dnd.DragSource dragSourceListenerK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.dnd.DragSource dragSourceMotionListenerK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.dnd.DropTargetDropEvent zero'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

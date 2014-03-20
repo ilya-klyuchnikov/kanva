@@ -1,0 +1,434 @@
+<root>
+    <item name='javax.accessibility.AccessibleAction CLICK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleAction DECREMENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleAction INCREMENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleAction TOGGLE_EXPAND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleAction TOGGLE_POPUP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleBundle defaultResourceBundleName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleContext ACCESSIBLE_ACTION_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleContext ACCESSIBLE_ACTIVE_DESCENDANT_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleContext ACCESSIBLE_CARET_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleContext ACCESSIBLE_CHILD_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleContext ACCESSIBLE_COMPONENT_BOUNDS_CHANGED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleContext ACCESSIBLE_DESCRIPTION_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleContext ACCESSIBLE_HYPERTEXT_OFFSET'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleContext ACCESSIBLE_INVALIDATE_CHILDREN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleContext ACCESSIBLE_NAME_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleContext ACCESSIBLE_SELECTION_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleContext ACCESSIBLE_STATE_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleContext ACCESSIBLE_TABLE_CAPTION_CHANGED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleContext ACCESSIBLE_TABLE_COLUMN_DESCRIPTION_CHANGED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleContext ACCESSIBLE_TABLE_COLUMN_HEADER_CHANGED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleContext ACCESSIBLE_TABLE_MODEL_CHANGED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleContext ACCESSIBLE_TABLE_ROW_DESCRIPTION_CHANGED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleContext ACCESSIBLE_TABLE_ROW_HEADER_CHANGED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleContext ACCESSIBLE_TABLE_SUMMARY_CHANGED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleContext ACCESSIBLE_TEXT_ATTRIBUTES_CHANGED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleContext ACCESSIBLE_TEXT_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleContext ACCESSIBLE_VALUE_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleContext ACCESSIBLE_VISIBLE_DATA_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRelation CHILD_NODE_OF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRelation CHILD_NODE_OF_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRelation CONTROLLED_BY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRelation CONTROLLED_BY_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRelation CONTROLLER_FOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRelation CONTROLLER_FOR_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRelation EMBEDDED_BY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRelation EMBEDDED_BY_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRelation EMBEDS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRelation EMBEDS_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRelation FLOWS_FROM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRelation FLOWS_FROM_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRelation FLOWS_TO'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRelation FLOWS_TO_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRelation LABELED_BY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRelation LABELED_BY_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRelation LABEL_FOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRelation LABEL_FOR_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRelation MEMBER_OF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRelation MEMBER_OF_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRelation PARENT_WINDOW_OF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRelation PARENT_WINDOW_OF_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRelation SUBWINDOW_OF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRelation SUBWINDOW_OF_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole ALERT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole AWT_COMPONENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole CANVAS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole CHECK_BOX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole COLOR_CHOOSER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole COLUMN_HEADER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole COMBO_BOX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole DATE_EDITOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole DESKTOP_ICON'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole DESKTOP_PANE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole DIALOG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole DIRECTORY_PANE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole EDITBAR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole FILE_CHOOSER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole FILLER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole FONT_CHOOSER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole FOOTER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole FRAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole GLASS_PANE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole GROUP_BOX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole HEADER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole HTML_CONTAINER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole HYPERLINK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole ICON'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole INTERNAL_FRAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole LABEL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole LAYERED_PANE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole LIST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole LIST_ITEM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole MENU'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole MENU_BAR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole MENU_ITEM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole OPTION_PANE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole PAGE_TAB'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole PAGE_TAB_LIST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole PANEL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole PARAGRAPH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole PASSWORD_TEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole POPUP_MENU'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole PROGRESS_BAR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole PROGRESS_MONITOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole PUSH_BUTTON'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole RADIO_BUTTON'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole ROOT_PANE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole ROW_HEADER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole RULER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole SCROLL_BAR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole SCROLL_PANE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole SEPARATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole SLIDER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole SPIN_BOX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole SPLIT_PANE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole STATUS_BAR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole SWING_COMPONENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole TABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole TEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole TOGGLE_BUTTON'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole TOOL_BAR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole TOOL_TIP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole TREE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole UNKNOWN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole VIEWPORT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleRole WINDOW'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState ACTIVE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState ARMED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState BUSY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState CHECKED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState COLLAPSED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState EDITABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState ENABLED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState EXPANDABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState EXPANDED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState FOCUSABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState FOCUSED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState HORIZONTAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState ICONIFIED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState INDETERMINATE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState MANAGES_DESCENDANTS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState MODAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState MULTISELECTABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState MULTI_LINE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState OPAQUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState PRESSED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState RESIZABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState SELECTABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState SELECTED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState SHOWING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState SINGLE_LINE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState TRANSIENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState TRUNCATED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState VERTICAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.accessibility.AccessibleState VISIBLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

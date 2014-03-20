@@ -1,0 +1,26 @@
+<root>
+    <item name='org.xml.sax.helpers.NamespaceSupport EMPTY_ENUMERATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.xml.sax.helpers.NamespaceSupport NSDECL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.xml.sax.helpers.NamespaceSupport XMLNS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.xml.sax.helpers.ParserAdapter FEATURES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.xml.sax.helpers.ParserAdapter NAMESPACES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.xml.sax.helpers.ParserAdapter NAMESPACE_PREFIXES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.xml.sax.helpers.ParserAdapter XMLNS_URIs'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.xml.sax.helpers.XMLReaderFactory property'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

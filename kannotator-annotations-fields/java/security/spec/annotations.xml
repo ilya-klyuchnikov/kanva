@@ -1,0 +1,56 @@
+<root>
+    <item name='java.security.spec.ECParameterSpec curve'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.spec.ECParameterSpec g'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.spec.ECParameterSpec n'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.spec.ECPoint POINT_INFINITY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.spec.EllipticCurve a'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.spec.EllipticCurve b'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.spec.EllipticCurve field'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.spec.MGF1ParameterSpec SHA1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.spec.MGF1ParameterSpec SHA256'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.spec.MGF1ParameterSpec SHA384'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.spec.MGF1ParameterSpec SHA512'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.spec.PSSParameterSpec DEFAULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.spec.RSAMultiPrimePrivateCrtKeySpec crtCoefficient'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.spec.RSAMultiPrimePrivateCrtKeySpec primeExponentP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.spec.RSAMultiPrimePrivateCrtKeySpec primeExponentQ'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.spec.RSAMultiPrimePrivateCrtKeySpec primeP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.spec.RSAMultiPrimePrivateCrtKeySpec primeQ'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.spec.RSAMultiPrimePrivateCrtKeySpec publicExponent'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,8 @@
+<root>
+    <item name='org.omg.PortableServer.ForwardRequestHelper org.omg.PortableServer.ForwardRequest extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.PortableServer.ForwardRequestHelper org.omg.PortableServer.ForwardRequest read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

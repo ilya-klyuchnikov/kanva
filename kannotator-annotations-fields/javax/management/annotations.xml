@@ -1,0 +1,140 @@
+<root>
+    <item name='javax.management.AttributeChangeNotification ATTRIBUTE_CHANGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.ImmutableDescriptor EMPTY_DESCRIPTOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.JMX DEFAULT_VALUE_FIELD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.JMX IMMUTABLE_INFO_FIELD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.JMX INTERFACE_CLASS_NAME_FIELD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.JMX LEGAL_VALUES_FIELD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.JMX MAX_VALUE_FIELD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.JMX MIN_VALUE_FIELD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.JMX MXBEAN_FIELD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.JMX OPEN_TYPE_FIELD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.JMX ORIGINAL_TYPE_FIELD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.JMX proof'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.MBeanAttributeInfo NO_ATTRIBUTES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.MBeanConstructorInfo NO_CONSTRUCTORS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.MBeanInfo arrayGettersSafeMap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.MBeanNotificationInfo NO_NOTIFICATIONS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.MBeanNotificationInfo NO_TYPES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.MBeanOperationInfo NO_OPERATIONS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.MBeanParameterInfo NO_PARAMS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.MBeanServerDelegate DELEGATE_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.MBeanServerDelegate broadcaster'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.MBeanServerDelegate notifsInfo'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.MBeanServerFactory mBeanServerList'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.MBeanServerInvocationHandler connection'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.MBeanServerInvocationHandler mxbeanProxies'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.MBeanServerInvocationHandler objectName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.MBeanServerNotification REGISTRATION_NOTIFICATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.MBeanServerNotification UNREGISTRATION_NOTIFICATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.MBeanServerPermission canonicalNames'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.MBeanServerPermission names'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.Notification newSerialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.Notification oldSerialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.Notification serialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.NotificationBroadcasterSupport NO_NOTIFICATION_INFO'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.NotificationBroadcasterSupport defaultExecutor'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.NotificationBroadcasterSupport logger'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.NumericValueExp newSerialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.NumericValueExp oldSerialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.NumericValueExp serialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.ObjectName WILDCARD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.ObjectName _Empty_property_array'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.ObjectName newSerialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.ObjectName oldSerialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.ObjectName serialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.StandardEmitterMBean emitter'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.StandardMBean mbeanInfoSafeMap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

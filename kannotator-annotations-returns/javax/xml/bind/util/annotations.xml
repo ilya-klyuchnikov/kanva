@@ -1,0 +1,8 @@
+<root>
+    <item name='javax.xml.bind.util.JAXBSource java.lang.Object access$000(javax.xml.bind.util.JAXBSource)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.util.JAXBSource javax.xml.bind.Marshaller access$100(javax.xml.bind.util.JAXBSource)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

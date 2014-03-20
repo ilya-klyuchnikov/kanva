@@ -1,0 +1,98 @@
+<root>
+    <item name='javax.management.remote.rmi.NoCallStackClassLoader byteCodes'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi.NoCallStackClassLoader classNames'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi.NoCallStackClassLoader protectionDomain'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi.NoCallStackClassLoader referencedClassNames'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi.RMIConnectionImpl.CombinedClassLoader defaultCL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi.RMIConnectionImpl NO_OBJECTS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi.RMIConnectionImpl NO_STRINGS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi.RMIConnectionImpl connectionId'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi.RMIConnectionImpl logger'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi.RMIConnectionImpl rmiServer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi.RMIConnectionImpl serverCommunicatorAdmin'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi.RMIConnectionImpl subjectDelegator'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi.RMIConnector ProxyInputStreamClassName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi.RMIConnector base64ToInt'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi.RMIConnector iiopConnectionStubClassName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi.RMIConnector logger'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi.RMIConnector pInputStreamClassName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi.RMIConnector pRefClassName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi.RMIConnector proxyStubClassName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi.RMIConnector rmiConnectionImplStubClassName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi.RMIConnector rmiServerImplStubClassName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi.RMIConnectorServer JNDI_REBIND_ATTRIBUTE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi.RMIConnectorServer RMI_CLIENT_SOCKET_FACTORY_ATTRIBUTE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi.RMIConnectorServer RMI_SERVER_SOCKET_FACTORY_ATTRIBUTE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi.RMIConnectorServer intToAlpha'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi.RMIConnectorServer openedServers'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi.RMIServerImpl clientList'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi.RMIServerImpl logger'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi._RMIConnectionImpl_Tie _type_ids'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi._RMIConnection_Stub _type_ids'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi._RMIServerImpl_Tie _type_ids'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.rmi._RMIServer_Stub _type_ids'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

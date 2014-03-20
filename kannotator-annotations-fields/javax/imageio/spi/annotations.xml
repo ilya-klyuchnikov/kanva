@@ -1,0 +1,11 @@
+<root>
+    <item name='javax.imageio.spi.IIORegistry initialCategories'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.imageio.spi.ImageReaderSpi STANDARD_INPUT_TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.imageio.spi.ImageWriterSpi STANDARD_OUTPUT_TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

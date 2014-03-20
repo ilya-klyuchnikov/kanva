@@ -1,0 +1,17 @@
+<root>
+    <item name='javax.imageio.ImageIO.SpiInfo $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.imageio.ImageIO.SpiInfo FILE_SUFFIXES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.imageio.ImageIO.SpiInfo FORMAT_NAMES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.imageio.ImageIO.SpiInfo MIME_TYPES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.imageio.ImageIO theRegistry'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

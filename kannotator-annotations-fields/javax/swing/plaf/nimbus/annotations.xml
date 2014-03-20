@@ -1,0 +1,98 @@
+<root>
+    <item name='javax.swing.plaf.nimbus.AbstractRegionPainter.PaintContext.CacheMode $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.AbstractRegionPainter.PaintContext.CacheMode FIXED_SIZES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.AbstractRegionPainter.PaintContext.CacheMode NINE_SQUARE_SCALE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.AbstractRegionPainter.PaintContext.CacheMode NO_CACHING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.Effect.EffectType $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.Effect.EffectType BLENDED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.Effect.EffectType OVER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.Effect.EffectType UNDER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.ImageCache instance'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.ImageCache map'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.ImageScalingHelper.PaintType $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.ImageScalingHelper.PaintType CENTER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.ImageScalingHelper.PaintType PAINT9_STRETCH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.ImageScalingHelper.PaintType PAINT9_TILE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.ImageScalingHelper.PaintType TILE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.ImageScalingHelper EMPTY_INSETS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.LoweredBorder INSETS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.LoweredBorder PAINT_CONTEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.NimbusLookAndFeel COMPONENT_KEYS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.NimbusStyle DEFAULT_COLOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.NimbusStyle LARGE_KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.NimbusStyle MINI_KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.NimbusStyle SMALL_KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.NimbusStyle STATE_COMPARATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.State Default'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.State Disabled'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.State Enabled'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.State Focused'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.State MouseOver'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.State Pressed'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.State Selected'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.plaf.nimbus.State standardStates'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

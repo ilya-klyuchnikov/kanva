@@ -1,0 +1,14 @@
+<root>
+    <item name='javax.swing.undo.AbstractUndoableEdit RedoName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.undo.AbstractUndoableEdit UndoName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.undo.StateEdit RCSID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.undo.StateEditable RCSID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,38 @@
+<root>
+    <item name='javax.security.auth.login.AppConfigurationEntry.LoginModuleControlFlag OPTIONAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.security.auth.login.AppConfigurationEntry.LoginModuleControlFlag REQUIRED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.security.auth.login.AppConfigurationEntry.LoginModuleControlFlag REQUISITE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.security.auth.login.AppConfigurationEntry.LoginModuleControlFlag SUFFICIENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.security.auth.login.LoginContext ABORT_METHOD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.security.auth.login.LoginContext COMMIT_METHOD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.security.auth.login.LoginContext DEFAULT_HANDLER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.security.auth.login.LoginContext INIT_METHOD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.security.auth.login.LoginContext LOGIN_METHOD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.security.auth.login.LoginContext LOGOUT_METHOD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.security.auth.login.LoginContext OTHER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.security.auth.login.LoginContext PARAMS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

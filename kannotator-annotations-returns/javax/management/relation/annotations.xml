@@ -1,0 +1,56 @@
+<root>
+    <item name='javax.management.relation.RelationService java.util.Map&lt;javax.management.ObjectName,java.util.List&lt;java.lang.String&gt;&gt; findAssociatedMBeans(javax.management.ObjectName, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationService java.util.Map&lt;java.lang.String,java.util.List&lt;java.lang.String&gt;&gt; findReferencingRelations(javax.management.ObjectName, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationService java.util.List&lt;java.lang.String&gt; findRelationsOfType(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationService java.util.List&lt;java.lang.String&gt; getAllRelationIds()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationService java.util.List&lt;java.lang.String&gt; getAllRelationTypeNames()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationService javax.management.MBeanNotificationInfo[] getNotificationInfo()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationService java.lang.Object getRelation(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationService javax.management.relation.RelationType getRelationType(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationSupport java.util.Map&lt;javax.management.ObjectName,java.util.List&lt;java.lang.String&gt;&gt; getReferencedMBeans()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationSupport javax.management.relation.RoleList retrieveAllRoles()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationSupport javax.management.relation.RoleResult setRoles(javax.management.relation.RoleList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationSupport javax.management.relation.RoleResult setRolesInt(javax.management.relation.RoleList, boolean, javax.management.relation.RelationService)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationTypeSupport javax.management.relation.RoleInfo getRoleInfo(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RelationTypeSupport java.util.List&lt;javax.management.relation.RoleInfo&gt; getRoleInfos()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.Role java.lang.String roleValueToString(java.util.List&lt;javax.management.ObjectName&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.Role java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RoleInfo java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.relation.RoleUnresolved java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

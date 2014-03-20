@@ -1,0 +1,35 @@
+<root>
+    <item name='javax.sql.rowset.serial.SerialArray java.lang.Object getArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sql.rowset.serial.SerialArray java.lang.Object getArray(long, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sql.rowset.serial.SerialArray java.lang.Object getArray(long, int, java.util.Map&lt;java.lang.String,java.lang.Class&lt;?&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sql.rowset.serial.SerialArray java.lang.Object getArray(java.util.Map&lt;java.lang.String,java.lang.Class&lt;?&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sql.rowset.serial.SerialBlob java.io.InputStream getBinaryStream()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sql.rowset.serial.SerialBlob byte[] getBytes(long, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sql.rowset.serial.SerialClob java.io.Reader getCharacterStream()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sql.rowset.serial.SerialClob java.lang.String getSubString(long, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sql.rowset.serial.SerialDatalink java.net.URL getDatalink()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sql.rowset.serial.SerialJavaObject java.lang.reflect.Field[] getFields()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sql.rowset.serial.SerialJavaObject java.lang.Object getObject()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

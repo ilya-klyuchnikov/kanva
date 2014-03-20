@@ -1,0 +1,35 @@
+<root>
+    <item name='java.util.zip.Deflater zsRef'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.zip.DeflaterInputStream buf'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.zip.DeflaterInputStream def'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.zip.Inflater defaultBuf'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.zip.Inflater zsRef'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.zip.InflaterOutputStream buf'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.zip.InflaterOutputStream inf'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.zip.InflaterOutputStream wbuf'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.zip.ZipFile.ZipFileInflaterInputStream zfin'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.zip.ZipFile streams'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.zip.ZipOutputStream zc'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

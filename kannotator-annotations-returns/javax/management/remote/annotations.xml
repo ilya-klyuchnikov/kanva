@@ -1,0 +1,47 @@
+<root>
+    <item name='javax.management.remote.JMXConnectionNotification java.lang.String getConnectionId()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXConnectionNotification java.lang.Object nonNull(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXConnectorFactory javax.management.remote.JMXConnector connect(javax.management.remote.JMXServiceURL)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXConnectorFactory javax.management.remote.JMXConnector connect(javax.management.remote.JMXServiceURL, java.util.Map&lt;java.lang.String,?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXConnectorFactory java.util.Iterator&lt;T&gt; getProviderIterator(java.lang.Class&lt;T&gt;, java.lang.ClassLoader)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXConnectorFactory java.util.Map&lt;K,V&gt; newHashMap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXConnectorFactory java.util.Map&lt;K,java.lang.Object&gt; newHashMap(java.util.Map&lt;K,?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXConnectorFactory java.lang.String protocol2package(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXConnectorServer javax.management.MBeanNotificationInfo[] getNotificationInfo()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXConnectorServer javax.management.ObjectName preRegister(javax.management.MBeanServer, javax.management.ObjectName)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXPrincipal java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.JMXServiceURL java.lang.String getHost()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.NotificationResult javax.management.remote.TargetedNotification[] getTargetedNotifications()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.NotificationResult java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.remote.TargetedNotification java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,44 @@
+<root>
+    <item name='javax.swing.colorchooser.AbstractColorChooserPanel enabledListener'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.ColorChooserPanel diagram'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.ColorChooserPanel label'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.ColorChooserPanel panel'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.ColorChooserPanel slider'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.ColorChooserPanel text'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.ColorModel prefix'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.ColorPanel spinners'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.ColorPanel values'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.DiagramComponent insets'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.SlidingSpinner model'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.SlidingSpinner slider'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.SlidingSpinner spinner'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.colorchooser.ValueFormatter filter'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

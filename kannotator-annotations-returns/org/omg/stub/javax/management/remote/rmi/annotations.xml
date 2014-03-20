@@ -1,0 +1,8 @@
+<root>
+    <item name='org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie org.omg.CORBA.Object thisObject()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie org.omg.CORBA.Object thisObject()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

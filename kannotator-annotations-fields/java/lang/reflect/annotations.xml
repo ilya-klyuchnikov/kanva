@@ -1,0 +1,11 @@
+<root>
+    <item name='java.lang.reflect.AccessibleObject ACCESS_PERMISSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.reflect.Proxy constructorParams'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.reflect.Proxy proxyClassNamePrefix'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

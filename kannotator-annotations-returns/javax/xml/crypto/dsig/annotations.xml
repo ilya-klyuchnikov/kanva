@@ -1,0 +1,29 @@
+<root>
+    <item name='javax.xml.crypto.dsig.TransformService.MechanismMapEntry java.lang.Object getKey()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.dsig.TransformService javax.xml.crypto.dsig.TransformService getInstance(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.dsig.TransformService javax.xml.crypto.dsig.TransformService getInstance(java.lang.String, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.dsig.TransformService javax.xml.crypto.dsig.TransformService getInstance(java.lang.String, java.lang.String, java.security.Provider)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.dsig.XMLSignatureFactory javax.xml.crypto.dsig.XMLSignatureFactory getInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.dsig.XMLSignatureFactory javax.xml.crypto.dsig.XMLSignatureFactory getInstance(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.dsig.XMLSignatureFactory javax.xml.crypto.dsig.XMLSignatureFactory getInstance(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.dsig.XMLSignatureFactory javax.xml.crypto.dsig.XMLSignatureFactory getInstance(java.lang.String, java.security.Provider)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.dsig.XMLSignatureFactory javax.xml.crypto.dsig.keyinfo.KeyInfoFactory getKeyInfoFactory()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

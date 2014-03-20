@@ -1,0 +1,8 @@
+<root>
+    <item name='javax.security.auth.kerberos.KrbDelegationPermissionCollection serialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.security.auth.kerberos.KrbServicePermissionCollection serialPersistentFields'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

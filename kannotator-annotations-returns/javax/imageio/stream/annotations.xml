@@ -1,0 +1,5 @@
+<root>
+    <item name='javax.imageio.stream.ImageInputStreamImpl java.lang.String readUTF()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

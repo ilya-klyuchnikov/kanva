@@ -1,0 +1,23 @@
+<root>
+    <item name='javax.xml.crypto.dsig.spec.ExcC14NParameterSpec DEFAULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.dsig.spec.XPathFilter2ParameterSpec xPathList'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.dsig.spec.XPathType.Filter INTERSECT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.dsig.spec.XPathType.Filter SUBTRACT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.dsig.spec.XPathType.Filter UNION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.dsig.spec.XPathType expression'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.crypto.dsig.spec.XPathType filter'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,5 @@
+<root>
+    <item name='javax.xml.crypto.dom.DOMStructure node'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

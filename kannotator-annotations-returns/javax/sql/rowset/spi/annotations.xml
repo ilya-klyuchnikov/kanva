@@ -1,0 +1,17 @@
+<root>
+    <item name='javax.sql.rowset.spi.SyncFactory java.util.logging.Logger getLogger()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sql.rowset.spi.SyncFactory java.lang.String[] getPropertyNames(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sql.rowset.spi.SyncFactory java.lang.String[] getPropertyNames(boolean, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sql.rowset.spi.SyncFactory javax.sql.rowset.spi.SyncFactory getSyncFactory()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sql.rowset.spi.SyncFactory java.util.Properties parseJNDIContext()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

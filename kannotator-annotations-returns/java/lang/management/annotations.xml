@@ -1,0 +1,80 @@
+<root>
+    <item name='java.lang.management.LockInfo java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.ManagementFactory java.util.List&lt;java.lang.management.GarbageCollectorMXBean&gt; getGarbageCollectorMXBeans()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.ManagementFactory java.util.List&lt;java.lang.management.MemoryManagerMXBean&gt; getMemoryManagerMXBeans()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.ManagementFactory java.util.List&lt;java.lang.management.MemoryPoolMXBean&gt; getMemoryPoolMXBeans()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.ManagementFactory java.util.List&lt;T&gt; getPlatformMXBeans(java.lang.Class&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.ManagementFactory java.util.List&lt;T&gt; getPlatformMXBeans(javax.management.MBeanServerConnection, java.lang.Class&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.ManagementFactory java.util.Set&lt;java.lang.Class&lt;? extends java.lang.management.PlatformManagedObject&gt;&gt; getPlatformManagementInterfaces()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.MemoryNotificationInfo java.lang.String getPoolName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.MemoryType java.lang.management.MemoryType valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.MemoryUsage java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent.12 java.util.List&lt;com.sun.management.GarbageCollectorMXBean&gt; getMXBeans()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent.15 java.util.List&lt;com.sun.management.HotSpotDiagnosticMXBean&gt; getMXBeans()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent.1 java.util.List&lt;java.lang.management.ClassLoadingMXBean&gt; getMXBeans()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent.3 java.util.List&lt;java.lang.management.MemoryMXBean&gt; getMXBeans()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent.4 java.util.List&lt;java.lang.management.GarbageCollectorMXBean&gt; getMXBeans()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent.5 java.util.List&lt;java.lang.management.MemoryManagerMXBean&gt; getMXBeans()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent.6 java.util.List&lt;java.lang.management.MemoryPoolMXBean&gt; getMXBeans()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent.7 java.util.List&lt;java.lang.management.OperatingSystemMXBean&gt; getMXBeans()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent.8 java.util.List&lt;java.lang.management.RuntimeMXBean&gt; getMXBeans()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent.9 java.util.List&lt;java.lang.management.ThreadMXBean&gt; getMXBeans()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent java.util.List access$000(java.lang.Class)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent java.util.List&lt;T&gt; getGcMXBeanList(java.lang.Class&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent java.util.List&lt;T&gt; getMXBeans(javax.management.MBeanServerConnection, java.lang.Class&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent java.util.Set&lt;java.lang.String&gt; keyProperties(java.lang.String...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.PlatformComponent java.lang.management.PlatformComponent valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.lang.management.ThreadInfo java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

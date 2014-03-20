@@ -1,0 +1,260 @@
+<root>
+    <item name='org.jcp.xml.dsig.internal.dom.ApacheCanonicalizer javax.xml.crypto.Data canonicalize(javax.xml.crypto.Data, javax.xml.crypto.XMLCryptoContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.ApacheCanonicalizer javax.xml.crypto.Data canonicalize(javax.xml.crypto.Data, javax.xml.crypto.XMLCryptoContext, java.io.OutputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.ApacheNodeSetData java.util.Set getNodeSet(java.util.List)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMCryptoBinary java.math.BigInteger getBigNum()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMDigestMethod.SHA1 java.lang.String getAlgorithm()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMDigestMethod.SHA1 java.lang.String getMessageDigestAlgorithm()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMDigestMethod.SHA256 java.lang.String getAlgorithm()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMDigestMethod.SHA256 java.lang.String getMessageDigestAlgorithm()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMDigestMethod.SHA384 java.lang.String getAlgorithm()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMDigestMethod.SHA384 java.lang.String getMessageDigestAlgorithm()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMDigestMethod.SHA512 java.lang.String getAlgorithm()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMDigestMethod.SHA512 java.lang.String getMessageDigestAlgorithm()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMDigestMethod javax.xml.crypto.dsig.DigestMethod unmarshal(org.w3c.dom.Element)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMExcC14NMethod java.lang.String getParamsNSURI()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMHMACSignatureMethod.SHA1 java.lang.String getAlgorithm()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMHMACSignatureMethod.SHA1 java.lang.String getSignatureAlgorithm()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMHMACSignatureMethod.SHA256 java.lang.String getAlgorithm()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMHMACSignatureMethod.SHA256 java.lang.String getSignatureAlgorithm()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMHMACSignatureMethod.SHA384 java.lang.String getAlgorithm()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMHMACSignatureMethod.SHA384 java.lang.String getSignatureAlgorithm()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMHMACSignatureMethod.SHA512 java.lang.String getAlgorithm()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMHMACSignatureMethod.SHA512 java.lang.String getSignatureAlgorithm()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMHMACSignatureMethod javax.xml.crypto.dsig.spec.SignatureMethodParameterSpec unmarshalParams(org.w3c.dom.Element)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMKeyInfo java.util.List getContent()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMKeyInfoFactory javax.xml.crypto.dsig.keyinfo.KeyInfo newKeyInfo(java.util.List)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMKeyInfoFactory javax.xml.crypto.dsig.keyinfo.KeyInfo newKeyInfo(java.util.List, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMKeyInfoFactory javax.xml.crypto.dsig.keyinfo.KeyName newKeyName(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMKeyInfoFactory javax.xml.crypto.dsig.keyinfo.KeyValue newKeyValue(java.security.PublicKey)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMKeyInfoFactory javax.xml.crypto.dsig.keyinfo.PGPData newPGPData(byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMKeyInfoFactory javax.xml.crypto.dsig.keyinfo.PGPData newPGPData(byte[], java.util.List)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMKeyInfoFactory javax.xml.crypto.dsig.keyinfo.PGPData newPGPData(byte[], byte[], java.util.List)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMKeyInfoFactory javax.xml.crypto.dsig.keyinfo.RetrievalMethod newRetrievalMethod(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMKeyInfoFactory javax.xml.crypto.dsig.keyinfo.RetrievalMethod newRetrievalMethod(java.lang.String, java.lang.String, java.util.List)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMKeyInfoFactory javax.xml.crypto.dsig.keyinfo.X509Data newX509Data(java.util.List)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMKeyInfoFactory javax.xml.crypto.dsig.keyinfo.X509IssuerSerial newX509IssuerSerial(java.lang.String, java.math.BigInteger)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMKeyInfoFactory javax.xml.crypto.dsig.keyinfo.KeyInfo unmarshalKeyInfo(javax.xml.crypto.XMLStructure)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMManifest java.util.List getReferences()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMReference javax.xml.crypto.dsig.DigestMethod getDigestMethod()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMReference java.util.List getTransforms()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMSignatureMethod.SHA1withDSA java.lang.String getAlgorithm()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMSignatureMethod.SHA1withDSA java.lang.String getSignatureAlgorithm()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMSignatureMethod.SHA1withRSA java.lang.String getAlgorithm()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMSignatureMethod.SHA1withRSA java.lang.String getSignatureAlgorithm()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMSignatureMethod.SHA256withRSA java.lang.String getAlgorithm()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMSignatureMethod.SHA256withRSA java.lang.String getSignatureAlgorithm()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMSignatureMethod.SHA384withRSA java.lang.String getAlgorithm()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMSignatureMethod.SHA384withRSA java.lang.String getSignatureAlgorithm()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMSignatureMethod.SHA512withRSA java.lang.String getAlgorithm()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMSignatureMethod.SHA512withRSA java.lang.String getSignatureAlgorithm()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMSignatureMethod byte[] convertASN1toXMLDSIG(byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMSignatureMethod byte[] convertXMLDSIGtoASN1(byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMSignatureMethod javax.xml.crypto.dsig.SignatureMethod unmarshal(org.w3c.dom.Element)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMSignatureProperties java.util.List getProperties()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMSignatureProperty java.util.List getContent()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMSubTreeData.DelayedNodeIterator java.util.List dereferenceSameDocumentURI(org.w3c.dom.Node)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMURIDereferencer javax.xml.crypto.Data dereference(javax.xml.crypto.URIReference, javax.xml.crypto.XMLCryptoContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMUtils.NodeSet java.util.Iterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMUtils java.util.Set nodeSet(org.w3c.dom.NodeList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMX509Data java.util.List getContent()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMX509Data java.io.ByteArrayInputStream unmarshalBase64Binary(org.w3c.dom.Element)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMX509IssuerSerial java.math.BigInteger getSerialNumber()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMXMLSignatureFactory javax.xml.crypto.URIDereferencer getURIDereferencer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMXMLSignatureFactory javax.xml.crypto.dsig.CanonicalizationMethod newCanonicalizationMethod(java.lang.String, javax.xml.crypto.XMLStructure)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMXMLSignatureFactory javax.xml.crypto.dsig.CanonicalizationMethod newCanonicalizationMethod(java.lang.String, javax.xml.crypto.dsig.spec.C14NMethodParameterSpec)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMXMLSignatureFactory javax.xml.crypto.dsig.DigestMethod newDigestMethod(java.lang.String, javax.xml.crypto.dsig.spec.DigestMethodParameterSpec)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMXMLSignatureFactory javax.xml.crypto.dsig.Manifest newManifest(java.util.List)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMXMLSignatureFactory javax.xml.crypto.dsig.Manifest newManifest(java.util.List, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMXMLSignatureFactory javax.xml.crypto.dsig.Reference newReference(java.lang.String, javax.xml.crypto.dsig.DigestMethod)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMXMLSignatureFactory javax.xml.crypto.dsig.Reference newReference(java.lang.String, javax.xml.crypto.dsig.DigestMethod, java.util.List, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMXMLSignatureFactory javax.xml.crypto.dsig.Reference newReference(java.lang.String, javax.xml.crypto.dsig.DigestMethod, java.util.List, java.lang.String, java.lang.String, byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMXMLSignatureFactory javax.xml.crypto.dsig.Reference newReference(java.lang.String, javax.xml.crypto.dsig.DigestMethod, java.util.List, javax.xml.crypto.Data, java.util.List, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMXMLSignatureFactory javax.xml.crypto.dsig.SignatureMethod newSignatureMethod(java.lang.String, javax.xml.crypto.dsig.spec.SignatureMethodParameterSpec)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMXMLSignatureFactory javax.xml.crypto.dsig.SignatureProperties newSignatureProperties(java.util.List, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMXMLSignatureFactory javax.xml.crypto.dsig.SignatureProperty newSignatureProperty(java.util.List, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMXMLSignatureFactory javax.xml.crypto.dsig.SignedInfo newSignedInfo(javax.xml.crypto.dsig.CanonicalizationMethod, javax.xml.crypto.dsig.SignatureMethod, java.util.List)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMXMLSignatureFactory javax.xml.crypto.dsig.SignedInfo newSignedInfo(javax.xml.crypto.dsig.CanonicalizationMethod, javax.xml.crypto.dsig.SignatureMethod, java.util.List, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMXMLSignatureFactory javax.xml.crypto.dsig.Transform newTransform(java.lang.String, javax.xml.crypto.XMLStructure)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMXMLSignatureFactory javax.xml.crypto.dsig.Transform newTransform(java.lang.String, javax.xml.crypto.dsig.spec.TransformParameterSpec)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMXMLSignatureFactory javax.xml.crypto.dsig.XMLObject newXMLObject(java.util.List, java.lang.String, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMXMLSignatureFactory javax.xml.crypto.dsig.XMLSignature newXMLSignature(javax.xml.crypto.dsig.SignedInfo, javax.xml.crypto.dsig.keyinfo.KeyInfo)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMXMLSignatureFactory javax.xml.crypto.dsig.XMLSignature newXMLSignature(javax.xml.crypto.dsig.SignedInfo, javax.xml.crypto.dsig.keyinfo.KeyInfo, java.util.List, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMXMLSignatureFactory javax.xml.crypto.dsig.XMLSignature unmarshal(org.w3c.dom.Node, javax.xml.crypto.dsig.XMLValidateContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMXMLSignatureFactory javax.xml.crypto.dsig.XMLSignature unmarshalXMLSignature(javax.xml.crypto.XMLStructure)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.DOMXMLSignatureFactory javax.xml.crypto.dsig.XMLSignature unmarshalXMLSignature(javax.xml.crypto.dsig.XMLValidateContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.Utils byte[] readBytesFromStream(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jcp.xml.dsig.internal.dom.Utils java.util.Set toNodeSet(java.util.Iterator)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

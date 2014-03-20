@@ -1,0 +1,53 @@
+<root>
+    <item name='java.util.prefs.AbstractPreferences EMPTY_ABSTRACT_PREFS_ARRAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences EMPTY_STRING_ARRAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences absolutePath'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences eventQueue'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences lock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.AbstractPreferences name'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.Base64 altBase64ToInt'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.Base64 base64ToInt'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.Base64 intToAltBase64'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.Base64 intToBase64'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences WINDOWS_ROOT_PATH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences systemRoot'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.WindowsPreferences userRoot'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.XmlSupport EXTERNAL_XML_VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.XmlSupport MAP_XML_VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.XmlSupport PREFS_DTD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.prefs.XmlSupport PREFS_DTD_URI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

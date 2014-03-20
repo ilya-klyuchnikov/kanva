@@ -1,0 +1,47 @@
+<root>
+    <item name='javax.print.MimeType.ParameterMapEntrySet java.util.Iterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.MimeType.ParameterMapEntrySetIterator java.lang.Object next()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.MimeType java.lang.String addQuotes(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.MimeType java.lang.String removeBackslashes(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.MimeType java.lang.String toUnicodeLowerCase(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.PrintServiceLookup java.util.ArrayList getAllLookupServices()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.PrintServiceLookup java.util.ArrayList getMultiDocServices(javax.print.DocFlavor[], javax.print.attribute.AttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.PrintServiceLookup java.util.ArrayList getServices(javax.print.DocFlavor, javax.print.attribute.AttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.PrintServiceLookup javax.print.PrintServiceLookup.Services getServicesForContext()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.PrintServiceLookup java.util.ArrayList initListOfLookupServices()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.PrintServiceLookup java.util.ArrayList initRegisteredServices()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.StreamPrintServiceFactory java.util.ArrayList getAllFactories()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.StreamPrintServiceFactory java.util.ArrayList getFactories(javax.print.DocFlavor, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.StreamPrintServiceFactory javax.print.StreamPrintServiceFactory.Services getServices()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.print.StreamPrintServiceFactory java.util.ArrayList initListOfFactories()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

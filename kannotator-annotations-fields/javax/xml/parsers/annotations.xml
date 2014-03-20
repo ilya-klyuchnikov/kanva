@@ -1,0 +1,8 @@
+<root>
+    <item name='javax.xml.parsers.DocumentBuilderFactory DEFAULT_PROPERTY_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.parsers.SAXParserFactory DEFAULT_PROPERTY_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

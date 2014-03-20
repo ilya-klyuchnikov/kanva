@@ -1,0 +1,17 @@
+<root>
+    <item name='java.nio.channels.spi.AbstractInterruptibleChannel closeLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.channels.spi.AbstractSelectableChannel keyLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.channels.spi.AbstractSelectableChannel regLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.channels.spi.AbstractSelector cancelledKeys'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.nio.channels.spi.SelectorProvider lock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

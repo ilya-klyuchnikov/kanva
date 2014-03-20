@@ -1,0 +1,26 @@
+<root>
+    <item name='org.omg.CosNaming.BindingHelper org.omg.CosNaming.Binding extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.CosNaming.BindingHelper org.omg.CosNaming.Binding read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.CosNaming.BindingListHelper org.omg.CosNaming.Binding[] extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.CosNaming.BindingListHelper org.omg.CosNaming.Binding[] read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.CosNaming.NameComponentHelper org.omg.CosNaming.NameComponent extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.CosNaming.NameComponentHelper org.omg.CosNaming.NameComponent read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.CosNaming.NameHelper org.omg.CosNaming.NameComponent[] extract(org.omg.CORBA.Any)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.omg.CosNaming.NameHelper org.omg.CosNaming.NameComponent[] read(org.omg.CORBA.portable.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

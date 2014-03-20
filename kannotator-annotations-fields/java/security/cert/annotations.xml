@@ -1,0 +1,110 @@
+<root>
+    <item name='java.security.cert.CRLReason $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CRLReason AA_COMPROMISE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CRLReason AFFILIATION_CHANGED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CRLReason CA_COMPROMISE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CRLReason CERTIFICATE_HOLD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CRLReason CESSATION_OF_OPERATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CRLReason KEY_COMPROMISE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CRLReason PRIVILEGE_WITHDRAWN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CRLReason REMOVE_FROM_CRL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CRLReason SUPERSEDED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CRLReason UNSPECIFIED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CRLReason UNUSED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertPathBuilder CPB_TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertPathValidator CPV_TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertPathValidatorException.BasicReason $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertPathValidatorException.BasicReason ALGORITHM_CONSTRAINED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertPathValidatorException.BasicReason EXPIRED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertPathValidatorException.BasicReason INVALID_SIGNATURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertPathValidatorException.BasicReason NOT_YET_VALID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertPathValidatorException.BasicReason REVOKED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertPathValidatorException.BasicReason UNDETERMINED_REVOCATION_STATUS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertPathValidatorException.BasicReason UNSPECIFIED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertStore CERTSTORE_TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertificateRevokedException authority'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.CertificateRevokedException reason'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.PKIXReason $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.PKIXReason INVALID_KEY_USAGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.PKIXReason INVALID_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.PKIXReason INVALID_POLICY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.PKIXReason NAME_CHAINING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.PKIXReason NOT_CA_CERT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.PKIXReason NO_TRUST_ANCHOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.PKIXReason PATH_TOO_LONG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.PKIXReason UNRECOGNIZED_CRIT_EXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.X509CertSelector ANY_EXTENDED_KEY_USAGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.security.cert.X509CertSelector EXTENSION_OIDS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

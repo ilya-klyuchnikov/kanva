@@ -1,0 +1,65 @@
+<root>
+    <item name='javax.smartcardio.CardPermission ARRAY_MASKS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.CardPermission ARRAY_STRINGS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.CardPermission S_ALL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.CardPermission S_CONNECT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.CardPermission S_EXCLUSIVE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.CardPermission S_GET_BASIC_CHANNEL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.CardPermission S_OPEN_LOGICAL_CHANNEL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.CardPermission S_RESET'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.CardPermission S_TRANSMIT_CONTROL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.CardTerminals.State $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.CardTerminals.State ALL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.CardTerminals.State CARD_ABSENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.CardTerminals.State CARD_INSERTION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.CardTerminals.State CARD_PRESENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.CardTerminals.State CARD_REMOVAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.TerminalFactory.NoneCardTerminals INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.TerminalFactory.NoneFactorySpi INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.TerminalFactory.NoneProvider INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.TerminalFactory PROP_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.TerminalFactory defaultFactory'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.smartcardio.TerminalFactory defaultType'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

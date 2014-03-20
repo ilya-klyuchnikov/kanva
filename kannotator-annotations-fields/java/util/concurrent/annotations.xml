@@ -1,0 +1,269 @@
+<root>
+    <item name='java.util.concurrent.ArrayBlockingQueue.Itr this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ArrayBlockingQueue items'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ArrayBlockingQueue lock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ArrayBlockingQueue notEmpty'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ArrayBlockingQueue notFull'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ConcurrentHashMap.EntryIterator this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ConcurrentHashMap.HashIterator this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ConcurrentHashMap.KeyIterator this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ConcurrentHashMap.ValueIterator this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ConcurrentHashMap segments'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ConcurrentLinkedDeque NEXT_TERMINATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ConcurrentLinkedDeque PREV_TERMINATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ConcurrentSkipListMap.EntryIterator this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ConcurrentSkipListMap.Iter this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ConcurrentSkipListMap.KeyIterator this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ConcurrentSkipListMap.SubMap.SubMapEntryIterator this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ConcurrentSkipListMap.SubMap.SubMapIter this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ConcurrentSkipListMap.SubMap.SubMapKeyIterator this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ConcurrentSkipListMap.SubMap.SubMapValueIterator this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ConcurrentSkipListMap.ValueIterator this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ConcurrentSkipListMap BASE_HEADER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ConcurrentSkipListMap seedGenerator'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.CopyOnWriteArrayList lock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.CopyOnWriteArraySet al'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.CountDownLatch sync'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.CyclicBarrier lock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.CyclicBarrier trip'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.DelayQueue available'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.DelayQueue lock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.DelayQueue q'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.Exchanger CANCEL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.Exchanger NULL_ITEM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.Exchanger max'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ExecutorCompletionService.QueueingFuture task'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ExecutorCompletionService completionQueue'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ExecutorCompletionService executor'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.Executors.DefaultThreadFactory namePrefix'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.Executors.DefaultThreadFactory poolNumber'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.Executors.DefaultThreadFactory threadNumber'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ForkJoinPool defaultForkJoinWorkerThreadFactory'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ForkJoinPool factory'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ForkJoinPool modifyThreadPermission'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ForkJoinPool poolNumberGenerator'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ForkJoinPool submissionLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ForkJoinPool termination'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ForkJoinPool workerNamePrefix'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ForkJoinPool workerSeedGenerator'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ForkJoinTask.AdaptedCallable callable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ForkJoinTask.AdaptedRunnable runnable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ForkJoinTask exceptionTable'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ForkJoinTask exceptionTableLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ForkJoinTask exceptionTableRefQueue'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ForkJoinWorkerThread pool'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.FutureTask sync'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.LinkedBlockingDeque.AbstractItr this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.LinkedBlockingDeque.DescendingItr this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.LinkedBlockingDeque.Itr this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.LinkedBlockingDeque lock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.LinkedBlockingDeque notEmpty'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.LinkedBlockingDeque notFull'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.LinkedBlockingQueue.Itr this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.LinkedBlockingQueue count'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.LinkedBlockingQueue notEmpty'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.LinkedBlockingQueue notFull'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.LinkedBlockingQueue putLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.LinkedBlockingQueue takeLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.PriorityBlockingQueue lock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.PriorityBlockingQueue notEmpty'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ScheduledThreadPoolExecutor.DelayedWorkQueue available'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ScheduledThreadPoolExecutor.DelayedWorkQueue lock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ScheduledThreadPoolExecutor sequencer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.Semaphore sync'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ThreadLocalRandom localRandom'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ThreadPoolExecutor.Worker this$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ThreadPoolExecutor ctl'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ThreadPoolExecutor defaultHandler'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ThreadPoolExecutor mainLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ThreadPoolExecutor shutdownPerm'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ThreadPoolExecutor termination'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ThreadPoolExecutor workQueue'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.ThreadPoolExecutor workers'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.TimeUnit $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.TimeUnit DAYS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.TimeUnit HOURS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.TimeUnit MICROSECONDS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.TimeUnit MILLISECONDS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.TimeUnit MINUTES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.TimeUnit NANOSECONDS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.TimeUnit SECONDS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

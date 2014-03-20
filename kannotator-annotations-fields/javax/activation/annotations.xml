@@ -1,0 +1,11 @@
+<root>
+    <item name='javax.activation.DataHandler emptyFlavors'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.activation.MimeType TSPECIALS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.activation.MimeTypeParameterList TSPECIALS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

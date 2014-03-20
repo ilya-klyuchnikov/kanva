@@ -1,0 +1,14 @@
+<root>
+    <item name='java.util.concurrent.atomic.AtomicIntegerFieldUpdater.AtomicIntegerFieldUpdaterImpl tclass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.atomic.AtomicLongFieldUpdater.CASUpdater tclass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.atomic.AtomicLongFieldUpdater.LockedUpdater tclass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.atomic.AtomicReferenceFieldUpdater.AtomicReferenceFieldUpdaterImpl tclass'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

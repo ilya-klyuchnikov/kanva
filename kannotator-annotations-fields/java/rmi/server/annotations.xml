@@ -1,0 +1,26 @@
+<root>
+    <item name='java.rmi.server.LoaderHandler packagePrefix'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.ObjID mySpace'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.ObjID nextObjNum'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.ObjID secureRandom'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.RMIClassLoader defaultProvider'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.RemoteObjectInvocationHandler methodToHash_Maps'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.RemoteRef packagePrefix'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.rmi.server.UID lock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

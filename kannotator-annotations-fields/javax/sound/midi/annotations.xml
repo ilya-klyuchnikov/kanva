@@ -1,0 +1,14 @@
+<root>
+    <item name='javax.sound.midi.Sequencer.SyncMode INTERNAL_CLOCK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.midi.Sequencer.SyncMode MIDI_SYNC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.midi.Sequencer.SyncMode MIDI_TIME_CODE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.sound.midi.Sequencer.SyncMode NO_SYNC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

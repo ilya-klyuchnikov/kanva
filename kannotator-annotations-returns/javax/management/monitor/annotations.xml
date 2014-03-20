@@ -1,0 +1,29 @@
+<root>
+    <item name='javax.management.monitor.CounterMonitor javax.management.monitor.Monitor.ObservedObject createObservedObject(javax.management.ObjectName)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.GaugeMonitor javax.management.monitor.Monitor.ObservedObject createObservedObject(javax.management.ObjectName)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.Monitor.DaemonThreadFactory java.lang.Thread newThread(java.lang.Runnable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.Monitor.NumericalType javax.management.monitor.Monitor.NumericalType valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.Monitor javax.management.monitor.Monitor.SchedulerTask access$700(javax.management.monitor.Monitor)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.Monitor java.lang.Class&lt;? extends java.lang.Number&gt; classForType(javax.management.monitor.Monitor.NumericalType)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.Monitor javax.management.monitor.Monitor.ObservedObject createObservedObject(javax.management.ObjectName)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.Monitor javax.management.ObjectName[] getObservedObjects()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.management.monitor.StringMonitor javax.management.monitor.Monitor.ObservedObject createObservedObject(javax.management.ObjectName)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

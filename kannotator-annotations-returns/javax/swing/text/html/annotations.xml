@@ -1,0 +1,392 @@
+<root>
+    <item name='javax.swing.text.html.AccessibleHTML.HTMLAccessibleContext javax.accessibility.AccessibleComponent getAccessibleComponent()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.AccessibleHTML.HTMLAccessibleContext javax.accessibility.AccessibleContext getAccessibleContext()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.AccessibleHTML.HTMLAccessibleContext javax.accessibility.AccessibleStateSet getAccessibleStateSet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.AccessibleHTML.IconElementInfo.IconAccessibleContext javax.accessibility.AccessibleIcon[] getAccessibleIcon()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.AccessibleHTML.IconElementInfo.IconAccessibleContext javax.accessibility.AccessibleRole getAccessibleRole()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.AccessibleHTML.RootHTMLAccessibleContext javax.accessibility.AccessibleRole getAccessibleRole()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.AccessibleHTML.TableElementInfo.TableAccessibleContext.AccessibleHeadersTable int[] getSelectedAccessibleColumns()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.AccessibleHTML.TableElementInfo.TableAccessibleContext.AccessibleHeadersTable int[] getSelectedAccessibleRows()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.AccessibleHTML.TableElementInfo.TableAccessibleContext javax.accessibility.AccessibleComponent getAccessibleComponent()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.AccessibleHTML.TableElementInfo.TableAccessibleContext javax.accessibility.AccessibleContext getAccessibleContext()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.AccessibleHTML.TableElementInfo.TableAccessibleContext javax.accessibility.AccessibleRole getAccessibleRole()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.AccessibleHTML.TableElementInfo.TableAccessibleContext javax.accessibility.AccessibleStateSet getAccessibleStateSet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.AccessibleHTML.TableElementInfo.TableAccessibleContext javax.accessibility.AccessibleTable getAccessibleTable()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.AccessibleHTML.TableElementInfo.TableAccessibleContext int[] getSelectedAccessibleColumns()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.AccessibleHTML.TableElementInfo.TableAccessibleContext int[] getSelectedAccessibleRows()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.AccessibleHTML.TextElementInfo.TextAccessibleContext javax.accessibility.AccessibleComponent getAccessibleComponent()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.AccessibleHTML.TextElementInfo.TextAccessibleContext javax.accessibility.AccessibleContext getAccessibleContext()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.AccessibleHTML.TextElementInfo.TextAccessibleContext javax.accessibility.AccessibleRole getAccessibleRole()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.AccessibleHTML.TextElementInfo.TextAccessibleContext javax.accessibility.AccessibleStateSet getAccessibleStateSet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.AccessibleHTML.TextElementInfo.TextAccessibleContext javax.accessibility.AccessibleText getAccessibleText()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.BlockView javax.swing.SizeRequirements calculateMajorAxisRequirements(int, javax.swing.SizeRequirements)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.BlockView javax.swing.SizeRequirements calculateMinorAxisRequirements(int, javax.swing.SizeRequirements)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.CSS.BackgroundImage java.lang.Object parseCssValue(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.CSS.BackgroundImage java.lang.Object parseHtmlValue(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.CSS.BackgroundPosition java.lang.Object parseCssValue(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.CSS.ColorValue java.lang.Object fromStyleConstants(javax.swing.text.StyleConstants, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.CSS.FontFamily java.lang.Object fromStyleConstants(javax.swing.text.StyleConstants, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.CSS.FontFamily java.lang.Object parseCssValue(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.CSS.FontFamily java.lang.Object parseHtmlValue(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.CSS.LengthUnit java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.CSS.LengthValue java.lang.Object fromStyleConstants(javax.swing.text.StyleConstants, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.CSS.LengthValue java.lang.Object toStyleConstants(javax.swing.text.StyleConstants, javax.swing.text.View)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.CSS.StringValue java.lang.Object parseCssValue(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.CSS javax.swing.SizeRequirements calculateTiledRequirements(javax.swing.text.html.CSS.LayoutIterator, javax.swing.SizeRequirements)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.CSS java.lang.String colorToHex(java.awt.Color)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.CSS javax.swing.text.html.CSS.Attribute[] getAllAttributeKeys()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.CSS java.awt.Font getFont(javax.swing.text.StyleContext, javax.swing.text.AttributeSet, int, javax.swing.text.html.StyleSheet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.CSS java.awt.Color parseRGB(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.CSS java.lang.String[] parseStrings(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.CSS javax.swing.text.AttributeSet translateHTMLToCSS(javax.swing.text.AttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.CSSBorder.ShadowLightPainter java.awt.Color getLightColor(java.awt.Color)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.CSSBorder.ShadowLightPainter java.awt.Color getShadowColor(java.awt.Color)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.CSSBorder java.awt.Color getAdjustedColor(java.awt.Color, double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.CSSBorder java.awt.Insets getBorderInsets(java.awt.Component, java.awt.Insets)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.CSSBorder int[] getWidths()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.CommentView.CommentBorder java.awt.Insets getBorderInsets(java.awt.Component, java.awt.Insets)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.CommentView java.lang.String getRepresentedText()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.FormSubmitEvent.MethodType javax.swing.text.html.FormSubmitEvent.MethodType valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.FormView java.lang.String access$000(javax.swing.text.html.FormView, java.awt.Point)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.FormView java.lang.String getImageData(java.awt.Point)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.FrameSetView javax.swing.SizeRequirements[] getChildRequests(int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.FrameSetView java.lang.String[] parseRowColSpec(javax.swing.text.html.HTML.Attribute)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HTML javax.swing.text.html.HTML.Attribute[] getAllAttributeKeys()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HTML javax.swing.text.html.HTML.Tag[] getAllTags()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HTMLDocument.BlockElement java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HTMLDocument.HTMLReader javax.swing.text.Element[] getPathTo(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HTMLDocument.RunElement java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HTMLDocument javax.swing.text.Element createBranchElement(javax.swing.text.Element, javax.swing.text.AttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HTMLDocument javax.swing.text.AbstractDocument.AbstractElement createDefaultRoot()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HTMLDocument javax.swing.text.Element createLeafElement(javax.swing.text.Element, javax.swing.text.AttributeSet, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HTMLDocument java.lang.String getDefaultStyleSheetType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HTMLDocument javax.swing.text.html.HTMLEditorKit.ParserCallback getReader(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HTMLDocument javax.swing.text.html.HTMLEditorKit.ParserCallback getReader(int, int, int, javax.swing.text.html.HTML.Tag)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HTMLDocument javax.swing.text.html.HTMLEditorKit.ParserCallback getReader(int, int, int, javax.swing.text.html.HTML.Tag, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HTMLEditorKit.HTMLFactory.BodyBlockView javax.swing.SizeRequirements calculateMajorAxisRequirements(int, javax.swing.SizeRequirements)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HTMLEditorKit.HTMLFactory javax.swing.text.View create(javax.swing.text.Element)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HTMLEditorKit.HTMLTextAction javax.swing.text.Element[] getElementsAt(javax.swing.text.Element, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HTMLEditorKit.HTMLTextAction javax.swing.text.Element[] getElementsAt(javax.swing.text.html.HTMLDocument, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HTMLEditorKit.HTMLTextAction javax.swing.text.html.HTMLDocument getHTMLDocument(javax.swing.JEditorPane)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HTMLEditorKit.HTMLTextAction javax.swing.text.html.HTMLEditorKit getHTMLEditorKit(javax.swing.JEditorPane)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HTMLEditorKit.LinkController javax.swing.event.HyperlinkEvent createHyperlinkEvent(javax.swing.JEditorPane, javax.swing.text.html.HTMLDocument, java.lang.String, javax.swing.text.AttributeSet, javax.swing.text.Element, java.awt.event.MouseEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HTMLEditorKit java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HTMLEditorKit javax.swing.text.Document createDefaultDocument()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HTMLEditorKit javax.swing.text.html.HTMLEditorKit.Parser ensureParser(javax.swing.text.html.HTMLDocument)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HTMLEditorKit javax.swing.Action[] getActions()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HTMLEditorKit java.lang.String getContentType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HTMLEditorKit javax.swing.text.html.StyleSheet getStyleSheet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HTMLWriter javax.swing.text.AttributeSet convertToHTML(javax.swing.text.AttributeSet, javax.swing.text.MutableAttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HiddenTagView.EndTagBorder java.awt.Insets getBorderInsets(java.awt.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HiddenTagView.StartTagBorder java.awt.Insets getBorderInsets(java.awt.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HiddenTagView java.awt.Component createComponent()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.HiddenTagView java.lang.String getRepresentedText()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.ImageView.ImageLabelView javax.swing.text.View breakView(int, int, float, float)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.IsindexView java.awt.Component createComponent()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.MuxingAttributeSet javax.swing.text.AttributeSet copyAttributes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.MuxingAttributeSet java.util.Enumeration getAttributeNames()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.ObjectView java.awt.Component createComponent()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.ObjectView java.awt.Component getUnloadableRepresentation()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.OptionListModel java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.OptionListModel java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.ParagraphView javax.swing.SizeRequirements calculateMinorAxisRequirements(int, javax.swing.SizeRequirements)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet.BoxPainter.HorizontalMargin javax.swing.text.html.StyleSheet.BoxPainter.HorizontalMargin valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet.BoxPainter javax.swing.border.Border getBorder(javax.swing.text.AttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet.ListPainter java.lang.String formatAlphaNumerals(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet.ListPainter java.lang.String formatItemNum(int, char)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet.ListPainter java.lang.String formatRomanDigit(int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet.ListPainter java.lang.String formatRomanNumerals(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet.ListPainter java.lang.String formatRomanNumerals(int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet.ResolvedStyle javax.swing.event.ChangeListener[] getChangeListeners()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet.SelectorMapping javax.swing.text.html.StyleSheet.SelectorMapping createChildSelectorMapping(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet java.lang.String _cleanSelectorString(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet javax.swing.text.AttributeSet addAttribute(javax.swing.text.AttributeSet, java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet javax.swing.text.AttributeSet addAttributes(javax.swing.text.AttributeSet, javax.swing.text.AttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet java.lang.String cleanSelectorString(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet javax.swing.text.AttributeSet convertAttributeSet(javax.swing.text.AttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet javax.swing.text.MutableAttributeSet createLargeAttributeSet(javax.swing.text.AttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet javax.swing.text.Style createResolvedStyle(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet javax.swing.text.Style createResolvedStyle(java.lang.String, java.util.Vector, javax.swing.text.html.HTML.Tag)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet javax.swing.text.Style createResolvedStyle(java.lang.String, java.lang.String[], java.lang.String[], java.lang.String[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet javax.swing.text.StyleContext.SmallAttributeSet createSmallAttributeSet(javax.swing.text.AttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet javax.swing.text.html.StyleSheet.BoxPainter getBoxPainter(javax.swing.text.AttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet java.awt.Font getFont(javax.swing.text.AttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet javax.swing.text.html.StyleSheet.ListPainter getListPainter(javax.swing.text.AttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet javax.swing.text.Style getResolvedStyle(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet javax.swing.text.Style getResolvedStyle(java.lang.String, java.util.Vector, javax.swing.text.html.HTML.Tag)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet javax.swing.text.Style getRule(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet javax.swing.text.Style getRule(javax.swing.text.html.HTML.Tag, javax.swing.text.Element)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet java.lang.String[] getSimpleSelectors(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet javax.swing.text.AttributeSet getViewAttributes(javax.swing.text.View)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet javax.swing.text.AttributeSet removeAttribute(javax.swing.text.AttributeSet, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet javax.swing.text.AttributeSet removeAttributes(javax.swing.text.AttributeSet, java.util.Enumeration&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet javax.swing.text.AttributeSet removeAttributes(javax.swing.text.AttributeSet, javax.swing.text.AttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.StyleSheet javax.swing.text.AttributeSet translateHTMLToCSS(javax.swing.text.AttributeSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.TableView.CellView javax.swing.SizeRequirements calculateMajorAxisRequirements(int, javax.swing.SizeRequirements)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.TableView.CellView javax.swing.SizeRequirements calculateMinorAxisRequirements(int, javax.swing.SizeRequirements)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.TableView.RowView javax.swing.SizeRequirements calculateMajorAxisRequirements(int, javax.swing.SizeRequirements)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.TableView.RowView javax.swing.SizeRequirements calculateMinorAxisRequirements(int, javax.swing.SizeRequirements)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.TableView javax.swing.SizeRequirements calculateMajorAxisRequirements(int, javax.swing.SizeRequirements)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.TableView javax.swing.SizeRequirements calculateMinorAxisRequirements(int, javax.swing.SizeRequirements)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.text.html.TableView javax.swing.text.ViewFactory getViewFactory()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

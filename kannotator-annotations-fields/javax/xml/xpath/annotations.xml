@@ -1,0 +1,32 @@
+<root>
+    <item name='javax.xml.xpath.XPathConstants BOOLEAN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.xpath.XPathConstants DOM_OBJECT_MODEL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.xpath.XPathConstants NODE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.xpath.XPathConstants NODESET'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.xpath.XPathConstants NUMBER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.xpath.XPathConstants STRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.xpath.XPathFactory DEFAULT_OBJECT_MODEL_URI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.xpath.XPathFactory DEFAULT_PROPERTY_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.xpath.XPathFactoryFinder SERVICE_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.xpath.XPathFactoryFinder SERVICE_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

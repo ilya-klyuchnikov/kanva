@@ -1,0 +1,5 @@
+<root>
+    <item name='java.awt.im.InputContext java.awt.im.InputContext getInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

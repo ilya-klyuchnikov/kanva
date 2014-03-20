@@ -1,0 +1,5 @@
+<root>
+    <item name='javax.sql.rowset.BaseRowSet java.lang.Object[] getParams()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,35 @@
+<root>
+    <item name='javax.xml.bind.helpers.Messages ERROR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.helpers.Messages FATAL_ERROR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.helpers.Messages ILLEGAL_SEVERITY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.helpers.Messages INPUTSTREAM_NOT_NULL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.helpers.Messages LOCATION_UNAVAILABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.helpers.Messages MUST_BE_BOOLEAN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.helpers.Messages MUST_BE_STRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.helpers.Messages MUST_NOT_BE_NULL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.helpers.Messages SEVERITY_MESSAGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.helpers.Messages UNRECOGNIZED_SEVERITY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.xml.bind.helpers.Messages WARNING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

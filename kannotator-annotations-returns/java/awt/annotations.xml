@@ -1,0 +1,929 @@
+<root>
+    <item name='java.awt.AWTEvent java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.AWTEvent java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.AWTKeyStroke java.awt.AWTKeyStroke getAWTKeyStroke(char)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.AWTKeyStroke java.awt.AWTKeyStroke getAWTKeyStroke(int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.AWTKeyStroke java.awt.AWTKeyStroke getAWTKeyStroke(int, int, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.AWTKeyStroke java.awt.AWTKeyStroke getAWTKeyStroke(java.lang.Character, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.AWTKeyStroke java.awt.AWTKeyStroke getAWTKeyStroke(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.AWTKeyStroke java.lang.Class getAWTKeyStrokeClass()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.AWTKeyStroke java.awt.AWTKeyStroke getCachedStroke(char, int, int, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.AWTKeyStroke java.lang.String getModifiersText(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.AWTKeyStroke java.lang.String getVKText(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.AWTKeyStroke java.lang.Object readResolve()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.AWTKeyStroke java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.AlphaComposite java.awt.CompositeContext createContext(java.awt.image.ColorModel, java.awt.image.ColorModel, java.awt.RenderingHints)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.BorderLayout java.awt.Dimension maximumLayoutSize(java.awt.Container)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.BorderLayout java.awt.Dimension minimumLayoutSize(java.awt.Container)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.BorderLayout java.awt.Dimension preferredLayoutSize(java.awt.Container)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.BorderLayout java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Button.AccessibleAWTButton javax.accessibility.AccessibleAction getAccessibleAction()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Button.AccessibleAWTButton javax.accessibility.AccessibleValue getAccessibleValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Button java.lang.String constructComponentName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Button java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Canvas java.lang.String constructComponentName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.CardLayout java.awt.Dimension maximumLayoutSize(java.awt.Container)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.CardLayout java.awt.Dimension minimumLayoutSize(java.awt.Container)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.CardLayout java.awt.Dimension preferredLayoutSize(java.awt.Container)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.CardLayout java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Checkbox.AccessibleAWTCheckbox javax.accessibility.AccessibleAction getAccessibleAction()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Checkbox.AccessibleAWTCheckbox javax.accessibility.AccessibleStateSet getAccessibleStateSet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Checkbox.AccessibleAWTCheckbox javax.accessibility.AccessibleValue getAccessibleValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Checkbox java.lang.String constructComponentName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Checkbox java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.CheckboxGroup java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.CheckboxMenuItem.AccessibleAWTCheckboxMenuItem javax.accessibility.AccessibleAction getAccessibleAction()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.CheckboxMenuItem.AccessibleAWTCheckboxMenuItem javax.accessibility.AccessibleValue getAccessibleValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.CheckboxMenuItem java.lang.String constructComponentName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.CheckboxMenuItem java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Choice.AccessibleAWTChoice javax.accessibility.AccessibleAction getAccessibleAction()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Choice java.lang.String constructComponentName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Choice java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Color float[] RGBtoHSB(int, int, int, float[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Color java.awt.Color brighter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Color java.awt.PaintContext createContext(java.awt.image.ColorModel, java.awt.Rectangle, java.awt.geom.Rectangle2D, java.awt.geom.AffineTransform, java.awt.RenderingHints)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Color java.awt.Color darker()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Color java.awt.Color decode(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Color java.awt.Color getColor(java.lang.String, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Color float[] getColorComponents(float[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Color float[] getComponents(java.awt.color.ColorSpace, float[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Color float[] getComponents(float[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Color java.awt.Color getHSBColor(float, float, float)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Color float[] getRGBColorComponents(float[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Color float[] getRGBComponents(float[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Color java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.ColorPaintContext java.awt.image.Raster getRaster(int, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component.1 java.awt.Rectangle getBounds(java.awt.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component.1 java.awt.Point getLocation(java.awt.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component.4 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component.AccessibleAWTComponent javax.accessibility.AccessibleComponent getAccessibleComponent()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component.AccessibleAWTComponent javax.accessibility.AccessibleRole getAccessibleRole()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component.AccessibleAWTComponent javax.accessibility.AccessibleStateSet getAccessibleStateSet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component.AccessibleAWTComponent java.awt.Rectangle getBounds()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component.AccessibleAWTComponent java.awt.Point getLocation()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component.AccessibleAWTComponent java.awt.Dimension getSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component.BaselineResizeBehavior java.awt.Component.BaselineResizeBehavior valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component java.awt.Point access$100(java.awt.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component java.awt.Rectangle bounds()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component javax.accessibility.AccessibleStateSet getAccessibleStateSet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component java.awt.Rectangle getBounds()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component java.awt.Rectangle getBounds(java.awt.Rectangle)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component java.awt.Point getLocation()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component java.awt.Point getLocation(java.awt.Point)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component java.awt.Point getLocationOnWindow()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component java.awt.Dimension getMaximumSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component java.awt.Dimension getMinimumSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component sun.java2d.pipe.Region getNormalShape()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component java.awt.Dimension getPreferredSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component java.awt.Dimension getSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component java.awt.Dimension getSize(java.awt.Dimension)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component java.awt.Point location()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component java.awt.Point location_NoClientCode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component java.awt.Dimension minimumSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component java.awt.Point pointRelativeToComponent(java.awt.Point)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component java.awt.Dimension preferredSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component java.awt.Dimension size()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Component java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Container java.awt.Component add(java.awt.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Container java.awt.Component add(java.awt.Component, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Container java.awt.Component add(java.lang.String, java.awt.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Container java.awt.Container findTraversalRoot()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Container java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.ContainerOrderFocusTraversalPolicy java.util.List&lt;java.awt.Component&gt; getFocusTraversalCycle(java.awt.Container)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Cursor java.awt.Cursor getDefaultCursor()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Cursor java.awt.Cursor getPredefinedCursor(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Cursor java.lang.String initCursorDir()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Cursor java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.DefaultKeyboardFocusManager.TypeAheadMarker java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Desktop.Action java.awt.Desktop.Action valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Desktop java.awt.Desktop getDesktop()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Dialog.ModalExclusionType java.awt.Dialog.ModalExclusionType valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Dialog.ModalityType java.awt.Dialog.ModalityType valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Dialog java.lang.String constructComponentName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Dialog java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Dimension java.awt.Dimension getSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Dimension java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Event java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Event java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.EventDispatchThread.HierarchyEventFilter java.awt.EventFilter.FilterAction acceptEvent(java.awt.AWTEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.EventDispatchThread java.awt.Conditional _macosxGetConditional(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.EventFilter.FilterAction java.awt.EventFilter.FilterAction valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.EventQueue.5 java.awt.EventDispatchThread run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.EventQueue.5 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.EventQueue java.awt.AWTEvent getNextEvent()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.FileDialog java.lang.String constructComponentName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.FileDialog java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.FlowLayout java.awt.Dimension minimumLayoutSize(java.awt.Container)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.FlowLayout java.awt.Dimension preferredLayoutSize(java.awt.Container)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.FlowLayout java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Font.2 java.io.OutputStream run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Font.2 java.lang.Object run()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Font java.awt.Font createFont(int, java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Font java.awt.Font createFont(int, java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Font java.awt.font.GlyphVector createGlyphVector(java.awt.font.FontRenderContext, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Font java.awt.font.GlyphVector createGlyphVector(java.awt.font.FontRenderContext, java.text.CharacterIterator)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Font java.awt.font.GlyphVector createGlyphVector(java.awt.font.FontRenderContext, char[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Font java.awt.font.GlyphVector createGlyphVector(java.awt.font.FontRenderContext, int[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Font java.awt.Font decode(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Font java.awt.Font deriveFont(float)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Font java.awt.Font deriveFont(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Font java.awt.Font deriveFont(int, float)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Font java.awt.Font deriveFont(int, java.awt.geom.AffineTransform)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Font java.awt.Font deriveFont(java.awt.geom.AffineTransform)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Font java.awt.Font deriveFont(java.util.Map&lt;? extends java.text.AttributedCharacterIterator.Attribute,?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Font java.util.Map&lt;java.awt.font.TextAttribute,?&gt; getAttributes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Font java.text.AttributedCharacterIterator.Attribute[] getAvailableAttributes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Font java.awt.font.LineMetrics getLineMetrics(java.lang.String, int, int, java.awt.font.FontRenderContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Font java.awt.font.LineMetrics getLineMetrics(java.lang.String, java.awt.font.FontRenderContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Font java.awt.font.LineMetrics getLineMetrics(java.text.CharacterIterator, int, int, java.awt.font.FontRenderContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Font java.awt.font.LineMetrics getLineMetrics(char[], int, int, java.awt.font.FontRenderContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Font java.awt.geom.Rectangle2D getMaxCharBounds(java.awt.font.FontRenderContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Font java.awt.geom.AffineTransform getTransform()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Font java.awt.font.GlyphVector layoutGlyphVector(java.awt.font.FontRenderContext, char[], int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Font java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.FontMetrics java.awt.font.LineMetrics getLineMetrics(java.lang.String, int, int, java.awt.Graphics)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.FontMetrics java.awt.font.LineMetrics getLineMetrics(java.lang.String, java.awt.Graphics)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.FontMetrics java.awt.font.LineMetrics getLineMetrics(java.text.CharacterIterator, int, int, java.awt.Graphics)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.FontMetrics java.awt.font.LineMetrics getLineMetrics(char[], int, int, java.awt.Graphics)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.FontMetrics java.awt.geom.Rectangle2D getMaxCharBounds(java.awt.Graphics)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.FontMetrics int[] getWidths()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.FontMetrics java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Frame java.lang.String constructComponentName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Frame java.awt.Frame[] getFrames()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GradientPaint java.awt.PaintContext createContext(java.awt.image.ColorModel, java.awt.Rectangle, java.awt.geom.Rectangle2D, java.awt.geom.AffineTransform, java.awt.RenderingHints)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GradientPaint java.awt.geom.Point2D getPoint1()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GradientPaint java.awt.geom.Point2D getPoint2()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GradientPaintContext java.awt.image.Raster getRaster(int, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Graphics java.awt.Rectangle getClipBounds(java.awt.Rectangle)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Graphics java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GraphicsConfiguration java.awt.image.BufferedImage createCompatibleImage(int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GraphicsConfiguration java.awt.image.BufferedImage createCompatibleImage(int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GraphicsConfiguration java.awt.image.VolatileImage createCompatibleVolatileImage(int, int, java.awt.ImageCapabilities)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GraphicsConfiguration java.awt.image.VolatileImage createCompatibleVolatileImage(int, int, java.awt.ImageCapabilities, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GraphicsDevice.WindowTranslucency java.awt.GraphicsDevice.WindowTranslucency valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GraphicsDevice java.awt.DisplayMode getDisplayMode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GraphicsDevice java.awt.DisplayMode[] getDisplayModes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GraphicsEnvironment java.awt.Point getCenterPoint()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GraphicsEnvironment java.awt.Rectangle getMaximumWindowBounds()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GridBagConstraints java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GridBagLayout java.awt.GridBagLayoutInfo GetLayoutInfo(java.awt.Container, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GridBagLayout java.awt.Dimension GetMinSize(java.awt.Container, java.awt.GridBagLayoutInfo)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GridBagLayout java.awt.GridBagConstraints getConstraints(java.awt.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GridBagLayout int[][] getLayoutDimensions()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GridBagLayout java.awt.GridBagLayoutInfo getLayoutInfo(java.awt.Container, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GridBagLayout java.awt.Point getLayoutOrigin()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GridBagLayout double[][] getLayoutWeights()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GridBagLayout java.awt.Dimension getMinSize(java.awt.Container, java.awt.GridBagLayoutInfo)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GridBagLayout java.awt.Point location(int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GridBagLayout java.awt.Dimension maximumLayoutSize(java.awt.Container)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GridBagLayout java.awt.Dimension minimumLayoutSize(java.awt.Container)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GridBagLayout long[] preInitMaximumArraySizes(java.awt.Container)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GridBagLayout java.awt.Dimension preferredLayoutSize(java.awt.Container)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GridLayout java.awt.Dimension minimumLayoutSize(java.awt.Container)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GridLayout java.awt.Dimension preferredLayoutSize(java.awt.Container)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.GridLayout java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Insets java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.JobAttributes int[][] getPageRanges()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.JobAttributes java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.KeyboardFocusManager.1 java.awt.KeyboardFocusManager getCurrentKeyboardFocusManager(sun.awt.AppContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.KeyboardFocusManager.HeavyweightFocusRequest java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.KeyboardFocusManager.LightweightFocusRequest java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.KeyboardFocusManager java.awt.KeyboardFocusManager getCurrentKeyboardFocusManager()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.KeyboardFocusManager java.awt.KeyboardFocusManager getCurrentKeyboardFocusManager(sun.awt.AppContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Label java.lang.String constructComponentName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Label java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.LinearGradientPaint java.awt.PaintContext createContext(java.awt.image.ColorModel, java.awt.Rectangle, java.awt.geom.Rectangle2D, java.awt.geom.AffineTransform, java.awt.RenderingHints)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.LinearGradientPaint java.awt.geom.Point2D getEndPoint()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.LinearGradientPaint java.awt.geom.Point2D getStartPoint()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.List.AccessibleAWTList.AccessibleAWTListChild javax.accessibility.AccessibleContext getAccessibleContext()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.List.AccessibleAWTList.AccessibleAWTListChild javax.accessibility.AccessibleStateSet getAccessibleStateSet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.List.AccessibleAWTList javax.accessibility.AccessibleSelection getAccessibleSelection()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.List.AccessibleAWTList javax.accessibility.AccessibleStateSet getAccessibleStateSet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.List java.lang.String constructComponentName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.List java.lang.String[] getItems()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.List java.lang.String[] getSelectedItems()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.List java.lang.Object[] getSelectedObjects()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.List java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Menu java.awt.MenuItem add(java.awt.MenuItem)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Menu java.lang.String constructComponentName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Menu java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Menu java.util.Enumeration shortcuts()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.MenuBar java.awt.Menu add(java.awt.Menu)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.MenuBar java.lang.String constructComponentName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.MenuBar java.util.Enumeration&lt;java.awt.MenuShortcut&gt; shortcuts()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.MenuComponent.AccessibleAWTMenuComponent javax.accessibility.AccessibleComponent getAccessibleComponent()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.MenuComponent.AccessibleAWTMenuComponent javax.accessibility.AccessibleSelection getAccessibleSelection()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.MenuComponent.AccessibleAWTMenuComponent javax.accessibility.AccessibleStateSet getAccessibleStateSet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.MenuComponent javax.accessibility.AccessibleStateSet getAccessibleStateSet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.MenuComponent java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.MenuComponent java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.MenuItem.AccessibleAWTMenuItem javax.accessibility.AccessibleAction getAccessibleAction()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.MenuItem.AccessibleAWTMenuItem javax.accessibility.AccessibleValue getAccessibleValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.MenuItem java.lang.String constructComponentName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.MenuItem java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.MenuShortcut java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.MenuShortcut java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.MultipleGradientPaint.ColorSpaceType java.awt.MultipleGradientPaint.ColorSpaceType valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.MultipleGradientPaint.CycleMethod java.awt.MultipleGradientPaint.CycleMethod valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.MultipleGradientPaint java.awt.MultipleGradientPaint.ColorSpaceType getColorSpace()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.MultipleGradientPaint java.awt.MultipleGradientPaint.CycleMethod getCycleMethod()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.MultipleGradientPaint float[] getFractions()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.MultipleGradientPaint java.awt.geom.AffineTransform getTransform()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.MultipleGradientPaintContext java.awt.image.Raster getRaster(int, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.PageAttributes int[] getPrinterResolution()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.PageAttributes java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Panel java.lang.String constructComponentName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Point java.awt.Point getLocation()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Point java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Polygon java.awt.Rectangle getBoundingBox()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Polygon java.awt.Rectangle getBounds()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Polygon java.awt.geom.Rectangle2D getBounds2D()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Polygon java.awt.geom.PathIterator getPathIterator(java.awt.geom.AffineTransform)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Polygon java.awt.geom.PathIterator getPathIterator(java.awt.geom.AffineTransform, double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.PopupMenu java.lang.String constructComponentName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.RadialGradientPaint java.awt.PaintContext createContext(java.awt.image.ColorModel, java.awt.Rectangle, java.awt.geom.Rectangle2D, java.awt.geom.AffineTransform, java.awt.RenderingHints)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.RadialGradientPaint java.awt.geom.AffineTransform createGradientTransform(java.awt.geom.Rectangle2D)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.RadialGradientPaint java.awt.geom.Point2D getCenterPoint()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.RadialGradientPaint java.awt.geom.Point2D getFocusPoint()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Rectangle java.awt.geom.Rectangle2D createIntersection(java.awt.geom.Rectangle2D)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Rectangle java.awt.geom.Rectangle2D createUnion(java.awt.geom.Rectangle2D)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Rectangle java.awt.Rectangle getBounds()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Rectangle java.awt.geom.Rectangle2D getBounds2D()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Rectangle java.awt.Point getLocation()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Rectangle java.awt.Dimension getSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Rectangle java.awt.Rectangle intersection(java.awt.Rectangle)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Rectangle java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Rectangle java.awt.Rectangle union(java.awt.Rectangle)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.RenderingHints.Key java.lang.String getIdentity()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.RenderingHints java.util.Set&lt;java.lang.Object&gt; keySet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.RenderingHints java.util.Collection&lt;java.lang.Object&gt; values()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Robot java.awt.image.BufferedImage createScreenCapture(java.awt.Rectangle)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Robot java.awt.Color getPixelColor(int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Robot java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.ScrollPane java.awt.Dimension calculateChildSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.ScrollPane java.lang.String constructComponentName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.ScrollPane java.awt.Point getScrollPosition()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.ScrollPane java.awt.Dimension getViewportSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.ScrollPane java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.ScrollPaneAdjustable java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.ScrollPaneAdjustable java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Scrollbar.AccessibleAWTScrollBar javax.accessibility.AccessibleStateSet getAccessibleStateSet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Scrollbar.AccessibleAWTScrollBar javax.accessibility.AccessibleValue getAccessibleValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Scrollbar java.lang.String constructComponentName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Scrollbar java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.SplashScreen java.awt.Dimension getSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.SystemColor java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.SystemColor java.lang.Object writeReplace()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.SystemTray java.beans.PropertyChangeSupport getCurrentChangeSupport()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.TextArea.AccessibleAWTTextArea javax.accessibility.AccessibleStateSet getAccessibleStateSet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.TextArea java.lang.String constructComponentName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.TextArea java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.TextComponent.AccessibleAWTTextComponent javax.accessibility.AccessibleStateSet getAccessibleStateSet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.TextComponent.AccessibleAWTTextComponent javax.accessibility.AccessibleText getAccessibleText()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.TextComponent java.lang.String getSelectedText()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.TextComponent java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.TextField.AccessibleAWTTextField javax.accessibility.AccessibleStateSet getAccessibleStateSet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.TextField java.lang.String constructComponentName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.TextField java.lang.String paramString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.TexturePaint java.awt.PaintContext createContext(java.awt.image.ColorModel, java.awt.Rectangle, java.awt.geom.Rectangle2D, java.awt.geom.AffineTransform, java.awt.RenderingHints)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.TexturePaint java.awt.geom.Rectangle2D getAnchorRect()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.TexturePaintContext.Byte java.awt.image.WritableRaster makeRaster(int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.TexturePaintContext.ByteFilter java.awt.image.WritableRaster makeRaster(int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.TexturePaintContext.Int java.awt.image.WritableRaster makeRaster(int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.TexturePaintContext java.awt.PaintContext getContext(java.awt.image.BufferedImage, java.awt.geom.AffineTransform, java.awt.RenderingHints, java.awt.Rectangle)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.TexturePaintContext java.awt.image.WritableRaster makeByteRaster(java.awt.image.Raster, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Toolkit java.beans.PropertyChangeSupport createPropertyChangeSupport(java.awt.Toolkit)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Toolkit java.awt.event.AWTEventListener[] getAWTEventListeners()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.TrayIcon.MessageType java.awt.TrayIcon.MessageType valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Window.1 java.awt.geom.Point2D calculateSecurityWarningPosition(java.awt.Window, double, double, double, double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Window.1 java.awt.Dimension getSecurityWarningSize(java.awt.Window)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Window.Type java.awt.Window.Type valueOf(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Window java.awt.geom.Point2D access$1200(java.awt.Window, double, double, double, double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Window java.awt.geom.Point2D calculateSecurityWarningPosition(double, double, double, double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Window java.lang.String constructComponentName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Window sun.awt.util.IdentityArrayList&lt;java.awt.Window&gt; getAllUnblockedWindows()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Window sun.awt.util.IdentityArrayList&lt;java.awt.Window&gt; getAllWindows()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Window java.awt.Window getDocumentRoot()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Window java.util.List&lt;java.awt.Image&gt; getIconImages()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Window java.awt.Point getLocationOnWindow()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.awt.Window java.awt.Window[] getOwnerlessWindows()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

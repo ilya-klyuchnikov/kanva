@@ -1,0 +1,26 @@
+<root>
+    <item name='javax.swing.table.DefaultTableCellRenderer DEFAULT_NO_FOCUS_BORDER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.DefaultTableCellRenderer SAFE_NO_FOCUS_BORDER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.JTableHeader uiClassID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.TableColumn CELL_RENDERER_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.TableColumn COLUMN_WIDTH_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.TableColumn HEADER_RENDERER_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.TableColumn HEADER_VALUE_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.table.TableRowSorter COMPARABLE_COMPARATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

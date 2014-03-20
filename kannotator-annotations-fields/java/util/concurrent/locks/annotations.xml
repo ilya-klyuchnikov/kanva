@@ -1,0 +1,20 @@
+<root>
+    <item name='java.util.concurrent.locks.AbstractQueuedLongSynchronizer.Node SHARED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.locks.AbstractQueuedSynchronizer.Node SHARED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.locks.ReentrantLock sync'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.locks.ReentrantReadWriteLock readerLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.locks.ReentrantReadWriteLock sync'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='java.util.concurrent.locks.ReentrantReadWriteLock writerLock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

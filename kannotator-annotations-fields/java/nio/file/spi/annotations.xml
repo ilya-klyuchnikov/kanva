@@ -1,0 +1,5 @@
+<root>
+    <item name='java.nio.file.spi.FileSystemProvider lock'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

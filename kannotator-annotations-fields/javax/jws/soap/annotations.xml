@@ -1,0 +1,29 @@
+<root>
+    <item name='javax.jws.soap.SOAPBinding.ParameterStyle $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.jws.soap.SOAPBinding.ParameterStyle BARE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.jws.soap.SOAPBinding.ParameterStyle WRAPPED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.jws.soap.SOAPBinding.Style $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.jws.soap.SOAPBinding.Style DOCUMENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.jws.soap.SOAPBinding.Style RPC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.jws.soap.SOAPBinding.Use $VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.jws.soap.SOAPBinding.Use ENCODED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.jws.soap.SOAPBinding.Use LITERAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

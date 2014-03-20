@@ -1,0 +1,95 @@
+<root>
+    <item name='javax.swing.tree.DefaultMutableTreeNode.BreadthFirstEnumeration java.lang.Object nextElement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.DefaultMutableTreeNode.BreadthFirstEnumeration javax.swing.tree.TreeNode nextElement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.DefaultMutableTreeNode.PreorderEnumeration java.lang.Object nextElement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.DefaultMutableTreeNode.PreorderEnumeration javax.swing.tree.TreeNode nextElement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.DefaultMutableTreeNode java.util.Enumeration breadthFirstEnumeration()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.DefaultMutableTreeNode java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.DefaultMutableTreeNode java.util.Enumeration depthFirstEnumeration()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.DefaultMutableTreeNode javax.swing.tree.DefaultMutableTreeNode getFirstLeaf()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.DefaultMutableTreeNode javax.swing.tree.DefaultMutableTreeNode getLastLeaf()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.DefaultMutableTreeNode javax.swing.tree.TreeNode getRoot()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.DefaultMutableTreeNode java.lang.Object[] getUserObjectPath()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.DefaultMutableTreeNode java.util.Enumeration pathFromAncestorEnumeration(javax.swing.tree.TreeNode)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.DefaultMutableTreeNode java.util.Enumeration postorderEnumeration()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.DefaultMutableTreeNode java.util.Enumeration preorderEnumeration()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.DefaultMutableTreeNode java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.DefaultTreeCellEditor.EditorContainer java.awt.Dimension getPreferredSize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.DefaultTreeCellEditor java.awt.Container createContainer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.DefaultTreeCellEditor javax.swing.tree.TreeCellEditor createTreeCellEditor()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.DefaultTreeCellRenderer java.awt.Component getTreeCellRendererComponent(javax.swing.JTree, java.lang.Object, boolean, boolean, boolean, int, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.DefaultTreeSelectionModel java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.DefaultTreeSelectionModel javax.swing.tree.TreePath[] getSelectionPaths()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.DefaultTreeSelectionModel java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.FixedHeightLayoutCache javax.swing.tree.FixedHeightLayoutCache.FHTreeStateNode access$300(javax.swing.tree.FixedHeightLayoutCache, java.lang.Object, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.FixedHeightLayoutCache javax.swing.tree.FixedHeightLayoutCache.FHTreeStateNode createNodeForValue(java.lang.Object, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.TreePath javax.swing.tree.TreePath pathByAddingChild(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.TreePath java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.VariableHeightLayoutCache.TreeStateNode javax.swing.tree.VariableHeightLayoutCache.TreeStateNode getLastVisibleNode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.VariableHeightLayoutCache.TreeStateNode java.awt.Rectangle getNodeBounds(java.awt.Rectangle)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.VariableHeightLayoutCache javax.swing.tree.VariableHeightLayoutCache.TreeStateNode access$600(javax.swing.tree.VariableHeightLayoutCache, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.VariableHeightLayoutCache javax.swing.tree.VariableHeightLayoutCache.TreeStateNode createNodeAt(javax.swing.tree.VariableHeightLayoutCache.TreeStateNode, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javax.swing.tree.VariableHeightLayoutCache javax.swing.tree.VariableHeightLayoutCache.TreeStateNode createNodeForValue(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>
