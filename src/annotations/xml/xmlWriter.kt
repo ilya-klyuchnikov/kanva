@@ -17,14 +17,14 @@ fun isInteresting(pkg: String): Boolean {
     return pkg.startsWith("java") || pkg.startsWith("javax") || pkg.startsWith("org")
 }
 
-fun writeAnnotationsToXmlByPackage(annotations: Annotations<Nullability>) {
+fun writeAnnotationsToXmlByPackage(annotations: Annotations<Nullability>, prefix: String, merged: Boolean = false) {
     val members = HashSet<ClassMember>()
     annotations.forEachPosition { pos, ann -> members.add(pos.member) }
     val sortedMembers = members.sortBy {it.toString()}
 
     val sortedParams = ArrayList<AnnotationPosition>()
     val sortedFields = ArrayList<AnnotationPosition>()
-    val sortedMethods = ArrayList<AnnotationPosition>()
+    val sortedReturns = ArrayList<AnnotationPosition>()
 
     for (member in sortedMembers) {
         when (member) {
@@ -34,7 +34,7 @@ fun writeAnnotationsToXmlByPackage(annotations: Annotations<Nullability>) {
                         if (pos.relativePosition is ParameterPosition) {
                             sortedParams.add(pos)
                         } else {
-                            sortedMethods.add(pos)
+                            sortedReturns.add(pos)
                         }
                     }
                 }
@@ -43,9 +43,18 @@ fun writeAnnotationsToXmlByPackage(annotations: Annotations<Nullability>) {
         }
     }
 
-    doWrite(File("kanva-annotations-fields"), sortedFields)
-    doWrite(File("kanva-annotations-returns"), sortedMethods)
-    doWrite(File("kanva-annotations-params"), sortedParams)
+    doWrite(File("$prefix-annotations-fields"), sortedFields)
+    doWrite(File("$prefix-annotations-returns"), sortedReturns)
+    doWrite(File("$prefix-annotations-params"), sortedParams)
+
+    if (merged) {
+        val outDir = File(prefix)
+        outDir.mkdirs()
+
+        writeAnnotationsToXML(FileWriter(File(outDir, "fields.xml")), sortedFields)
+        writeAnnotationsToXML(FileWriter(File(outDir, "params.xml")), sortedParams)
+        writeAnnotationsToXML(FileWriter(File(outDir, "returns.xml")), sortedReturns)
+    }
 }
 
 private fun doWrite(destination: File, positions: List<AnnotationPosition>) {

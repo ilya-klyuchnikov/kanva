@@ -101,7 +101,7 @@ private fun loadExternalAnnotations(
     println("total annotations : ${result.size()}")
     println("param annotations : $paramAnns")
     println("fields annotations: $fieldAnns")
-    println("return annotations: $fieldAnns")
+    println("return annotations: $returnAnns")
 
     return result
 }
