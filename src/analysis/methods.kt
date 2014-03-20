@@ -16,6 +16,11 @@ import org.objectweb.asm.tree.analysis.BasicInterpreter
 import org.objectweb.asm.tree.TypeInsnNode
 import org.objectweb.asm.tree.IntInsnNode
 import org.objectweb.asm.tree.MultiANewArrayInsnNode
+import org.objectweb.asm.tree.MethodInsnNode
+import kanva.context.findMethodByMethodInsnNode
+import kanva.declarations.PositionsForMethod
+import kanva.declarations.RETURN_POSITION
+import kanva.annotations.Nullability
 
 // iteration #0 - graph without cycles,
 // only using new
@@ -166,6 +171,17 @@ private class MyInterpreter(val context: Context): BasicInterpreter() {
 
     public override fun naryOperation(insn: AbstractInsnNode, values: List<BasicValue>): BasicValue? {
         val opcode = insn.getOpcode()
+
+        if (insn is MethodInsnNode) {
+            val method = context.findMethodByMethodInsnNode(insn)
+            if (method!=null) {
+                val methodPositions = PositionsForMethod(method)
+                if (context.annotations[methodPositions.get(RETURN_POSITION)] == Nullability.NOT_NULL) {
+                    return RefValue(RefDomain.NOTNULL, Type.getType(insn.desc))
+                }
+            }
+        }
+
         if (opcode == Opcodes.MULTIANEWARRAY) {
             return RefValue(RefDomain.NOTNULL, Type.getType((insn as MultiANewArrayInsnNode).desc))
         }
