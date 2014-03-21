@@ -8,4 +8,8 @@ public class Returns {
         }
         return result;
     }
+
+    public String stringConstant() {
+        return "";
+    }
 }

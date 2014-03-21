@@ -179,6 +179,10 @@ private class FieldWritesInterpreter(val context: Context): BasicInterpreter() {
                     }
                 }
             }
+            Opcodes.LDC -> {
+                val basicValue = super.newOperation(insn)!!
+                return RefValue(RefDomain.NOTNULL, basicValue.getType())
+            }
         }
         return super.newOperation(insn);
     }

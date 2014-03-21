@@ -21,6 +21,9 @@ import kanva.context.findMethodByMethodInsnNode
 import kanva.declarations.PositionsForMethod
 import kanva.declarations.RETURN_POSITION
 import kanva.annotations.Nullability
+import org.objectweb.asm.tree.FieldInsnNode
+import kanva.declarations.ClassName
+import kanva.declarations.getFieldPosition
 
 fun analyzeReturn(context: Context, cfg: Graph<Int>, method: Method, methodNode: MethodNode): RefDomain =
         ReturnAnalyzer(context, cfg, method, methodNode).analyze()
@@ -158,6 +161,21 @@ private class MyInterpreter(val context: Context): BasicInterpreter() {
         when (opCode) {
             Opcodes.NEW ->
                 return RefValue(RefDomain.NOTNULL, Type.getObjectType(((insn as TypeInsnNode)).desc))
+            Opcodes.GETSTATIC -> {
+                val fieldInsn = insn as FieldInsnNode
+                val field = context.index.findField(ClassName.fromInternalName(fieldInsn.owner),fieldInsn.name)
+                if (field != null ) {
+                    val pos = getFieldPosition(field)
+                    if (context.annotations[pos] == Nullability.NOT_NULL) {
+                        return RefValue(RefDomain.NOTNULL, Type.getType(fieldInsn.desc))
+                    }
+                }
+            }
+            Opcodes.LDC -> {
+                val basicValue = super.newOperation(insn)!!
+                return RefValue(RefDomain.NOTNULL, basicValue.getType())
+            }
+
         }
         return super.newOperation(insn);
     }

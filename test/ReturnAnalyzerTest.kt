@@ -51,9 +51,13 @@ class ReturnAnalyzerTest {
         ) == RefDomain.NOTNULL
     }
 
-    Ignore
     Test
     fun simpleFor() {
         Assert.assertTrue("foreach", inferNotNull("simpleFor"))
+    }
+
+    Test
+    fun stringConstant() {
+        Assert.assertTrue("stringConstant", inferNotNull("stringConstant"))
     }
 }
