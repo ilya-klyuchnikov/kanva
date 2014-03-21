@@ -9,8 +9,18 @@ import kanva.declarations.isConstructor
 import kanva.declarations.isClassInitializer
 import kanva.analysis.collectNotNullFinalFields
 import kanva.declarations.getFieldPosition
-import kanva.graphs.successors
-import kanva.inference.stepParamComponent
+import kanva.declarations.isFinal
+import kanva.declarations.getType
+import kanva.util.isPrimitiveOrVoidType
+
+/** simplest annotations */
+fun inferSimpleFields(context: Context) {
+    for ((field, fieldNode) in context.index.fields) {
+        if (field.isFinal() && !field.getType().isPrimitiveOrVoidType() && field.value != null) {
+            context.annotations[getFieldPosition(field)] = Nullability.NOT_NULL
+        }
+    }
+}
 
 fun inferFields(context: Context, components: List<Set<Node<Method>>>) {
     for (component in components) {
