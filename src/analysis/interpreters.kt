@@ -15,12 +15,21 @@ import org.objectweb.asm.tree.MultiANewArrayInsnNode
 import org.objectweb.asm.tree.InvokeDynamicInsnNode
 import org.objectweb.asm.tree.MethodInsnNode
 
-// may be it should be annotations aware interpreter
-public open class IdRefBasicInterpreter(): Interpreter<BasicValue>(Opcodes.ASM4) {
+// we can easily change domain in a safe way!
+class IdRefValue(var domain: RefDomain, tp: Type?) : BasicValue(tp) {
+    fun notNull(): IdRefValue {
+        domain = RefDomain.NOTNULL
+        return this
+    }
+}
 
-    override fun newValue(`type`: Type?): BasicValue? {
+// may be it should be annotations aware interpreter
+public open class IdRefBasicInterpreter(): Interpreter<IdRefValue>(Opcodes.ASM4) {
+    // really it should be used ONLY by analyzer when creating a start frame
+    // and by frame for constructing the dummy second value for two-slots values (long/double)
+    public override fun newValue(`type`: Type?): IdRefValue? {
         if (`type` == null) {
-            return BasicValue.UNINITIALIZED_VALUE
+            return IdRefValue(RefDomain.ANY, null)
         }
         when (`type`.getSort()) {
             Type.VOID ->
@@ -30,24 +39,24 @@ public open class IdRefBasicInterpreter(): Interpreter<BasicValue>(Opcodes.ASM4)
             Type.BYTE,
             Type.SHORT,
             Type.INT ->
-                return BasicValue.INT_VALUE
+                return IdRefValue(RefDomain.NOTNULL, Type.INT_TYPE)
             Type.FLOAT ->
-                return BasicValue.FLOAT_VALUE
+                return IdRefValue(RefDomain.NOTNULL, Type.FLOAT_TYPE)
             Type.LONG ->
-                return BasicValue.LONG_VALUE
+                return IdRefValue(RefDomain.NOTNULL, Type.LONG_TYPE)
             Type.DOUBLE ->
-                return BasicValue.DOUBLE_VALUE
+                return IdRefValue(RefDomain.NOTNULL, Type.DOUBLE_TYPE)
             Type.ARRAY, Type.OBJECT ->
-                return BasicValue.REFERENCE_VALUE
+                return IdRefValue(RefDomain.NOTNULL, Type.getObjectType("java/lang/Object"))
             else ->
                 throw Error("Internal error")
         }
     }
 
-    override fun newOperation(insn: AbstractInsnNode): BasicValue? {
+    public override fun newOperation(insn: AbstractInsnNode): IdRefValue {
         when (insn.getOpcode()) {
             Opcodes.ACONST_NULL ->
-                return newValue(Type.getObjectType("null"))
+                return IdRefValue(RefDomain.NULL, Type.getObjectType("null"))
             Opcodes.ICONST_M1,
             Opcodes.ICONST_0,
             Opcodes.ICONST_1,
@@ -55,63 +64,66 @@ public open class IdRefBasicInterpreter(): Interpreter<BasicValue>(Opcodes.ASM4)
             Opcodes.ICONST_3,
             Opcodes.ICONST_4,
             Opcodes.ICONST_5 ->
-                return BasicValue.INT_VALUE
+                return IdRefValue(RefDomain.NOTNULL, Type.INT_TYPE)
             Opcodes.LCONST_0,
             Opcodes.LCONST_1 ->
-                return BasicValue.LONG_VALUE
+                return IdRefValue(RefDomain.NOTNULL, Type.LONG_TYPE)
             Opcodes.FCONST_0,
             Opcodes.FCONST_1,
             Opcodes.FCONST_2 ->
-                return BasicValue.FLOAT_VALUE
+                return IdRefValue(RefDomain.NOTNULL, Type.FLOAT_TYPE)
             Opcodes.DCONST_0,
             Opcodes.DCONST_1 ->
-                return BasicValue.DOUBLE_VALUE
-            Opcodes.BIPUSH, Opcodes.SIPUSH ->
-                return BasicValue.INT_VALUE
+                return IdRefValue(RefDomain.NOTNULL, Type.DOUBLE_TYPE)
+            Opcodes.BIPUSH,
+            Opcodes.SIPUSH ->
+                return IdRefValue(RefDomain.NOTNULL, Type.INT_TYPE)
             Opcodes.LDC -> {
                 val cst = ((insn as LdcInsnNode)).cst
                 when (cst) {
                     is Int ->
-                        return BasicValue.INT_VALUE
+                        return IdRefValue(RefDomain.NOTNULL, Type.INT_TYPE)
                     is Float ->
-                        return BasicValue.FLOAT_VALUE
+                        return IdRefValue(RefDomain.NOTNULL, Type.FLOAT_TYPE)
                     is Long ->
-                        return BasicValue.LONG_VALUE
+                        return IdRefValue(RefDomain.NOTNULL, Type.LONG_TYPE)
                     is Double ->
-                        return BasicValue.DOUBLE_VALUE
+                        return IdRefValue(RefDomain.NOTNULL, Type.DOUBLE_TYPE)
                     is String ->
-                        return newValue(Type.getObjectType("java/lang/String"))
+                        return IdRefValue(RefDomain.NOTNULL, Type.getObjectType("java/lang/String"))
                     is Type ->
                         when (cst.getSort()) {
-                            Type.OBJECT, Type.ARRAY ->
-                                return newValue(Type.getObjectType("java/lang/Class"))
+                            Type.OBJECT,
+                            Type.ARRAY ->
+                                return IdRefValue(RefDomain.NOTNULL, Type.getObjectType("java/lang/Class"))
                             Type.METHOD ->
-                                return newValue(Type.getObjectType("java/lang/invoke/MethodType"))
+                                return IdRefValue(RefDomain.NOTNULL, Type.getObjectType("java/lang/invoke/MethodType"))
                             else ->
                                 throw IllegalArgumentException("Illegal LDC constant " + cst)
                         }
                     is Handle ->
-                        return newValue(Type.getObjectType("java/lang/invoke/MethodHandle"))
+                        return IdRefValue(RefDomain.NOTNULL, Type.getObjectType("java/lang/invoke/MethodHandle"))
                     else ->
                         throw IllegalArgumentException("Illegal LDC constant " + cst)
                 }
             }
             Opcodes.JSR ->
-                return BasicValue.RETURNADDRESS_VALUE
+                return IdRefValue(RefDomain.ANY, Type.VOID_TYPE)
+            // TODO - EXTENSION POINT
             Opcodes.GETSTATIC ->
-                return newValue(Type.getType(((insn as FieldInsnNode)).desc))
+                return IdRefValue(RefDomain.ANY, Type.getType(((insn as FieldInsnNode)).desc))
             Opcodes.NEW ->
-                return newValue(Type.getObjectType(((insn as TypeInsnNode)).desc))
+                return IdRefValue(RefDomain.NOTNULL, Type.getObjectType(((insn as TypeInsnNode)).desc))
             else ->
                 throw Error("Internal error.")
         }
     }
 
-    override fun copyOperation(insn: AbstractInsnNode?, value: BasicValue?): BasicValue? {
+    public override fun copyOperation(insn: AbstractInsnNode?, value: IdRefValue?): IdRefValue? {
         return value
     }
 
-    override fun unaryOperation(insn: AbstractInsnNode, value: BasicValue): BasicValue? {
+    public override fun unaryOperation(insn: AbstractInsnNode, value: IdRefValue): IdRefValue? {
         when (insn.getOpcode()) {
             Opcodes.INEG,
             Opcodes.IINC,
@@ -121,22 +133,22 @@ public open class IdRefBasicInterpreter(): Interpreter<BasicValue>(Opcodes.ASM4)
             Opcodes.I2B,
             Opcodes.I2C,
             Opcodes.I2S ->
-                return BasicValue.INT_VALUE
+                return IdRefValue(RefDomain.NOTNULL, Type.INT_TYPE)
             Opcodes.FNEG,
             Opcodes.I2F,
             Opcodes.L2F,
             Opcodes.D2F ->
-                return BasicValue.FLOAT_VALUE
+                return IdRefValue(RefDomain.NOTNULL, Type.FLOAT_TYPE)
             Opcodes.LNEG,
             Opcodes.I2L,
             Opcodes.F2L,
             Opcodes.D2L ->
-                return BasicValue.LONG_VALUE
+                return IdRefValue(RefDomain.NOTNULL, Type.LONG_TYPE)
             Opcodes.DNEG,
             Opcodes.I2D,
             Opcodes.L2D,
             Opcodes.F2D ->
-                return BasicValue.DOUBLE_VALUE
+                return IdRefValue(RefDomain.NOTNULL, Type.DOUBLE_TYPE)
             Opcodes.IFEQ,
             Opcodes.IFNE,
             Opcodes.IFLT,
@@ -152,45 +164,48 @@ public open class IdRefBasicInterpreter(): Interpreter<BasicValue>(Opcodes.ASM4)
             Opcodes.ARETURN,
             Opcodes.PUTSTATIC ->
                 return null
+            // TODO - EXTENSION POINT
             Opcodes.GETFIELD ->
-                return newValue(Type.getType(((insn as FieldInsnNode)).desc))
+                return IdRefValue(RefDomain.ANY, Type.getType(((insn as FieldInsnNode)).desc))
             Opcodes.NEWARRAY ->
                 when ((insn as IntInsnNode).operand) {
                     Opcodes.T_BOOLEAN ->
-                        return newValue(Type.getType("[Z"))
+                        return IdRefValue(RefDomain.NOTNULL, Type.getType("[Z"))
                     Opcodes.T_CHAR ->
-                        return newValue(Type.getType("[C"))
+                        return IdRefValue(RefDomain.NOTNULL, Type.getType("[C"))
                     Opcodes.T_BYTE ->
-                        return newValue(Type.getType("[B"))
+                        return IdRefValue(RefDomain.NOTNULL, Type.getType("[B"))
                     Opcodes.T_SHORT ->
-                        return newValue(Type.getType("[S"))
+                        return IdRefValue(RefDomain.NOTNULL, Type.getType("[S"))
                     Opcodes.T_INT ->
-                        return newValue(Type.getType("[I"))
+                        return IdRefValue(RefDomain.NOTNULL, Type.getType("[I"))
                     Opcodes.T_FLOAT ->
-                        return newValue(Type.getType("[F"))
+                        return IdRefValue(RefDomain.NOTNULL, Type.getType("[F"))
                     Opcodes.T_DOUBLE ->
-                        return newValue(Type.getType("[D"))
+                        return IdRefValue(RefDomain.NOTNULL, Type.getType("[D"))
                     Opcodes.T_LONG ->
-                        return newValue(Type.getType("[J"))
+                        return IdRefValue(RefDomain.NOTNULL, Type.getType("[J"))
                     else -> {
                         throw AnalyzerException(insn, "Invalid array type")
                     }
                 }
             Opcodes.ANEWARRAY -> {
                 val desc = ((insn as TypeInsnNode)).desc
-                return newValue(Type.getType("[" + Type.getObjectType(desc)))
+                return IdRefValue(RefDomain.NOTNULL, Type.getType("[" + Type.getObjectType(desc)))
             }
+            // TODO - EXTENSION POINT
             Opcodes.ARRAYLENGTH ->
-                return BasicValue.INT_VALUE
+                return IdRefValue(RefDomain.NOTNULL, Type.INT_TYPE)
             Opcodes.ATHROW ->
                 return null
             Opcodes.CHECKCAST -> {
+                // propagating domain
                 val desc = ((insn as TypeInsnNode)).desc
-                return newValue(Type.getObjectType(desc))
+                return IdRefValue(value.domain, Type.getObjectType(desc))
             }
-            // TODO
+            // TODO - BOOLEAN OPERATION
             Opcodes.INSTANCEOF ->
-                return BasicValue.INT_VALUE
+                return IdRefValue(RefDomain.NOTNULL, Type.INT_TYPE)
             Opcodes.MONITORENTER,
             Opcodes.MONITOREXIT,
             Opcodes.IFNULL,
@@ -201,7 +216,7 @@ public open class IdRefBasicInterpreter(): Interpreter<BasicValue>(Opcodes.ASM4)
         }
     }
 
-    override fun binaryOperation(insn: AbstractInsnNode, value1: BasicValue, value2: BasicValue): BasicValue? {
+    public override fun binaryOperation(insn: AbstractInsnNode, value1: IdRefValue, value2: IdRefValue): IdRefValue? {
         when (insn.getOpcode()) {
             Opcodes.IALOAD,
             Opcodes.BALOAD,
@@ -218,14 +233,14 @@ public open class IdRefBasicInterpreter(): Interpreter<BasicValue>(Opcodes.ASM4)
             Opcodes.IAND,
             Opcodes.IOR,
             Opcodes.IXOR ->
-                return BasicValue.INT_VALUE
+                return IdRefValue(RefDomain.NOTNULL, Type.INT_TYPE)
             Opcodes.FALOAD,
             Opcodes.FADD,
             Opcodes.FSUB,
             Opcodes.FMUL,
             Opcodes.FDIV,
             Opcodes.FREM ->
-                return BasicValue.FLOAT_VALUE
+                return IdRefValue(RefDomain.NOTNULL, Type.FLOAT_TYPE)
             Opcodes.LALOAD,
             Opcodes.LADD,
             Opcodes.LSUB,
@@ -238,22 +253,22 @@ public open class IdRefBasicInterpreter(): Interpreter<BasicValue>(Opcodes.ASM4)
             Opcodes.LAND,
             Opcodes.LOR,
             Opcodes.LXOR ->
-                return BasicValue.LONG_VALUE
+                return IdRefValue(RefDomain.NOTNULL, Type.LONG_TYPE)
             Opcodes.DALOAD,
             Opcodes.DADD,
             Opcodes.DSUB,
             Opcodes.DMUL,
             Opcodes.DDIV,
             Opcodes.DREM ->
-                return BasicValue.DOUBLE_VALUE
+                return IdRefValue(RefDomain.NOTNULL, Type.DOUBLE_TYPE)
             Opcodes.AALOAD ->
-                return BasicValue.REFERENCE_VALUE
+                return IdRefValue(RefDomain.ANY, Type.getObjectType("java/lang/Object"))
             Opcodes.LCMP,
             Opcodes.FCMPL,
             Opcodes.FCMPG,
             Opcodes.DCMPL,
             Opcodes.DCMPG ->
-                return BasicValue.INT_VALUE
+                return IdRefValue(RefDomain.NOTNULL, Type.INT_TYPE)
             Opcodes.IF_ICMPEQ,
             Opcodes.IF_ICMPNE,
             Opcodes.IF_ICMPLT,
@@ -269,29 +284,26 @@ public open class IdRefBasicInterpreter(): Interpreter<BasicValue>(Opcodes.ASM4)
         }
     }
 
-    override fun ternaryOperation(insn: AbstractInsnNode, value1: BasicValue, value2: BasicValue, value3: BasicValue): BasicValue? {
+    public override fun ternaryOperation(insn: AbstractInsnNode, value1: IdRefValue, value2: IdRefValue, value3: IdRefValue): IdRefValue? {
         return null
     }
 
-    override fun naryOperation(insn: AbstractInsnNode, values: List<BasicValue>): BasicValue? {
-        val opcode = insn.getOpcode()
-        if (opcode == Opcodes.MULTIANEWARRAY) {
-            return newValue(Type.getType(((insn as MultiANewArrayInsnNode)).desc))
-        } else
-            if (opcode == Opcodes.INVOKEDYNAMIC) {
-                return newValue(Type.getReturnType(((insn as InvokeDynamicInsnNode)).desc))
-            } else {
-                return newValue(Type.getReturnType(((insn as MethodInsnNode)).desc))
-            }
-    }
-
-    override fun returnOperation(insn: AbstractInsnNode, value: BasicValue?, expected: BasicValue?) {
-    }
-
-    override fun merge(v: BasicValue?, w: BasicValue?): BasicValue? {
-        if (!v.equals(w)) {
-            return BasicValue.UNINITIALIZED_VALUE
+    public override fun naryOperation(insn: AbstractInsnNode, values: List<IdRefValue>): IdRefValue {
+        when (insn.getOpcode()) {
+            Opcodes.MULTIANEWARRAY ->
+                return IdRefValue(RefDomain.NOTNULL, Type.getType(((insn as MultiANewArrayInsnNode)).desc))
+            Opcodes.INVOKEDYNAMIC ->
+                return IdRefValue(RefDomain.ANY, Type.getReturnType(((insn as InvokeDynamicInsnNode)).desc))
+            else ->
+                // TODO - EXTENSION POINT
+                return IdRefValue(RefDomain.ANY, Type.getReturnType(((insn as MethodInsnNode)).desc))
         }
-        return v
+    }
+
+    public override fun returnOperation(insn: AbstractInsnNode, value: IdRefValue?, expected: IdRefValue?) {
+    }
+
+    public override fun merge(v: IdRefValue?, w: IdRefValue?): IdRefValue? {
+        throw UnsupportedOperationException("Not Implemented Yet")
     }
 }
