@@ -24,15 +24,62 @@ import kanva.annotations.Nullability
 import org.objectweb.asm.tree.FieldInsnNode
 import kanva.declarations.ClassName
 import kanva.declarations.getFieldPosition
+import kanva.declarations.isStatic
+import kanva.declarations.ParameterPosition
 
 fun analyzeReturn(context: Context, cfg: Graph<Int>, method: Method, methodNode: MethodNode): RefDomain =
         ReturnAnalyzer(context, cfg, method, methodNode).analyze()
 
-// iteration #0 - graph without cycles,
-// only using new
+fun createIdRefValueStartFrame(context: Context, method: Method, methodNode: MethodNode): Frame<IdRefValue> {
+    val startFrame = Frame<IdRefValue>(methodNode.maxLocals, methodNode.maxStack)
+    val returnType = Type.getReturnType(methodNode.desc)
+
+    val returnValue =
+            if (returnType == Type.VOID_TYPE) null
+            else IdRefValue(RefDomain.ANY, Type.getReturnType(methodNode.desc))
+
+    startFrame.setReturn(returnValue)
+
+    val methodPositions = PositionsForMethod(method)
+
+    val shift = if (method.isStatic()) 0 else 1
+
+    fun argDomain(i: Int): RefDomain {
+        val argPosition = methodPositions.get(ParameterPosition(shift + i))
+        return when (context.annotations[argPosition]) {
+            Nullability.NOT_NULL ->
+                RefDomain.NOTNULL
+            else ->
+                RefDomain.ANY
+        }
+    }
+
+    val argsTypes = Type.getArgumentTypes(methodNode.desc)
+
+    var local = 0
+    if ((methodNode.access and Opcodes.ACC_STATIC) == 0) {
+        startFrame.setLocal(local, IdRefValue(RefDomain.NOTNULL, Type.getObjectType(method.declaringClass.internal)))
+        local++
+    }
+    for (i in 0..argsTypes.size - 1) {
+        startFrame.setLocal(local, IdRefValue(argDomain(i), argsTypes[i]))
+        local++
+        if (argsTypes[i].getSize() == 2) {
+            startFrame.setLocal(local, IdRefValue(RefDomain.ANY, null))
+            local++
+        }
+    }
+
+    while (local < methodNode.maxLocals) {
+        startFrame.setLocal(local++, IdRefValue(RefDomain.ANY, null))
+    }
+    return startFrame
+}
+
+
 class ReturnAnalyzer(val context: Context, val cfg: Graph<Int>, val method: Method, val methodNode: MethodNode) {
 
-    data class PendingState(val frame: Frame<BasicValue>, val node: Node<Int>): Comparable<PendingState> {
+    data class PendingState(val frame: Frame<IdRefValue>, val node: Node<Int>): Comparable<PendingState> {
         override fun compareTo(other: PendingState): Int {
             return other.node.insnIndex - this.node.insnIndex
         }
@@ -47,16 +94,15 @@ class ReturnAnalyzer(val context: Context, val cfg: Graph<Int>, val method: Meth
             return RefDomain.NULL
         }
         val startFrame =
-                createRefValueStartFrame(context, method, methodNode)
+                createIdRefValueStartFrame(context, method, methodNode)
         return iterate(startFrame, cfg.findNode(0)!!)
     }
 
-    private fun iterate(startFrame: Frame<BasicValue>, startNode: Node<Int>): RefDomain {
+    private fun iterate(startFrame: Frame<IdRefValue>, startNode: Node<Int>): RefDomain {
         var result: HashSet<TracedValue>? = null
 
         val queue = linkedListOf<PendingState>()
-        var state: PendingState? =
-                PendingState(startFrame, startNode)
+        var state: PendingState? = PendingState(startFrame, startNode)
 
         var iterations = 0
         var completedPaths = 0
@@ -81,7 +127,7 @@ class ReturnAnalyzer(val context: Context, val cfg: Graph<Int>, val method: Meth
             val insnNode = methodNode.instructions[node.insnIndex]
             val insnType = insnNode.getType()
             val opcode = insnNode.getOpcode()
-            // TODO: extract
+            // TODO: extract into utilities
             val isIdle =
                     (insnType == AbstractInsnNode.LABEL ||
                     insnType == AbstractInsnNode.LINE ||
@@ -97,7 +143,7 @@ class ReturnAnalyzer(val context: Context, val cfg: Graph<Int>, val method: Meth
             if (nextNodes.empty && opcode != Opcodes.ATHROW) {
                 completedPaths ++
                 val returnVal =  Frame(frame).pop()
-                if (returnVal is RefValue && returnVal.domain == RefDomain.NOTNULL) {
+                if (returnVal is IdRefValue && returnVal.domain == RefDomain.NOTNULL) {
                     // continues
                 } else {
                     return RefDomain.ANY
@@ -123,90 +169,59 @@ class ReturnAnalyzer(val context: Context, val cfg: Graph<Int>, val method: Meth
 }
 
 // context is used for annotations usage
-private class MyInterpreter(val context: Context): BasicInterpreter() {
+private class MyInterpreter(val context: Context): IdRefBasicInterpreter() {
 
-    public override fun unaryOperation(insn: AbstractInsnNode, value: BasicValue): BasicValue? {
-        val opCode = insn.getOpcode()
-        when (opCode) {
-            Opcodes.NEWARRAY ->
-                when (((insn as IntInsnNode)).operand) {
-                    Opcodes.T_BOOLEAN ->
-                        return RefValue(RefDomain.NOTNULL, Type.getType("[Z"))
-                    Opcodes.T_CHAR ->
-                        return RefValue(RefDomain.NOTNULL, Type.getType("[C"))
-                    Opcodes.T_BYTE ->
-                        return RefValue(RefDomain.NOTNULL, Type.getType("[B"))
-                    Opcodes.T_SHORT ->
-                        return RefValue(RefDomain.NOTNULL, Type.getType("[S"))
-                    Opcodes.T_INT ->
-                        return RefValue(RefDomain.NOTNULL, Type.getType("[I"))
-                    Opcodes.T_FLOAT ->
-                        return RefValue(RefDomain.NOTNULL, Type.getType("[F"))
-                    Opcodes.T_DOUBLE  ->
-                        return RefValue(RefDomain.NOTNULL, Type.getType("[D"))
-                    Opcodes.T_LONG ->
-                        return RefValue(RefDomain.NOTNULL, Type.getType("[J"))
+    public override fun unaryOperation(insn: AbstractInsnNode, value: IdRefValue): IdRefValue? {
+        val result = super.newOperation(insn)
+        when (insn.getOpcode()) {
+            // TODO - mark receiver as NotNull
+            Opcodes.GETFIELD -> {
+                val fieldInsn = insn as FieldInsnNode
+                val field = context.index.findField(ClassName.fromInternalName(fieldInsn.owner), fieldInsn.name)
+                if (field != null && context.annotations[getFieldPosition(field)] == Nullability.NOT_NULL) {
+                    result.notNull()
                 }
-            Opcodes.ANEWARRAY -> {
-                val desc = ((insn as TypeInsnNode)).desc
-                return RefValue(RefDomain.NOTNULL, Type.getType("[" + Type.getObjectType(desc)))
             }
         }
-        return super.unaryOperation(insn, value);
+        return result
     }
 
-    public override fun newOperation(insn: AbstractInsnNode): BasicValue? {
-        val opCode = insn.getOpcode()
-        // TODO - more
-        when (opCode) {
-            Opcodes.NEW ->
-                return RefValue(RefDomain.NOTNULL, Type.getObjectType(((insn as TypeInsnNode)).desc))
+    public override fun newOperation(insn: AbstractInsnNode): IdRefValue {
+        val result = super.newOperation(insn)
+        when (insn.getOpcode()) {
             Opcodes.GETSTATIC -> {
                 val fieldInsn = insn as FieldInsnNode
-                val field = context.index.findField(ClassName.fromInternalName(fieldInsn.owner),fieldInsn.name)
-                if (field != null ) {
-                    val pos = getFieldPosition(field)
-                    if (context.annotations[pos] == Nullability.NOT_NULL) {
-                        return RefValue(RefDomain.NOTNULL, Type.getType(fieldInsn.desc))
-                    }
+                val field = context.index.findField(ClassName.fromInternalName(fieldInsn.owner), fieldInsn.name)
+                if (field != null && context.annotations[getFieldPosition(field)] == Nullability.NOT_NULL) {
+                    result.notNull()
                 }
             }
-            Opcodes.LDC -> {
-                val basicValue = super.newOperation(insn)!!
-                return RefValue(RefDomain.NOTNULL, basicValue.getType())
-            }
-
         }
-        return super.newOperation(insn);
+        return result
     }
 
-    public override fun binaryOperation(insn: AbstractInsnNode, v1: BasicValue, v2: BasicValue): BasicValue? {
-        val opCode = insn.getOpcode()
-        return super.binaryOperation(insn, v1, v2)
+    public override fun binaryOperation(insn: AbstractInsnNode, value1: IdRefValue, value2: IdRefValue): IdRefValue? {
+        return super.binaryOperation(insn, value1, value1)
     }
 
-    public override fun ternaryOperation(insn: AbstractInsnNode, v1: BasicValue, v2: BasicValue, v3: BasicValue): BasicValue? {
-        val opCode = insn.getOpcode()
-        return super.ternaryOperation(insn, v1, v2, v3)
+    public override fun ternaryOperation(insn: AbstractInsnNode, value1: IdRefValue, value2: IdRefValue, value3: IdRefValue): IdRefValue? {
+        return super.ternaryOperation(insn, value1, value2, value3)
     }
 
-    public override fun naryOperation(insn: AbstractInsnNode, values: List<BasicValue>): BasicValue? {
-        val opcode = insn.getOpcode()
+    public override fun naryOperation(insn: AbstractInsnNode, values: List<IdRefValue>): IdRefValue {
+        val result = super.naryOperation(insn, values)
 
+        // TODO - mark receiver as NotNull
         if (insn is MethodInsnNode) {
             val method = context.findMethodByMethodInsnNode(insn)
             if (method!=null) {
                 val methodPositions = PositionsForMethod(method)
                 if (context.annotations[methodPositions.get(RETURN_POSITION)] == Nullability.NOT_NULL) {
-                    return RefValue(RefDomain.NOTNULL, Type.getType(insn.desc))
+                    result.notNull()
                 }
             }
         }
 
-        if (opcode == Opcodes.MULTIANEWARRAY) {
-            return RefValue(RefDomain.NOTNULL, Type.getType((insn as MultiANewArrayInsnNode).desc))
-        }
-
-        return super.naryOperation(insn, values);
+        return result
     }
 }
