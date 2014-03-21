@@ -5,17 +5,12 @@ import kanva.graphs.Graph
 import kanva.declarations.Method
 import org.objectweb.asm.tree.MethodNode
 import org.objectweb.asm.tree.analysis.Frame
-import org.objectweb.asm.tree.analysis.BasicValue
 import kanva.graphs.Node
 import java.util.HashSet
 import org.objectweb.asm.tree.AbstractInsnNode
 import kanva.graphs.successors
 import org.objectweb.asm.Opcodes
 import org.objectweb.asm.Type
-import org.objectweb.asm.tree.analysis.BasicInterpreter
-import org.objectweb.asm.tree.TypeInsnNode
-import org.objectweb.asm.tree.IntInsnNode
-import org.objectweb.asm.tree.MultiANewArrayInsnNode
 import org.objectweb.asm.tree.MethodInsnNode
 import kanva.context.findMethodByMethodInsnNode
 import kanva.declarations.PositionsForMethod
@@ -26,6 +21,8 @@ import kanva.declarations.ClassName
 import kanva.declarations.getFieldPosition
 import kanva.declarations.isStatic
 import kanva.declarations.ParameterPosition
+import java.util.Collections
+import java.util.IdentityHashMap
 
 fun analyzeReturn(context: Context, cfg: Graph<Int>, method: Method, methodNode: MethodNode): RefDomain =
         ReturnAnalyzer(context, cfg, method, methodNode).analyze()
@@ -79,7 +76,7 @@ fun createIdRefValueStartFrame(context: Context, method: Method, methodNode: Met
 
 class ReturnAnalyzer(val context: Context, val cfg: Graph<Int>, val method: Method, val methodNode: MethodNode) {
 
-    data class PendingState(val frame: Frame<IdRefValue>, val node: Node<Int>): Comparable<PendingState> {
+    data class PendingState(val frame: Frame<IdRefValue>, val node: Node<Int>, val receivers: MutableSet<IdRefValue>): Comparable<PendingState> {
         override fun compareTo(other: PendingState): Int {
             return other.node.insnIndex - this.node.insnIndex
         }
@@ -102,7 +99,8 @@ class ReturnAnalyzer(val context: Context, val cfg: Graph<Int>, val method: Meth
         var result: HashSet<TracedValue>? = null
 
         val queue = linkedListOf<PendingState>()
-        var state: PendingState? = PendingState(startFrame, startNode)
+        var state: PendingState? =
+                PendingState(startFrame, startNode, Collections.newSetFromMap(IdentityHashMap()))
 
         var iterations = 0
         var completedPaths = 0
@@ -110,7 +108,7 @@ class ReturnAnalyzer(val context: Context, val cfg: Graph<Int>, val method: Meth
         while (state != null) {
             iterations ++
 
-            val (frame, node) = state!!
+            val (frame, node, receivers) = state!!
 
             if (iterations > 500000) {
                 println(iterations)
@@ -134,8 +132,18 @@ class ReturnAnalyzer(val context: Context, val cfg: Graph<Int>, val method: Meth
                     insnType == AbstractInsnNode.FRAME)
 
             val nextFrame = Frame(frame)
+
+            val nextReceivers =
+                    Collections.newSetFromMap<IdRefValue>(IdentityHashMap())
+            nextReceivers.addAll(receivers)
+
             if (!isIdle) {
-                nextFrame.execute(insnNode, MyInterpreter(context))
+                val interpreter = MyInterpreter(context)
+                nextFrame.execute(insnNode, interpreter)
+                val receiver = interpreter.receiver
+                if (receiver != null) {
+                    nextReceivers.add(receiver)
+                }
             }
 
             val nextNodes = node.successors
@@ -143,7 +151,7 @@ class ReturnAnalyzer(val context: Context, val cfg: Graph<Int>, val method: Meth
             if (nextNodes.empty && opcode != Opcodes.ATHROW) {
                 completedPaths ++
                 val returnVal =  Frame(frame).pop()
-                if (returnVal is IdRefValue && returnVal.domain == RefDomain.NOTNULL) {
+                if (returnVal is IdRefValue && returnVal.domain == RefDomain.NOTNULL || nextReceivers.contains(returnVal)) {
                     // continues
                 } else {
                     return RefDomain.ANY
@@ -152,7 +160,7 @@ class ReturnAnalyzer(val context: Context, val cfg: Graph<Int>, val method: Meth
 
             for (nextNode in nextNodes) {
                 if (nextNode.insnIndex > node.insnIndex) {
-                    queue.addFirst(PendingState(nextFrame, nextNode))
+                    queue.addFirst(PendingState(nextFrame, nextNode, nextReceivers))
                 } else {
                     // TODO - this is speculation
                     // BUT: if this speculation says ANY - then it cannot be NotNull
@@ -169,20 +177,32 @@ class ReturnAnalyzer(val context: Context, val cfg: Graph<Int>, val method: Meth
 }
 
 // context is used for annotations usage
+// TODO  - singleton with reset should be OK
 private class MyInterpreter(val context: Context): IdRefBasicInterpreter() {
 
+    var receiver: IdRefValue? = null
+
     public override fun unaryOperation(insn: AbstractInsnNode, value: IdRefValue): IdRefValue? {
-        val result = super.newOperation(insn)
-        when (insn.getOpcode()) {
-            // TODO - mark receiver as NotNull
+        val result = super.unaryOperation(insn, value)
+        val opCode = insn.getOpcode()
+        // using @NotNulls from context
+        when (opCode) {
             Opcodes.GETFIELD -> {
                 val fieldInsn = insn as FieldInsnNode
                 val field = context.index.findField(ClassName.fromInternalName(fieldInsn.owner), fieldInsn.name)
                 if (field != null && context.annotations[getFieldPosition(field)] == Nullability.NOT_NULL) {
-                    result.notNull()
+                    result!!.notNull()
                 }
             }
         }
+        // marking receivers
+        when (opCode) {
+            Opcodes.GETFIELD,
+            Opcodes.ARRAYLENGTH,
+            Opcodes.MONITORENTER ->
+                receiver = value
+        }
+
         return result
     }
 
@@ -201,17 +221,40 @@ private class MyInterpreter(val context: Context): IdRefBasicInterpreter() {
     }
 
     public override fun binaryOperation(insn: AbstractInsnNode, value1: IdRefValue, value2: IdRefValue): IdRefValue? {
+        // marking receiver
+        when (insn.getOpcode()) {
+            Opcodes.IALOAD,
+            Opcodes.LALOAD,
+            Opcodes.FALOAD,
+            Opcodes.DALOAD,
+            Opcodes.AALOAD,
+            Opcodes.BALOAD,
+            Opcodes.CALOAD,
+            Opcodes.SALOAD,
+            Opcodes.PUTFIELD ->
+                receiver = value1
+        }
         return super.binaryOperation(insn, value1, value1)
     }
 
     public override fun ternaryOperation(insn: AbstractInsnNode, value1: IdRefValue, value2: IdRefValue, value3: IdRefValue): IdRefValue? {
+        when (insn.getOpcode()) {
+            Opcodes.IASTORE,
+            Opcodes.LASTORE,
+            Opcodes.FASTORE,
+            Opcodes.DASTORE,
+            Opcodes.AASTORE,
+            Opcodes.BASTORE,
+            Opcodes.CASTORE,
+            Opcodes.SASTORE ->
+                receiver = value1
+        }
         return super.ternaryOperation(insn, value1, value2, value3)
     }
 
     public override fun naryOperation(insn: AbstractInsnNode, values: List<IdRefValue>): IdRefValue {
         val result = super.naryOperation(insn, values)
 
-        // TODO - mark receiver as NotNull
         if (insn is MethodInsnNode) {
             val method = context.findMethodByMethodInsnNode(insn)
             if (method!=null) {
@@ -220,6 +263,11 @@ private class MyInterpreter(val context: Context): IdRefBasicInterpreter() {
                     result.notNull()
                 }
             }
+        }
+
+        // marking receiver
+        if (insn.getOpcode() != Opcodes.INVOKESTATIC) {
+            receiver = values[0]
         }
 
         return result
