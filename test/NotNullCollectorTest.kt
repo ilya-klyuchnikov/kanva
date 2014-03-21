@@ -20,7 +20,7 @@ import data.ShouldBeCollected
 class NotNullCollectorTest {
     val testClass = javaClass<data.Instructions>()
 
-    fun collect(testClass: Class<*>, methodName: String): Set<Int> {
+    fun collect(methodName: String): Set<Int> {
         val internalName = Type.getInternalName(testClass)
         var methodNode: MethodNode? = null
         var method: Method? = null
@@ -50,7 +50,7 @@ class NotNullCollectorTest {
         )
     }
 
-    fun expectedMethodParamIndices(testClass: Class<*>, methodName: String): Set<Int> {
+    fun expectedMethodParamIndices(methodName: String): Set<Int> {
         for (m in testClass.getMethods()) {
             if (m.getName() == methodName) {
                 val annotations = m.getParameterAnnotations()
@@ -68,8 +68,8 @@ class NotNullCollectorTest {
     }
 
     fun doTest(methodName: String) {
-        val result = collect(testClass, methodName)
-        val expected = expectedMethodParamIndices(testClass, methodName)
+        val result = collect(methodName)
+        val expected = expectedMethodParamIndices(methodName)
         Assert.assertEquals(expected, result)
     }
 

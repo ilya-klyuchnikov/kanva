@@ -50,5 +50,4 @@ fun stepMethodComponent(context: Context, component: Set<Node<Method>>): Boolean
 
     }
     return changed
-
 }
