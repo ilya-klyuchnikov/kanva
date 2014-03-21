@@ -22,6 +22,9 @@ import kanva.declarations.PositionsForMethod
 import kanva.declarations.RETURN_POSITION
 import kanva.annotations.Nullability
 
+fun analyzeReturn(context: Context, cfg: Graph<Int>, method: Method, methodNode: MethodNode): RefDomain =
+        ReturnAnalyzer(context, cfg, method, methodNode).analyze()
+
 // iteration #0 - graph without cycles,
 // only using new
 class ReturnAnalyzer(val context: Context, val cfg: Graph<Int>, val method: Method, val methodNode: MethodNode) {
