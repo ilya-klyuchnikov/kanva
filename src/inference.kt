@@ -39,6 +39,12 @@ fun inferSDK(jarFile: File) {
     // TODO - fuse different passes into one
     inferFields(context, components)
 
+    // BRUTE FORCE FOR NOW
+    // RETURNS
+    inferReturns(context, components)
+    // FIELDS
+    inferFields(context, components)
+
     println(context.annotations.size())
     writeAnnotationsToXmlByPackage(context.annotations, "kanva")
 }

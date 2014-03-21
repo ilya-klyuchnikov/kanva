@@ -158,16 +158,56 @@ class ReturnAnalyzer(val context: Context, val cfg: Graph<Int>, val method: Meth
                 }
             }
 
-            for (nextNode in nextNodes) {
-                if (nextNode.insnIndex > node.insnIndex) {
-                    queue.addFirst(PendingState(nextFrame, nextNode, nextReceivers))
-                } else {
-                    // TODO - this is speculation
-                    // BUT: if this speculation says ANY - then it cannot be NotNull
-                    // println("complex method: $method")
-                    //return RefDomain.ANY
+
+            val opCode = insnNode.getOpcode()
+            val nextNodesNoCycles = node.successors.filter { it.insnIndex > node.insnIndex }
+            when (opCode) {
+                Opcodes.IFNONNULL ->
+                    when (nextNodesNoCycles.size) {
+                        2 -> {
+                            val nextReceiversNotNull =
+                                    Collections.newSetFromMap<IdRefValue>(IdentityHashMap())
+                            nextReceiversNotNull.addAll(nextReceivers)
+                            nextReceiversNotNull.add(Frame(frame).pop()!!)
+
+                            queue.addFirst(PendingState(nextFrame, nextNodesNoCycles.last(), nextReceiversNotNull))
+                            queue.addFirst(PendingState(nextFrame, nextNodesNoCycles.first(), nextReceivers))
+                        }
+                        else -> {
+                            // TODO - warning/return
+                            queue.addFirst(PendingState(nextFrame, nextNodesNoCycles.first(), nextReceivers))
+                        }
+                    }
+                Opcodes.IFNULL -> {
+                    val nextReceiversNotNull = Collections.newSetFromMap<IdRefValue>(IdentityHashMap())
+                    nextReceiversNotNull.addAll(nextReceivers)
+                    nextReceiversNotNull.add(Frame(frame).pop()!!)
+                    when (nextNodesNoCycles.size) {
+                        2 -> {
+                            queue.addFirst(PendingState(nextFrame, nextNodesNoCycles.last(), nextReceivers))
+                            queue.addFirst(PendingState(nextFrame, nextNodesNoCycles.first(), nextReceiversNotNull))
+                        }
+                        else -> {
+                            // TODO - warning/return
+                            queue.addFirst(PendingState(nextFrame, nextNodesNoCycles.last(), nextReceiversNotNull))
+                        }
+                    }
                 }
+                else ->
+                    for (nextNode in nextNodes) {
+                        if (nextNode.insnIndex > node.insnIndex) {
+                            queue.addFirst(PendingState(nextFrame, nextNode, nextReceivers))
+                        } else {
+                            // TODO - warning/return
+                            // this is speculation
+                            // BUT: if this speculation says ANY - then it cannot be NotNull
+                            // println("complex method: $method")
+                            //return RefDomain.ANY
+                        }
+                    }
             }
+
+
 
             state = queue.poll()
         }
