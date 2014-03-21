@@ -20,20 +20,7 @@ fun inferFields(context: Context, components: List<Set<Node<Method>>>) {
 }
 
 fun fixPointFieldsComponent(context: Context, component: Set<Node<Method>>) {
-    val single =
-            when {
-                component.size == 1 -> {
-                    val node = component.first()
-                    !node.successors.contains(node)
-                }
-                else ->
-                    false
-            }
-    if (single) {
-        stepFieldsComponent(context, component)
-    } else {
-        while (stepFieldsComponent(context, component)){}
-    }
+    while (stepFieldsComponent(context, component)){}
 }
 
 
