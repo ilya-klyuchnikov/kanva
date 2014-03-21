@@ -93,7 +93,6 @@ class ReturnAnalyzer(val context: Context, val cfg: Graph<Int>, val method: Meth
 
             if (nextNodes.empty && opcode != Opcodes.ATHROW) {
                 completedPaths ++
-
                 val returnVal =  Frame(frame).pop()
                 if (returnVal is RefValue && returnVal.domain == RefDomain.NOTNULL) {
                     // continues
@@ -106,9 +105,10 @@ class ReturnAnalyzer(val context: Context, val cfg: Graph<Int>, val method: Meth
                 if (nextNode.insnIndex > node.insnIndex) {
                     queue.addFirst(PendingState(nextFrame, nextNode))
                 } else {
-                    // TODO - more complex method is needed
-                    println("complex method: $method")
-                    return RefDomain.ANY
+                    // TODO - this is speculation
+                    // BUT: if this speculation says ANY - then it cannot be NotNull
+                    // println("complex method: $method")
+                    //return RefDomain.ANY
                 }
             }
 
