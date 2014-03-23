@@ -60,4 +60,19 @@ class ReturnAnalyzerTest {
     fun stringConstant() {
         Assert.assertTrue("stringConstant", inferNotNull("stringConstant"))
     }
+
+    Test
+    fun instanceOf1() {
+        Assert.assertTrue("instanceOf1", inferNotNull("instanceOf1"))
+    }
+
+    Test
+    fun instanceOf2() {
+        Assert.assertTrue("instanceOf2", inferNotNull("instanceOf2"))
+    }
+
+    Test
+    fun newInstance() {
+        Assert.assertTrue("newInstance", inferNotNull("newInstance"))
+    }
 }

@@ -15,13 +15,17 @@ import org.objectweb.asm.tree.MultiANewArrayInsnNode
 import org.objectweb.asm.tree.InvokeDynamicInsnNode
 import org.objectweb.asm.tree.MethodInsnNode
 
+abstract class AbstractValue(tp: Type?) : BasicValue(tp)
+
 // we can easily change domain in a safe way!
-class IdRefValue(var domain: RefDomain, tp: Type?) : BasicValue(tp) {
+open class IdRefValue(var domain: RefDomain, tp: Type?) : BasicValue(tp) {
     fun notNull(): IdRefValue {
         domain = RefDomain.NOTNULL
         return this
     }
 }
+
+class InstanceOfValue(val ref: IdRefValue): IdRefValue(RefDomain.NOTNULL, Type.INT_TYPE)
 
 // may be it should be annotations aware interpreter
 public open class IdRefBasicInterpreter(): Interpreter<IdRefValue>(Opcodes.ASM4) {
@@ -56,7 +60,7 @@ public open class IdRefBasicInterpreter(): Interpreter<IdRefValue>(Opcodes.ASM4)
     public override fun newOperation(insn: AbstractInsnNode): IdRefValue {
         when (insn.getOpcode()) {
             Opcodes.ACONST_NULL ->
-                return IdRefValue(RefDomain.NULL, Type.getObjectType("null"))
+                return IdRefValue(RefDomain.ANY, Type.getObjectType("null"))
             Opcodes.ICONST_M1,
             Opcodes.ICONST_0,
             Opcodes.ICONST_1,
@@ -198,14 +202,11 @@ public open class IdRefBasicInterpreter(): Interpreter<IdRefValue>(Opcodes.ASM4)
                 return IdRefValue(RefDomain.NOTNULL, Type.INT_TYPE)
             Opcodes.ATHROW ->
                 return null
-            Opcodes.CHECKCAST -> {
-                // propagating domain
-                val desc = ((insn as TypeInsnNode)).desc
-                return IdRefValue(value.domain, Type.getObjectType(desc))
-            }
+            Opcodes.CHECKCAST ->
+                return value
             // TODO - BOOLEAN OPERATION
             Opcodes.INSTANCEOF ->
-                return IdRefValue(RefDomain.NOTNULL, Type.INT_TYPE)
+                return InstanceOfValue(value)
             Opcodes.MONITORENTER,
             Opcodes.MONITOREXIT,
             Opcodes.IFNULL,
