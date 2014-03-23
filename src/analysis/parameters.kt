@@ -4,7 +4,6 @@ import java.util.HashSet
 
 import org.objectweb.asm.Type
 import org.objectweb.asm.Opcodes
-import org.objectweb.asm.tree.analysis.Analyzer
 import org.objectweb.asm.tree.analysis.BasicInterpreter
 import org.objectweb.asm.tree.analysis.BasicValue
 import org.objectweb.asm.tree.analysis.Frame
@@ -39,11 +38,16 @@ private data object ThisObject: Source("ThisObject")
 
 data class TracedValue(val source: Source, tp: Type?) : BasicValue(tp) {
     override fun equals(other: Any?): Boolean =
-            (other is TracedValue) && (source == other.source)
+            other is TracedValue && source == other.source
     val str = "TV($source)"
     override fun toString() = str
 
     override fun hashCode(): Int = str.hashCode()
+}
+
+data class InstanceOfCheckValue(val ref: TracedValue, tp: Type?): BasicValue(tp) {
+    override fun equals(other: Any?): Boolean =
+            other is InstanceOfCheckValue && other.ref == ref
 }
 
 
@@ -194,6 +198,7 @@ private class ThrowAnalyzer(
         val opCode = insnNode.getOpcode()
         val nextNodes = node.successors.filter { it.insnIndex > node.insnIndex }
 
+
         if (opCode == Opcodes.IFNONNULL && Frame(frame).pop() == TracedValue(Param(paramIndex), null)) {
             nullTaken = true
             visit(nextFrame, nextNodes.toList().first())
@@ -201,6 +206,17 @@ private class ThrowAnalyzer(
         else if (opCode == Opcodes.IFNULL && Frame(frame).pop() == TracedValue(Param(paramIndex), null)) {
             nullTaken = true
             visit(nextFrame, nextNodes.toList().last())
+        }
+        else if (opCode == Opcodes.IFEQ &&
+                Frame(frame).pop() == InstanceOfCheckValue(TracedValue(Param(paramIndex), null), null)) {
+            nullTaken = true
+            visit(nextFrame, nextNodes.toList().last())
+        }
+        else if (opCode == Opcodes.IFNE &&
+        Frame(frame).pop() == InstanceOfCheckValue(TracedValue(Param(paramIndex), null), null)) {
+            // TODO - propagate that this is null!! - as with sets
+            nullTaken = true
+            visit(nextFrame, nextNodes.toList().first())
         }
         else if (nextNodes.notEmpty) {
             for (nextNode in nextNodes) {
@@ -273,6 +289,10 @@ private class NotNullParametersCollectingInterpreter(
 
         if (opCode == Opcodes.CHECKCAST) {
             return value
+        }
+
+        if (opCode == Opcodes.INSTANCEOF && value is TracedValue) {
+            return InstanceOfCheckValue(value, Type.INT_TYPE)
         }
 
         return super.unaryOperation(insn, value);

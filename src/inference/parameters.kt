@@ -15,20 +15,7 @@ fun inferParams(context: Context, components: List<Set<Node<Method>>>) {
 }
 
 fun fixPointParamComponent(context: Context, component: Set<Node<Method>>) {
-    val single =
-            when {
-                component.size == 1 -> {
-                    val node = component.first()
-                    !node.successors.contains(node)
-                }
-                else ->
-                    false
-            }
-    if (single) {
-        stepParamComponent(context, component)
-    } else {
-        while (stepParamComponent(context, component)){}
-    }
+    while (stepParamComponent(context, component)){}
 }
 
 fun stepParamComponent(context: Context, component: Set<Node<Method>>): Boolean {
