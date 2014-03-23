@@ -161,8 +161,8 @@ class ReturnAnalyzer(val context: Context, val cfg: Graph<Int>, val method: Meth
 
             val opCode = insnNode.getOpcode()
             val nextNodesNoCycles = node.successors.filter { it.insnIndex > node.insnIndex }
-            when (opCode) {
-                Opcodes.IFNONNULL ->
+            when {
+                opCode == Opcodes.IFNONNULL ->
                     when (nextNodesNoCycles.size) {
                         2 -> {
                             val nextReceiversNotNull =
@@ -170,26 +170,59 @@ class ReturnAnalyzer(val context: Context, val cfg: Graph<Int>, val method: Meth
                             nextReceiversNotNull.addAll(nextReceivers)
                             nextReceiversNotNull.add(Frame(frame).pop()!!)
 
-                            queue.addFirst(PendingState(nextFrame, nextNodesNoCycles.last(), nextReceiversNotNull))
                             queue.addFirst(PendingState(nextFrame, nextNodesNoCycles.first(), nextReceivers))
+                            queue.addFirst(PendingState(nextFrame, nextNodesNoCycles.last(), nextReceiversNotNull))
                         }
                         else -> {
                             // TODO - warning/return
                             queue.addFirst(PendingState(nextFrame, nextNodesNoCycles.first(), nextReceivers))
                         }
                     }
-                Opcodes.IFNULL -> {
+                opCode == Opcodes.IFNULL -> {
                     val nextReceiversNotNull = Collections.newSetFromMap<IdRefValue>(IdentityHashMap())
                     nextReceiversNotNull.addAll(nextReceivers)
                     nextReceiversNotNull.add(Frame(frame).pop()!!)
                     when (nextNodesNoCycles.size) {
                         2 -> {
-                            queue.addFirst(PendingState(nextFrame, nextNodesNoCycles.last(), nextReceivers))
                             queue.addFirst(PendingState(nextFrame, nextNodesNoCycles.first(), nextReceiversNotNull))
+                            queue.addFirst(PendingState(nextFrame, nextNodesNoCycles.last(), nextReceivers))
+                        }
+                        else -> {
+                            queue.addFirst(PendingState(nextFrame, nextNodesNoCycles.first(), nextReceiversNotNull))
+                        }
+                    }
+                }
+                // ifeq - if eq == 0 then go to the latest
+                opCode == Opcodes.IFEQ && Frame(frame).pop() is InstanceOfValue -> {
+                    val nextReceiversNotNull = Collections.newSetFromMap<IdRefValue>(IdentityHashMap())
+                    nextReceiversNotNull.addAll(nextReceivers)
+                    val compare = Frame(frame).pop() as InstanceOfValue
+                    nextReceiversNotNull.add(compare.ref)
+                    when (nextNodesNoCycles.size) {
+                        2 -> {
+                            queue.addFirst(PendingState(nextFrame, nextNodesNoCycles.first(), nextReceiversNotNull))
+                            queue.addFirst(PendingState(nextFrame, nextNodesNoCycles.last(), nextReceivers))
                         }
                         else -> {
                             // TODO - warning/return
+                            queue.addFirst(PendingState(nextFrame, nextNodesNoCycles.first(), nextReceiversNotNull))
+                        }
+                    }
+                }
+                // if 1 - then go to the latest
+                opCode == Opcodes.IFNE && Frame(frame).pop() is InstanceOfValue -> {
+                    val nextReceiversNotNull = Collections.newSetFromMap<IdRefValue>(IdentityHashMap())
+                    nextReceiversNotNull.addAll(nextReceivers)
+                    val compare = Frame(frame).pop() as InstanceOfValue
+                    nextReceiversNotNull.add(compare.ref)
+                    when (nextNodesNoCycles.size) {
+                        2 -> {
+                            queue.addFirst(PendingState(nextFrame, nextNodesNoCycles.first(), nextReceivers))
                             queue.addFirst(PendingState(nextFrame, nextNodesNoCycles.last(), nextReceiversNotNull))
+                        }
+                        else -> {
+                            // TODO - warning/return
+                            queue.addFirst(PendingState(nextFrame, nextNodesNoCycles.first(), nextReceivers))
                         }
                     }
                 }
@@ -292,6 +325,7 @@ private class MyInterpreter(val context: Context): IdRefBasicInterpreter() {
         return super.ternaryOperation(insn, value1, value2, value3)
     }
 
+    // TODO - params that are not nulls
     public override fun naryOperation(insn: AbstractInsnNode, values: List<IdRefValue>): IdRefValue {
         val result = super.naryOperation(insn, values)
 
