@@ -46,5 +46,5 @@ fun inferSDK(jarFile: File) {
     inferFields(context, components)
 
     println(context.annotations.size())
-    writeAnnotationsToXmlByPackage(context.annotations, "kanva")
+    writeAnnotationsToXmlByPackage(context.annotations, "compare/kanva")
 }

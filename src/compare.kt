@@ -19,11 +19,19 @@ fun main(args: Array<String>) {
 
     println("== KANNOTATOR ==")
     val kannotatorContext =
-            Context(jarSource, listOf(File("kannotator-annotations-fields"), File("kannotator-annotations-params"), File("kannotator-annotations-returns")))
+            Context(jarSource, listOf(
+                    File("compare/kannotator-annotations-fields"),
+                    File("compare/kannotator-annotations-params"),
+                    File("compare/kannotator-annotations-returns")
+            ))
 
     println("== KANVA ==")
     val kanvaContext =
-            Context(jarSource, listOf(File("kanva-annotations-fields"), File("kanva-annotations-params"), File("kanva-annotations-returns")))
+            Context(jarSource, listOf(
+                    File("compare/kanva-annotations-fields"),
+                    File("compare/kanva-annotations-params"),
+                    File("compare/kanva-annotations-returns")
+            ))
 
     val diff1 = AnnotationsImpl<Nullability>()
 
@@ -55,7 +63,7 @@ fun main(args: Array<String>) {
     println("params: $paramDiffs1")
     println("return: $returnDiffs1")
 
-    writeAnnotationsToXmlByPackage(diff1, "diff1", true)
+    writeAnnotationsToXmlByPackage(diff1, "compare/diff1", true)
 
     /////////
 
@@ -86,5 +94,5 @@ fun main(args: Array<String>) {
     println("fields: $fieldDiffs2")
     println("params: $paramDiffs2")
     println("return: $returnDiffs2")
-    writeAnnotationsToXmlByPackage(diff2, "diff2", true)
+    writeAnnotationsToXmlByPackage(diff2, "compare/diff2", true)
 }
