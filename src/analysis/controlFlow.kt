@@ -13,9 +13,9 @@ fun buildCFG(method: Method, methodNode: MethodNode): Graph<Int> =
         ControlFlowBuilder().buildCFG(method, methodNode)
 
 private class ControlFlowBuilder : Analyzer<BasicValue>(BasicInterpreter()) {
-    private class CfgBuilder: GraphBuilder<Int, Int, GraphImpl<Int>>(true, true) {
-        override fun newNode(data: Int) = DefaultNodeImpl<Int>(data)
-        override fun newGraph() = GraphImpl<Int>(true)
+    private class CfgBuilder: GraphBuilder<Int, Int, Graph<Int>>(true) {
+        override fun newNode(data: Int) = Node<Int>(data)
+        override fun newGraph() = Graph<Int>(true)
     }
 
     private var builder = CfgBuilder()

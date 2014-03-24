@@ -4,55 +4,26 @@ import java.util.HashMap
 import java.util.ArrayList
 import kotlinlib.union
 
-public trait Graph<out T> {
-    public val nodes: Collection<Node<T>>
-    public fun findNode(data: T): Node<T>?
-}
-
-public trait Edge<out T> {
-    public val from: Node<T>
-    public val to: Node<T>
-}
-
-public trait Node<out T> {
-    public val data: T
-    public val incomingEdges: Collection<Edge<T>>
-    public val outgoingEdges: Collection<Edge<T>>
-}
-
-public val <T> Node<T>.predecessors: Collection<Node<T>>
-    get() = incomingEdges.map { e -> e.from }
-public val <T> Node<T>.successors: Collection<Node<T>>
-    get() = outgoingEdges.map { e -> e.to }
-
-
-// implementation
-
-open class GraphImpl<out T>(createNodeMap: Boolean): Graph<T> {
+open class Graph<out T>(createNodeMap: Boolean) {
     private val _nodes: MutableCollection<Node<T>> = ArrayList()
     private val nodeMap: MutableMap<T, Node<T>>? = if (createNodeMap) HashMap<T, Node<T>>() else null
 
-    override val nodes: Collection<Node<T>> = _nodes
+    val nodes: Collection<Node<T>> = _nodes
 
-    override fun findNode(data: T): Node<T>? = nodeMap?.get(data)
+    fun findNode(data: T): Node<T>? = nodeMap?.get(data)
 
     fun addNode(node: Node<T>) {
         _nodes.add(node)
         nodeMap?.put(node.data, node)
     }
-
-    fun removeNode(node: Node<T>) {
-        _nodes.remove(node)
-        nodeMap?.remove(node.data)
-    }
 }
 
-abstract class NodeImpl<out T> : Node<T> {
+public class Node<out T>(public val data: T) {
     private val _incomingEdges: MutableCollection<Edge<T>> = ArrayList()
     private val _outgoingEdges: MutableCollection<Edge<T>> = ArrayList()
 
-    override val incomingEdges: Collection<Edge<T>> = _incomingEdges
-    override val outgoingEdges: Collection<Edge<T>> = _outgoingEdges
+    val incomingEdges: Collection<Edge<T>> = _incomingEdges
+    val outgoingEdges: Collection<Edge<T>> = _outgoingEdges
 
     fun addIncomingEdge(edge: Edge<T>) {
         if (!_incomingEdges.contains(edge)) _incomingEdges.add(edge)
@@ -62,25 +33,17 @@ abstract class NodeImpl<out T> : Node<T> {
         if (!_outgoingEdges.contains(edge)) _outgoingEdges.add(edge)
     }
 
-    fun removeIncomingEdge(edge: Edge<T>) {
-        _incomingEdges.remove(edge)
-    }
-
-    fun removeOutgoingEdge(edge: Edge<T>) {
-        _outgoingEdges.remove(edge)
-    }
-
     override fun toString(): String {
         return "${data} in$incomingEdges out$outgoingEdges"
     }
 }
 
-class DefaultNodeImpl<out T>(public override val data: T) : NodeImpl<T>()
+public val <T> Node<T>.predecessors: Collection<Node<T>>
+    get() = incomingEdges.map { e -> e.from }
+public val <T> Node<T>.successors: Collection<Node<T>>
+    get() = outgoingEdges.map { e -> e.to }
 
-open class EdgeImpl<T>(
-        public override val from: NodeImpl<T>,
-        public override val to: NodeImpl<T>
-) : Edge<T> {
+class Edge<T>(public val from: Node<T>, public val to: Node<T>)  {
     override fun toString(): String {
         return "${from.data} -> ${to.data}"
     }
@@ -90,25 +53,23 @@ open class EdgeImpl<T>(
     }
 
     override fun equals(other: Any?): Boolean {
-        if (other is EdgeImpl<*>) {
+        if (other is Edge<*>) {
             return from == other.from && to == other.to
         }
         return false
     }
 }
 
-abstract class GraphBuilder<NodeKey, NodeData, G: GraphImpl<NodeData>>(
-        val createNodeMap: Boolean, cacheNodes: Boolean
-) {
-    val nodeCache = if (cacheNodes) HashMap<NodeKey, NodeImpl<NodeData>>() else null
+abstract class GraphBuilder<NodeKey, NodeData, G: Graph<NodeData>>(cacheNodes: Boolean) {
+    val nodeCache = if (cacheNodes) HashMap<NodeKey, Node<NodeData>>() else null
 
     val graph: G = newGraph()
 
     abstract fun newGraph(): G
-    abstract fun newNode(data: NodeKey): NodeImpl<NodeData>
-    open fun newEdge(from: NodeImpl<NodeData>, to: NodeImpl<NodeData>): EdgeImpl<NodeData> = EdgeImpl(from, to)
+    abstract fun newNode(data: NodeKey): Node<NodeData>
+    open fun newEdge(from: Node<NodeData>, to: Node<NodeData>): Edge<NodeData> = Edge(from, to)
 
-    fun getOrCreateNode(data: NodeKey): NodeImpl<NodeData> {
+    fun getOrCreateNode(data: NodeKey): Node<NodeData> {
         val cachedNode = nodeCache?.get(data)
         if (cachedNode != null) {
             return cachedNode
@@ -120,34 +81,12 @@ abstract class GraphBuilder<NodeKey, NodeData, G: GraphImpl<NodeData>>(
         return node
     }
 
-    fun getOrCreateEdge(from: NodeImpl<NodeData>, to: NodeImpl<NodeData>): EdgeImpl<NodeData> {
+    fun getOrCreateEdge(from: Node<NodeData>, to: Node<NodeData>): Edge<NodeData> {
         val edge = newEdge(from, to)
         from.addOutgoingEdge(edge)
         to.addIncomingEdge(edge)
         return edge
     }
 
-    fun removeNode(n: NodeImpl<NodeData>) {
-        val edges = n.incomingEdges.union(n.outgoingEdges)
-        for (e in edges) {
-            removeEdge(e as EdgeImpl<NodeData>)
-        }
-        graph.removeNode(n)
-    }
-
-    fun removeEdge(e: EdgeImpl<NodeData>) {
-        e.from.removeOutgoingEdge(e)
-        e.to.removeIncomingEdge(e)
-    }
-
     fun toGraph(): G = graph
-}
-
-fun <NodeKey, NodeData, G: GraphImpl<NodeData>> GraphBuilder<NodeKey, NodeData, G>.removeGraphNodes(
-        nodeToRemove: (Node<NodeData>) -> Boolean
-) {
-    val restrictedNodes = graph.nodes.filter(nodeToRemove)
-    for (node in restrictedNodes) {
-        this.removeNode(node as NodeImpl<NodeData>)
-    }
 }

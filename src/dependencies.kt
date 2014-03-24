@@ -35,8 +35,8 @@ public fun buildFunctionDependencyGraph(declarationIndex: DeclarationIndex, clas
 public class FunDependencyGraphBuilder(
         private val index: DeclarationIndex,
         private val source: ClassSource
-): GraphBuilder<Method, Method, GraphImpl<Method>>(false, true) {
-    private var currentFromNode : NodeImpl<Method>? = null
+): GraphBuilder<Method, Method, Graph<Method>>(true) {
+    private var currentFromNode : Node<Method>? = null
     private var currentClassName : ClassName? = null
 
     private val classVisitor = object : ClassVisitor(Opcodes.ASM4) {
@@ -61,8 +61,8 @@ public class FunDependencyGraphBuilder(
         }
     }
 
-    override fun newGraph(): GraphImpl<Method> = GraphImpl(false)
-    override fun newNode(data: Method): NodeImpl<Method> = DefaultNodeImpl(data)
+    override fun newGraph(): Graph<Method> = Graph(false)
+    override fun newNode(data: Method): Node<Method> = Node(data)
 
     public fun build(): Graph<Method> {
         source.forEach { it.accept(classVisitor, flags(SKIP_DEBUG, SKIP_FRAMES)) }
