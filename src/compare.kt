@@ -25,34 +25,66 @@ fun main(args: Array<String>) {
     val kanvaContext =
             Context(jarSource, listOf(File("kanva-annotations-fields"), File("kanva-annotations-params"), File("kanva-annotations-returns")))
 
-    val diff = AnnotationsImpl<Nullability>()
+    val diff1 = AnnotationsImpl<Nullability>()
 
     val kanvaAnns = kanvaContext.annotations
 
-    var fieldDiffs = 0
-    var paramDiffs = 0
-    var returnDiffs = 0
+    var fieldDiffs1 = 0
+    var paramDiffs1 = 0
+    var returnDiffs1 = 0
+
     kannotatorContext.annotations.forEachPosition { pos, ann ->
         if (kanvaAnns[pos] == null) {
-            diff[pos] = ann
+            diff1[pos] = ann
             // BTW, when doesn't work here
             if (pos is FieldPosition) {
-                fieldDiffs++
+                fieldDiffs1++
             }
             if (pos is MethodPosition && pos.relativePosition is ParameterPosition) {
-                paramDiffs++
+                paramDiffs1++
             }
             if (pos is MethodPosition && pos.relativePosition == RETURN_POSITION) {
-                returnDiffs++
+                returnDiffs1++
             }
         }
     }
 
-    println("== DIFFS ==")
-    println("total diffs: ${diff.size()}")
-    println("fields: $fieldDiffs")
-    println("params: $paramDiffs")
-    println("return: $returnDiffs")
+    println("== DIFFS 1 (kannotator - kanva) ==")
+    println("total diffs: ${diff1.size()}")
+    println("fields: $fieldDiffs1")
+    println("params: $paramDiffs1")
+    println("return: $returnDiffs1")
 
-    writeAnnotationsToXmlByPackage(diff, "diff", true)
+    writeAnnotationsToXmlByPackage(diff1, "diff1", true)
+
+    /////////
+
+    val kannotatorAnns = kannotatorContext.annotations
+    val diff2 = AnnotationsImpl<Nullability>()
+    var fieldDiffs2 = 0
+    var paramDiffs2 = 0
+    var returnDiffs2 = 0
+
+    kanvaContext.annotations.forEachPosition { pos, ann ->
+        if (kannotatorAnns[pos] == null) {
+            diff2[pos] = ann
+            // BTW, when doesn't work here
+            if (pos is FieldPosition) {
+                fieldDiffs2++
+            }
+            if (pos is MethodPosition && pos.relativePosition is ParameterPosition) {
+                paramDiffs2++
+            }
+            if (pos is MethodPosition && pos.relativePosition == RETURN_POSITION) {
+                returnDiffs2++
+            }
+        }
+    }
+
+    println("== DIFFS 2 (kanva - kannotator) ==")
+    println("total diffs: ${diff2.size()}")
+    println("fields: $fieldDiffs2")
+    println("params: $paramDiffs2")
+    println("return: $returnDiffs2")
+    writeAnnotationsToXmlByPackage(diff2, "diff2", true)
 }
