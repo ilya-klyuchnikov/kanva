@@ -1,7 +1,5 @@
 package kanva.analysis
 
-import java.util.HashSet
-
 import org.objectweb.asm.tree.analysis.BasicInterpreter
 import org.objectweb.asm.tree.AbstractInsnNode
 import org.objectweb.asm.tree.analysis.BasicValue
@@ -20,8 +18,9 @@ import kanva.util.*
 import kanva.annotations.Nullability
 import org.objectweb.asm.tree.MethodInsnNode
 import org.objectweb.asm.tree.MultiANewArrayInsnNode
+import java.util.HashMap
 
-fun collectNotNullFinalFields(context: Context, cfg: Graph<Int>, method: Method, methodNode: MethodNode): Set<Field> {
+fun collectWrites(context: Context, cfg: Graph<Int>, method: Method, methodNode: MethodNode): Map<Field, RefDomain> {
     val analyzer = FieldWritesAnalyzer(context, cfg, method, methodNode)
     return analyzer.analyze()
 }
@@ -33,33 +32,28 @@ class FieldWritesAnalyzer(
         val methodNode: MethodNode
 ) {
 
-    var result: HashSet<Field>? = null
+    val result: HashMap<Field, RefDomain> = hashMapOf()
 
     data class PendingState(
             // instruction node
             val node: Node<Int>,
             // frame state before instruction
-            val frame: Frame<BasicValue>,
-            // fields initialized to notNull so far
-            val fields: Set<Field>
+            val frame: Frame<BasicValue>
     )
 
     // returns a set of fields that are set to not null in this method
-    fun analyze(): Set<Field> {
+    fun analyze(): Map<Field, RefDomain> {
         if (cfg.nodes.notEmpty) {
             val startFrame = createRefValueStartFrame(context, method, methodNode)
             iterate(startFrame, cfg.findNode(0)!!)
         }
-        if (result != null)
-            return result!!
-        else
-            return setOf()
+        return result
     }
 
     private fun iterate(startFrame: Frame<BasicValue>, startNode: Node<Int>) {
         val queue = linkedListOf<PendingState>()
         var state: PendingState? =
-                PendingState(startNode, startFrame, setOf())
+                PendingState(startNode, startFrame)
 
         var iterations = 0
         var completedPaths = 0
@@ -67,12 +61,10 @@ class FieldWritesAnalyzer(
         while (state != null) {
             iterations ++
 
-            var (node, frame, fields) = state!!
+            var (node, frame) = state!!
 
             if (iterations > 50000) {
-                println(iterations)
-                println("${method}")
-                result = null
+                result.clear()
                 return
             }
 
@@ -88,9 +80,14 @@ class FieldWritesAnalyzer(
             if (!isIdle) {
                 val interpreter = FieldWritesInterpreter(context)
                 nextFrame.execute(insnNode, interpreter)
-                val delta = interpreter.field
+                val delta = interpreter.write
                 if (delta != null) {
-                    fields = (fields + delta).toSet()
+                    val oldDomain = result[delta.first]
+                    if (oldDomain == null) {
+                        result[delta.first] = delta.second
+                    } else {
+                        result[delta.first] = merge(oldDomain, delta.second)
+                    }
                 }
             }
 
@@ -98,17 +95,11 @@ class FieldWritesAnalyzer(
 
             if (nextNodes.empty && opcode.isReturn()) {
                 completedPaths ++
-                if (result == null) {
-                    result = hashSetOf()
-                    result!!.addAll(fields)
-                } else {
-                    result!!.retainAll(fields)
-                }
             }
 
             for (nextNode in nextNodes) {
                 if (nextNode.insnIndex > node.insnIndex) {
-                    queue.addFirst(PendingState(nextNode, nextFrame, fields))
+                    queue.addFirst(PendingState(nextNode, nextFrame))
                 }
             }
 
@@ -117,22 +108,32 @@ class FieldWritesAnalyzer(
     }
 }
 
+fun merge(ref1: RefDomain, ref2: RefDomain): RefDomain {
+    return if (ref1 == RefDomain.NOTNULL && ref2 == RefDomain.NOTNULL)
+            RefDomain.NOTNULL
+        else
+            RefDomain.ANY
+}
+
 private class FieldWritesInterpreter(val context: Context): BasicInterpreter() {
 
-    var field: Field? = null
+    var write: Pair<Field, RefDomain>? = null
 
     public override fun unaryOperation(insn: AbstractInsnNode, value: BasicValue): BasicValue? {
         val opCode = insn.getOpcode()
         when (opCode) {
-            Opcodes.PUTSTATIC ->
-                if (value is RefValue && value.domain == RefDomain.NOTNULL) {
+            Opcodes.PUTSTATIC -> {
                     val fieldInsn = insn as FieldInsnNode
                     val field = context.index.findField(
                             ClassName.fromInternalName(fieldInsn.owner),
                             fieldInsn.name
                     )
                     if (field != null && field.isFinal() && !field.getType().isPrimitiveOrVoidType()) {
-                        this.field = field
+                        if (value is RefValue && value.domain == RefDomain.NOTNULL) {
+                            write = field to RefDomain.NOTNULL
+                        } else {
+                            write = field to RefDomain.ANY
+                        }
                     }
                 }
             // todo - we can call super and reuse results
@@ -190,12 +191,15 @@ private class FieldWritesInterpreter(val context: Context): BasicInterpreter() {
     public override fun binaryOperation(insn: AbstractInsnNode, v1: BasicValue, v2: BasicValue): BasicValue? {
         val opCode = insn.getOpcode()
         when (opCode) {
-            Opcodes.PUTFIELD ->
-                if (v2 is RefValue && v2.domain == RefDomain.NOTNULL) {
+            Opcodes.PUTFIELD -> {
                     val fieldInsn = insn as FieldInsnNode
-                    val field1 = context.index.findField(ClassName.fromInternalName(fieldInsn.owner),fieldInsn.name)
-                    if (field1 != null && field1.isFinal() && !field1.getType().isPrimitiveOrVoidType()) {
-                        field = field1
+                    val field = context.index.findField(ClassName.fromInternalName(fieldInsn.owner),fieldInsn.name)
+                    if (field != null && field.isFinal() && !field.getType().isPrimitiveOrVoidType()) {
+                        if (v2 is RefValue && v2.domain == RefDomain.NOTNULL) {
+                            write = field to RefDomain.NOTNULL
+                        } else {
+                            write = field to RefDomain.ANY
+                        }
                     }
                 }
         }
