@@ -57,15 +57,17 @@ public class DeclarationIndexImpl: DeclarationIndex {
     val methods = HashMap<Method, MethodNode>()
     val fields = HashMap<Field, FieldNode>()
 
-    private data class ClassData(
+    data class ClassData(
             val classDecl: ClassDeclaration,
             val methodsById: Map<MethodId, Method>,
             val methodsByName: Map<String, Collection<Method>>,
             val fieldsById: Map<FieldId, Field>,
             val superClasses: List<ClassName>
-    )
+    ) {
+        val constructors = methodsById.values().filter { it.isConstructor() }
+    }
 
-    private val classes = HashMap<ClassName, ClassData>()
+    val classes = HashMap<ClassName, ClassData>()
     private val classesByCanonicalName = HashMap<String, MutableCollection<ClassData>>();
 
     public fun addClasses(classSource: ClassSource) {
