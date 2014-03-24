@@ -15,7 +15,6 @@ import kanva.index.ClassSource
 import kanva.analysis.buildCFG
 import org.junit.Assert
 import org.junit.Test
-import org.junit.Ignore
 
 class NormalReturnOnNullTest {
     val testClass = javaClass<data.Instructions>()
@@ -62,10 +61,9 @@ class NormalReturnOnNullTest {
         Assert.assertFalse("exceptions2", reachable("exceptions2", 1))
     }
 
-    Ignore
     Test
     fun instanceOf() {
         Assert.assertFalse("instanceOf", reachable("instanceOfException1", 1))
-        Assert.assertFalse("instanceOf", reachable("instanceOfException1", 2))
+        Assert.assertFalse("instanceOf", reachable("instanceOfException2", 1))
     }
 }
